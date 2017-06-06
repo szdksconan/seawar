@@ -1,0 +1,902 @@
+﻿plunder resources=Tài nguyên có thể cướp
+metal=Kim loại
+oil=Dầu
+silicon=Silic
+uranium=Urani
+money=Vàng
+
+#岛屿名字=#岛屿名字
+world_island_1=Đảo Sắt
+world_island_2=Khu Dầu Đen
+world_island_3=Đảo Silic
+world_island_4=Đảo Urani
+world_island_5=Thuyền Chìm
+
+
+#服务器名字=#服务器名字
+server_name_taiwan_001=Phồn thể 001
+server_name_taiwan_002=Phồn thể 002
+server_name_cn_001=Giản thể 001
+server_name_cn_002=Giản thể 002
+#邀请相关=#邀请相关
+the invetid is=ID người mời không thuộc server này
+inveted is wrong=ID người mời sai
+
+
+game_name=Empire Warships
+game_name1=Empire Fleet
+
+
+
+be_attack_npc_island_push=Đội thuyền của % tấn công (%)-%(%), hãy hạ lệnh ứng phó!
+be_attack_self_island_push=Đội thuyền của % tấn công (%), hãy hạ lệnh ứng phó!
+
+#绑定账号错误=#绑定账号错误
+account is have=Tài khoản đã tồn tại
+user_count_full=Đã dùng thiết bị này cố định %,%,%, không thể đăng nhập tài khoản khách
+
+#邀请=#邀请
+system_mail=Thư hệ thống
+invite_new_one_title=% đã vào
+invite_new_one_content=% đã đến, bạn nhận Quà Urani, 15 Đá Quý: Liên hệ với người ấy cùng nhau đánh địch!
+
+be_invite_new_one_title=Chào mừng đã đến
+be_invite_new_one_content=Chào mừng đã đến, bạn của bạn % đang chiến đấu, hãy nhận 10 Đá Quý và 1 Cờ Hòa Bình, liên hệ với người ấy cùng nhau đánh địch!
+
+#系统公告=#系统公告
+player_type_up=% thăng thành %
+player_type_2=Trung Sỉ
+player_type_3=Thượng Sỉ
+player_type_4=Sỉ Quan
+player_type_5=Chuẩn Úy
+player_type_6=Thiếu Úy
+player_type_7=Trung Úy
+player_type_8=Thượng Úy
+player_type_9=Thiếu Tá
+player_type_10=Trung Tá
+player_type_11=Thượng Tá
+player_type_12=Chuẩn Tướng
+player_type_13=Thiếu Tướng
+player_type_14=Trung Tướng
+player_type_15=Thượng Tướng
+player_type_16=Nguyên Soái
+player_type_17=Nguyên Thủ
+
+
+
+attack_island_prop=% đánh %Lv.% nhận được %
+attack_checkpoint=% trong ải nhận được %!
+prop_use_tips=Chúc mừng % sử dụng % nhận được % % cái!
+success_check_point=% đánh bại toàn bộ địch của "%"!
+success_check_10016=Chương 1: Đào Thoát
+success_check_10032=Chương 2: Trạm Gác
+success_check_10048=Chương 3: Khổng Lồ Sắt
+success_check_10064=Chương 4: Đảo Hắc Kim
+success_check_10080=Chương 5: Hạm Đội Chiến
+success_check_10096=Chương 6: Công Xưởng
+success_check_10112=Chương 7: Khu Công Nghiệp
+success_check_10128=Chương 8: Đảo Tử Vong
+success_check_10144=Chương 9: Khu Ác Quỷ
+success_check_10160=Chương 10: Đổi Thủ Vệ
+success_check_10176=Chương 11: Thủ Đô Chiến
+success_check_10192=Chương 12: Truy Kích
+success_check_10208=Chương 13: Đảo Ngục
+success_check_10224=Chương 14: Hàng đạo hỗn loạn 
+success_check_10240=Chương 15: Cảng tự do
+success_check_10256=Chương 16: Bắc Hải Chi Loan
+success_check_10272=Chương 17: Hàng Đạo Vĩ Đại
+
+#统御=#统御
+commander_level_up=% có Thống Ngự đạt Lv.%!
+
+#联盟=#联盟
+alliance_system_title=Thông báo hệ thống
+alliance_refuse_content=Xin vào Guild bị từ chối!
+alliance_be_kick_content=% mời bạn ra khỏi Guild!
+
+#服务器维护=#服务器维护
+server_is_not_open=Đang bảo trì server, xin hãy chờ
+
+
+
+#联盟等级提升=#联盟等级提升
+alliance_level_up=Guild của % tăng đến Lv.%
+#购买效验错误=#购买效验错误
+buy gems fail=Mua thất bại, hãy xóa jailbreak rồi thử lại.
+alliance_gave_value_not_enough=Cần % cống hiến mới được nhận!
+lotto_special_prop=Chúc mừng % nhận được %
+
+
+boss_came=Boss TG (Lv.%) đã xuất hiện trong cảnh thế giới
+boss_has_been_killed=Boss TG (Lv.%) bị diệt, top 10 guild diệt boss sẽ nhận thưởng, % (Guild) diệt % thuyền, xếp hạng 1
+boss_has_been_last_kill=% đã diệt boss (Lv.%), nhận phần thưởng Last Hit
+boss_taunt=Boss TG Lv.%, xuất hiện ở %, mau đến tiêu diệt!
+lucky_draw_prop=Chúc mừng % nhân được % % cái trong xổ số thần bí
+lucky_draw_prop2=Chúc mừng % rút được % % cái
+success_hei_check_55001=Chương 1: Mặt biển sương mù
+success_hei_check_55002=Chương 2: Di tích bỏ hoang 
+success_hei_check_55003=Chương 3: Di tích ngoại thành 
+success_hei_check_55004=Chương 4: Di tích nội thành
+success_hei_check_55005=Chương 5: Di tích hoàng mộ
+success_hei_check_55006=Chương 6: Di tích thần điện 
+success_hei_check_55007=Chương 7: Di tích thần miếu 
+success_hei_check_55008=Chương 8: Viễn cổ bảo khố 
+success_hei_check_point=% chiến đấu anh dũng, đánh bại toàn bộ địch của "%"
+
+#密码找回=#密码找回
+password_reset_mail_title=Hệ thống mail của Empire Warships
+password_reset_mail_title1=Hệ thống mail của Empire Warfare
+password_reset_mail_code=Mã xác nhận 
+password_reset_mail_device=Số thiết bị 
+password_reset_mail_command=Cài lại mật khẩu 
+password_reset_mail_tip=Bạn đang tiến hành cài lại mật khẩu, nếu bạn không có cài lại, có nghĩa là tài khoản của bạn đang bị hack, vui lòng đổi lại mật khẩu an toàn hơn.
+password_reset_mail_foottip=Địa chỉ mail này không chấp nhận hồi đáp.
+password_reset_mail_reg=%YEAR% Đội Empire - Warships
+have geted award=Bạn đã nhận phần thưởng này!
+boss_taunt_sixhour=BOSS TG cấp %，xuất hiện tại %
+boss_taunt_direction=Hướng Bắc, Hướng Nam, Hướng Tây, Hướng Đông, Hướng Trung, Tây Bắc, Đông Bắc, Tây Nam, Đông Nam
+equip not open=Chưa đạt đến điều kiện
+equip not exist=Linh kiện không tồn tại
+can not equip=Linh kiện này không thể trang bị
+equip can not level up=Linh kiện này không thể lên kinh nghiệm
+equip can not feed itself=Không thể tiêu hao để lên kinh nghiệm
+equip can not quality up=Linh kiện này không thể nâng cấp
+prop or resource not enough=Vật phẩm hoặc tài nguyên không đủ
+quality stuff not exist=Nguyên liệu không tồn tại
+stuff can not combine=Vàng của bạn không đủ
+equip storehouse is full=Kho linh kiện đã đầy
+equip can not sale=Linh kiện không thể bán
+lotto_count_limit=Số lần nhận hôm nay đã đầy.
+annoucement not exist=Không có thông cáo
+annoucement is pass=Thông cáo hết hạn
+annoucement is erro=Lỗi thông cáo
+alliance_auto_transfer=Liên minh đang do % đảm nhiệm hội trưởng
+err:propId=Sai id đạo cụ
+err:gems=Nhập bảo thạch sai
+err:initDat=Nhập thưởng sai
+player not buy=Người chơi không có nạp
+err:not award id=Không có id thưởng
+err:Can't get=Không thể nhận thưởng
+totalBuyActivity_autoSendReward_mail=Chúc mừng bạn: \n ở % tới % hoạt động tích lũy nạp, đã đạt % của yêu cầu .\n nhận được:
+gems=Bảo thạch
+totalBuyActivity_autoSendReward_mail_title=Thông báo nhận thưởng
+consume_gems_auto_award=Quý [PNAME]:\n bạn ở [START] - [END] của hoạt động tích lũy đã sử dụng[COUNT]bảo thạch, theo tỷ lệ [PERCENT]%, đã hoàn lại [RETURN] bảo thạch, vui lòng nhận
+date_price_off_start=Thương Tiệm Bí Ẩn đã mở
+account is wrong=Sai mail
+alliance_transfer_last_title=Thông báo đổi hội trưởng
+alliance_transfer_last_content=Vì bạn đã không đăng nhập 7 ngày, không quản lý liên minh, hiện hệ thống sẽ thay chức hội trưởng cho %. Bạn hiện đang là phó hội trưởng
+alliance_transfer_next_title=Thông báo đổi hội trưởng
+alliance_transfer_next_content=Vì % đã không đăng nhập 7 ngày liên tiếp, hệ thống đã bổ nhiệm bạn làm hội trưởng. Hi vọng bạn sẽ tung hoành tứ hải cùng liên minh của mình。
+new_alliance_title=Thông báo liên minh
+new_alliance_content=Chúc mừng bạn đã lập % thành công, nhanh chóng chiêu mộ nhân tài, mở rộng địa bàn \n\n Chú ý: nếu liên tục 7 ngày không đăng nhập, chức hội trưởng sẽ tự động nhường lại cho phó hội trưởng,( nếu không có phó hội trưởng sẽ chuyển giao cho 1 thành viên khác)
+dismiss_alliance_title=Thông báo giải tán liên minh
+dismiss_alliance_content=Liên minh bạn tham gia đã % giải tán. 
+must pay=Hãy hoàn thành nạp thẻ lần đầu trước
+set_fleet=Thành Phố Di Tích tạm thời đóng
+
+
+prop_sid_10001=Chiến Hạm C
+prop_sid_10011=Tàu Ngầm C
+prop_sid_10021=Tuần Dương C
+prop_sid_10031=Mẫu Hạm C
+prop_sid_10002=Chiến Hạm B
+prop_sid_10012=Tàu Ngầm B
+prop_sid_10022=Tuần Dương B
+prop_sid_10032=Mẫu Hạm B
+prop_sid_10003=Chiến Hạm A
+prop_sid_10013=Tàu Ngầm A
+prop_sid_10023=Tuần Dương A
+prop_sid_10033=Mẫu Hạm A
+prop_sid_10004=Chiến Hạm S
+prop_sid_10014=Tàu Ngầm S
+prop_sid_10024=Tuần Dương S
+prop_sid_10034=Mẫu Hạm S
+prop_sid_10005=Chiến Hạm SS
+prop_sid_10015=Tàu Ngầm SS
+prop_sid_10025=Tuần Dương SS
+prop_sid_10035=Mẫu Hạm SS
+prop_sid_10006=Pháo Đài
+prop_sid_10007=Thiết Giáp
+prop_sid_10016=Hải Vương
+prop_sid_10017=Tử Thần
+prop_sid_10026=Ưng Hạm
+prop_sid_10027=Khiên Sấm
+prop_sid_10036=Chiến Thần
+prop_sid_10037=Chích Viêm
+prop_sid_10008=Minh Hoặc Huyền Vũ
+prop_sid_10018=Thương Mãnh Thanh Long
+prop_sid_10028=Thần Uy Bạch hổ
+prop_sid_10038=Liệt Diệm Chu Tước
+
+
+
+
+
+prop_sid_40111=Súng hạng nhẹ
+prop_sid_40112=Súng hạng nặng
+prop_sid_40113=Súng cường kích
+prop_sid_40114=Súng lôi đình
+prop_sid_40115=Súng kích quang
+prop_sid_40121=Rada tần thấp
+prop_sid_40122=Rada tần cao
+prop_sid_40123=Rada cường tần
+prop_sid_40124=Rada tương không
+prop_sid_40125=Rada mị ảnh
+prop_sid_40131=Giáp nhẹ
+prop_sid_40132=Giáp thiết
+prop_sid_40133=Giáp hợp kim
+prop_sid_40134=Giáp tân tinh
+prop_sid_40135=Giáp thần thánh
+prop_sid_40141=Turbo trục phong
+prop_sid_40142=Turbo huyền ảnh
+prop_sid_40143=Turbo nổ hỏa
+prop_sid_40144=Turbo hư không
+prop_sid_40145=Turbo cảo long
+prop_sid_40211=Ngư lôi nhẹ
+prop_sid_40212=Ngư lôi nặng
+prop_sid_40213=Ngư lôi cường kích
+prop_sid_40214=Ngư lôi lôi đình
+prop_sid_40215=Ngư lôi kích quang
+prop_sid_40221=Sóng âm tần thấp
+prop_sid_40222=Sóng âm tần cao
+prop_sid_40223=Sóng âm cường tần
+prop_sid_40224=Sóng âm tuong không
+prop_sid_40225=Sóng âm mị ảnh
+prop_sid_40231=Thân nhẹ
+prop_sid_40232=Thân giáp thiết
+prop_sid_40233=Thân giáp hợp kim
+prop_sid_40234=Thân giáp tân tinh
+prop_sid_40235=Thân giáp thần thánh
+prop_sid_40241=Trục đẩy nghịch phong
+prop_sid_40242=Trục đẩy huyền ảnh
+prop_sid_40243=Trục đẩy nộ hỏa
+prop_sid_40244=Trục đẩy huư không
+prop_sid_40245=Trục đẩy cảo long
+prop_sid_40411=Tên lửa nhẹ
+prop_sid_40412=Tên lửa nặng
+prop_sid_40413=Tên lửa cường kích
+prop_sid_40414=Tên lửa lôi đình\
+prop_sid_40415=Tên lửa kích quang
+prop_sid_40421=Cảnh báo tần thấp
+prop_sid_40422=Cảnh báo tần cao
+prop_sid_40423=Cảnh báo cường tần
+prop_sid_40424=Cảnh báo tương không
+prop_sid_40425=Cảnh báo mị ảnh
+prop_sid_40431=Thân tàu nhẹ
+prop_sid_40432=Thân tàu thiết
+prop_sid_40433=Thân tàu hợp kim
+prop_sid_40434=Thân tàu tân tinh
+prop_sid_40435=Thân tàu thần thánh
+prop_sid_40441=Động cơ nghịch phong
+prop_sid_40442=Động cơ huyền ảnh
+prop_sid_40443=Động cơ nổ hỏa
+prop_sid_40444=Động cơ hư không
+prop_sid_40445=Động cơ cảo long
+prop_sid_40811=Chiến cơ nhẹ
+prop_sid_40812=Chiến cơ nặng
+prop_sid_40813=Chiến cơ cường kích
+prop_sid_40814=Chiến cơ lôi đình
+prop_sid_40815=Chiến cơ kích quang
+prop_sid_40821=Kiểm soát tần thấp
+prop_sid_40822=Kiểm soát tần cao
+prop_sid_40823=Kiểm soát cường tần
+prop_sid_40824=Kiểm soát tương không
+prop_sid_40825=Kiểm soát mị ảnh
+prop_sid_40831=Boong tàu nhẹ
+prop_sid_40832=Boong tàu thiết
+prop_sid_40833=Boong tàu hợp kim\
+prop_sid_40834=Boong tàu tân tinh
+prop_sid_40835=Boong tàu thần thánh
+prop_sid_40841=Tua bin nghịch phong
+prop_sid_40842=Tua bin huyền ảnh
+prop_sid_40843=Tua bin nổ hỏa
+prop_sid_40844=Tua bin hư không
+prop_sid_40845=Tua bin cảo long
+prop_sid_41101=Khuôn tụ năng Ⅰ
+prop_sid_41102=Khuôn tụ năng Ⅱ
+prop_sid_41103=Khuôn tụ năng Ⅲ
+prop_sid_41104=Khuôn tụ năng Ⅳ
+prop_sid_41105=Khuôn tụ năng Ⅴ
+prop_sid_41201=Trục nâng cấp Ⅰ
+prop_sid_41202=Trục nâng cấp Ⅱ
+prop_sid_41203=Trục nâng cấp Ⅲ
+prop_sid_41204=Trục nâng cấp Ⅳ
+
+prop_sid_1=Kho Sắt
+prop_sid_2=Kho Dầu
+prop_sid_3=Kho Silic
+prop_sid_4=Kho Urani
+prop_sid_5=Kho Vàng
+prop_sid_6=Kho Sắt S
+prop_sid_7=Kho Dầu S
+prop_sid_8=Kho Silic S
+prop_sid_9=Kho Urani S
+prop_sid_10=Kho Vàng S
+prop_sid_11=Bảo hộp huy chương vinh dự
+prop_sid_12=Hộp tài nguyên tân thủ
+prop_sid_13=Rương Nhiên Liệu S
+prop_sid_14=Rương Nhiên Liệu SSS
+prop_sid_15=Rương Nhiên Liệu SS
+prop_sid_16=S.X Nhanh
+prop_sid_17=Rương Cấp Tốc
+prop_sid_18=Rương Phát Triển
+prop_sid_19=Rương Cấp Tốc C
+prop_sid_400=Rương Urani
+prop_sid_401=Rương Urani S
+prop_sid_402=Rương Lợi Ích
+prop_sid_403=Rương Thống Ngự
+prop_sid_404=Rương Thống Ngự S
+prop_sid_405=Rương Sắt
+prop_sid_406=Rương Dầu
+prop_sid_407=Rương Silic
+prop_sid_408=Rương Sắt S
+prop_sid_409=Rương Dầu S
+prop_sid_410=Rương Silic S
+prop_sid_411=Rương Huy Hiệu
+prop_sid_412=Đơn Tua Bin
+prop_sid_413=Đơn Hạt Nhân
+prop_sid_414=Đơn Động Lực
+prop_sid_415=Đơn Tinh Vi
+prop_sid_416=Kho Tinh Thạch
+prop_sid_417=Rương Tinh Thạch
+prop_sid_418=Rương Noel
+prop_sid_419=Kho Tinh Thạch S
+prop_sid_420=Đơn Urani 5
+prop_sid_501=Đào Sắt
+prop_sid_502=Hút Dầu
+prop_sid_503=Đào Silic
+prop_sid_504=Đào Urani
+prop_sid_505=Đúc Vàng
+prop_sid_506=Khiên I-on
+prop_sid_507=Thuốc Nổ S
+prop_sid_508=Thuận Gió
+prop_sid_509=Cờ Hòa Bình
+prop_sid_1001=Thuốc Năng Lượng
+prop_sid_1002=Thuốc Năng Lượng S
+prop_sid_1003=Sách EXP
+prop_sid_1004=Sách Uy Danh
+prop_sid_1005=Lệnh Dời Đảo
+prop_sid_1006=Lệnh Dời Đảo S
+prop_sid_2001=Hộ Không
+prop_sid_2002=Bom Điện
+prop_sid_510=Đạn Laser
+prop_sid_511=Lá Chắn Khói
+prop_sid_512=Đạn Urani
+prop_sid_513=Giáp Phản Ứng
+prop_sid_2007=Tua Bin C98
+prop_sid_2008=Hạt Nhân
+prop_sid_2009=Tinh Thạch
+prop_sid_2010=Rương Đá Quý X
+prop_sid_2011=Rương Đá Quý Y
+prop_sid_2012=Rương Đá Quý S
+prop_sid_2013=Rương Đá Quý
+prop_sid_2014=Thẻ bạc VIP
+prop_sid_2015=Thẻ vàng VIP
+prop_sid_2016=Thẻ Kim Cương VIP
+prop_sid_2017=Hình 7
+prop_sid_2018=Trang bị nhanh
+prop_sid_2019=Trang bị siêu nhanh
+prop_sid_2020=Tự động tạo
+prop_sid_2021=Huy Hiệu
+prop_sid_2022=Sách Thống Ngự
+prop_sid_2023=Hộp Uranium nhỏ 
+prop_sid_2024=Hộp sắt nhỏ 
+prop_sid_2025=Hộp xăng nhỏ 
+prop_sid_2026=Hộp silicon nhỏ 
+prop_sid_2027=Lễ bao long mã 
+prop_sid_2028=Lễ bao bạch cú 
+prop_sid_403=Rương Thống Ngự
+prop_sid_2030=Bảo hộp huy chương vinh dự nhỏ
+prop_sid_3001=Hộp tài nguyên nhỏ 
+prop_sid_3002=Hộp tân thủ hào hoa 
+prop_sid_3003=Vương giả bảo hộp 
+prop_sid_3004=Lôi đình bảo hộp 
+prop_sid_3005=Tinh anh bảo  hộp 
+prop_sid_3006=Bảo hộp cờ hòa bình 
+prop_sid_3007=Bảo hộp tinh anh 
+prop_sid_3008=Bảo hộp ác chiến 
+prop_sid_4001=Bảo hộp tăng sản
+prop_sid_4002=Hộp tài nguyên uranium
+prop_sid_4003=Hộp tài nguyên vàng 
+prop_sid_4004=Hộp tài nguyên vàng lớn 
+prop_sid_4005=Lễ bao nâng cấp 
+prop_sid_4006=Lễ bao khai mở chậm 
+prop_sid_4007=Lễ bao sát nhập 
+prop_sid_4008=Bản Mẫu Hạm II
+prop_sid_4009=Hộp sắt lớn
+prop_sid_4010=Hộp dầu lớn
+prop_sid_4011=Hộp Silicon lớn
+prop_sid_4012=Hộp Urani lớn
+prop_sid_4013=Hộp vàng lớn
+prop_sid_4014=Lễ bao 
+prop_sid_4015=Lễ bao bạch kim 
+prop_sid_4016=Lễ bao kim cương 
+prop_sid_4017=Lễ bao hoạt động
+prop_sid_4018=Lễ bao phần thưởng
+prop_sid_4019=Lễ bao bồi thường
+prop_sid_4020=Lễ bao quay về
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=Neo bạc
+prop_sid_6002=Neo vàng
+prop_sid_7001=600 bảo thạch hộp
+prop_sid_7002=1250 bảo thạch hộp
+prop_sid_7003=6500 bảo thạch hộp
+prop_sid_7004=13500 bảo thạch hộp
+prop_sid_7011=五仁月饼
+prop_sid_7012=豆沙月饼
+prop_sid_7013=桂花月饼
+prop_sid_3010=Hộp tài nguyên cấp thấp
+prop_sid_3011=Hộp tài nguyên cấp trung
+prop_sid_3012=Hộp tài nguyên cấp cao
+prop_sid_3013=Hộp nâng cấp cấp thấp
+prop_sid_3014=Hộp linh kiện lục
+prop_sid_3015=Hộp linh kiện lam
+prop_sid_3016=Hộp linh kiện tím
+prop_sid_3017=Hộp linh kiện cam
+prop_sid_3018=Hộp vũ khí đội chiến-tinh
+prop_sid_3019=Hộp mệnh trúng đội chiến-tinh
+prop_sid_3020=Hộp trang giáp đội chiến-tinh
+prop_sid_3021=Hộp né tránh đội tàu-tinh
+prop_sid_3022=Hộp vũ khí đội chiến-sử thi
+prop_sid_3023=Hộp mệnh trúng đội chiến-sử thi
+prop_sid_3024=Hộp trang giáp đội chiến-sử thi
+prop_sid_3025=Hộp né tránh đội tàu-sử thi
+prop_sid_3026=Hộp vũ khí tàu ngầm-tinh
+prop_sid_3027=Hộp mệnh trúng tàu ngầm-tinh
+prop_sid_3028=Hộp trang giáp tàu ngầm-tinh
+prop_sid_3029=Hộp né tránh tàu ngầm-tinh
+prop_sid_3030=Hộp vũ khí tàu ngầm-sử thi
+prop_sid_3031=Hộp mệnh trúng tàu ngầm-sử thi
+prop_sid_3032=Hộp trang giáp tàu ngầm-sử thi
+prop_sid_3033=Hộp né tránh tàu ngầm-sử thi
+prop_sid_3034=Hộp vũ khí đội tuần-tinh
+prop_sid_3035=Hộp mệnh trúng đội tuần-tinh
+prop_sid_3036=Hộp trang giáp đội tuần-tinh
+prop_sid_3037=Hộp né tránh đội tuần-tinh
+prop_sid_3038=Hộp vũ khí đội tuần-sử thi
+prop_sid_3039=Hộp mệnh trúng đội tuần-sử thi
+prop_sid_3040=Hộp trang giáp đội tuần-sử thi
+prop_sid_3041=Hộp né tránh đội tuần-sử thi
+prop_sid_3042=Hộp vũ khí thuyền mẹ-tinh
+prop_sid_3043=Hộp mệnh trúng thuyền mẹ-tinh
+prop_sid_3044=Hộp trang giáp thuyền mẹ-tinh
+prop_sid_3045=Hộp né tránh thuyền mẹ-tinh
+prop_sid_3046=Hộp vũ khí thuyền mẹ-sử thi
+prop_sid_3047=Hộp mệnh trúng thuyền mẹ-sử thi
+prop_sid_3048=Hộp trang giáp thuyền mẹ-sử thi
+prop_sid_3049=Hộp né tránh thuyền mẹ-sử thi
+prop_sid_3050=Module tụ năng I
+prop_sid_3051=Module tụ năng Ⅱ
+prop_sid_3052=Module tụ năng Ⅲ
+prop_sid_3053=Module tụ năng Ⅳ
+prop_sid_3054=Module tụ năng Ⅴ
+prop_sid_3055=Hộp Moduel Tụ Năng I
+prop_sid_3056=Hộp Moduel Tụ Năng Ⅱ
+prop_sid_3057=Hộp Moduel Tụ Năng Ⅲ
+prop_sid_3058=Hộp Moduel Tụ Năng Ⅳ
+prop_sid_3059=Hộp Moduel Tụ Năng Ⅴ
+prop_sid_3060=Bao tinh thạch nhỏ
+prop_sid_3061=Hộp Linh Kiện Đội Chiến-sử thi
+prop_sid_3062=Hộp Linh Kiện Tàu Ngầm-sử thi
+prop_sid_3063=Hộp Linh Kiện Đội Tuần-sử thi
+prop_sid_3064=Hộp Linh Kiện Thuyền Mẹ-sử thi
+prop_sid_3065=Hộp tinh thạch huy chương
+prop_sid_3066=Hộp chiến hạm hồi quy
+prop_sid_3067=Hộp linh kiện Thuyền Mẹ cơ bản
+prop_sid_3068=Tất giáng sinh
+prop_sid_3069=Lễ bao giáng sinh
+prop_sid_8111=Hộp vũ khí đội chiến-Trắng
+prop_sid_8112=Hộp vũ khí đội chiến-Lục
+prop_sid_8113=Hộp vũ khí đội chiến-Lam
+prop_sid_8114=Hộp vũ khí đội chiến-Tím
+prop_sid_8115=Hộp vũ khí đội chiến-Cam
+prop_sid_8121=Hộp mệnh trúng đội chiến-Trắng
+prop_sid_8122=Hộp mệnh trúng đội chiến-Lục
+prop_sid_8123=Hộp mệnh trúng đội chiến-Lam
+prop_sid_8124=Hộp mệnh trúng đội chiến-Tím
+prop_sid_8125=Hộp mệnh trúng đội chiến-Cam
+prop_sid_8131=Hộp trang giáp đội chiến-Trắng
+prop_sid_8132=Hộp trang giáp đội chiến-Lục
+prop_sid_8133=Hộp trang giáp đội chiến-Lam
+prop_sid_8134=Hộp trang giáp đội chiến-Tím
+prop_sid_8135=Hộp trang giáp đội chiến-Cam
+prop_sid_8141=Hộp né tránh đội tàu-Trắng
+prop_sid_8142=Hộp né tránh đội tàu-Lục
+prop_sid_8143=Hộp né tránh đội tàu-Lam
+prop_sid_8144=Hộp né tránh đội tàu-Tím
+prop_sid_8145=Hộp né tránh đội tàu-Cam
+prop_sid_8211=Hộp vũ khí tàu ngầm-Trắng
+prop_sid_8212=Hộp vũ khí tàu ngầm-Lục
+prop_sid_8213=Hộp vũ khí tàu ngầm-Lam
+prop_sid_8214=Hộp vũ khí tàu ngầm-Tím
+prop_sid_8215=Hộp vũ khí tàu ngầm-Cam
+prop_sid_8221=Hộp mệnh trúng tàu ngầm-Trắng
+prop_sid_8222=Hộp mệnh trúng tàu ngầm-Lục
+prop_sid_8223=Hộp mệnh trúng tàu ngầm-Lam
+prop_sid_8224=Hộp mệnh trúng tàu ngầm-Tím
+prop_sid_8225=Hộp mệnh trúng tàu ngầm-Cam
+prop_sid_8231=Hộp trang giáp tàu ngầm-Trắng
+prop_sid_8232=Hộp trang giáp tàu ngầm-Lục
+prop_sid_8233=Hộp trang giáp tàu ngầm-Lam
+prop_sid_8234=Hộp trang giáp tàu ngầm-Tím
+prop_sid_8235=Hộp trang giáp tàu ngầm-Cam
+prop_sid_8241=Hộp né tránh tàu ngầm-Trắng
+prop_sid_8242=Hộp né tránh tàu ngầm-Lục
+prop_sid_8243=Hộp né tránh tàu ngầm-Lam
+prop_sid_8244=Hộp né tránh tàu ngầm-Tím
+prop_sid_8245=Hộp né tránh tàu ngầm-Cam
+prop_sid_8311=Hộp vũ khí đội tuần-Trắng
+prop_sid_8312=Hộp vũ khí đội tuần-Lục
+prop_sid_8313=Hộp vũ khí đội tuần-Lam
+prop_sid_8314=Hộp vũ khí đội tuần-Tím
+prop_sid_8315=Hộp vũ khí đội tuần-Cam
+prop_sid_8321=Hộp mệnh trúng đội tuần-Trắng
+prop_sid_8322=Hộp mệnh trúng đội tuần-Lục
+prop_sid_8323=Hộp mệnh trúng đội tuần-Lam
+prop_sid_8324=Hộp mệnh trúng đội tuần-Tím
+prop_sid_8325=Hộp mệnh trúng đội tuần-Cam
+prop_sid_8331=Hộp trang giáp đội tuần-Trắng
+prop_sid_8332=Hộp trang giáp đội tuần-Lục
+prop_sid_8333=Hộp trang giáp đội tuần-Lam
+prop_sid_8334=Hộp trang giáp đội tuần-Tím
+prop_sid_8335=Hộp trang giáp đội tuần-Cam
+prop_sid_8341=Hộp né tránh đội tuần-Trắng
+prop_sid_8342=Hộp né tránh đội tuần-Lục
+prop_sid_8343=Hộp né tránh đội tuần-Lam
+prop_sid_8344=Hộp né tránh đội tuần-Tím
+prop_sid_8345=Hộp né tránh đội tuần-Cam
+prop_sid_8411=Hộp vũ khí thuyền mẹ-Trắng
+prop_sid_8412=Hộp vũ khí thuyền mẹ-Lục
+prop_sid_8413=Hộp vũ khí thuyền mẹ-Lam
+prop_sid_8414=Hộp vũ khí thuyền mẹ-Tím
+prop_sid_8415=Hộp vũ khí thuyền mẹ-Cam
+prop_sid_8421=Hộp mệnh trúng thuyền mẹ-Trắng
+prop_sid_8422=Hộp mệnh trúng thuyền mẹ-Lục
+prop_sid_8423=Hộp mệnh trúng thuyền mẹ-Lam
+prop_sid_8424=Hộp mệnh trúng thuyền mẹ-Tím
+prop_sid_8425=Hộp mệnh trúng thuyền mẹ-Cam
+prop_sid_8431=Hộp trang giáp thuyền mẹ-Trắng
+prop_sid_8432=Hộp trang giáp thuyền mẹ-Lục
+prop_sid_8433=Hộp trang giáp thuyền mẹ-Lam
+prop_sid_8434=Hộp trang giáp thuyền mẹ-Tím
+prop_sid_8435=Hộp trang giáp thuyền mẹ-Cam
+prop_sid_8441=Hộp né tránh thuyền mẹ-Trắng
+prop_sid_8442=Hộp né tránh thuyền mẹ-Lục
+prop_sid_8443=Hộp né tránh thuyền mẹ-Lam
+prop_sid_8444=Hộp né tránh thuyền mẹ-Tím
+prop_sid_8445=Hộp né tránh thuyền mẹ-Cam
+prop_sid_900=Thẻ đổi tên NV
+prop_sid_901=Thẻ đổi tên LM
+prop_sid_3070=Lì Xì
+prop_sid_3071=Lì Xì tết 
+prop_sid_3072=Lì xì tân xuân
+prop_sid_3073=Rương tết
+prop_sid_902=Quyển càn quét
+prop_sid_3074=Quà Nữ Vương
+prop_sid_3075=Quà Năm Mới 1
+prop_sid_3076=Quà Năm Mới 2
+prop_sid_3077=Quà Năm Mới 3
+prop_sid_3078=Quà Khánh Điển
+prop_sid_3079=Thẻ đổi thưởng USB
+prop_sid_3080=Thẻ đổi thưởng Hobby
+prop_sid_3081=Rương Huân Chương lớn
+prop_sid_3082=Rương tăng bậc sơ cấp
+prop_sid_3083=Rương tăng bậc trung cấp
+prop_sid_3084=Rương tăng bậc cao cấp
+prop_sid_3085=Rương Lợi Ích
+prop_sid_3086=Rương Sắt SS
+prop_sid_3087=Rương Dầu SS
+prop_sid_3088=Rương Silic SS
+prop_sid_3089=Rương Vàng SS
+prop_sid_3090=Rương Urani SS
+prop_sid_3091=Rương Tân Binh
+prop_sid_3092=Rương Tân Binh VIP
+prop_sid_3093=Thẻ LM
+prop_sid_3094=Giấy Tìm kiếm
+prop_sid_3095=Tiền kỷ niệm
+prop_sid_3096=Rương mảnh tướng sơ
+prop_sid_3097=Rương mảnh tướng cao
+prop_sid_3098=Rương mảnh tướng Lục
+prop_sid_3099=Rương mảnh tướng Lam
+prop_sid_3100=Rương mảnh tướng Tím
+prop_sid_3101=Giấy công huân cao
+prop_sid_3102=Giấy công huân trung
+prop_sid_3103=Giấy công huân sơ
+prop_sid_3104=Rương Veitch
+prop_sid_3105=Rương Mảnh Gilson
+prop_sid_3106=Rương Mảnh Meri
+prop_sid_3107=Rương Mảnh Creed
+prop_sid_3108=Rương Mảnh Gordon
+prop_sid_3109=Rương Mảnh Maher
+prop_sid_3110=Rương Mảnh Helen
+prop_sid_3111=Rương Mảnh Niemi
+prop_sid_3112=Rương Mảnh Karow
+prop_sid_3113=Rương Mảnh Chester
+prop_sid_3114=Rương Mảnh Yuliya
+prop_sid_3115=Rương Mảnh Ramon 
+prop_sid_3116=Rương Mảnh Carl
+prop_sid_3117=Rương Mảnh Denier
+prop_sid_3118=Rương Mảnh Tatiana
+prop_sid_3119=Rương Mảnh Dion
+prop_sid_3120=Rương Mảnh Veitch
+prop_sid_3121=Rương Mảnh Marohn
+prop_sid_3122=Rương Mảnh Mujdza
+prop_sid_3123=Rương Mảnh Bruce
+prop_sid_3124=Rương Mảnh Kossoff
+prop_sid_3125=Rương mảnh tướng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliya
+prop_sid_60011=Ramon 
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Mảnh Gilson
+prop_sid_61002=Mảnh Meri
+prop_sid_61003=Mảnh Creed
+prop_sid_61004=Mảnh Gordon
+prop_sid_61005=Mảnh Maher
+prop_sid_61006=Mảnh Helen
+prop_sid_61007=Mảnh Niemi
+prop_sid_61008=Mảnh Karow
+prop_sid_61009=Mảnh Chester
+prop_sid_61010=Mảnh Yuliya
+prop_sid_61011=Mảnh Ramon 
+prop_sid_61012=Mảnh Carl
+prop_sid_61013=Mảnh Denier
+prop_sid_61014=Mảnh Tatiana
+prop_sid_61015=Mảnh Dion
+prop_sid_61016=Mảnh Veitch
+prop_sid_61017=Mảnh Marohn
+prop_sid_61018=Mảnh Mujdza
+prop_sid_61019=Mảnh Bruce
+prop_sid_61020=Mảnh Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Lv của bạn không đủ, tạo liên minh cần đạt lv %
+join_alliance_level_limit=Lv của bạn không đủ, tham gia liên minh cần đạt lv%
+alliance_donate_level_limit=Lv của bạn không đủ, công hiến liên minh cần nhân vật đạt lv%
+alliance_ship_donate_level_limit=Lv của bạn không đủ, công hiến chiến hạm liên minh cần nhân vật đạt Lv%
+world_chat_level_limit=Lv của bạn không đủ, chat thế giới cần nhân vật đạt lv%
+self_chat_level_limit=Lv của bạn không đủ, chat riêng cần nhân vật đạt lv%
+email_level_limit=Lv của bạn không đủ, gửi thư cần nhân vật đạt lv%
+dest_self_chat_level_limit=Người chơi chưa đạt đủ lv mục tiêu, không thể mở chat riêng
+meal_time_send_energy=Thuyền trưởng thân mến,  trong event năng lượng bạn nhận được % điểm năng lượng, đã thêm vào ô năng lượng.\nChúc ngài chơi game vui vẻ!
+nian_has_been_last_kill=Đảo niên thú (Lv.%) đã bị % tấn công, chúc mừng % nhận được kho tàng của niên thú!
+nian_has_been_killed=Đánh bại đảo niên thú (Lv.%), công lao của liên minh rất lớn, những liên minh sau sẽ nhận được huy chương của đế quốc:   \nNhất :%(Liên Minh)\nNhì:%(Liên Minh)\nBa:%(Liên Minh)
+kill nian title=Phần thưởng đánh bại Đảo Niên Thú
+kill nian content=Thuyền trưởng thân mến, \n    Vì lòng dũng cảm của ngài, đã tấn công thành công Đảo Niên Thú, mang lại hòa bình cho đảo! Để thưởng cho ngài chúng tôi đã chuẩn bị %, xem như phần thưởng! Hi vọng trong năm sau, ngài sẽ nhận được nhiều may mắn hơn! \n * Phần thưởng được gửi trong thư vui lòng vào nhận
+kill nian rank_a=Phần thưởng tấn công đao niên thú
+kill nian rank_a content=Thuyền trưởng thân mến, \n    Đảo niên thú (Lv.%) đã bị tấn công, trong trận chiến này, Ngài và liên minh của ngài đã chiến đấu hết mình tích lũy sát thương hạng  %. Chúng tôi rất cảm kích, vì thế chúng tôi đã chuẩn bị % coi như phần thưởng! \n * Phần thưởng được gửi trong thư vui lòng vào nhận
+kill nian rank_p=Phần thưởng tấn công đao niên thú
+kill nian rank_p content=Thuyền trưởng thân mến, \n    Đảo niên thú (Lv.%) đã bị tấn công, trong trận chiến này, Ngài đã chiến đấu hết mình tích lũy sát thương hạng  %. Chúng tôi rất cảm kích, vì thế chúng tôi đã chuẩn bị % coi như phần thưởng \n * Phần thưởng được gửi trong thư vui lòng vào nhận
+nian born=Tết đến rồi! Niên thú (Lv.%) đang giữ lượng lì xì lớn, bảo vật trong % ùa ra, các vị mau đến xem! Diệt họ và lấy thưởng!
+nian showxy=Tình báo gấp: gián điệp G, phát hiên đảo niên thú ở  (%, %), tình thế nguy cấp, các thuyền trưởng hãy mau chóng điều binh!
+nian away=Tình báo gấp: Niên thú (Lv.%) đã chạy trốn, chúng ta không thể làm gì hơn
+dest_join_alliance_level_limit=Cần người chơi đạt Lv% mới có thể tham gia liên minh
+activity not open=Chưa mở
+friends_list=Thông báo đổi tên bạn bè
+black_list=Thông báo sửa tên blacklist
+alliance_list=Thông báo sửa tên Liên Minh
+player_role_list=Thông báo sửa tên nhân vật
+alliance_mail=Thành viên % trong liên minh của bạn đã đổi tên thành %
+friend_mail=Bạn % của bạn đã đổi tên thành %
+black_mail=Blacklist % của bạn đã đổi thành %
+alliance_modify_info=Linh minh của bạn đã đổi thành%
+sysmessage_modify_name=Liên minh % đã đổi tên thành %
+modify_hostile=Thông báo thay đổi tên liên minh địch
+modify_hostile_content=Liên minh địch % của bạn đã đổi thành %
+dismiss_hostile=Thông báo thông tin liên minh địch 
+dismiss_hostile_content=Liên minh địch % bạn chọn đã giải tán 
+account_reset_mail_command=Mở khóa acc
+alliance has been dismiss=Không tồn tại
+arena_ranking_title=Top 5 đoạt giải quân diễn hôm nay
+arena_ranking_1=Hạng nhất:
+arena_ranking_2=Hạng nhÌ
+arena_ranking_3=Hạng ba
+arena_ranking_4=Hạng tư
+arena_ranking_5=Hạng nhất:năm 
+account_reset_mail_tip=Bạn đang mở khóa acc, nếu không thể thao tác, có thể co người đang sử dụng acc của bạn
+meal_time_energy_push=Phần thưởng năng lượng đã mở!
+
+
+build_sid_1=Xưởng Sắt
+build_sid_2=Giếng Dầu
+build_sid_3=Xưởng Silic
+build_sid_4=Xưởng Urani
+build_sid_5=Lò Đúc Tiền
+build_sid_6=Ụ Thuyền
+build_sid_7=Viện Chỉ Huy
+build_sid_8=Viện Nghiên Cứu
+build_sid_9=Xưởng Cải Tạo
+build_sid_10=Kho
+build_sid_11=Máy Bay Ném Bom
+build_sid_12=Xe Đạn Đạo
+build_sid_13=Pháo Bờ Biển
+build_sid_14=Xưởng Sửa Chữa
+build_sid_15=Cường Hóa
+LvUpActivity_autoSendReward_mail_title=Thông Báo HĐ Tăng Cấp Tân Thủ
+LvUpActivity_autoSendReward_mail=Chúc mừng：\n trong % đến % HĐ tăng cấp tân thủ, đã % đạt đến cấp %.\n nhận được:
+RankAwardActivity_autoSendReward_mail=Chúc mừng：\n trong % đến % của HĐ %，xếp hạng %。\n nhận được:
+fight_score_act=Tân Thủ Chi Vương
+point_star_act=Chiến Tranh Chi Vương
+honor_score_act=Vinh Dự Chi Vương
+muteTime_left=Cấm chat % phút
+
+no this cplayer=Không tồn tại người chơi này
+get cannot=Không phải thời gian nhận thưởng
+not open cross war=Chưa mở Đế Quốc Tranh Bá
+jion end=Đã Ngừng Báo Danh
+lv limit=Cấp Giới Hạn
+ship must > 0=Số lượng hạm đội phải lớn hơn 0
+set cannot=Không phải thời gian cài đặt
+cannot connect cross_server=Không thể liên kết đến liên Sv
+cannot handle the message=Không thể xử lý vấn đề này
+jion had=Đã báo danh
+no the rep=Không có chiến báo
+bet cannot=Chưa tới thời gian đặt cược
+had bet=Đã đặt
+vip gems error=Số tiền cược với cấp VIP không đồng nhất
+gems limit=Gems không đủ
+cannot embattle=Rất đáng tiếc, do bạn thất bại trong lần trước, cho nên không thể bố trận tham gia trận Tranh Bá sau
+
+cross battle award=Phần Thưởng Đế Quốc Tranh Bá
+join in award=%，Phần thưởng của bạn: % Gems và % đã gửi đến túi của bạn。
+anyone join in award=Thuyền trưởng thân mến, cám ơn bạn đã tham gia Đế Quốc Tranh Bá, phần thưởng % đã gửi đến túi của bạn, hãy kiểm nhận.
+win bet award=Thuyền trưởng thân mến, chúc mừng bạn thành công đoạt được Quán Quân lần này, nhận được :% Gems
+
+win cross battle champion=Chúc mừng SV% thuyền trưởng % giành được Quán Quân
+promoted cross battle champion=Chúc mừng thuyền trưởng % nhận được Quán Quân Đế Quốc Tranh Bá
+promoted cross battle finals=Chúc mừng nhận được % Chung kết quyển
+promoted cross battle=Chúc mừng thuyền trưởng % thành công phổ cập top %
+promoted cross final=Chúc mừng thuyền trưởng % thành công vào vòng chung kết
+alliance shield word=Không
+mystical fleet=Hạm Đội Thần Bí
+
+alliance_fight_win=Chúc mừng LM % thành công đoạt được Đảo %
+
+alliance_bet_message=Đấu Giá thành công
+alliance_bet_win_content=Chúc mừng, LM của bạn đã nhận được “%” quyền lợi. %\n muốn nhận được quyền chiếm hữu Đảo, hãy mau tiến hành báo danh.
+alliance_bet_win_content_thing=\n và LM của bạn tranh đoạt Đảo với LM đối địch là “%”.
+
+alliance_bet_lose=Đấu giá thất bại
+alliance_bet_lose_content=Rất tiếc, Đảo của LM bạn “%” đã bị “%” vì “%” vật chất đã quá giới hạn, đã hoàn trả “%” vật chất cho LM. \nNếu như bạn không muốn mất đi quyền chiếm hữu Đảo, hãy chiếm đánh lần nữa, giành lại quyền chiếm hữu Đảo của bạn
+new_alliance_fight_start=LM tranh bá đã mở!
+
+send_alliance_science_point=“%” Phần Thưởng Ngày
+send_alliance_science_content=LM chiến hữu “%”, đã phát phần thưởng hàng ngày “%”, hãy đến 尖端科技中 nghiệm thu.
+send_alliance_report=%　VS　%
+alliance_fight_win_title=“%” chiếm lĩnh thành công
+alliance_fight_win_content=Chúc mừng, LM thành công chiếm  “%”, trong lần chiến này LM nhận được “%” điểm Công nghệ cao. Trong “5 ngày”, sẽ nhận được điểm Công nghệ cao.%
+alliance_fight_award=\n\nCám ơn bạn đã công hiến trong trận đấu này, \n\nChiến hạm của bạn đã trở về Cảng, chiến hạm cần sửa đã ở trong Xưởng sửa chữa. Còn đây là thù lao của bạn:
+allaince_fight_not_join=Do không có người chơi báo danh, 
+alliance_fight_lose_title=“%” Chiếm thất bại
+alliance_fight_lose_content=Rất tiếc, LM của bạn bị thất bại trong “%”, không chiếm được Đảo. \nTrong trận này LM của bạn nhận được % điểm công nghệ cao %
+alliance_fight_lose_sbstain=Phát thưởng Liên Minh Tranh Bá
+alliance_battle_abstain_content=Do LM trong lần chiến này “%” không có người báo danh, xem như bị tước quyền. \n\nLần này LM của bạn chỉ nhận được % điểm khoa kỹ.
+alliance_fight_system_content=Chúc mừng “LM %” trong LM Tranh Bá thành công chiếm “%”
+alliance_fight_send_award=Phần Thưởng Cá Nhân
+allaince_reback_win_ships=Chúc mừng, LM đã thành công chiếm “%”, số lượng báo danh chiến thuyền của bạn: %%%%%% Tổn thất: %%%%%%
+allaince_reback_lose_ships=Rất tiếc, LM của bạn trong “%” thất bại, số lượng báo danh chiến thuyền của bạn: %%%%%% Tổn thất: %%%%%%
+
+alliance_battle_fight_report=Thông Tin LM chiến
+alliance_battle_island_15101=Vùng Vịnh
+alliance_battle_island_15102=Hải đảo
+alliance_battle_island_15103=Bán đảo
+alliance_battle_abstain=Bỏ quyền
+alliance_lucky_points=Liên Minh % Thuyền Trưởng % trong bảo rương rút được "Vật phẩm may mắn LM", % tích điểm may mắn LM +1
+
+
+awardshippingactivity_message=Dùng sẽ nhận 1 tướng phẩm chất lục
+luckyexploredactivity_message=Dùng sẽ nhận 1 tướng phẩm chất lam
+robfestivalactivity_message=Dùng sẽ nhận 1 tướng phẩm chất tím
+
+
+
+
+
+
+

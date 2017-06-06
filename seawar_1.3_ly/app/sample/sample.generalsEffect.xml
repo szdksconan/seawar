@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.officer.OfficerManager" name="effectFactory" id="effectFactory" />
+    <method ref="effectFactory" name="init">       
+
+        <ref id="context" />
+
+    
+    </method>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="1" effectGroup="1" effectField="-1" effectAttr="100" isFix="False" value="1">
+        <field name="officers" declared="1">
+            <ints>60001,60005</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="2" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="1">
+        <field name="officers" declared="1">
+            <ints>60002,60006</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="3" effectGroup="1" effectField="2" effectAttr="100" isFix="False" value="3">
+        <field name="officers" declared="1">
+            <ints>60003,60010</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="4" effectGroup="1" effectField="-1" effectAttr="108" isFix="False" value="1">
+        <field name="officers" declared="1">
+            <ints>60004,60008</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="5" effectGroup="1" effectField="4" effectAttr="100" isFix="False" value="2">
+        <field name="officers" declared="1">
+            <ints>60007,60012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="6" effectGroup="1" effectField="-1" effectAttr="103" isFix="False" value="2">
+        <field name="officers" declared="1">
+            <ints>60009,60013</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="7" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60011,60015</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="8" effectGroup="1" effectField="2" effectAttr="108" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60014,60016</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="9" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60017,60019</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="10" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60018,60020</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="11" effectGroup="1" effectField="-1" effectAttr="100" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60009,60015</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="12" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60010,60016</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="13" effectGroup="1" effectField="2" effectAttr="100" isFix="False" value="6">
+        <field name="officers" declared="1">
+            <ints>60011,60018</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="14" effectGroup="1" effectField="4" effectAttr="100" isFix="False" value="4">
+        <field name="officers" declared="1">
+            <ints>60012,60013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="15" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="8">
+        <field name="officers" declared="1">
+            <ints>60014,60017</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="16" effectGroup="1" effectField="-1" effectAttr="103" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60019,60020</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="17" effectGroup="1" effectField="15" effectAttr="200" isFix="True" value="20">
+        <field name="officers" declared="1">
+            <ints>60017,60018,60019,60020</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="18" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="2">
+        <field name="officers" declared="1">
+            <ints>60021,60023</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="19" effectGroup="1" effectField="-1" effectAttr="103" isFix="False" value="1">
+        <field name="officers" declared="1">
+            <ints>60022,60024</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="20" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60025,60027</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="21" effectGroup="1" effectField="-1" effectAttr="108" isFix="False" value="8">
+        <field name="officers" declared="1">
+            <ints>60026,60028</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="22" effectGroup="1" effectField="-1" effectAttr="108" isFix="False" value="12">
+        <field name="officers" declared="1">
+            <ints>60029,60033</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="23" effectGroup="1" effectField="-1" effectAttr="100" isFix="False" value="7">
+        <field name="officers" declared="1">
+            <ints>60030,60034</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="24" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60031,60035</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="25" effectGroup="1" effectField="-1" effectAttr="103" isFix="False" value="7">
+        <field name="officers" declared="1">
+            <ints>60032,60036</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="26" effectGroup="1" effectField="-1" effectAttr="100" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60037,60039</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="27" effectGroup="1" effectField="-1" effectAttr="108" isFix="False" value="15">
+        <field name="officers" declared="1">
+            <ints>60038,60040</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="28" effectGroup="1" effectField="-1" effectAttr="107" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60025,60026</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="29" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="5">
+        <field name="officers" declared="1">
+            <ints>60027,60028</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="30" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60029,60030</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="31" effectGroup="1" effectField="-1" effectAttr="107" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60031,60032</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="32" effectGroup="1" effectField="4" effectAttr="103" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60033,60034</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="33" effectGroup="1" effectField="2" effectAttr="100" isFix="False" value="15">
+        <field name="officers" declared="1">
+            <ints>60035,60036</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="34" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="15">
+        <field name="officers" declared="1">
+            <ints>60037,60038</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="35" effectGroup="1" effectField="-1" effectAttr="103" isFix="False" value="10">
+        <field name="officers" declared="1">
+            <ints>60039,60040</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="36" effectGroup="1" effectField="-1" effectAttr="106" isFix="False" value="15">
+        <field name="officers" declared="1">
+            <ints>60029,60033,60030,60034</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="37" effectGroup="1" effectField="-1" effectAttr="102" isFix="False" value="15">
+        <field name="officers" declared="1">
+            <ints>60031,60035,60032,60036</ints>
+        </field>
+		<field name="locationSelector" declared="1">
+			<sample class="foxu.sea.officer.effect.CurrentLocationExecutor" sid="0"/><!-- 当前位置激活效果  -->
+		</field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.effect.UnitedAttribute" sid="38" effectGroup="1" effectField="15" effectAttr="200" isFix="True" value="40">
+        <field name="officers" declared="1">
+            <ints>60037,60039,60038,60040</ints>
+        </field>
+    </sample>
+
+
+
+</objects>

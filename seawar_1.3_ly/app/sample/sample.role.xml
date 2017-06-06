@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<field class="foxu.sea.Role" name="factory" id="roleFactory"/>
+	<method ref="roleFactory" name="init"><ref id="context"/></method>
+	
+	<sample class="foxu.sea.Player" sid="1"></sample>
+	<sample class="foxu.sea.Player" sid="2"></sample>
+	
+</objects>

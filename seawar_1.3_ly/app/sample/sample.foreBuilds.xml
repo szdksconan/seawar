@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+    <!--前提条件类 -->
+	<field class="foxu.sea.builds.PreCondtion" name="factory" id="preCondtionFactory"/>
+	<method ref="preCondtionFactory" name="init"><ref id="context"/></method>
+	
+	<sample class="foxu.sea.builds.PreCondtion" sid="1" buildType="2" buildLevel="5"/>
+	<sample class="foxu.sea.builds.PreCondtion" sid="2" buildType="3" buildLevel="2"/>
+	
+</objects>

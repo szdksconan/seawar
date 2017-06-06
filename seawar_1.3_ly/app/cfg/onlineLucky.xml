@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<!-- －－－－－－－－－－－－－－－－－－－－－－－－－－－－在线神秘奖励－－－－－－－－－－－－－－－－－－－－－－－－－－－－ -->
+	<field class="foxu.sea.OnlineLuckyContainer" name="ONLINE_LUCKY_LIMIT">
+		<ints>300,600,1200,1800,2400</ints>
+	</field>
+
+	<field class="foxu.sea.OnlineLuckyContainer" name="ONLINE_LUCKY_WEIGHT">
+		<ints>3000,3000,2000,1000,1000</ints>
+	</field>
+
+	<method class="foxu.sea.OnlineLuckyContainer" name="getInstance"
+		id="onlineContainer" />
+	<method ref="onlineContainer" name="resetTotalWeight" />
+
+	<method ref="onlineContainer" name="addPropInfo">
+		<value type="int">1</value><!-- 奖励品sid -->
+		<value type="int">1</value><!-- 奖励品数量 -->
+		<value type="int">1</value><!-- 玩家等级下限，如不需要此条件填0 -->
+		<value type="int">20</value><!-- 玩家等级上限，如使用当前最高级填-1 -->
+		<value type="int">0</value><!-- 需检测的建筑类型，如不需要此条件填0 -->
+		<value type="int">0</value><!-- 建筑类型等级下限 -->
+		<value type="int">0</value><!-- 建筑类型等级上限，如使用当前最高级填-1 -->
+		<value type="int">1</value><!-- 奖励级别：1,2,3,4,5反应玩家等待时长 -->
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">3</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">4</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">5</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2021</value>
+		<value type="int">3</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2022</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">1001</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2014</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2009</value>
+		<value type="int">5</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">7</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">7</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">8</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">9</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">501</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">502</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">503</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">504</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">505</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">506</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">507</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">510</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">511</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">512</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">513</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2007</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">15</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2008</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">15</value>
+		<value type="int">1</value>
+		<value type="int">-4</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">2018</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">508</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10001</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10011</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10021</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10031</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">30</value>
+		<value type="int">1</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10002</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">40</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10012</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">40</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10022</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">40</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10032</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">40</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10003</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">50</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10013</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">50</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10023</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">50</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10033</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">1</value>
+		<value type="int">50</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10004</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">10</value>
+		<value type="int">50</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10014</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">10</value>
+		<value type="int">50</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10024</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">10</value>
+		<value type="int">50</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10034</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">10</value>
+		<value type="int">50</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10005</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">20</value>
+		<value type="int">60</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10015</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">20</value>
+		<value type="int">60</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10025</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">20</value>
+		<value type="int">60</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10035</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">20</value>
+		<value type="int">60</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10006</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">35</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10016</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">35</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10026</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">35</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10036</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">35</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10007</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">45</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10017</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">45</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10027</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">45</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10037</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">45</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10008</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">61</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10018</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">61</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10028</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">61</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">10038</value>
+		<value type="int">1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">6</value>
+		<value type="int">61</value>
+		<value type="int">-1</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">3055</value>
+		<value type="int">1</value>
+		<value type="int">20</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">3056</value>
+		<value type="int">1</value>
+		<value type="int">20</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">3057</value>
+		<value type="int">1</value>
+		<value type="int">20</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">6001</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">6002</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">5</value>   
+	</method>
+   <method ref="onlineContainer" name="addPropInfo">
+		<value type="int">902</value>
+		<value type="int">1</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">2</value>   
+	</method>  
+	<method ref="onlineContainer" name="addPropInfo">
+		<value type="int">902</value>
+		<value type="int">2</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">3</value>   
+	</method>
+	<method ref="onlineContainer" name="addPropInfo">
+		<value type="int">902</value>
+		<value type="int">3</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">4</value>   
+	</method>
+	<method ref="onlineContainer" name="addPropInfo">
+		<value type="int">902</value>
+		<value type="int">4</value>
+		<value type="int">1</value>
+		<value type="int">-1</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">0</value>
+		<value type="int">5</value>   
+	</method>
+
+</objects>

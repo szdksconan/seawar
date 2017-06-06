@@ -1,0 +1,2492 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.officer.OfficerManager" name="factory" id="officerFactory" />
+    <method ref="officerFactory" name="init">       
+
+        <ref id="context" />
+
+    
+    </method>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60001" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.22,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.22,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20001</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60002" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.23,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.23,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20002</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60003" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.24,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.24,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20003</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60004" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.25,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.25,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20004</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60005" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.46,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.46,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20005</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60006" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.48,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.48,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20006</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60007" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.47,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.47,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20007</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60008" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.49,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.49,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20008</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60009" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.35,0,0.15,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.35,0,0.15,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,2,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20009</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60010" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.73,0,0.2,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.73,0,0.2,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,2,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20010</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60011" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.36,0,0,0,0.3,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.36,0,0,0,0.3,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,2,0,0,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20011</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60012" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.75,0,0,0,0.3,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.75,0,0,0,0.3,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,2,2,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60013" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.37,0,0.2,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.37,0,0.2,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,2,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60014" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.74,0,0.2,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.74,0,0.2,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,0,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20014</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60015" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.3,0.46,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.3,0.46,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,2,0,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20015</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60016" scarcity="2" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.3,0.47,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.3,0.47,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,2,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20016</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60017" scarcity="3" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.55,0,0,0.3,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.55,0,0,0.3,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,0,0,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20017</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60018" scarcity="3" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.12,0,0,0,0.3,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.12,0,0,0,0.3,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,0,3,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20018</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60019" scarcity="3" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.57,0,0.4,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.57,0,0.4,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,3,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20019</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60020" scarcity="3" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.08,0,0,0.4,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.08,0,0,0.4,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,3,0,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20020</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60021" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.22,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.22,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20021</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60022" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.23,0,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.23,0,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20022</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60023" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.45,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.45,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20023</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60024" scarcity="1" scarcityGrowth="1">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.48,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.48,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>2000,4000,6000,10000,14000,20000,26000,34000,42000,52000,62000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20024</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60025" scarcity="1" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.73,0,0.2,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.73,0,0.2,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,2,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20025</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60026" scarcity="1" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.38,0,0,0,0.3,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.38,0,0,0,0.3,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,2,0,0,2,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20026</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60027" scarcity="1" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,0.76,0,0,0,0.3,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,0.76,0,0,0,0.3,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,2,2,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20027</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60028" scarcity="1" scarcityGrowth="2">
+        <field name="levelExps" declared="1">
+            <ints>30,130,280,480,730,1030,1380,1780,2230,2530,2860,3220,3610,4030,4480,4960,5470,6010,6580,6780,6990,7210,7440,7680,7930,8190,8460,8740,9030,9330,9640,9960,10290,10630,10980,11340,11710,12090,12480,12880,13290,13710,14140,14580,15030,15490,15960,16440,16930,17430,17940,18460,18990,19530,20080,20640,21210,21790,22380,22980,23590,24210,24840,25480,26130,26790,27460,28140,28830,29530,30240,30960,31690,32430,33180,33940,34710,35490,36280,37080,37890,38710,39540,40380,41230,42090,42960,43840,44730,45630,46540,47460,48390,49330,50280,51240,52210,53190,54180</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.41,0,0.2,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.41,0,0.2,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,2,2,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>5000,10000,15000,25000,35000,50000,65000,85000,105000,130000,155000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>3000,6000,9000,15000,21000,30000,39000,51000,63000,78000,93000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20028</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60029" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.525,0,0,0,0.4,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.525,0,0,0,0.4,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,0,0,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20029</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60030" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.095,0,0.3,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.095,0,0.3,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,0,3,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,0,1,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20030</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60031" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.54,0,0,0,0.4,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.54,0,0,0,0.4,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,0,0,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20031</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60032" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.125,0,0,0,0.3,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.125,0,0,0,0.3,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,3,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20032</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60033" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.555,0,0.3,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.555,0,0.3,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,3,3,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20033</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60034" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.11,0,0,0.4,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.11,0,0,0.4,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,3,0,3,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20034</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60035" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.45,0.69,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.45,0.69,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,3,0,3,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,0,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20035</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60036" scarcity="2" scarcityGrowth="3">
+        <field name="levelExps" declared="1">
+            <ints>45,195,420,720,1095,1545,2070,2670,3345,3795,4290,4830,5415,6045,6720,7440,8205,9015,9870,10170,10485,10815,11160,11520,11895,12285,12690,13110,13545,13995,14460,14940,15435,15945,16470,17010,17565,18135,18720,19320,19935,20565,21210,21870,22545,23235,23940,24660,25395,26145,26910,27690,28485,29295,30120,30960,31815,32685,33570,34470,35385,36315,37260,38220,39195,40185,41190,42210,43245,44295,45360,46440,47535,48645,49770,50910,52065,53235,54420,55620,56835,58065,59310,60570,61845,63135,64440,65760,67095,68445,69810,71190,72585,73995,75420,76860,78315,79785,81270</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.45,0.705,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.45,0.705,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,3,3,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20036</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60037" scarcity="3" scarcityGrowth="4">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.825,0,0.6,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.825,0,0.6,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,4,0,4,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20037</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60038" scarcity="3" scarcityGrowth="4">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0,1.68,0,0,0,0.6,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0,1.68,0,0,0,0.6,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,4,4,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,1,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20038</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60039" scarcity="3" scarcityGrowth="4">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.8,1.8,0,0,0,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.8,1.8,0,0,0,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,0,4,0,4,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,0,1,0,1,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20039</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.Officer" sid="60040" scarcity="3" scarcityGrowth="4">
+        <field name="levelExps" declared="1">
+            <ints>60,260,560,960,1460,2060,2760,3560,4460,5060,5720,6440,7220,8060,8960,9920,10940,12020,13160,13560,13980,14420,14880,15360,15860,16380,16920,17480,18060,18660,19280,19920,20580,21260,21960,22680,23420,24180,24960,25760,26580,27420,28280,29160,30060,30980,31920,32880,33860,34860,35880,36920,37980,39060,40160,41280,42420,43580,44760,45960,47180,48420,49680,50960,52260,53580,54920,56280,57660,59060,60480,61920,63380,64860,66360,67880,69420,70980,72560,74160,75780,77420,79080,80760,82460,84180,85920,87680,89460,91260,93080,94920,96780,98660,100560,102480,104420,106380,108360</ints>
+        </field>
+        <field name="rankUpCount" declared="1">
+            <ints>1,1,2,2,3,3,4,4,5,5</ints>
+        </field>
+        <field name="rankUpGold" declared="1">
+            <ints>1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000</ints>
+        </field>
+        <field name="rankUpMetal" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpOil" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpSilicon" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpUranium" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="rankUpGem" declared="1">
+            <ints>0,0,0,0,0,0,0,0,0</ints>
+        </field>
+        <field name="baseAttr" declared="1">
+            <floats>0.9,0,0,0,0.6,0,0</floats>
+        </field>
+        <field name="baseAttrGrowth" declared="1">
+            <floats>0.9,0,0,0,0.6,0,0</floats>
+        </field>
+        <field name="extraAttr" declared="1">
+            <floats>0,0,4,4,0,0,0</floats>
+        </field>
+        <field name="extraAttrGrowth" declared="1">
+            <floats>0,0,1,1,0,0,0</floats>
+        </field>
+        <field name="baseSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="baseSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkill" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="extraSkillGrowth" declared="1">
+            <floats>0</floats>
+        </field>
+        <field name="disbandExp" declared="1">
+            <ints>10000,20000,30000,50000,70000,100000,130000,170000,210000,260000,310000</ints>
+        </field>
+        <field name="disbandCoins" declared="1">
+            <ints>6000,12000,18000,30000,42000,60000,78000,102000,126000,156000,186000</ints>
+        </field>
+        <field name="officerSkill" declared="1">
+            <ints>20040</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61001" scarcity="1" officerSid="60001" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61002" scarcity="1" officerSid="60002" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61003" scarcity="1" officerSid="60003" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61004" scarcity="1" officerSid="60004" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61005" scarcity="1" officerSid="60005" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61006" scarcity="1" officerSid="60006" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61007" scarcity="1" officerSid="60007" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61008" scarcity="1" officerSid="60008" composeCount="10" costGems="40" coins="200" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61009" scarcity="2" officerSid="60009" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61010" scarcity="2" officerSid="60010" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61011" scarcity="2" officerSid="60011" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61012" scarcity="2" officerSid="60012" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61013" scarcity="2" officerSid="60013" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61014" scarcity="2" officerSid="60014" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61015" scarcity="2" officerSid="60015" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61016" scarcity="2" officerSid="60016" composeCount="20" costGems="50" coins="300" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61017" scarcity="3" officerSid="60017" composeCount="30" costGems="60" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61018" scarcity="3" officerSid="60018" composeCount="30" costGems="60" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61019" scarcity="3" officerSid="60019" composeCount="30" costGems="60" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61020" scarcity="3" officerSid="60020" composeCount="30" costGems="60" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61021" scarcity="1" officerSid="60021" composeCount="10" costGems="40" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61022" scarcity="1" officerSid="60022" composeCount="10" costGems="40" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61023" scarcity="1" officerSid="60023" composeCount="10" costGems="40" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61024" scarcity="1" officerSid="60024" composeCount="10" costGems="40" coins="400" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61025" scarcity="2" officerSid="60025" composeCount="20" costGems="50" coins="800" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61026" scarcity="2" officerSid="60026" composeCount="20" costGems="50" coins="800" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61027" scarcity="2" officerSid="60027" composeCount="20" costGems="50" coins="800" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61028" scarcity="2" officerSid="60028" composeCount="20" costGems="50" coins="800" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61029" scarcity="3" officerSid="60029" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61030" scarcity="3" officerSid="60030" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61031" scarcity="3" officerSid="60031" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61032" scarcity="3" officerSid="60032" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61033" scarcity="3" officerSid="60033" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61034" scarcity="3" officerSid="60034" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61035" scarcity="3" officerSid="60035" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61036" scarcity="3" officerSid="60036" composeCount="30" costGems="60" coins="1000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61037" scarcity="4" officerSid="60037" composeCount="30" costGems="80" coins="2000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61038" scarcity="4" officerSid="60038" composeCount="30" costGems="80" coins="2000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61039" scarcity="4" officerSid="60039" composeCount="30" costGems="80" coins="2000" />
+    <sample class="foxu.sea.officer.OfficerFragment" sid="61040" scarcity="4" officerSid="60040" composeCount="30" costGems="80" coins="2000" />
+</objects>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+	<!-- 游戏大区ID -->
+	<strings id="gmcAllowIP" modifyText="允许建立连接的地址，可以使用“*”，用“|”分隔">*</strings>
+	<!--数据库-->
+	<String id="dbUSR">root</String>
+	<String id="dbPWD">123456</String>
+	<!--数据库地址-->
+	<String id="dbIP">jdbc:mysql://localhost:3306/seawar_1.3_a3</String>
+	<!--数据库地址-->
+	<String id="logdbIP">jdbc:mysql://localhost:3306/log</String>
+    
+    <!--服务器id-->
+    <String id="sea_ServerId">45</String> 
+    <field class="foxu.sea.port.UserToCenterPort" name="SERVER_ID">45</field>
+    
+    <field class="foxu.sea.port.UserToCenterPort" name="AREA_ID">3</field>
+    
+    <field class="foxu.sea.port.UserToCenterPort" name="AREA_ID">3</field>
+    <!-- 是否是跨服战中心 -->
+	<field class="foxu.sea.PublicConst" name="crossServer">false</field>
+	<!-- 是否是跨服积分中心 -->
+	<field class="foxu.cross.goalleague.ServerLeagueManager" name="CROSS_LEAGUE_SERVER">true</field>
+    
+    <!--服务器的语言版本-->
+	<field class="foxu.sea.PublicConst" name="SERVER_LOCALE">1</field>
+	
+	<field class="foxu.sea.gm.GMManager" name="IS_TEST">true</field>
+	
+	<!-- 安装连接适配器，监听连接打开 -->
+	<!--<method ref="serverHandle" name="addListener">
+		<obj class="mustang.back.ConnectOpenAdapter" id="connectOpenAdapter"/>
+	</method>-->
+	
+	<!--服务器的名字对应的翻译-->
+	<field class="foxu.sea.port.UserToCenterPort" name="SERVER_NAME">server_name_cn_001</field>
+	
+	<!--游戏中心IP-->
+	<field class="foxu.cc.GameDBCCAccess" name="GAME_CENTER_IP">192.168.10.222</field>
+	<!--游戏中心IP-->
+	<field class="foxu.cc.GameDBCCAccess" name="GAME_CENTER_HTTP_PORT">9163</field>
+	
+	<field class="foxu.cc.GameDBCCAccess" name="ACCOUT_NUM">3</field>
+	
+	<!--WEB服务器与游戏服务器通信-->
+	<field class="foxu.sea.gm.GMOperator" name="SERVER_IP_LIST" >
+	     <strings separator=",">192.168.10.222</strings>
+	</field>
+	
+	<!--设置http的port 游戏中心是8163 游戏服务器为7163-->
+	<field class="shelby.httpserver.HttpServer" name="DEFAULT_PORT">7163</field>
+	<!-- 验证充值地址 -->
+	<string id="verifyUrl">http://192.168.10.222:8880/purchase</string>
+	<!-- 验证充值设备地址 -->
+	<string id="verifyDeviceUrl">http://192.168.10.222:8880/banned</string>
+	<!--苹果付费地址（正式）
+	 <field class="foxu.sea.charge.VerifyHeroChargeInfoManager" name="appVerifyUrl">https://buy.itunes.apple.com/verifyReceipt</field>-->
+	
+	<!--苹果付费地址（沙盒测试）-->
+	<field class="foxu.sea.charge.VerifyHeroChargeInfoManager" name="appVerifyUrl">https://sandbox.itunes.apple.com/verifyReceipt</field>
+	
+</objects>

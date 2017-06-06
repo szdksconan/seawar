@@ -1,0 +1,3545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<field class="foxu.fight.FightScene" name="abilityFactory" id="abilityFactory">
+		<obj class="mustang.util.SampleFactory"/>
+	</field>
+	<method ref="abilityFactory" name="init"><ref id="context"/></method>
+	
+	<field class="foxu.sea.fight.Skill" name="selector" declared="1">
+		<objs class="foxu.sea.fight.TargetSelector">
+			<!-- 单攻 0 -->
+			<obj class="foxu.sea.fight.TargetSelector">
+				<field name="projectA" declared="1"><ints>-6</ints></field>		<!--首选目标规则,配置偏移位置.举例:{0}标示和自己一样的位置,{3}列+1,{-3}列-1.如果为null|| length==0,标示全体-->
+				<field name="projectB" declared="1"><ints>0,3,6,1,4,7,2,5,8,1,4,7,0,3,6</ints></field>	<!--备选目标规则,长度代表有几个备选规则.遍历这组数据,直到找到目标.举例{-1,1,-2,2}对应文档中"本行无目标则选择上一行，上一行无目标则选择下一行、上两行，下两行".-->
+				<field name="typeLimit" declared="1"><ints>0xffffffff</ints></field>	<!--目标类型限制.数组长度=1+额外目标个数.第一位是首选目标的类型限制,第二位是第一个额外目标的类型限制,以此类推.舰船类型常量见Ship类.全类型限制0xffffffff,具体类型就配置具体的常量值,某几种类型限定以2+4+8方式配置.如果前边的配置为全屏攻击,那么typeLimit长度只能为1,所有目标都要满足这个条件-->
+			</obj>
+			<!-- 单列攻击 攻击每行的最前一个目标 1 -->
+			<obj class="foxu.sea.fight.TargetSelector">
+				<field name="projectA" declared="1"><ints>0,1,2</ints></field>
+				<field name="projectB" declared="1"><ints>3,6</ints></field>
+				<field name="typeLimit" declared="1"><ints>0xffffffff,0xffffffff,0xffffffff</ints></field>
+			</obj>
+			<!-- 穿透 2 -->
+			<obj class="foxu.sea.fight.TargetSelector">
+				<field name="projectA" declared="1"><ints>-6</ints></field>
+				<field name="projectB" declared="1"><ints>0,3,6,1,4,7,2,5,8,1,4,7,0,3,6</ints></field>
+				<field name="otherProjectA" declared="1"><ints>3,6</ints></field>
+				<field name="typeLimit" declared="1"><ints>0xffffffff,0xffffffff,0xffffffff</ints></field>
+			</obj>
+			<!-- 全体 3 -->
+			<obj class="foxu.sea.fight.TargetSelector">
+				<field name="typeLimit" declared="1"><ints>0xffffffff</ints></field>
+			</obj>
+		</objs>
+	</field>
+	
+
+<!--航母普通攻击-->
+	<sample class="foxu.sea.fight.Skill" sid="1" cid="1" name="空袭1" selectorId="3" type="1"><!-- selectorId筛子ID,对应上边(0,1,2,3)-->
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/><!-- count=1释放次数,其他默认 -->
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/><!-- attackType=2攻击类型(AIR_RAID空袭0,ARTILLERY炮火1,MISSILE导弹2,TORPEDO鱼雷3,NUCLEAR核4), damage伤害系数,你懂的 -->
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="2" cid="2" name="空袭2" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="3" cid="3" name="空袭3" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="4" cid="4" name="空袭4" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="5" cid="5" name="空袭5" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="81" cid="81" name="空袭6" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="82" cid="82" name="空袭7" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="308" cid="308" name="空袭8" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+<!--航母连击-->
+	<sample class="foxu.sea.fight.Skill" sid="6" cid="6" name="空袭1d" selectorId="3" type="1" ><!-- selectorId筛子ID,对应上边(0,1,2,3)-->
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/><!-- count=1释放次数,其他默认 -->
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/><!-- attackType=2攻击类型(AIR_RAID空袭0,ARTILLERY炮火1,MISSILE导弹2,TORPEDO鱼雷3,NUCLEAR核4), damage伤害系数,你懂的 -->
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="7" cid="7" name="空袭2d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="8" cid="8" name="空袭3d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="9" cid="9" name="空袭4d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="10" cid="10" name="空袭5d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="83" cid="83" name="空袭6d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="84" cid="84" name="空袭7d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="309" cid="309" name="空袭8d" selectorId="3" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--战列舰普通攻击-->
+	<sample class="foxu.sea.fight.Skill" sid="11" cid="11" name="炮火1" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="12" cid="12" name="炮火2" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="13" cid="13" name="炮火3" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="14" cid="14" name="炮火4" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="15" cid="15" name="炮火5" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="86" cid="86" name="炮火6" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="87" cid="87" name="炮火7" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="318" cid="318" name="炮火8" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--战列舰连击-->
+	<sample class="foxu.sea.fight.Skill" sid="16" cid="16" name="炮火1d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="17" cid="17" name="炮火2d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="18" cid="18" name="炮火3d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="19" cid="19" name="炮火4d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="20" cid="20" name="炮火5d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="88" cid="88" name="炮火6d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="89" cid="89" name="炮火7d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="319" cid="319" name="炮火8d" selectorId="1" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--巡洋舰普通攻击-->
+	<sample class="foxu.sea.fight.Skill" sid="21" cid="21" name="导弹1" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="22" cid="22" name="导弹2" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="23" cid="23" name="导弹3" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="24" cid="24" name="导弹4" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="25" cid="25" name="导弹5" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="91" cid="91" name="导弹6" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="92" cid="92" name="导弹7" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="328" cid="328" name="导弹8" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--巡洋舰连击-->
+	<sample class="foxu.sea.fight.Skill" sid="26" cid="26" name="导弹1d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="27" cid="27" name="导弹2d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="28" cid="28" name="导弹3d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="29" cid="29" name="导弹4d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="30" cid="30" name="导弹5d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="93" cid="93" name="导弹6d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="94" cid="94" name="导弹7d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="329" cid="329" name="导弹8d" selectorId="2" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--潜艇普通攻击-->
+	<sample class="foxu.sea.fight.Skill" sid="31" cid="31" name="鱼雷1" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="32" cid="32" name="鱼雷2" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="33" cid="33" name="鱼雷3" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	
+	<sample class="foxu.sea.fight.Skill" sid="34" cid="34" name="鱼雷4" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="35" cid="35" name="鱼雷5" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="96" cid="96" name="鱼雷6" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="97" cid="97" name="鱼雷7" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="338" cid="338" name="鱼雷8" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+<!--潜艇连击-->
+	<sample class="foxu.sea.fight.Skill" sid="36" cid="36" name="鱼雷1d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="37" cid="37" name="鱼雷2d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="38" cid="38" name="鱼雷3d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	
+	<sample class="foxu.sea.fight.Skill" sid="39" cid="39" name="鱼雷4d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="40" cid="40" name="鱼雷5d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="98" cid="98" name="鱼雷6d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="99" cid="99" name="鱼雷7d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<sample class="foxu.sea.fight.Skill" sid="339" cid="339" name="鱼雷8d" selectorId="0" type="1" >
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalByCombSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="2"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="3" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="41" cid="41" name="核1" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="4" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="42" cid="42" name="核2" selectorId="1" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="4" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="43" cid="43" name="核3" selectorId="2" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="4" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+
+	<sample class="foxu.sea.fight.Skill" sid="44" cid="44" name="核4" selectorId="3" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" range="4" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="4" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	<sample class="foxu.sea.fight.Skill" sid="51" cid="51" name="城防炮火1" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="1" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="61" cid="61" name="城防导弹2" selectorId="0" type="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="2" damage="1" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="71" cid="71" name="城防空袭3" selectorId="0" type="1"><!-- selectorId筛子ID,对应上边(0,1,2,3)-->
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.NormalSpread" sid="0" action="0" targetTeam="0" formulaType="0" count="1"/><!-- count=1释放次数,其他默认 -->
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.AttackEffect" attackType="0" damage="1" sid="0"/><!-- attackType=2攻击类型(AIR_RAID空袭0,ARTILLERY炮火1,MISSILE导弹2,TORPEDO鱼雷3,NUCLEAR核4), damage伤害系数,你懂的 -->
+			</objs>
+		</field>
+	</sample>
+
+<!--精准-->
+	<sample class="foxu.sea.fight.Skill" sid="101" name="精准" attributeType="102" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+		 <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--干扰-->
+	<sample class="foxu.sea.fight.Skill" sid="102" name="干扰" attributeType="103" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--暴击-->
+	<sample class="foxu.sea.fight.Skill" sid="103" name="暴击" attributeType="106" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--坚韧-->
+	<sample class="foxu.sea.fight.Skill" sid="104" name="坚韧" attributeType="107" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64,128</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--火炮指挥-->
+	<sample class="foxu.sea.fight.Skill" sid="105" name="火炮指挥" attributeType="100" >
+		<field name="skillBaseType" declared="1">
+            <ints>1</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--鱼雷指挥-->
+	<sample class="foxu.sea.fight.Skill" sid="106" name="鱼雷指挥" attributeType="100" >
+		<field name="skillBaseType" declared="1">
+            <ints>2</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--导弹指挥-->
+	<sample class="foxu.sea.fight.Skill" sid="107" name="导弹指挥" attributeType="100" >
+		<field name="skillBaseType" declared="1">
+            <ints>4</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--空袭指挥-->
+	<sample class="foxu.sea.fight.Skill" sid="108" name="空袭指挥" attributeType="100" >
+		<field name="skillBaseType" declared="1">
+            <ints>8</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--战列舰维护-->
+	<sample class="foxu.sea.fight.Skill" sid="109" name="战列舰维护" attributeType="108" >
+		<field name="skillBaseType" declared="1">
+            <ints>1</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--潜艇维护-->
+	<sample class="foxu.sea.fight.Skill" sid="110" name="潜艇维护" attributeType="108" >
+		<field name="skillBaseType" declared="1">
+            <ints>2</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+	
+<!--巡洋舰维护-->
+	<sample class="foxu.sea.fight.Skill" sid="111" name="巡洋舰维护" attributeType="108" >
+		<field name="skillBaseType" declared="1">
+            <ints>4</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--航母维护-->
+	<sample class="foxu.sea.fight.Skill" sid="112" name="航母维护" attributeType="108" >
+		<field name="skillBaseType" declared="1">
+            <ints>8</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--运输舰维护-->
+	<sample class="foxu.sea.fight.Skill" sid="113" name="运输舰维护" attributeType="108" >
+		<field name="skillBaseType" declared="1">
+            <ints>128</ints>
+        </field>
+	     <field name="needPropNum" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!-- BUFF道具 增加伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="300" cid="301" name="高爆炸药" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="20" hurtTime="4" sid="0"/><!-- attackType=2攻击类型(AIR_RAID空袭0,ARTILLERY炮火1,MISSILE导弹2,TORPEDO鱼雷3,NUCLEAR核4), damage伤害系数,你懂的 -->
+			</objs>
+		</field>
+	</sample>
+	
+<!-- BUFF道具 减少伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="301" cid="300" name="离子盾" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-20" hurtTime="16" sid="0"/><!-- attackType=2攻击类型(AIR_RAID空袭0,ARTILLERY炮火1,MISSILE导弹2,TORPEDO鱼雷3,NUCLEAR核4), damage伤害系数,你懂的 -->
+			</objs>
+		</field>
+	</sample>
+	
+	<!-- BUFF道具 增加命中 -->
+	<sample class="foxu.sea.fight.Skill" sid="302" cid="302" name="精准增强" type="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="20" changeAttr="102" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<!-- BUFF道具 增加闪避 -->
+	<sample class="foxu.sea.fight.Skill" sid="303" cid="303" name="干扰增强" type="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="20" changeAttr="103" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<!-- BUFF道具 增加暴击 -->
+	<sample class="foxu.sea.fight.Skill" sid="304" cid="304" name="暴击增强" type="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="20" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<!-- BUFF道具 增加坚韧 -->
+	<sample class="foxu.sea.fight.Skill" sid="305" cid="305" name="坚韧增强" type="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="20" changeAttr="107" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	
+<!-- 光环技能，战列舰1，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="201" cid="1" name="伤害加强光环1" type="8" level="1">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="5" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，战列舰2，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="202" cid="1" name="伤害加强光环2" type="8" level="2">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="10" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，战列舰3，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="203" cid="1" name="伤害加强光环3" type="8" level="3">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="15" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，战列舰4，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="204" cid="1" name="伤害加强光环4" type="8" level="4">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="20" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，战列舰5，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="205" cid="1" name="伤害加强光环5" type="8" level="5">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="25" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，战列舰6，全体伤害增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="206" cid="1" name="伤害加强光环6" type="8" level="6">
+		<field name="suppress" declared="1">
+			<ints>1</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>1</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="30" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+<!-- 光环技能，潜艇1，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="211" cid="2" name="暴击光环1" type="8" level="1">
+		<field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="5" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，潜艇2，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="212" cid="2" name="暴击光环2" type="8" level="2">
+		<field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="10" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，潜艇3，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="213" cid="2" name="暴击光环3" type="8" level="3">
+		 <field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="15" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，潜艇4，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="214" cid="2" name="暴击光环4" type="8" level="4">
+		<field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="20" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，潜艇5，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="215" cid="2" name="暴击光环5" type="8" level="5">
+		<field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="25" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，潜艇6，全体暴击增加 -->
+	<sample class="foxu.sea.fight.Skill" sid="216" cid="2" name="暴击光环6" type="8" level="6">
+		<field name="suppress" declared="1">
+			<ints>2</ints>
+		</field> 
+		<field name="resist" declared="1">
+			<ints>2</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="30" changeAttr="106" valueType="2" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，巡洋舰1，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="221" cid="3" name="减少鱼雷伤害光环1" type="8" level="1">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-5" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，巡洋舰2，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="222" cid="3" name="减少鱼雷伤害光环2" type="8" level="2">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-10" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，巡洋舰3，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="223" cid="3" name="减少鱼雷伤害光环3" type="8" level="3">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-15" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，巡洋舰4，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="224" cid="3" name="减少鱼雷伤害光环4" type="8" level="4">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，巡洋舰5，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="225" cid="3" name="减少鱼雷伤害光环5" type="8" level="5">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-25" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 光环技能，巡洋舰6，减少全体承受伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="226" cid="3" name="减少鱼雷伤害光环6" type="8" level="6">
+		<field name="suppress" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>3</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="-30" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母1，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="231" cid="4" name="减少空袭伤害光环1" type="8" level="1">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-5" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母2，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="232" cid="4" name="减少空袭伤害光环2" type="8" level="2">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-10" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母3，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="233" cid="4" name="减少空袭伤害光环3" type="8" level="3">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-15" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母4，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="234" cid="4" name="减少空袭伤害光环4" type="8" level="4">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母5，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="235" cid="4" name="减少空袭伤害光环5" type="8" level="5">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-25" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+ <!-- 光环技能，航母5，减少全体受空袭伤害 -->
+	<sample class="foxu.sea.fight.Skill" sid="236" cid="4" name="减少空袭伤害光环6" type="8" level="6">
+		<field name="suppress" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="resist" declared="1">
+			<ints>4</ints>
+		</field>
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0" targetTeam="1"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-30" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!-- 联盟精英使用道具 -->
+	<sample class="foxu.sea.fight.Skill" sid="411" cid="411" name="脉冲炸弹" type="8" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ControlEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="412" cid="412" name="空中支援" type="8" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.PercentChangeEffect" enable="false" attrType="105" effectValue="-10" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="413" cid="413" name="武器破坏" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2500" touchOffTime="5">
+			    <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+					<field name="abilitySid" declared="1">
+						<ints>414</ints>
+					</field>
+				</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="414" cid="414" name="武器破坏" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>414</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>414</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtOnceEffect" hurtPrecent="-20" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="415" cid="415" name="破甲弹" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3500" touchOffTime="5">
+			    <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+					<field name="abilitySid" declared="1">
+						<ints>416</ints>
+					</field>
+				</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="416" cid="416" name="破甲弹 " type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>416</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>416</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtOnceEffect" hurtPrecent="20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="417" cid="417" name="脉冲炸弹" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="1000" touchOffTime="5">
+			    <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+					<field name="abilitySid" declared="1">
+						<ints>418</ints>
+					</field>
+				</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="418" cid="418" name="脉冲炸弹" type="4" usefulTime="0">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>418</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>418</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ControlOnceEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="419" cid="419" name="燃烧弹" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="1000" touchOffTime="14"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			    <sample class="foxu.sea.fight.AddIntervalHurtEffect" value="-8" sid="0">
+					<field name="abilitySid" declared="1">
+						<ints>420</ints>
+					</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="420" cid="420" name="燃烧弹" type="4" usefulTime="3">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>420</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>420</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.IntervalDelayChangeEffect" attrType="105" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+<!--—————	新增军官技能燃烧弹 脉冲炸弹同理 —————————-->
+
+	
+	<sample class="foxu.sea.fight.Skill" sid="421" cid="421" name="军官燃烧弹" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="1500" touchOffTime="14"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			    <sample class="foxu.sea.fight.AddIntervalHurtEffect" value="-8" sid="0">
+					<field name="abilitySid" declared="1">
+						<ints>420</ints>
+					</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+
+<!--————————————————————————————————————————————————————————————————联盟技能————————————————————————————————————————————————————————————————-->
+<!--联盟技能——精准-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="501" name="联盟技能——精准" attributeType="102" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+		 <field name="experience" declared="1">
+            <ints>40,80,120,160,200,240,280,320,360,400,440,480,520,560,600,640,680,720,760,800,840,880,920,960,1000,1040,1080,1120,1160,1200,1240,1280,1320,1360,1400,1440,1480,1520,1560,1600,1640,1680,1720,1760,1800,1840,1880,1920,1960,2000,2040,2080,2120,2160,2200,2240,2280,2320,2360,2400,2640,3120,3840,4800,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——干扰-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="502" name="联盟技能——干扰" attributeType="103" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+	     <field name="experience" declared="1">
+            <ints>20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680,700,720,740,760,780,800,820,840,860,880,900,920,940,960,980,1000,1020,1040,1060,1080,1100,1120,1140,1160,1180,1200,1680,2400,3360,4560,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——暴击-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="503" name="联盟技能——暴击" attributeType="106" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+	     <field name="experience" declared="1">
+            <ints>20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680,700,720,740,760,780,800,820,840,860,880,900,920,940,960,980,1000,1020,1040,1060,1080,1100,1120,1140,1160,1180,1200,1680,2400,3360,4560,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——坚韧-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="504" name="联盟技能——坚韧" attributeType="107" >
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64,128</ints>
+        </field>
+	     <field name="experience" declared="1">
+            <ints>20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680,700,720,740,760,780,800,820,840,860,880,900,920,940,960,980,1000,1020,1040,1060,1080,1100,1120,1140,1160,1180,1200,1680,2400,3360,4560,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——连击——战列舰-->
+<sample class="foxu.sea.fight.ContainerAbility" sid="505" name="火炮d" allianceSkill="true" shipType="1">
+	     <field name="experience" declared="1">
+            <ints>100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6600,7800,9600,12000,15000,18600,22800,27600,33000,39000,44700,50100,55200,60000,64500,68700,72600,76200,79500,82500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10001,16,10002,17,10003,18,10004,19,10005,20,10006,88,10007,89,10008,319</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6100,6200,6300,6400,6500,6600,6700,6800,6900,7000,7100,7200,7300,7400,7500,7600,7700,7800,7900,8000</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——连击——潜艇-->	
+	<sample class="foxu.sea.fight.ContainerAbility" sid="506" name="鱼雷d" allianceSkill="true" shipType="2">
+	     <field name="experience" declared="1">
+            <ints>80,160,240,320,400,480,560,640,720,800,880,960,1040,1120,1200,1280,1360,1440,1520,1600,1680,1760,1840,1920,2000,2080,2160,2240,2320,2400,2480,2560,2640,2720,2800,2880,2960,3040,3120,3200,3280,3360,3440,3520,3600,3680,3760,3840,3920,4000,4080,4160,4240,4320,4400,4480,4560,4640,4720,4800,5280,6240,7680,9600,12000,14880,18240,22080,26400,31200,35760,40080,44160,48000,51600,54960,58080,60960,63600,66000</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10011,36,10012,37,10013,38,10014,39,10015,40,10016,98,10017,99,10018,339</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6100,6200,6300,6400,6500,6600,6700,6800,6900,7000,7100,7200,7300,7400,7500,7600,7700,7800,7900,8000</ints>
+        </field>
+	</sample>
+	
+<!--联盟技能——连击——巡洋舰-->
+	<sample class="foxu.sea.fight.ContainerAbility" sid="507" name="导弹d" allianceSkill="true" shipType="4">
+	     <field name="experience" declared="1">
+            <ints>60,120,180,240,300,360,420,480,540,600,660,720,780,840,900,960,1020,1080,1140,1200,1260,1320,1380,1440,1500,1560,1620,1680,1740,1800,1860,1920,1980,2040,2100,2160,2220,2280,2340,2400,2460,2520,2580,2640,2700,2760,2820,2880,2940,3000,3060,3120,3180,3240,3300,3360,3420,3480,3540,3600,4320,5520,7200,9360,12000,14880,18240,22080,26400,31200,35760,40080,44160,48000,51600,54960,58080,60960,63600,66000</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10021,26,10022,27,10023,28,10024,29,10025,30,10026,93,10027,94,10028,329</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6100,6200,6300,6400,6500,6600,6700,6800,6900,7000,7100,7200,7300,7400,7500,7600,7700,7800,7900,8000</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——连击——航母-->
+	<sample class="foxu.sea.fight.ContainerAbility" sid="508" name="空袭d" allianceSkill="true" shipType="8">
+	     <field name="experience" declared="1">
+            <ints>100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6600,7800,9600,12000,15000,18600,22800,27600,33000,39000,44700,50100,55200,60000,64500,68700,72600,76200,79500,82500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10031,6,10032,7,10033,8,10034,9,10035,10,10036,83,10037,84,10038,309</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000,5100,5200,5300,5400,5500,5600,5700,5800,5900,6000,6100,6200,6300,6400,6500,6600,6700,6800,6900,7000,7100,7200,7300,7400,7500,7600,7700,7800,7900,8000</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——城防——加攻击-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="509" name="城防加攻击" attributeType="100" defenceSkill="true">
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64</ints>
+        </field>
+	     <field name="experience" declared="1">
+            <ints>40,80,120,160,200,240,280,320,360,400,440,480,520,560,600,640,680,720,760,800,840,880,920,960,1000,1040,1080,1120,1160,1200,1240,1280,1320,1360,1400,1440,1480,1520,1560,1600,1640,1680,1720,1760,1800,1840,1880,1920,1960,2000,2040,2080,2120,2160,2200,2240,2280,2320,2360,2400,2640,3120,3840,4800,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——城防——加生命-->
+	<sample class="foxu.sea.fight.AllianceSkill" sid="510" name="城防加生命" attributeType="108" defenceSkill="true">
+		<field name="skillBaseType" declared="1">
+            <ints>1,2,4,8,16,32,64,128</ints>
+        </field>
+	     <field name="experience" declared="1">
+            <ints>40,80,120,160,200,240,280,320,360,400,440,480,520,560,600,640,680,720,760,800,840,880,920,960,1000,1040,1080,1120,1160,1200,1240,1280,1320,1360,1400,1440,1480,1520,1560,1600,1640,1680,1720,1760,1800,1840,1880,1920,1960,2000,2040,2080,2120,2160,2200,2240,2280,2320,2360,2400,2640,3120,3840,4800,6000,7440,9120,11040,13200,15600,17880,20040,22080,24000,25800,27480,29040,30480,31800,33000</ints>
+        </field>
+		<field name="value" declared="1">
+            <ints>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80</ints>
+        </field>
+	</sample>
+
+
+<!--联盟技能——反连击——战列舰-->
+<sample class="foxu.sea.fight.ContainerAbility" sid="521" name="火炮d" allianceSkill="true" shipType="1" isEffectEnemySkill="true">
+	     <field name="experience" declared="1">
+            <ints>1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2200,2400,2600,2800,3000,3200,3400,3600,3800,4000,4200,4400,4600,4800,5000,5200,5400,5600,5800,6000,6200,6400,6600,6800,7000,7200,7400,7600,7800,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500,13000,13500,14000,14500,15000,15500,16000,16500,17000,17500,18000,18500,19000,19500,20000,20500,21000,21500,22000,22500,23000,23500,24000,24500,25000,25500,26000,26500,27000,27500,28000,28500,29000,29500,30000,30500,31000,31500,32000,32500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10001,505,10002,505,10003,505,10004,505,10005,505,10006,505,10007,505,10008,505</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3950,4000</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——反连击——潜艇-->	
+	<sample class="foxu.sea.fight.ContainerAbility" sid="522" name="鱼雷d" allianceSkill="true" shipType="2" isEffectEnemySkill="true">
+	     <field name="experience" declared="1">
+            <ints>1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2200,2400,2600,2800,3000,3200,3400,3600,3800,4000,4200,4400,4600,4800,5000,5200,5400,5600,5800,6000,6200,6400,6600,6800,7000,7200,7400,7600,7800,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500,13000,13500,14000,14500,15000,15500,16000,16500,17000,17500,18000,18500,19000,19500,20000,20500,21000,21500,22000,22500,23000,23500,24000,24500,25000,25500,26000,26500,27000,27500,28000,28500,29000,29500,30000,30500,31000,31500,32000,32500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10011,506,10012,506,10013,506,10014,506,10015,506,10016,506,10017,506,10018,506</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3950,4000</ints>
+        </field>
+	</sample>
+	
+<!--联盟技能——反连击——巡洋舰-->
+	<sample class="foxu.sea.fight.ContainerAbility" sid="523" name="导弹d" allianceSkill="true" shipType="4" isEffectEnemySkill="true">
+	     <field name="experience" declared="1">
+            <ints>1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2200,2400,2600,2800,3000,3200,3400,3600,3800,4000,4200,4400,4600,4800,5000,5200,5400,5600,5800,6000,6200,6400,6600,6800,7000,7200,7400,7600,7800,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500,13000,13500,14000,14500,15000,15500,16000,16500,17000,17500,18000,18500,19000,19500,20000,20500,21000,21500,22000,22500,23000,23500,24000,24500,25000,25500,26000,26500,27000,27500,28000,28500,29000,29500,30000,30500,31000,31500,32000,32500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10021,507,10022,507,10023,507,10024,507,10025,507,10026,507,10027,507,10028,507</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3950,4000</ints>
+        </field>
+	</sample>
+
+<!--联盟技能——反连击——航母-->
+	<sample class="foxu.sea.fight.ContainerAbility" sid="524" name="空袭d" allianceSkill="true" shipType="8" isEffectEnemySkill="true">
+	     <field name="experience" declared="1">
+            <ints>1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2200,2400,2600,2800,3000,3200,3400,3600,3800,4000,4200,4400,4600,4800,5000,5200,5400,5600,5800,6000,6200,6400,6600,6800,7000,7200,7400,7600,7800,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500,13000,13500,14000,14500,15000,15500,16000,16500,17000,17500,18000,18500,19000,19500,20000,20500,21000,21500,22000,22500,23000,23500,24000,24500,25000,25500,26000,26500,27000,27500,28000,28500,29000,29500,30000,30500,31000,31500,32000,32500</ints>
+        </field>
+		<field name="shipAbilityList" declared="1">
+            <ints>10031,508,10032,508,10033,508,10034,508,10035,508,10036,508,10037,508,10038,508</ints>
+        </field>
+        <field name="probability" declared="1">
+            <ints>0,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3950,4000</ints>
+        </field>
+	</sample>
+
+<!--————————————————————————————————————————————————————————————————世界boss技能————————————————————————————————————————————————————————————————-->
+<!-- 世界boss空中支援 -->
+	<sample class="foxu.sea.fight.Skill" sid="601" cid="601" name="空中支援" type="8" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.PercentChangeEffect" enable="false" attrType="105" effectValue="-0.5" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 光环技能，备选，下同 -->
+	<sample class="foxu.sea.fight.Skill" sid="401" cid="202" name="增加精准" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="10" changeAttr="102" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="402" cid="203" name="增加回避" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="10" changeAttr="103" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="403" cid="204" name="增加暴击" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="10" changeAttr="106" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="404" cid="205" name="增加暴击抵抗" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeAttributeEffect" effectValue="10" changeAttr="107" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="405" cid="206" name="减少火炮伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="1" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="406" cid="207" name="减少空袭伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="0" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="407" cid="208" name="减少炮火伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="1" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="408" cid="209" name="减少导弹伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="2" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="409" cid="210" name="减少鱼雷伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ChangeHurtByShipEffect" attackType="3" hurtPrecent="-20" hurtTime="16" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="410" cid="211" name="增加伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="20" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+
+	<sample class="foxu.sea.fight.Skill" sid="1000" cid="1000" name="(联盟号角)增加伤害" type="8">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtPrecent="20" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+<sample class="foxu.sea.fight.Skill" sid="1001" cid="1001" name="年兽狂暴" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.RoundActiveSpread" sid="0" mustHit="true" transTime="2" targetRound="3" occurProbability="10000" touchOffTime="13"/>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtValue="2000000000" hurtTime="4" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+			<!-- 	20001	30%概率发动一次攻击，命中后提高自身坚韧50%，持续1回合 -->
+	<sample class="foxu.sea.fight.Skill" sid="20001" cid="20001" name="触发攻击后提高韧性" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20101</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20101" cid="20101" name="触发攻击后提高韧性" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20201</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20201" cid="20201" name="提高韧性技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20201</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" toughness="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	<!--—————	20002 		50%概率造成150%的伤害（只发动1次）  —————————-->
+			<sample class="foxu.sea.fight.Skill" sid="20002" cid="20002" name="50%概率造成150%的伤害  次数限制(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" touchOffLimitNum="1" occurProbability="5000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="50"  sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+	<!--—————	20003 		20%概率造成110%的伤害 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20003" cid="20003" name="20%概率造成110%的伤害(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="10"  sid="0"/>
+			</objs>
+			</field>
+	</sample>
+	
+	<!--—————	20004 		20%概率发动一次攻击，50%概率造成命中目标燃烧，每回合损失当前生命3%，持续2回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20004" cid="20004" name="发动军官燃烧弹（扣除百分比）" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20104</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20104" cid="20104" name="击中时触发军官燃烧弹（扣除百分比）" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20204</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20204" cid="20204" name="军官燃烧弹（扣除百分比）" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20204,20213,20219</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.PercentIntervalChangeEffect" effectValue="-3" attrType="105" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+	<!--—————	20005 		20%概率发动一次攻击，50%概率造成命中目标瘫痪，持续1回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20005" cid="20005" name="瘫痪" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20105</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20105" cid="20105" name="瘫痪" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="1500" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20205</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20205" cid="20205" name="瘫痪" type="4" usefulTime="0">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>411</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20205,20212,20220,20239</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ControlOnceEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+		<!--—————	20006 	敌方生命 低于30%时，40%概率发动，造成150%的伤害    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20006" cid="20006" name="20006 敌方生命 低于30%时，30%概率发动，造成150%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" targetHpPrecent ="30"  occurProbability="4000" touchOffTime="15">
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20007 	20%概率发动一次攻击，攻击后提高自身暴击50%，持续2回合    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20007" cid="20007" name="20007 20%概率发动一次攻击，攻击后提高自身暴击50%，持续2回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20107</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20107" cid="20107" name="触发攻击后提高暴击" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20207</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20207" cid="20207" name="提高暴击技能的效果" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20207</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" crit="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20008 	己方生命 低于20%时，40%概率发动，造成150%的伤害    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20008" cid="20008" name="20008 己方生命 低于20%时，40%概率发动，造成150%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" sourceHpPrecent ="20"   occurProbability="4000" touchOffTime="15">
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	<!--—————	20009		60%概率造成170%的伤害（只发动1次）  —————————-->
+			<sample class="foxu.sea.fight.Skill" sid="20009" cid="20009" name="60%概率造成170%的伤害（只发动1次）(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" touchOffLimitNum="1" occurProbability="6000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="70"  sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+	<!--—————	20010		30%概率发动一次攻击，攻击后提高自身坚韧100%，持续1回合  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20010" cid="20010" name="触发攻击后提高韧性" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20110</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20110" cid="20110" name="触发攻击后提高韧性" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20210</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20210" cid="20210" name="提高韧性技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20210</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" toughness="100" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20011 		30%概率造成120%的伤害 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20011" cid="20011" name="30%概率造成120%的伤害(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="20"  sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+
+	<!--—————	20012 		30%概率发动一次攻击，50%概率造成命中目标瘫痪，持续1回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20012" cid="20012" name="瘫痪" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20112</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20112" cid="20112" name="瘫痪" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20212</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20212" cid="20212" name="瘫痪" type="4" usefulTime="0">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>411</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20205,20212,20220,20239</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ControlOnceEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20013 		30%概率发动一次攻击，50%概率造成命中目标燃烧，每回合损失当前生命5%，持续2回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20013" cid="20013" name="发动军官燃烧弹（扣除百分比）" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20113</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20113" cid="20113" name="击中时触发军官燃烧弹（扣除百分比）" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20213</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20213" cid="20213" name="军官燃烧弹（扣除百分比）" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20204,20213,20219</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.PercentIntervalChangeEffect" effectValue="-5" attrType="105" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20014 	敌方生命 低于40%时，50%概率发动，造成160%的伤害    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20014" cid="20014" name="20014 敌方生命 低于40%时，40%概率发动，造成160%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" targetHpPrecent ="40"  occurProbability="4000" touchOffTime="15">
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="60" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20015 	30%概率发动一次攻击，攻击后提高自身暴击100%，持续2回合    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20015" cid="20015" name="20015 30%概率发动一次攻击，攻击后提高自身暴击100%，持续2回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20115</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20115" cid="20115" name="触发攻击后提高暴击" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20215</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20215" cid="20215" name="提高暴击技能的效果" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20215</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" crit="100" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20016 	己方生命 低于30%时，50%概率发动，造成160%的伤害    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20016" cid="20016" name="己方生命 低于30%时，50%概率发动，造成160%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" sourceHpPrecent ="30"   occurProbability="5000" touchOffTime="15">
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="60" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20017 	敌方生命 低于50%时，60%概率发动，造成180%的伤害    —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20017" cid="20017" name="20017 敌方生命 低于50%时，60%概率发动，造成180%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" targetHpPrecent ="50"  occurProbability="6000" touchOffTime="15">
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="80" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20018 	40%概率造成150%的伤害，这个攻击无法闪避  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20018" cid="20018" name="20018 40%概率造成150%的伤害，这个攻击无法闪避(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="50" mustHit="true" sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+	<!--—————	20019 		40%概率发动一次攻击，50%概率造成命中目标燃烧，每回合损失当前生命10%，持续3回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20019" cid="20019" name="发动军官燃烧弹（扣除百分比）" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20119</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20119" cid="20119" name="击中时触发军官燃烧弹（扣除百分比）" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20219</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20219" cid="20219" name="军官燃烧弹（扣除百分比）" type="4" usefulTime="3">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20204,20213,20219</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.PercentIntervalChangeEffect" effectValue="-10" attrType="105" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+	
+
+	
+	<!--—————	20020 		40%概率发动一次攻击，25%概率造成命中目标瘫痪，持续1回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20020" cid="20020" name="瘫痪" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20120</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20120" cid="20120" name="瘫痪" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20220</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20220" cid="20220" name="瘫痪" type="4" usefulTime="0">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>411</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20205,20212,20220,20239</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ControlOnceEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20021 	30%概率发动一次攻击，生命 低于30%的目标会受到120%的伤害   生命：单个坑位的   —————————-->
+	
+	<sample class="foxu.sea.fight.Skill" sid="20021" cid="20021" name="30%概率发动一次攻击，生命 低于30%的目标会受到120%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20121</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20121" cid="20121" name="根据状态条件判断是否增伤" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20121</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtTime ="4" targetHpPrecent="30" hurtPrecent="20" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20022 	20%概率发动一次攻击，攻击后提高自身命中50%，持续2回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20022" cid="20022" name="20022 20%概率发动一次攻击，攻击后提高自身命中50%，持续2回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20122</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20122" cid="20122" name="触发攻击后提高命中" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20222</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20222" cid="20222" name="提高命中技能的效果" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20222</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hit="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+	<!--—————	20023 	20%概率发动一次攻击，攻击后提高自身闪避50%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20023" cid="20023" name="20023 20%概率发动一次攻击，攻击后提高自身闪避50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20123</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20123" cid="20123" name="触发攻击后提高闪避" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20223</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20223" cid="20223" name="提高闪避技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20223</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" dodge="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20024 	20%概率发动一次攻击，攻击后提高自身减伤50%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20024" cid="20024" name="20024 20%概率发动一次攻击，攻击后提高自身减伤50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20124</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20124" cid="20124" name="触发攻击后提高减伤" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20224</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20224" cid="20224" name="减伤技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20224</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" hurtResistancePercent="50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+	<!--—————	20025	30%概率发动一次攻击，50%的概率降低命中目标命中50%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20025" cid="20025" name="20025 30%概率发动一次攻击，5%的概率降低命中目标命中50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20125</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20125" cid="20125" name="发动攻击后降低目标命中" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20225</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20225" cid="20225" name="减少命中技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hit="-50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<!--—————	20026 	30%概率发动一次攻击，生命 低于40%的目标会受到130%的伤害   生命：单个坑位的   —————————-->
+	
+	<sample class="foxu.sea.fight.Skill" sid="20026" cid="20026" name="20026 30%概率发动一次攻击，生命 低于40%的目标会受到130%的伤害" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20126</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20126" cid="20126" name="根据状态条件判断是否增伤" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20126</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtEffect" hurtTime ="4" targetHpPrecent="40" hurtPrecent="30" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20027 	30%概率发动一次攻击，攻击后提高自身减伤70%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20027" cid="20027" name="20027 30%概率发动一次攻击，攻击后提高自身减伤70%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20127</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20127" cid="20127" name="触发攻击后提高减伤" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20227</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20227" cid="20227" name="减伤技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20227</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" hurtResistancePercent="70" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20028 	30%概率发动一次攻击，攻击后50%概率降低目标闪避50%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20028" cid="20028" name="20028 30%概率发动一次攻击，攻击后50%概率降低目标闪避50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="3000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20128</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20128" cid="20128" name="发动攻击后降低闪避" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20228</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20228" cid="20228" name="降低闪避技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" dodge="-50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20029	40%概率发动一次攻击，50%的概率降低命中目标命中50%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20029" cid="20029" name="20029 40%概率发动一次攻击，50%的概率降低命中目标命中50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20129</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20129" cid="20129" name="发动攻击后降低目标命中" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20229</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20229" cid="20229" name="减少命中技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hit="-50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20030		80%概率造成200%的伤害（只发动1次）  —————————-->
+			<sample class="foxu.sea.fight.Skill" sid="20030" cid="20030" name="20030 80%概率造成200%的伤害（只发动1次）(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" touchOffLimitNum="1" occurProbability="8000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="100"  sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+
+
+	<!--—————	20031 	40%概率发动一次攻击，攻击后提高自身攻击150%，持续2回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20031" cid="20031" name="20031 40%概率发动一次攻击，攻击后提高自身攻击150%，持续2回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20131</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20131" cid="20131" name="触发攻击后提高攻击" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20231</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20231" cid="20231" name="提高攻击技能的效果" type="4" usefulTime="2">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20231</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hurtPercent="150" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+	<!--—————	20032 	40%概率发动一次攻击，攻击后提高自身闪避100%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20032" cid="20032" name="20032 40%概率发动一次攻击，攻击后提高自身闪避100%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20132</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20132" cid="20132" name="触发攻击后提高闪避" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20232</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20232" cid="20232" name="提高闪避技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20232</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" dodge="100" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+		<!--—————	20033 	40%概率造成170%的伤害，这个攻击无法闪避  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20033" cid="20033" name="20033 40%概率造成170%的伤害，这个攻击无法闪避(只计算一次概率 独立增伤) OFFtime=15 特殊技能"  type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="70" mustHit="true" sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+		<!--—————	20034 	40%概率发动一次攻击，50%的概率造成命中目标武器破坏，攻击减少50%，持续1回合（负面效果只同时存在1种）  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20034" cid="20034" name="20034 40%概率发动一次攻击，50%的概率造成命中目标武器破坏，攻击减少50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20134</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20134" cid="20134" name="发动攻击后降低目标伤害" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20234</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20234" cid="20234" name="减少伤害技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hurtPercent="-50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+		<!--—————	20035 	40%概率发动一次攻击，50%的概率造成命中目标护甲破坏，受到伤害增加50%，持续1回合（负面效果只同时存在1种）  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20035" cid="20035" name="20035 40%概率发动一次攻击，50%的概率造成命中目标护甲破坏，受到伤害增加50%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20135</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20135" cid="20135" name="发动攻击后目标增加受到的伤害" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20235</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20235" cid="20235" name="目标增加受到的伤害" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" hurtResistancePercent="-50" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+		<!--—————	20036 	40%概率发动一次攻击，攻击后提高自身减伤80%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20036" cid="20036" name="20036 40%概率发动一次攻击，攻击后提高自身减伤80%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="4000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20136</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20136" cid="20136" name="触发攻击后提高减伤" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="17" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20236</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20236" cid="20236" name="减伤技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20236</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" hurtResistancePercent="80" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+
+
+		<!--—————	20037 	50%概率造成180%的伤害，这个攻击无法闪避  —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20037" cid="20037" name="20037 50%概率造成180%的伤害，这个攻击无法闪避(只计算一次概率 独立增伤) OFFtime=15 特殊技能" type="4">
+			<field name="spreads" declared="1">
+				<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="15">
+				</sample>
+			</field>
+			<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.fight.ChangeHurtBuffEffect" touchOffTime="1" hurtPrecent="80" mustHit="true" sid="0"/>
+			</objs>
+			</field>
+	</sample>
+
+	<!--—————	20038	50%概率发动一次攻击，70%的概率降低命中目标命中99%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20038" cid="20038" name="20038 50%概率发动一次攻击，70%的概率降低命中目标命中99%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20138</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20138" cid="20138" name="发动攻击后降低目标命中" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="7000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20238</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20238" cid="20238" name="减少命中技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="15" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddAttBaseAttributeEffect" hit="-99" sid="0" />
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<!--—————	20039 		50%概率发动一次攻击，50%概率造成命中目标瘫痪，持续1回合 —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20039" cid="20039" name="瘫痪" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20139</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20139" cid="20139" name="瘫痪" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="2500" touchOffTime="5">
+				 <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20239</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20239" cid="20239" name="瘫痪" type="4" usefulTime="0">
+		<field name="spreads" declared="1">
+			<sample class="foxu.fight.StateSpead" sid="0"/>
+		</field>
+		<field name="resist" declared="1">
+			<ints>411</ints>
+		</field>
+		<field name="clean" declared="1">
+			<ints>20205,20212,20220,20239</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.ControlOnceEffect" controlType="15" sid="0"/>
+			</objs>
+		</field>
+	</sample>
+
+	<!--—————	20040 	50%概率发动一次攻击，攻击后80%概率降低目标闪避99%，持续1回合   —————————-->
+	<sample class="foxu.sea.fight.Skill" sid="20040" cid="20040" name="20040 50%概率发动一次攻击，攻击后80%概率降低目标闪避99%，持续1回合" type="4">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="5000" touchOffTime="15" />
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+				<sample class="foxu.sea.fight.AddAbilityEffectForSource" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20140</ints>
+						</field>
+				</sample>
+			</objs>
+		</field>
+	</sample>
+	
+	
+	<sample class="foxu.sea.fight.Skill" sid="20140" cid="20140" name="发动攻击后降低闪避" type="4" usefulTime="-1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="8000" touchOffTime="5" >
+				  <field name="effect" declared="1">
+			        <sample class="foxu.sea.fight.AddAbilityEffect" sid="0">
+						<field name="abilitySid" declared="1">
+							<ints>20240</ints>
+						</field>
+					</sample>
+			    </field>
+			</sample>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">
+			</objs>
+		</field>
+	</sample>
+	
+	<sample class="foxu.sea.fight.Skill" sid="20240" cid="20240" name="降低闪避技能的效果" type="4" usefulTime="1">
+		<field name="spreads" declared="1">
+			<sample class="foxu.sea.fight.TouchOffUsedEffectSpread" sid="0" occurProbability="10000" touchOffTime="16" />
+		</field>
+		<field name="clean" declared="1">
+			<ints>20225,20228,20229,20234,20235,20238,20240</ints>
+		</field>
+		<field name="effects" declared="1">
+			<objs class="foxu.fight.Effect">	
+				<sample class="foxu.sea.fight.AddDefBaseAttributeEffect" dodge="-99" sid="0" />
+			</objs>
+		</field>
+	</sample>
+
+</objects>

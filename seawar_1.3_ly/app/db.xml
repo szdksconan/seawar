@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+<!-- 配置数据库连接管理器 -->
+<obj class="mustang.orm.ConnectionManager" id="connectionManager">
+	<!-- 取出连接属性 -->
+	<method name="getProperties" id="__properties"/>
+	<!-- 设置连接的账号和密码 -->
+	<method ref="__properties" name="put"><string>user</string><ref id="dbUSR"/></method>
+	<method ref="__properties" name="put"><string>password</string><ref id="dbPWD"/></method>
+	<!-- JDBC驱动 -->
+	<method name="setDriver">com.mysql.jdbc.Driver</method>
+	<!-- 数据库地址 -->
+	<method name="setURL"><ref id="dbIP"/></method>
+	<!-- 字符编码方式（可以不设置，默认为java的字符编码方式） -->
+	<method name="setCharacterEncoding">utf8</method>
+	<!-- 初始连接数（可以不设置，默认为2） -->
+	<method name="setInitSize">20</method>
+	<!-- 最大连接数（可以不设置，默认为20） -->
+	<method name="setMaxSize">200</method>
+	<!-- 连接的超时时间（可以不设置，默认为180000毫秒－3分钟） -->
+	<method name="setTimeout">180000</method>
+	<!-- 连接的最大使用次数（可以不设置，默认为0－表示无限使用） -->
+	<method name="setMaxUsedCount">20000</method>
+	<!-- 取出连接时是否先判断连接可用（可以不设置，默认为true） -->
+	<method name="setCheck">true</method>
+	<!-- 连接是否自动提交事务（可以不设置，默认为true） -->
+	<method name="setAutoCommit">true</method>
+	<!-- 初始化数据库连接管理器 -->
+	<method name="init"/>
+</obj>
+
+<!-- 配置数据库连接管理器 -->
+<obj class="mustang.orm.ConnectionManager" id="logConnectionManager">
+	<!-- 取出连接属性 -->
+	<method name="getProperties" id="__properties"/>
+	<!-- 设置连接的账号和密码 -->
+	<method ref="__properties" name="put"><string>user</string><ref id="dbUSR"/></method>
+	<method ref="__properties" name="put"><string>password</string><ref id="dbPWD"/></method>
+	<!-- JDBC驱动 -->
+	<method name="setDriver">com.mysql.jdbc.Driver</method>
+	<!-- 数据库地址 -->
+	<method name="setURL"><ref id="logdbIP"/></method>
+	<!-- 字符编码方式（可以不设置，默认为java的字符编码方式） -->
+	<method name="setCharacterEncoding">utf8</method>
+	<!-- 初始连接数（可以不设置，默认为2） -->
+	<method name="setInitSize">20</method>
+	<!-- 最大连接数（可以不设置，默认为20） -->
+	<method name="setMaxSize">200</method>
+	<!-- 连接的超时时间（可以不设置，默认为180000毫秒－3分钟） -->
+	<method name="setTimeout">180000</method>
+	<!-- 连接的最大使用次数（可以不设置，默认为0－表示无限使用） -->
+	<method name="setMaxUsedCount">20000</method>
+	<!-- 取出连接时是否先判断连接可用（可以不设置，默认为true） -->
+	<method name="setCheck">true</method>
+	<!-- 连接是否自动提交事务（可以不设置，默认为true） -->
+	<method name="setAutoCommit">false</method>
+	<!-- 初始化数据库连接管理器 -->
+	<method name="init"/>
+</obj>
+
+</objects>

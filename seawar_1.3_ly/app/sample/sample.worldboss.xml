@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.worldboss.WorldBoss" name="factory" id="worldBossFactory" />
+    <method ref="worldBossFactory" name="init">
+        
+        <ref id="context" />
+    
+    </method>
+
+
+    <sample sid="1" class="foxu.sea.worldboss.WorldBoss" />
+    <sample sid="13001" class="foxu.sea.worldboss.WorldBoss" bossLevel="1" fix="True" flushTime="21600" protectTimeConfig="600" killAwardSid="65001">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30211,21,0,0,30212,21,1,0,30213,21,2,0,30214,21,3,0,30215,21,4,0,30216,21,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>14,15,18</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13002" class="foxu.sea.worldboss.WorldBoss" bossLevel="2" fix="True" flushTime="36000" protectTimeConfig="600" killAwardSid="65002">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30221,35,0,0,30222,35,1,0,30223,35,2,0,30224,35,3,0,30225,35,4,0,30226,35,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>21,22,23</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13003" class="foxu.sea.worldboss.WorldBoss" bossLevel="3" fix="True" flushTime="50400" protectTimeConfig="600" killAwardSid="65003">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30231,51,0,0,30232,51,1,0,30233,51,2,0,30234,51,3,0,30235,51,4,0,30236,51,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>24,25,28</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13004" class="foxu.sea.worldboss.WorldBoss" bossLevel="4" fix="True" flushTime="64800" protectTimeConfig="600" killAwardSid="65004">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30241,74,0,0,30242,74,1,0,30243,74,2,0,30244,74,3,0,30245,74,4,0,30246,74,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>31,32,33</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13005" class="foxu.sea.worldboss.WorldBoss" bossLevel="5" fix="True" flushTime="79200" protectTimeConfig="600" killAwardSid="65005">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30251,99,0,0,30252,99,1,0,30253,99,2,0,30254,99,3,0,30255,99,4,0,30256,99,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>34,35,38</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13006" class="foxu.sea.worldboss.WorldBoss" bossLevel="6" fix="True" flushTime="93600" protectTimeConfig="600" killAwardSid="65006">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30261,132,0,0,30262,132,1,0,30263,132,2,0,30264,132,3,0,30265,132,4,0,30266,132,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>41,42,43</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13007" class="foxu.sea.worldboss.WorldBoss" bossLevel="7" fix="True" flushTime="108000" protectTimeConfig="600" killAwardSid="65007">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30271,170,0,0,30272,170,1,0,30273,170,2,0,30274,170,3,0,30275,170,4,0,30276,170,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>44,45,48</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13008" class="foxu.sea.worldboss.WorldBoss" bossLevel="8" fix="True" flushTime="122400" protectTimeConfig="600" killAwardSid="65008">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30281,213,0,0,30282,213,1,0,30283,213,2,0,30284,213,3,0,30285,213,4,0,30286,213,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51,52,53</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13009" class="foxu.sea.worldboss.WorldBoss" bossLevel="9" fix="True" flushTime="136800" protectTimeConfig="600" killAwardSid="65009">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30291,264,0,0,30292,264,1,0,30293,264,2,0,30294,264,3,0,30295,264,4,0,30296,264,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>54,55,58</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13010" class="foxu.sea.worldboss.WorldBoss" bossLevel="10" fix="True" flushTime="151200" protectTimeConfig="600" killAwardSid="65010">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30301,321,0,0,30302,321,1,0,30303,321,2,0,30304,321,3,0,30305,321,4,0,30306,321,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>61,62,63</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13011" class="foxu.sea.worldboss.WorldBoss" bossLevel="11" fix="True" flushTime="158400" protectTimeConfig="600" killAwardSid="65011">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30311,387,0,0,30312,387,1,0,30313,387,2,0,30314,387,3,0,30315,387,4,0,30316,387,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>64,65,66,67,68</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13012" class="foxu.sea.worldboss.WorldBoss" bossLevel="12" fix="True" flushTime="165600" protectTimeConfig="600" killAwardSid="65012">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30321,461,0,0,30322,461,1,0,30323,461,2,0,30324,461,3,0,30325,461,4,0,30326,461,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>69,70,71,72,73</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13013" class="foxu.sea.worldboss.WorldBoss" bossLevel="13" fix="True" flushTime="172800" protectTimeConfig="600" killAwardSid="65013">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30331,542,0,0,30332,542,1,0,30333,542,2,0,30334,542,3,0,30335,542,4,0,30336,542,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>74,75,76,77,78</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13014" class="foxu.sea.worldboss.WorldBoss" bossLevel="14" fix="True" flushTime="180000" protectTimeConfig="600" killAwardSid="65014">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30341,632,0,0,30342,632,1,0,30343,632,2,0,30344,632,3,0,30345,632,4,0,30346,632,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>79,80,81,82,83</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13015" class="foxu.sea.worldboss.WorldBoss" bossLevel="15" fix="True" flushTime="187200" protectTimeConfig="600" killAwardSid="65015">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30351,729,0,0,30352,729,1,0,30353,729,2,0,30354,729,3,0,30355,729,4,0,30356,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>84,85,86,87,88</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13016" class="foxu.sea.worldboss.WorldBoss" bossLevel="16" fix="True" flushTime="194400" protectTimeConfig="600" killAwardSid="65016">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30361,729,0,0,30362,729,1,0,30363,729,2,0,30364,729,3,0,30365,729,4,0,30366,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>89,90,91,92,93</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13017" class="foxu.sea.worldboss.WorldBoss" bossLevel="17" fix="True" flushTime="201600" protectTimeConfig="600" killAwardSid="65017">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30371,729,0,0,30372,729,1,0,30373,729,2,0,30374,729,3,0,30375,729,4,0,30376,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>94,95,96,97,98</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13018" class="foxu.sea.worldboss.WorldBoss" bossLevel="18" fix="True" flushTime="208800" protectTimeConfig="600" killAwardSid="65018">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30381,729,0,0,30382,729,1,0,30383,729,2,0,30384,729,3,0,30385,729,4,0,30386,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>99,100,101,102,103</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13019" class="foxu.sea.worldboss.WorldBoss" bossLevel="19" fix="True" flushTime="216000" protectTimeConfig="600" killAwardSid="65019">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30391,729,0,0,30392,729,1,0,30393,729,2,0,30394,729,3,0,30395,729,4,0,30396,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>104,105,106,107,108</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13020" class="foxu.sea.worldboss.WorldBoss" bossLevel="20" fix="True" flushTime="223200" protectTimeConfig="600" killAwardSid="65020">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30401,729,0,0,30402,729,1,0,30403,729,2,0,30404,729,3,0,30405,729,4,0,30406,729,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>109,110,111,112,113</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13021" class="foxu.sea.worldboss.WorldBoss" bossLevel="21" fix="True" flushTime="230400" protectTimeConfig="600" killAwardSid="65021">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30411,837,0,0,30412,837,1,0,30413,837,2,0,30414,837,3,0,30415,837,4,0,30416,837,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>114,115,116,117,118</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13022" class="foxu.sea.worldboss.WorldBoss" bossLevel="22" fix="True" flushTime="237600" protectTimeConfig="600" killAwardSid="65022">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30421,954,0,0,30422,954,1,0,30423,954,2,0,30424,954,3,0,30425,954,4,0,30426,954,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>119,120,121,122,123</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13023" class="foxu.sea.worldboss.WorldBoss" bossLevel="23" fix="True" flushTime="244800" protectTimeConfig="600" killAwardSid="65023">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30431,1080,0,0,30432,1080,1,0,30433,1080,2,0,30434,1080,3,0,30435,1080,4,0,30436,1080,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>124,125,126,127,128</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13024" class="foxu.sea.worldboss.WorldBoss" bossLevel="24" fix="True" flushTime="252000" protectTimeConfig="600" killAwardSid="65024">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30441,1215,0,0,30442,1215,1,0,30443,1215,2,0,30444,1215,3,0,30445,1215,4,0,30446,1215,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>129,130,131,132,133</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13025" class="foxu.sea.worldboss.WorldBoss" bossLevel="25" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65025">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30451,1359,0,0,30452,1359,1,0,30453,1359,2,0,30454,1359,3,0,30455,1359,4,0,30456,1359,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>134,135,136,137,138</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13026" class="foxu.sea.worldboss.WorldBoss" bossLevel="26" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65026">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30461,1512,0,0,30462,1512,1,0,30463,1512,2,0,30464,1512,3,0,30465,1512,4,0,30466,1512,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>139,140,141,142,143</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13027" class="foxu.sea.worldboss.WorldBoss" bossLevel="27" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65027">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30471,1674,0,0,30472,1674,1,0,30473,1674,2,0,30474,1674,3,0,30475,1674,4,0,30476,1674,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>144,145,146,147,148</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13028" class="foxu.sea.worldboss.WorldBoss" bossLevel="28" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65028">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30481,1845,0,0,30482,1845,1,0,30483,1845,2,0,30484,1845,3,0,30485,1845,4,0,30486,1845,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>149,150,151,152,153</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13029" class="foxu.sea.worldboss.WorldBoss" bossLevel="29" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65029">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30491,2025,0,0,30492,2025,1,0,30493,2025,2,0,30494,2025,3,0,30495,2025,4,0,30496,2025,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>154,155,156,157,158</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13030" class="foxu.sea.worldboss.WorldBoss" bossLevel="30" fix="True" flushTime="259200" protectTimeConfig="600" killAwardSid="65030">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>30501,2214,0,0,30502,2214,1,0,30503,2214,2,0,30504,2214,3,0,30505,2214,4,0,30506,2214,5,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>159,160,161,162,163</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13101" class="foxu.sea.worldboss.NianBoss" bossLevel="1">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32691,31,0,0,32692,31,1,0,32693,31,2,0,32694,31,3,0,32695,31,4,0,32696,31,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13102" class="foxu.sea.worldboss.NianBoss" bossLevel="2">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32701,52,0,0,32702,52,1,0,32703,52,2,0,32704,52,3,0,32705,52,4,0,32706,52,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13103" class="foxu.sea.worldboss.NianBoss" bossLevel="3">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32711,76,0,0,32712,76,1,0,32713,76,2,0,32714,76,3,0,32715,76,4,0,32716,76,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13104" class="foxu.sea.worldboss.NianBoss" bossLevel="4">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32721,111,0,0,32722,111,1,0,32723,111,2,0,32724,111,3,0,32725,111,4,0,32726,111,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13105" class="foxu.sea.worldboss.NianBoss" bossLevel="5">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32801,148,0,0,32802,148,1,0,32803,148,2,0,32804,148,3,0,32805,148,4,0,32806,148,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13106" class="foxu.sea.worldboss.NianBoss" bossLevel="6">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32811,198,0,0,32812,198,1,0,32813,198,2,0,32814,198,3,0,32815,198,4,0,32816,198,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13107" class="foxu.sea.worldboss.NianBoss" bossLevel="7">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32821,255,0,0,32822,255,1,0,32823,255,2,0,32824,255,3,0,32825,255,4,0,32826,255,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13108" class="foxu.sea.worldboss.NianBoss" bossLevel="8">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32831,319,0,0,32832,319,1,0,32833,319,2,0,32834,319,3,0,32835,319,4,0,32836,319,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13109" class="foxu.sea.worldboss.NianBoss" bossLevel="9">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32841,396,0,0,32842,396,1,0,32843,396,2,0,32844,396,3,0,32845,396,4,0,32846,396,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13110" class="foxu.sea.worldboss.NianBoss" bossLevel="10">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32851,481,0,0,32852,481,1,0,32853,481,2,0,32854,481,3,0,32855,481,4,0,32856,481,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13111" class="foxu.sea.worldboss.NianBoss" bossLevel="11">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32861,580,0,0,32862,580,1,0,32863,580,2,0,32864,580,3,0,32865,580,4,0,32866,580,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13112" class="foxu.sea.worldboss.NianBoss" bossLevel="12">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32871,691,0,0,32872,691,1,0,32873,691,2,0,32874,691,3,0,32875,691,4,0,32876,691,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13113" class="foxu.sea.worldboss.NianBoss" bossLevel="13">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32881,813,0,0,32882,813,1,0,32883,813,2,0,32884,813,3,0,32885,813,4,0,32886,813,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13114" class="foxu.sea.worldboss.NianBoss" bossLevel="14">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32891,948,0,0,32892,948,1,0,32893,948,2,0,32894,948,3,0,32895,948,4,0,32896,948,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13115" class="foxu.sea.worldboss.NianBoss" bossLevel="15">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32901,1093,0,0,32902,1093,1,0,32903,1093,2,0,32904,1093,3,0,32905,1093,4,0,32906,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13116" class="foxu.sea.worldboss.NianBoss" bossLevel="16">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32911,1093,0,0,32912,1093,1,0,32913,1093,2,0,32914,1093,3,0,32915,1093,4,0,32916,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13117" class="foxu.sea.worldboss.NianBoss" bossLevel="17">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32921,1093,0,0,32922,1093,1,0,32923,1093,2,0,32924,1093,3,0,32925,1093,4,0,32926,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13118" class="foxu.sea.worldboss.NianBoss" bossLevel="18">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32931,1093,0,0,32932,1093,1,0,32933,1093,2,0,32934,1093,3,0,32935,1093,4,0,32936,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13119" class="foxu.sea.worldboss.NianBoss" bossLevel="19">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32941,1093,0,0,32942,1093,1,0,32943,1093,2,0,32944,1093,3,0,32945,1093,4,0,32946,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13120" class="foxu.sea.worldboss.NianBoss" bossLevel="20">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32951,1093,0,0,32952,1093,1,0,32953,1093,2,0,32954,1093,3,0,32955,1093,4,0,32956,1093,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13121" class="foxu.sea.worldboss.NianBoss" bossLevel="21">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32961,1255,0,0,32962,1255,1,0,32963,1255,2,0,32964,1255,3,0,32965,1255,4,0,32966,1255,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13122" class="foxu.sea.worldboss.NianBoss" bossLevel="22">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32971,1431,0,0,32972,1431,1,0,32973,1431,2,0,32974,1431,3,0,32975,1431,4,0,32976,1431,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13123" class="foxu.sea.worldboss.NianBoss" bossLevel="23">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32981,1620,0,0,32982,1620,1,0,32983,1620,2,0,32984,1620,3,0,32985,1620,4,0,32986,1620,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13124" class="foxu.sea.worldboss.NianBoss" bossLevel="24">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>32991,1822,0,0,32992,1822,1,0,32993,1822,2,0,32994,1822,3,0,32995,1822,4,0,32996,1822,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13125" class="foxu.sea.worldboss.NianBoss" bossLevel="25">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33001,2038,0,0,33002,2038,1,0,33003,2038,2,0,33004,2038,3,0,33005,2038,4,0,33006,2038,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13126" class="foxu.sea.worldboss.NianBoss" bossLevel="26">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33011,2268,0,0,33012,2268,1,0,33013,2268,2,0,33014,2268,3,0,33015,2268,4,0,33016,2268,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13127" class="foxu.sea.worldboss.NianBoss" bossLevel="27">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33021,2511,0,0,33022,2511,1,0,33023,2511,2,0,33024,2511,3,0,33025,2511,4,0,33026,2511,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13128" class="foxu.sea.worldboss.NianBoss" bossLevel="28">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33031,2767,0,0,33032,2767,1,0,33033,2767,2,0,33034,2767,3,0,33035,2767,4,0,33036,2767,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13129" class="foxu.sea.worldboss.NianBoss" bossLevel="29">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33041,3037,0,0,33042,3037,1,0,33043,3037,2,0,33044,3037,3,0,33045,3037,4,0,33046,3037,5,0</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="13130" class="foxu.sea.worldboss.NianBoss" bossLevel="30">
+        <field name="fleetGroupCfg" declared="1">
+            <ints>33051,3321,0,0,33052,3321,1,0,33053,3321,2,0,33054,3321,3,0,33055,3321,4,0,33056,3321,5,0</ints>
+        </field>
+    </sample>
+
+
+</objects>

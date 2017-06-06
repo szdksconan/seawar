@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<field class="foxu.sea.order.Order" name="factory" id="orderFactory"/>
+	<method ref="orderFactory" name="init"><ref id="context"/></method>
+	
+	<!-- 一般定价 -->
+	<sample class="foxu.sea.order.Order" sid="1" money="6" usdMoney="0.99" gems="50"></sample>
+	<sample class="foxu.sea.order.Order" sid="2" money="18" usdMoney="2.99" gems="160"></sample>
+	<sample class="foxu.sea.order.Order" sid="3" money="50" usdMoney="7.99" gems="460"></sample>
+	<sample class="foxu.sea.order.Order" sid="4" money="98" usdMoney="14.99" gems="960"></sample>
+	<sample class="foxu.sea.order.Order" sid="5" money="328" usdMoney="49.99" gems="3420"></sample>
+	<sample class="foxu.sea.order.Order" sid="6" money="648" usdMoney="99.99" gems="8400"></sample>
+	<sample class="foxu.sea.order.MouthOrder" sid="7" money="25" usdMoney="3.99" ></sample>
+	
+	<!-- google定价 -->
+	<sample class="foxu.sea.order.Order" sid="11" money="6" usdMoney="0.99" gems="50"></sample>
+	<sample class="foxu.sea.order.Order" sid="12" money="18" usdMoney="2.99" gems="160"></sample>
+	<sample class="foxu.sea.order.Order" sid="13" money="50" usdMoney="7.99" gems="460"></sample>
+	<sample class="foxu.sea.order.Order" sid="14" money="98" usdMoney="14.99" gems="960"></sample>
+	<sample class="foxu.sea.order.Order" sid="15" money="328" usdMoney="49.99" gems="3420"></sample>
+	<sample class="foxu.sea.order.Order" sid="16" money="648" usdMoney="99.99" gems="8400"></sample>
+	<sample class="foxu.sea.order.MouthOrder" sid="17" money="25" usdMoney="3.99" ></sample>
+	
+	<!-- tstore定价 -->
+	<sample class="foxu.sea.order.Order" sid="21" money="6" usdMoney="0.99" gems="50"></sample>
+	<sample class="foxu.sea.order.Order" sid="22" money="18" usdMoney="2.99" gems="160"></sample>
+	<sample class="foxu.sea.order.Order" sid="23" money="50" usdMoney="7.99" gems="460"></sample>
+	<sample class="foxu.sea.order.Order" sid="24" money="98" usdMoney="14.99" gems="960"></sample>
+	<sample class="foxu.sea.order.Order" sid="25" money="328" usdMoney="49.99" gems="3420"></sample>
+	<sample class="foxu.sea.order.Order" sid="26" money="648" usdMoney="99.99" gems="8400"></sample>
+	<sample class="foxu.sea.order.MouthOrder" sid="27" money="25" usdMoney="3.99" ></sample>
+	
+	<sample class="foxu.sea.order.Order" sid="88" money="0" gems="0"></sample>
+	
+</objects>

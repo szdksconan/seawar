@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<!-- 跨服中心服务器配置 -->
+	<string id="crossServerIP">192.168.10.222</string>
+	<string id="crossServerPort">7163</string>
+	
+	<field class="foxu.cross.server.CrossServer" name="factory" id="csFactory"/>
+	<method ref="csFactory" name="init"><ref id="context"/></method>
+	
+	<sample class="foxu.cross.server.CrossServer" sid="1" severName="ios_yw" platid="1" areaid="10" severid="10" ip="192.168.10.66" port="7163" platName="plat_yw" areaName="area_yw" national="CN"/>
+	<!--sample class="foxu.cross.server.CrossServer" sid="2" severName="ios_222" platid="3" areaid="6" severid="32" ip="192.168.10.222" port="7163" platName="plat_222" areaName="area_222" national="DE"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="3" severName="ios_lhj" platid="2" areaid="10" severid="10" ip="192.168.10.35" port="7163" platName="plat_lhj" areaName="area_lhj" national="US"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="1" severName="ios_test" platid="1" areaid="100" severid="100" ip="42.121.14.101" port="7163" platName="plat_test" areaName="area_test" national="CN"/-->
+
+	<!--sample class="foxu.cross.server.CrossServer" sid="1" severName="ios_test" platid="1" areaid="100" severid="100" ip="42.121.14.101" port="7163" platName="plat_test" areaName="area_test" national="CN"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="2" severName="ios_test2" platid="2" areaid="6" severid="32" ip="115.29.199.11" port="7263" platName="plat_test2" areaName="area_test2" national="DE"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="3" severName="ios_test3" platid="3" areaid="10" severid="10" ip="115.29.199.11" port="7363" platName="plat_test3" areaName="area_test3" national="CA"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="4" severName="ios_test4" platid="1" areaid="6" severid="32" ip="115.29.199.11" port="7463" platName="plat_test4" areaName="area_test4" national="PH"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="5" severName="ios_test5" platid="2" areaid="10" severid="10" ip="115.29.199.11" port="7563" platName="plat_test5" areaName="area_test5" national="TR"/-->
+	<!--sample class="foxu.cross.server.CrossServer" sid="6" severName="ios_test6" platid="3" areaid="11" severid="32" ip="115.29.199.11" port="7663" platName="plat_test6" areaName="area_test6" national="TW"/-->
+	
+</objects>

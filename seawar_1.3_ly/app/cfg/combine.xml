@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects> 
+	<!--数据库地址-->
+	<String id="dbIP1">jdbc:mysql://localhost/seawar_1</String>
+	<!--数据库地址-->
+	<String id="dbIP2">jdbc:mysql://localhost/seawar_2</String>
+	<!--数据库地址-->
+	<String id="dbIP3">jdbc:mysql://localhost/seawar_3</String>
+	<!-- 配置数据库连接管理器 -->
+	<obj class="mustang.orm.ConnectionManager" id="database1">
+		<!-- 取出连接属性 -->
+		<method name="getProperties" id="__properties"/>
+		<!-- 设置连接的账号和密码 -->
+		<method ref="__properties" name="put"><string>user</string><ref id="dbUSR"/></method>
+		<method ref="__properties" name="put"><string>password</string><ref id="dbPWD"/></method>
+		<!-- JDBC驱动 -->
+		<method name="setDriver">com.mysql.jdbc.Driver</method>
+		<!-- 数据库地址 -->
+		<method name="setURL"><ref id="dbIP1" /></method>
+		<!-- 字符编码方式（可以不设置，默认为java的字符编码方式） -->
+		<method name="setCharacterEncoding">utf8</method>
+		<!-- 初始连接数（可以不设置，默认为2） -->
+		<method name="setInitSize">20</method>
+		<!-- 最大连接数（可以不设置，默认为20） -->
+		<method name="setMaxSize">200</method>
+		<!-- 连接的超时时间（可以不设置，默认为180000毫秒－3分钟） -->
+		<method name="setTimeout">180000</method>
+		<!-- 连接的最大使用次数（可以不设置，默认为0－表示无限使用） -->
+		<method name="setMaxUsedCount">20000</method>
+		<!-- 取出连接时是否先判断连接可用（可以不设置，默认为true） -->
+		<method name="setCheck">true</method>
+		<!-- 连接是否自动提交事务（可以不设置，默认为true） -->
+		<method name="setAutoCommit">true</method>
+		<!-- 初始化数据库连接管理器 -->
+		<method name="init"/>
+	</obj>
+	<!-- 配置数据库连接管理器 -->
+	<obj class="mustang.orm.ConnectionManager" id="database2">
+		<!-- 取出连接属性 -->
+		<method name="getProperties" id="__properties"/>
+		<!-- 设置连接的账号和密码 -->
+		<method ref="__properties" name="put"><string>user</string><ref id="dbUSR"/></method>
+		<method ref="__properties" name="put"><string>password</string><ref id="dbPWD"/></method>
+		<!-- JDBC驱动 -->
+		<method name="setDriver">com.mysql.jdbc.Driver</method>
+		<!-- 数据库地址 -->
+		<method name="setURL"><ref id="dbIP2" /></method>
+		<!-- 字符编码方式（可以不设置，默认为java的字符编码方式） -->
+		<method name="setCharacterEncoding">utf8</method>
+		<!-- 初始连接数（可以不设置，默认为2） -->
+		<method name="setInitSize">20</method>
+		<!-- 最大连接数（可以不设置，默认为20） -->
+		<method name="setMaxSize">200</method>
+		<!-- 连接的超时时间（可以不设置，默认为180000毫秒－3分钟） -->
+		<method name="setTimeout">180000</method>
+		<!-- 连接的最大使用次数（可以不设置，默认为0－表示无限使用） -->
+		<method name="setMaxUsedCount">20000</method>
+		<!-- 取出连接时是否先判断连接可用（可以不设置，默认为true） -->
+		<method name="setCheck">true</method>
+		<!-- 连接是否自动提交事务（可以不设置，默认为true） -->
+		<method name="setAutoCommit">true</method>
+		<!-- 初始化数据库连接管理器 -->
+		<method name="init"/>
+	</obj>
+	<!-- 配置数据库连接管理器 -->
+	<obj class="mustang.orm.ConnectionManager" id="database3">
+		<!-- 取出连接属性 -->
+		<method name="getProperties" id="__properties"/>
+		<!-- 设置连接的账号和密码 -->
+		<method ref="__properties" name="put"><string>user</string><ref id="dbUSR"/></method>
+		<method ref="__properties" name="put"><string>password</string><ref id="dbPWD"/></method>
+		<!-- JDBC驱动 -->
+		<method name="setDriver">com.mysql.jdbc.Driver</method>
+		<!-- 数据库地址 -->
+		<method name="setURL"><ref id="dbIP3" /></method>
+		<!-- 字符编码方式（可以不设置，默认为java的字符编码方式） -->
+		<method name="setCharacterEncoding">utf8</method>
+		<!-- 初始连接数（可以不设置，默认为2） -->
+		<method name="setInitSize">20</method>
+		<!-- 最大连接数（可以不设置，默认为20） -->
+		<method name="setMaxSize">200</method>
+		<!-- 连接的超时时间（可以不设置，默认为180000毫秒－3分钟） -->
+		<method name="setTimeout">180000</method>
+		<!-- 连接的最大使用次数（可以不设置，默认为0－表示无限使用） -->
+		<method name="setMaxUsedCount">20000</method>
+		<!-- 取出连接时是否先判断连接可用（可以不设置，默认为true） -->
+		<method name="setCheck">true</method>
+		<!-- 连接是否自动提交事务（可以不设置，默认为true） -->
+		<method name="setAutoCommit">true</method>
+		<!-- 初始化数据库连接管理器 -->
+		<method name="init"/>
+	</obj>
+	
+	<!-- 服务器信息 -->
+	<obj class="foxu.combine.Server" id="server1">
+		<method name="setConnectionManager">
+			<ref id="database1" />
+		</method>
+		<method name="setNameSuffix">.S1</method>
+	</obj>
+	<obj class="foxu.combine.Server" id="server2">
+		<method name="setConnectionManager">
+			<ref id="database2" />
+		</method>
+		<method name="setNameSuffix">.S2</method>
+	</obj>
+	<obj class="foxu.combine.Server" id="server3">
+		<method name="setConnectionManager">
+			<ref id="database3" />
+		</method>
+	</obj>
+	
+	<!-- 合服管理器 -->
+	<obj class="foxu.combine.CombineManager" id="combineManager">
+		<method name="setServer1"><ref id="server1" /></method>
+		<method name="setServer2"><ref id="server2" /></method>
+		<method name="setServer3"><ref id="server3" /></method>
+		<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+		<method name="setAllianceFightManager"><ref id="allianceFightManager" /></method>
+	</obj>
+	
+	<!-- 玩家数据表 -->
+	<obj class="foxu.combine.tables.PlayerTable" id="playerTable">
+		<method name="setTableName">players</method>
+		<method name="setDBAccess"><ref id="playerGameDBAccess" /></method>
+		<method name="setRemoveTime">604800</method>
+		<method name="setRemoveLevel">10</method>
+	</obj>
+	<!-- 账号数据表 -->
+	<obj class="foxu.combine.tables.UserTable" id="userTable">
+		<method name="setTableName">users</method>
+		<method name="setDBAccess"><ref id="userGameDBAccess" /></method>
+		<method name="setPlayerTable"><ref id="playerTable" /></method>
+	</obj>
+	<!-- 联盟数据表 -->
+	<obj class="foxu.combine.tables.AllianceTable" id="allianceTable">
+		<method name="setTableName">alliances</method>
+		<method name="setDBAccess"><ref id="allianceDBAccess" /></method>
+	</obj>
+	<!-- 联盟超级舰队数据表 -->
+	<obj class="foxu.combine.tables.AllianceFightTable" id="allianceFightTable">
+		<method name="setTableName">alliancefight</method>
+		<method name="setDBAccess"><ref id="allianceFightDBAccess" /></method>
+	</obj>
+	<!-- 联盟超级舰队数据表 -->
+	<obj class="foxu.combine.tables.MessageTable" id="messageTable">
+		<method name="setTableName">messages</method>
+		<method name="setDBAccess"><ref id="messageGameDBAccess" /></method>
+	</obj>
+	<method name="setAllianceTable" ref="playerTable"><ref id="allianceFightTable" /></method>
+	<method name="setUserTable" ref="playerTable"><ref id="userTable" /></method>
+	<!-- 角色表 -->
+	<method name="addTable" ref="combineManager"><ref id="playerTable" /></method>
+	
+	<!-- 用户表 -->
+	<method name="addTable" ref="combineManager"><ref id="userTable" /></method>
+	
+	<!-- 联盟表 -->
+	<method name="addTable" ref="combineManager"><ref id="allianceTable" /></method>
+	
+	<!-- 联盟超级舰队表 -->
+	<method name="addTable" ref="combineManager"><ref id="allianceFightTable" /></method>
+	
+	<!-- 邮件表 -->
+	<method name="addTable" ref="combineManager"><ref id="messageTable" /></method>
+	
+	
+	<!-- GM工具合服数据预处理 500 -->
+	<method name="addOperator" ref="gmManager">
+		<string>precombine</string>
+		<value type="int">500</value>
+		<obj class="foxu.sea.gm.operators.PreprocessCombine" >
+			<method name="setCombineManager">
+				<ref id="combineManager" />
+			</method>
+		</obj>
+	</method>
+	
+</objects>

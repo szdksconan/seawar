@@ -1,0 +1,902 @@
+﻿plunder resources=Beschikbare grondstoffen
+metal=Ijzer
+oil=Olie
+silicon=Silicium
+uranium=Uranium
+money=Goud
+
+#岛屿名字=#岛屿名字
+world_island_1=Ijzermijn Eiland
+world_island_2=Oliebron gebied
+world_island_3=Silicium Mijn Eiland
+world_island_4=Uranium Mijn Eiland
+world_island_5=Scheepswrak
+
+
+#服务器名字=#服务器名字
+server_name_taiwan_001=Traditioneel Chinees001
+server_name_taiwan_002=Traditioneel Chinees002
+server_name_cn_001=Vereenvoudigd Chinees001
+server_name_cn_002=Vereenvoudigd Chinees002
+#邀请相关=#邀请相关
+the invetid is=Deze ID genodigde behoort niet tot de server
+inveted is wrong=Genodigde ID is fout
+
+
+game_name=Empire Warfare
+game_name1=Ocean Force
+
+
+
+be_attack_npc_island_push=Vloot van speler % naar %(%) garnizoen door u (%). Geef bestelling zo spoedig mogelijk door.
+be_attack_self_island_push=Vloot van speler % naar je basis (%). Geef bestelling direct.
+
+#绑定账号错误=#绑定账号错误
+account is have=De account bestaat al
+user_count_full=Je hebt zeker de %%% gebruiken het apparaat. Je kan niet inloggen met een gast account
+
+#邀请=#邀请
+system_mail=Systeem email
+invite_new_one_title=% joined
+invite_new_one_content=Uw vriend % heeft zich aangesloten bij de Empire - Warships en je wint een award voor uitnodigen-Uranium erts cadeautas en 15 Edelstenen, neem zo snel mogelijk contact met hem op om samen tegen de vijand te vechten!
+
+be_invite_new_one_title=Welkom bij Naval Age!
+be_invite_new_one_content=Welkom bij Empire Vloot en je vriend % vecht een bloedige veldslag. Je wordt beloond met 10 Edelstenen en 1 vredesvlag. Neem snel contact met hem op om de vijand te bestrijden.
+
+#系统公告=#系统公告
+player_type_up=Gefeliciteerd!% upgrade naar %
+player_type_2=Korporaal
+player_type_3=Sergeant
+player_type_4=Sergeant-Majoor
+player_type_5=Adjudant Onderofficier
+player_type_6=2e Luitenant
+player_type_7=Junior luitenant
+player_type_8=Luitenant
+player_type_9=Luitenant Commander
+player_type_10=Commander
+player_type_11=Kapitein
+player_type_12=Commandeur
+player_type_13=Rear Admiraal
+player_type_14=Vice Admiraal
+player_type_15=Admiraal
+player_type_16=Maarschalk
+player_type_17=Krijgsheer
+
+
+
+attack_island_prop=% aangevallen % Lv.%,heeft gewonnen % ,Gefeliciteerd!
+attack_checkpoint=% heeft gewonnen % in het checkpoint gevecht, Gefeliciteerd!
+prop_use_tips=Gefeliciteerd! % gebruik % om %*% te ontvangen!
+success_check_point=% Vecht dapper en versla alle vijanden neer van "%".
+success_check_10016=Hoofdstuk 1: Gevangenis Uitbraak
+success_check_10032=Hoofdstuk 2: De Buitenpost
+success_check_10048=Hoofdstuk 3: Ijzeren Gigant
+success_check_10064=Hoofdstuk 4: Zwart Gouden Eiland
+success_check_10080=Hoofdstuk 5: Pacific Vloot
+success_check_10096=Hoofdstuk 6: Kristallen Fabriek
+success_check_10112=Hoofdstuk 7: Industriële Stad
+success_check_10128=Hoofdstuk 8: De Mijn des Doods
+success_check_10144=Hoofdstuk 9: Bron van het Kwaad
+success_check_10160=Hoofdstuk 10: Bewakers van de Hoofdstad
+success_check_10176=Hoofdstuk 11: Finale in de Hoofdstad
+success_check_10192=Hoofdstuk 12: De Achtervolging
+success_check_10208=Hoofdstuk 13: Gevangenis Eiland
+success_check_10224=Chapter 14: Chaos Seaway
+success_check_10240=Chapter 15: The Freeport
+success_check_10256=Hoofdstuk 16: Noord-zee baai
+success_check_10272=Hoofdstuk 17: De grote waterweg 
+
+#统御=#统御
+commander_level_up=Gefeliciteerd! % Heeft een upgrade Leiderschap tot Lv.%.
+
+#联盟=#联盟
+alliance_system_title=Systeem  Opmerking
+alliance_refuse_content=Uw Alliance aanvraag is afgewezen!
+alliance_be_kick_content=% heeft je uit de alliantie gezet!
+
+#服务器维护=#服务器维护
+server_is_not_open=Server in onderhoud.Please probeer het later opnieuw.
+
+
+
+#联盟等级提升=#联盟等级提升
+alliance_level_up=Gefeliciteerd! % (Alliantie) is opgewaardeerd naar Lv.%.
+#购买效验错误=#购买效验错误
+buy gems fail=Aankoop is mislukt, verwijdert u de jailbreak-software en probeer het opnieuw.
+alliance_gave_value_not_enough=Het vereist % Alliantie contributie om te kunnen claimen.
+lotto_special_prop=Gefeliciteerd! % Heeft % van Lucky Draw ontvangen!
+
+
+boss_came=Wereld Baas (Lv.%) is verschenen op de wereldkaart.
+boss_has_been_killed=Wereld Boss (Lv.%) is verslagen. Alle leden van de top 10 allianties op het doden grafiek zal de beloning ontvangen. De top 1 % Alliantie (Alliantie) zonk % schepen.
+boss_has_been_last_kill=Gefeliciteerd! % Heeft de Baas (Lv.%) verslagen en je ontvangt de beloning voor de eindstrijd.
+boss_taunt=Level % Wereld Baas verscheen in %. Haast je om hem te vernietigen!
+lucky_draw_prop=Gefeliciteerd! % gewonnen % % in Mysterieuze Loterij!
+lucky_draw_prop2=Congratulations! % win % % in Wheel Of Fortune!
+success_hei_check_55001=Chapter 1: Veiled Sea
+success_hei_check_55002=Chapter 2: The Ruins
+success_hei_check_55003=Chapter 3: Ruins of Outer City
+success_hei_check_55004=Chapter 4: Ruins of Inner City
+success_hei_check_55005=Chapter 5: Ruins of Tomb
+success_hei_check_55006=Chapter 6: Ruins of Shrine
+success_hei_check_55007=Chapter 7: Ruins of Temple
+success_hei_check_55008=Chapter 8: Ancient Treasury
+success_hei_check_point=% vecht dapper en versla alle vijanden beneden van "%".
+
+#密码找回=#密码找回
+password_reset_mail_title=Empire Warships system mail.
+password_reset_mail_title1=Empire Warfare system mail.
+password_reset_mail_code=Verification Code
+password_reset_mail_device=DEVICE ID
+password_reset_mail_command=Reset Password
+password_reset_mail_tip=You are resetting the password, if it is not operated by yourself, then you are hacked. Please change your password as soon as possible and keep it safe.
+password_reset_mail_foottip=Please do not reply to this email. 
+password_reset_mail_reg=%YEAR% Empire - Warships
+have geted award=Je hebt de beloning geclaimd.
+boss_taunt_sixhour=Wereld Boss Lv. % Verscheen in %
+boss_taunt_direction=Noord, Zuid, West, Oost, Midden, Noordwest, Noordoost, Zuidwest, Zuidoost
+equip not open=You haven't met the requirements to open the equipment system yet.
+equip not exist=The equipment doesn't exist.
+can not equip=The equipment can't be equipped.
+equip can not level up=The equipment can't increase Exp.
+equip can not feed itself=You cannot consume yourself to improve experience.
+equip can not quality up=This equipment cannot be advanced.
+prop or resource not enough=Insufficent items or resources.
+quality stuff not exist=The material to be advanced doesn't exist.
+stuff can not combine=Not enough gold.
+equip storehouse is full=Equipment Storage is full.
+equip can not sale=Equipment can't be sold.
+lotto_count_limit=You have reached the lotto limit for today.
+annoucement not exist=No announcement
+annoucement is pass=Announcement has expired
+annoucement is erro=Announcement error
+alliance_auto_transfer=% Is momenteel de alliantie leider
+err:propId=Item ID fout
+err:gems=Edelstenen invoerfout
+err:initDat=Beloningsinputfout
+player not buy=De speler heeft nog niet gekocht
+err:not award id=Geen beschikbare beloning ID
+err:Can't get=Niet mogelijk om te claimen
+totalBuyActivity_autoSendReward_mail=Gefeliciteerd! In de % tot % massa oplading-event, \n ontmoet de % massa oplading vereiste. \n zal ontvangen: 
+gems=Edelstenen
+totalBuyActivity_autoSendReward_mail_title=Beloningsmelding
+consume_gems_auto_award=Beste [PNAME]: \n, u heeft [COUNT] edelstenen cumulatief geconsumeerd in [START] - [END]. Volgens de [PERCENT] % aandeel, hebben wij [RETURN] edelstenen naar u teruggestuurd, Controleer alstublieft en geniet ervan!
+date_price_off_start=Mysterie shop is geopend
+account is wrong=Email error
+alliance_transfer_last_title=Leider overdracht bericht
+alliance_transfer_last_content=Aangezien je 7 dagen lang niet bent ingelogd geweest en hiermee de alliantie management verwaarloosd hebt, heeft het systeem % als de nieuwe alliantie leider aangewezen. Jij bent nu de vice-leider van de alliantie. 
+alliance_transfer_next_title=Alliantie leider overdracht bericht
+alliance_transfer_next_content=Aangezien % 7 dagen lang niet ingelogd is geweest en hiermee de alliantie management heeft verwaarloosd, ben jij nu door het systeem aangewezen als nieuwe alliantie leider. Hopelijk kun jij de alliantie naar een glorieus nieuw hoofdstuk brengen. 
+new_alliance_title=Alliantie bericht
+new_alliance_content=Gefeliciteerd! Je hebt met succes % gecreëerd Werf snel breid je alliantie uit. \n\n Opmerking: Als je 7 dagen niet ingelogd bent geweest, zal de alliantie leider automatisch omgezet worden in een meer actieve vice-leider van de alliantie. (Als er geen vice-leider is, zal het worden omgezet naar een van de andere alliantieleden)
+dismiss_alliance_title=Alliantie ontslag bericht
+dismiss_alliance_content=Je alliantie is ontslagen op %
+must pay=Voltooi de eerste aankoop alstublieft
+set_fleet=Vernietigde Stad is tijdelijk gesloten voor aanpassingen
+
+
+prop_sid_10001=Lichte Slagschip
+prop_sid_10011=Lichte Onderzeeër
+prop_sid_10021=Lichte Kruiser
+prop_sid_10031=Lichte Vliegdekschip
+prop_sid_10002=Medium Slagschip
+prop_sid_10012=Medium Onderzeeër
+prop_sid_10022=Medium Kruiser
+prop_sid_10032=Medium Vliegdekschip
+prop_sid_10003=Zware Slagschip
+prop_sid_10013=Zware Onderzeeër
+prop_sid_10023=Zware Kruiser
+prop_sid_10033=Zware Vliegdekschip
+prop_sid_10004=Wild Bear Slagschip
+prop_sid_10014=Ghost Onderzeeër
+prop_sid_10024=Raptor Kruiser
+prop_sid_10034=Draken Klif Vliegdekschip
+prop_sid_10005=Barrière Slagschip
+prop_sid_10015=Bleach Onderzeeër
+prop_sid_10025=Aegis Kruizer
+prop_sid_10035=Blade of Empire
+prop_sid_10006=Titanen Slagschip
+prop_sid_10007=Onbevreesde Barrière
+prop_sid_10016=Hades Onderzeeër
+prop_sid_10017=Doom Bleach
+prop_sid_10026=Zeus Kruiser
+prop_sid_10027=Wrath Aegis
+prop_sid_10036=Blade of Ares
+prop_sid_10037=Blade of Flame
+prop_sid_10008=Black Tortoise
+prop_sid_10018=Green Dragon
+prop_sid_10028=White Tiger
+prop_sid_10038=Rosefinch
+
+
+
+
+
+prop_sid_40111=Lichte artillerie
+prop_sid_40112=zware artillerie 
+prop_sid_40113=Aanvalsartillerie
+prop_sid_40114=Thunder artillerie 
+prop_sid_40115=Auroral Artillerie
+prop_sid_40121=Lage frequentie radar 
+prop_sid_40122=Hoge frequentie radar 
+prop_sid_40123=Sterke frequentie radar 
+prop_sid_40124=Array fase radar
+prop_sid_40125=Phantom radar
+prop_sid_40131=Lichte stalen plaat 
+prop_sid_40132=Stalen plaat
+prop_sid_40133=Legeringsplaat
+prop_sid_40134=Nieuwe sterrenplaat
+prop_sid_40135=Heilige plaat
+prop_sid_40141=Windchasing turbine 
+prop_sid_40142=Phantom turbine 
+prop_sid_40143=Drakenturbine
+prop_sid_40144=Void torpedo
+prop_sid_40145=Drakenturbine
+prop_sid_40211=Lichte torpedo
+prop_sid_40212=zware torpedo 
+prop_sid_40213=Aanvalstorpedo
+prop_sid_40214=Thunder torpedo 
+prop_sid_40215=Auroral torpedo
+prop_sid_40221=Lage frequentie sonar 
+prop_sid_40222=Hoge frequentie sonar 
+prop_sid_40223=Sterke frequentie sonar 
+prop_sid_40224=Array fase sonar
+prop_sid_40225=Phantom sonar
+prop_sid_40231=Lichte stalen romp 
+prop_sid_40232=stalen romp 
+prop_sid_40233=Legerings romp
+prop_sid_40234=Nieuwe ster romp 
+prop_sid_40235=Heilige romp 
+prop_sid_40241=Windchasing voortstuwing 
+prop_sid_40242=Phantom voortstuwing 
+prop_sid_40243=Fury voortstuwing 
+prop_sid_40244=void voortstuwing 
+prop_sid_40245=Draken voortstuwing
+prop_sid_40411=Lichte raket
+prop_sid_40412=Zware raket
+prop_sid_40413=Sterke raket
+prop_sid_40414=Thunder raket
+prop_sid_40415=Auroral raket
+prop_sid_40421=Lage frequentie waarschuwing 
+prop_sid_40422=Hoge frequentie waarschuwing 
+prop_sid_40423=Sterke frequentie waarschuwing 
+prop_sid_40424=Array fase waarschuwing
+prop_sid_40425=Phantom waarschuwing
+prop_sid_40431=Lichte stalen romp 
+prop_sid_40432=stalen romp 
+prop_sid_40433=Alloy hull
+prop_sid_40434=New star hull
+prop_sid_40435=Holy hull
+prop_sid_40441=Windchasing motor 
+prop_sid_40442=Phantom motor 
+prop_sid_40443=Fury motor
+prop_sid_40444=Void motor
+prop_sid_40445=Drakenmotor
+prop_sid_40811=Lichte vechter
+prop_sid_40812=Zware vechter
+prop_sid_40813=Sterke vechter
+prop_sid_40814=Thunder vechter 
+prop_sid_40815=auroral vechter 
+prop_sid_40821=Lage frequentie monitor 
+prop_sid_40822=Hoge frequentie monitor 
+prop_sid_40823=Sterke frequentie monitor 
+prop_sid_40824=Array fase monitor
+prop_sid_40825=Phantom monitor
+prop_sid_40831=Lichte stalen dek 
+prop_sid_40832=stalen dek 
+prop_sid_40833=legering dek 
+prop_sid_40834=Nieuwe ster dek 
+prop_sid_40835=Heilige dek 
+prop_sid_40841=Windchasing motorschip motor 
+prop_sid_40842=Phantom motorschip motor 
+prop_sid_40843=Fury motorschip motor 
+prop_sid_40844=Void motorschip motor 
+prop_sid_40845=Drakenmotorschip motor 
+prop_sid_41101=Energie verzamelde module Ⅰ
+prop_sid_41102=Energie verzamelde module Ⅱ
+prop_sid_41103=Energie verzamelde module Ⅲ
+prop_sid_41104=Energie verzamelde module Ⅳ
+prop_sid_41105=Energie verzamelde module Ⅴ 
+prop_sid_41201=Geavanceerde krukas Ⅰ
+prop_sid_41202=Geavanceerde krukas Ⅱ
+prop_sid_41203=Geavanceerde krukas Ⅲ
+prop_sid_41204=Geavanceerde krukas Ⅳ
+
+prop_sid_1=Kleine Ijzeren Staven
+prop_sid_2=Kleine ton Olie
+prop_sid_3=Kleine Silicium Erts
+prop_sid_4=Kleine Uranium Erts
+prop_sid_5=Kleine Stapel Goud
+prop_sid_6=Grote Ijzeren Staven
+prop_sid_7=Grote Ton Olie
+prop_sid_8=Grote Silicium Erts
+prop_sid_9=Grote Uranium Erts
+prop_sid_10=Grote stapel Goud
+prop_sid_11=Eremedaille pakket
+prop_sid_12=Beginner grondstoffen pakket
+prop_sid_13=Grote Grondstoffen Torso
+prop_sid_14=Te Grote Grondstoffen Torso
+prop_sid_15=Extra Grote Grondstoffen Torso
+prop_sid_16=Extra Grote Grondstoffen Torso
+prop_sid_17=Snellere Groei Torso
+prop_sid_18=Snelle Groei Torso
+prop_sid_19=Snelle Groei Torso
+prop_sid_400=Kleine Uranium Torso
+prop_sid_401=Grote Uranium Torso
+prop_sid_402=Bonus Box
+prop_sid_403=Kleine Leiderschaps pakket
+prop_sid_404=Grote Leiderschaps pakket
+prop_sid_405=Ijzeren Torso
+prop_sid_406=Olie Torso
+prop_sid_407=Silicium Torso
+prop_sid_408=Grote Ijzeren Torso
+prop_sid_409=Grote Olie Torso
+prop_sid_410=Grote Silicium Torso
+prop_sid_411=Grote Eerbewijs Medaille Pakket
+prop_sid_412=Gas Turbine Manifest
+prop_sid_413=Fusie Machinerie Manifest
+prop_sid_414=Power Machinerie Manifest
+prop_sid_415=Precisie Machinerie Manifest
+prop_sid_416=Stapel Sterrenrotsen
+prop_sid_417=Container Sterrenrotsen
+prop_sid_418=Xmas Torso
+prop_sid_419=Bundel Sterrenrotsen
+prop_sid_420=Uranium Manifest 5
+prop_sid_501=Ijzer Exploitatie
+prop_sid_502=Olie Exploitatie
+prop_sid_503=Silicium Exploitatie
+prop_sid_504=Uranium Exploitatie
+prop_sid_505=Goud Smelting
+prop_sid_506=Ion Schild
+prop_sid_507=Grote Explosieven
+prop_sid_508=Snelle Mars
+prop_sid_509=Vredesvlag
+prop_sid_1001=Energie Reagens
+prop_sid_1002=Energiedrank
+prop_sid_1003=Exp Boek
+prop_sid_1004=Reputatie Boek
+prop_sid_1005=Migratie Token
+prop_sid_1006=Geavanceerde Migratie Token
+prop_sid_2001=Luchtondersteuning
+prop_sid_2002=EMP Bom
+prop_sid_510=Lazergeleide
+prop_sid_511=Rookgordijn
+prop_sid_512=Verarmd Uranium Bom
+prop_sid_513=Reactief Harnas
+prop_sid_2007=C98 Gas Turbine
+prop_sid_2008=Fusion Kern
+prop_sid_2009=Sterrenrots
+prop_sid_2010=Super Edelstenen Torso
+prop_sid_2011=Zeer grote Edelstenen Torso
+prop_sid_2012=Grote Edelstenen Torso
+prop_sid_2013=Kleine Edelstenen Torso
+prop_sid_2014=Zilver VIP kaart
+prop_sid_2015=Gouden VIP kaart
+prop_sid_2016=Diamanten VIP kaart
+prop_sid_2017=Paper 7
+prop_sid_2018=Super snelle verhoging
+prop_sid_2019=Snelle verhoging
+prop_sid_2020=Autoconstruct
+prop_sid_2021=Eerbewijs Medaille
+prop_sid_2022=Leiderschapsboek
+prop_sid_2023=Kleine Uranium Torso
+prop_sid_2024=Kleine Ijzeren Torso
+prop_sid_2025=Kleine Olie Torso
+prop_sid_2026=Kleine Silicium Torso
+prop_sid_2027=Drakenpaard pakket
+prop_sid_2028=Witte Ros Pakket
+prop_sid_403=Kleine Leiderschaps pakket
+prop_sid_2030=Kleine eremedaille pakket
+prop_sid_3001=Kleine Grondstoffen Pakket
+prop_sid_3002=Luxe Nieuwelings Torso
+prop_sid_3003=Keizers Torso
+prop_sid_3004=Bliksemschicht Torso
+prop_sid_3005=Elite Torso
+prop_sid_3006=Vaandel van Vrede Torso
+prop_sid_3007=Elite Raid Torso
+prop_sid_3008=Heftige Strijd Torso
+prop_sid_4001=Opbrengstverhoging Torso
+prop_sid_4002=Uranium Torso
+prop_sid_4003=Goud Torso
+prop_sid_4004=Grote Gouden Torso
+prop_sid_4005=Versie actualiseringspakket
+prop_sid_4006=Lanceer vertragingspakket
+prop_sid_4007=Serverconsolidatie pakket
+prop_sid_4008=Aircraft Carrier Plans 2
+prop_sid_4009=Grote ijzer torso
+prop_sid_4010=Grote olie torso
+prop_sid_4011=Grote silicium torso
+prop_sid_4012=Grote uranium torso
+prop_sid_4013=Grote gouden torso
+prop_sid_4014=Exclusief pakket
+prop_sid_4015=Platinum pakket
+prop_sid_4016=Diamant pakket
+prop_sid_4017=Evenement beloningspakket
+prop_sid_4018=Beloningspakket
+prop_sid_4019=Compensatie pakket
+prop_sid_4020=Retourneren cadeaupakket
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=Zilveren anker
+prop_sid_6002=Gouden anker
+prop_sid_7001=600 Edelstenen pakket
+prop_sid_7002=1250 Edelstenen pakket
+prop_sid_7003=6500 Edelstenen pakket
+prop_sid_7004=13500 Edelstenen pakket
+prop_sid_7011=五仁月饼
+prop_sid_7012=豆沙月饼
+prop_sid_7013=桂花月饼
+prop_sid_3010=Lage materialen pakket
+prop_sid_3011=Midden materialen pakket
+prop_sid_3012=Hoge materialen pakket
+prop_sid_3013=Basis evolutie kist
+prop_sid_3014=Groene accessoire kist
+prop_sid_3015=Blauwe accessoire kist
+prop_sid_3016=Paarse accessoire kist
+prop_sid_3017=Oranje accessoire kist
+prop_sid_3018=Slagschip wapenkist – uitstekend
+prop_sid_3019=Slagschip nauwkeurigheidskist – uitstekend
+prop_sid_3020=Slagschip pantserkist – uitstekend
+prop_sid_3021=Slagschip ontwijkingskist – uitstekend
+prop_sid_3022=Slagschip wapenkist – episch
+prop_sid_3023=Slagschip nauwkeurigheidskist – episch
+prop_sid_3024=Slagschip pantserkist – episch
+prop_sid_3025=Slagschip ontwijkingskist – episch
+prop_sid_3026=Onderzeeër wapenkist – uitstekend
+prop_sid_3027=Onderzeeër nauwkeurigheidskist – uitstekend
+prop_sid_3028=Onderzeeër pantserkist – uitstekend
+prop_sid_3029=Onderzeeër ontwijkingskist – uitstekend
+prop_sid_3030=Onderzeeër wapenkist – episch
+prop_sid_3031=Onderzeeër nauwkeurigheidskist – episch
+prop_sid_3032=Onderzeeër pantserkist – episch
+prop_sid_3033=Onderzeeër ontwijkingskist – episch
+prop_sid_3034=Kruiser wapenkist – uitstekend
+prop_sid_3035=Kruiser nauwkeurigheidskist – uitstekend
+prop_sid_3036=Kruiser pantserkist – uitstekend
+prop_sid_3037=Kruiser ontwijkingskist – uitstekend
+prop_sid_3038=Kruiser wapenkist – episch
+prop_sid_3039=Kruiser nauwkeurigheidskist – episch
+prop_sid_3040=Kruiser pantserkist – episch
+prop_sid_3041=Kruiser ontwijkingskist – episch
+prop_sid_3042=Vliegdekschip wapenkist – uitstekend
+prop_sid_3043=Vliegdekschip nauwkeurigheidskist – uitstekend
+prop_sid_3044=Vliegdekschip pantserkist – uitstekend
+prop_sid_3045=Vliegdekschip ontwijkingskist – uitstekend
+prop_sid_3046=Vliegdekschip wapenkist – episch
+prop_sid_3047=Vliegdekschip nauwkeurigheidskist – episch
+prop_sid_3048=Vliegdekschip pantserkist – episch
+prop_sid_3049=Vliegdekschip ontwijkingskist – episch
+prop_sid_3050=Energie-verzamelde module I kist
+prop_sid_3051=Energie-verzamelde module II kist
+prop_sid_3052=Energie-verzamelde module III kist
+prop_sid_3053=Energie-verzamelde module IV kist
+prop_sid_3054=Energie-verzamelde module V kist
+prop_sid_3055=Energie-verzamelde module I kist
+prop_sid_3056=Energie-verzamelde module II kist
+prop_sid_3057=Energie-verzamelde module III kist
+prop_sid_3058=Energie-verzamelde module IV kist
+prop_sid_3059=Energie-verzamelde module V kist
+prop_sid_3060=Kleine sterrenrots pakket
+prop_sid_3061=Slagschip accessoire kist – episch
+prop_sid_3062=Onderzeeër accessoire kist – episch
+prop_sid_3063=Kruiser accessoire kist – episch
+prop_sid_3064=Vliegdekschip accessoire kist – episch
+prop_sid_3065=Ere-medaille &amp; Sterrenrots kist
+prop_sid_3066=Regressie oorlogsschepen kist
+prop_sid_3067=Vliegdekschip basis accessoire kist
+prop_sid_3068=Kerstmissokken
+prop_sid_3069=Kerstmis cadeau pakket
+prop_sid_8111=Slagschip wapenkist – Wit
+prop_sid_8112=Slagschip wapenkist – Groen
+prop_sid_8113=Slagschip wapenkist – Blauw
+prop_sid_8114=Slagschip wapenkist – Paars
+prop_sid_8115=Slagschip wapenkist – Oranje
+prop_sid_8121=Slagschip nauwkeurigheidskist – Wit
+prop_sid_8122=Slagschip nauwkeurigheidskist – Groen
+prop_sid_8123=Slagschip nauwkeurigheidskist – Blauw
+prop_sid_8124=Slagschip nauwkeurigheidskist – Paars
+prop_sid_8125=Slagschip nauwkeurigheidskist – Oranje
+prop_sid_8131=Slagschip bepantsering kist – Wit
+prop_sid_8132=Slagschip bepantsering kist – Groen
+prop_sid_8133=Slagschip bepantsering kist – Blauw
+prop_sid_8134=Slagschip bepantsering kist – Paars
+prop_sid_8135=Slagschip bepantsering kist – Oranje
+prop_sid_8141=Slagschip ontwijkingskist – Wit
+prop_sid_8142=Slagschip ontwijkingskist – Groen
+prop_sid_8143=Slagschip ontwijkingskist – Blauw
+prop_sid_8144=Slagschip ontwijkingskist – Paars
+prop_sid_8145=Slagschip ontwijkingskist – Oranje
+prop_sid_8211=Onderzeeër wapenkist – Wit
+prop_sid_8212=Onderzeeër wapenkist – Groen
+prop_sid_8213=Onderzeeër wapenkist – Blauw
+prop_sid_8214=Onderzeeër wapenkist – Paars
+prop_sid_8215=Onderzeeër wapenkist – Oranje
+prop_sid_8221=Onderzeeër nauwkeurigheidskist – Wit
+prop_sid_8222=Onderzeeër nauwkeurigheidskist – Groen
+prop_sid_8223=Onderzeeër nauwkeurigheidskist – Blauw
+prop_sid_8224=Onderzeeër nauwkeurigheidskist – Paars
+prop_sid_8225=Onderzeeër nauwkeurigheidskist – Oranje
+prop_sid_8231=Onderzeeër bepantsering kist – Wit
+prop_sid_8232=Onderzeeër bepantsering kist – Groen
+prop_sid_8233=Onderzeeër bepantsering kist – Blauw
+prop_sid_8234=Onderzeeër bepantsering kist – Paars
+prop_sid_8235=Onderzeeër bepantsering kist – Oranje
+prop_sid_8241=Onderzeeër ontwijkingskist – Wit
+prop_sid_8242=Onderzeeër ontwijkingskist – Groen
+prop_sid_8243=Onderzeeër ontwijkingskist – Blauw
+prop_sid_8244=Onderzeeër ontwijkingskist – Paars
+prop_sid_8245=Onderzeeër ontwijkingskist – Oranje
+prop_sid_8311=Kruiser wapenkist – Wit
+prop_sid_8312=Kruiser wapenkist – Groen
+prop_sid_8313=Kruiser wapenkist – Blauw
+prop_sid_8314=Kruiser wapenkist – Paars
+prop_sid_8315=Kruiser wapenkist – Oranje
+prop_sid_8321=Kruiser nauwkeurigheidskist – Wit
+prop_sid_8322=Kruiser nauwkeurigheidskist – Groen
+prop_sid_8323=Kruiser nauwkeurigheidskist – Blauw
+prop_sid_8324=Kruiser nauwkeurigheidskist – Paars
+prop_sid_8325=Kruiser nauwkeurigheidskist – Oranje
+prop_sid_8331=Kruiser bepantsering kist – Wit
+prop_sid_8332=Kruiser bepantsering kist – Groen
+prop_sid_8333=Kruiser bepantsering kist – Blauw
+prop_sid_8334=Kruiser bepantsering kist – Paars
+prop_sid_8335=Kruiser bepantsering kist – Oranje
+prop_sid_8341=Kruiser ontwijkingskist – Wit
+prop_sid_8342=Kruiser ontwijkingskist – Groen
+prop_sid_8343=Kruiser ontwijkingskist – Blauw
+prop_sid_8344=Kruiser ontwijkingskist – Paars
+prop_sid_8345=Kruiser ontwijkingskist – Oranje
+prop_sid_8411=Vliegdekschip wapenkist – Wit
+prop_sid_8412=Vliegdekschip wapenkist – Groen
+prop_sid_8413=Vliegdekschip wapenkist – Blauw
+prop_sid_8414=Vliegdekschip wapenkist – Paars
+prop_sid_8415=Vliegdekschip wapenkist – Oranje
+prop_sid_8421=Vliegdekschip nauwkeurigheidskist – Wit
+prop_sid_8422=Vliegdekschip nauwkeurigheidskist – Groen
+prop_sid_8423=Vliegdekschip nauwkeurigheidskist – Blauw
+prop_sid_8424=Vliegdekschip nauwkeurigheidskist – Paars
+prop_sid_8425=Vliegdekschip nauwkeurigheidskist – Oranje
+prop_sid_8431=Vliegdekschip bepantsering kist – Wit
+prop_sid_8432=Vliegdekschip bepantsering kist – Groen
+prop_sid_8433=Vliegdekschip bepantsering kist – Blauw
+prop_sid_8434=Vliegdekschip bepantsering kist – Paars
+prop_sid_8435=Vliegdekschip bepantsering kist – Oranje
+prop_sid_8441=Vliegdekschip ontwijkingskist – Wit
+prop_sid_8442=Vliegdekschip ontwijkingskist – Groen
+prop_sid_8443=Vliegdekschip ontwijkingskist – Blauw
+prop_sid_8444=Vliegdekschip ontwijkingskist – Paars
+prop_sid_8445=Vliegdekschip ontwijkingskist – Oranje
+prop_sid_900=Verander Naam
+prop_sid_901=Alliantie Naam Verander Kaart
+prop_sid_3070=Rode Envelop
+prop_sid_3071=Nieuw Jaar Rode Envelop
+prop_sid_3072=Nieuw Jaar Rode Envelop
+prop_sid_3073=Nieuw Jaar Kist
+prop_sid_902=Wipe Out Coupon
+prop_sid_3074=privilege gift of queen
+prop_sid_3075=anniversary gift 1
+prop_sid_3076=anniversary gift 2
+prop_sid_3077=anniversary gift 3
+prop_sid_3078=2nd anniversary celebration gift
+prop_sid_3079=premiums voucher
+prop_sid_3080=premiums voucher
+prop_sid_3081=Large Honor Medals Pack
+prop_sid_3082=Low Advanced Chest
+prop_sid_3083=Middle Advanced Chest
+prop_sid_3084=High Advanced Chest
+prop_sid_3085=Bonus Box
+prop_sid_3086=Huge Iron Chest
+prop_sid_3087=Huge Oil Chest
+prop_sid_3088=Huge Silicon Chest
+prop_sid_3089=Huge Gold Chest
+prop_sid_3090=Huge Uranium  Chest
+prop_sid_3091=Novice pack
+prop_sid_3092=VIP novice pack
+prop_sid_3093=Alliance lucky card
+prop_sid_3094=Search certificate
+prop_sid_3095=Liberation Memorial currency
+prop_sid_3096=Primary Insignias chest
+prop_sid_3097=Advanced Insignias chest
+prop_sid_3098=Green Insignias chest
+prop_sid_3099=Blue Insignias chest
+prop_sid_3100=Purple Insignias chest
+prop_sid_3101=Advanced merit certificate
+prop_sid_3102=Intermediate merit certificate
+prop_sid_3103=Primary merit certificate
+prop_sid_3104=Veitch's score chest 
+prop_sid_3105=Gilson's Insignias chest
+prop_sid_3106=Meri's Insignias chest
+prop_sid_3107=Creed's Insignias chest
+prop_sid_3108=Gordon's Insignias chest
+prop_sid_3109=Maher's Insignias chest
+prop_sid_3110=Helen's Insignias chest
+prop_sid_3111=Niemi's Insignias chest
+prop_sid_3112=Karow's Insignias chest
+prop_sid_3113=Chester's Insignias chest
+prop_sid_3114=Yuliya's Insignias chest
+prop_sid_3115=Ramon's Insignias chest
+prop_sid_3116=Carl's Insignias chest
+prop_sid_3117=Denier's Insignias chest
+prop_sid_3118=Tatiana's Insignias chest
+prop_sid_3119=Dion's Insignias chest
+prop_sid_3120=Veitch's Insignias chest
+prop_sid_3121=Marohn's Insignias chest
+prop_sid_3122=Mujdza's Insignias chest
+prop_sid_3123=Bruce's Insignias chest
+prop_sid_3124=Kossoff's Insignias chest
+prop_sid_3125=General summoning Insignias chest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliya
+prop_sid_60011=Ramon 
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Gilson's Insignia
+prop_sid_61002=Meri's Insignia
+prop_sid_61003=Creed's Insignia
+prop_sid_61004=Gordon's Insignia
+prop_sid_61005=Maher's Insignia
+prop_sid_61006=Helen's Insignia
+prop_sid_61007=Niemi's Insignia
+prop_sid_61008=Karow's Insignia
+prop_sid_61009=Chester's Insignia
+prop_sid_61010=Yuliya's Insignia
+prop_sid_61011=Ramon's Insignia
+prop_sid_61012=Carl's Insignia
+prop_sid_61013=Denier's Insignia
+prop_sid_61014=Tatiana's Insignia
+prop_sid_61015=Dion's Insignia
+prop_sid_61016=Veitch's Insignia
+prop_sid_61017=Marohn's Insignia
+prop_sid_61018=Mujdza's Insignia
+prop_sid_61019=Bruce's Insignia
+prop_sid_61020=Kossoff's Insignia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Behaal karakter Lv.% om een alliantie te creëren
+join_alliance_level_limit=Behaal karakter Lv.% om aan een alliantie deel te nemen
+alliance_donate_level_limit=Behaal karakter Lv.% om een alliantie te doneren
+alliance_ship_donate_level_limit=Behaal karakter Lv.% om schepen aan de alliantie te doneren
+world_chat_level_limit=Behaal karakter Lv.% om Wereld Chat te ontgrendelen
+self_chat_level_limit=Behaal karakter Lv.% om Privé Chat te ontgrendelen
+email_level_limit=Behaal karakter Lv.% om emails te versturen
+dest_self_chat_level_limit=De andere speler heeft nog niet een hoog genoeg level behaalt om Privé Chat te activeren
+meal_time_send_energy=Commander, voor het energie evenement waaraan je hebt deelgenomen ben je beloont met % Energie punten.\nVeel plezier! 
+nian_has_been_last_kill=Nian eiland (Lv.%) is verslagen door %. Gefeliciteerd % voor het uitdelen van de genadeslag!
+nian_has_been_killed=Deze allianties hebben onmiskenbare bijdrage geleverd aan de vernietiging van de Nian eiland (Lv. %). Zij zullen een grote beloning ontvangen! \n 1e: %(Alliantie)\n 2e: % (Alliantie)\n 3e: % (Alliantie). 
+kill nian title=Beloning vernietiging Nian eiland
+kill nian content=Commander, \n Nian eiland is verslagen! Voor je moed hebben we % als beloning voor je voorbereid. Hopelijk gaat alles goed met je dit jaar! \n  * beloning is naar je verstuurd via systeem mail. Controleer het!
+kill nian rank_a=Nian eiland en alliantie beloning
+kill nian rank_a content=Commander, \n Nian eiland (Lv.%) is verslagen! Jij en je alliantie leden hebben moedig gevochten en zijn % gerankt. We hebben % voor jouw en je alliantie voorbereid als beloning. Hopelijk gaat alles goed met je dit jaar! \n  * beloning is naar je verstuurd via systeem mail. Controleer het!
+kill nian rank_p=Nian eiland vernietigd en persoonlijke beloning
+kill nian rank_p content=Commander, \n Nian eiland (Lv.%) is verslagen! je hebt moedig gevochten en bent % gerankt. We hebben % als beloning voor je voorbereid. Hopelijk gaat alles goed met je dit jaar! \n  * beloning is naar je verstuurd via systeem mail. Controleer het!
+nian born=Tijdens het Lente Festival zal de Whirlpool een nieuw baas toevoegen. Nian (Lv.%) met vele schatten in % zijn uit het water gerezen Alle handen aan dek! Versla de Nian en ontvang de schat.
+nian showxy=Let op: Spion G heeft Nian's coordinaten gevonden (%,%). Dit is een noodgeval, alle Commanders, gelieve je vloot te sturen en Nian te vernietigen!
+nian away=Let op: Nian (Lv.%) is gevlucht, samen met de schat. 
+dest_join_alliance_level_limit=De andere speler moet level % zijn om lid te worden van de alliantie. 
+activity not open=Event Gesloten
+friends_list=Melding naam verandering Vriend
+black_list=Melding naam verandering Zwarte Lijst 
+alliance_list=Melding naam verandering Alliantie
+player_role_list=Melding naam verandering karakter
+alliance_mail=Jouw alliantie lid % heeft zijn naam veranderd in %. 
+friend_mail=Jouw vriend % heeft zijn naam veranderd in %. 
+black_mail=Jouw Zwarte Lijst % heeft zijn naam veranderd in %. 
+alliance_modify_info=Je alliantie heeft zijn naam veranderd in %.
+sysmessage_modify_name=% alliantie heeft zijn naam veranderd in %.
+modify_hostile=Melding naamsverandering Vijandelijke alliantie
+modify_hostile_content=De vijandelijke alliantie % heeft zijn naam veranderd in %. 
+dismiss_hostile=Melding Vijandelijke alliantie
+dismiss_hostile_content=De vijandige alliantie % is opgelost. 
+account_reset_mail_command=Ontgrendel Account
+alliance has been dismiss=Alliantie bestaat niet. 
+arena_ranking_title=De militaire oefening van vandaag is beëindigd De top 5 winnaars zijn:
+arena_ranking_1=1e
+arena_ranking_2=2e
+arena_ranking_3=3e
+arena_ranking_4=4e
+arena_ranking_5=5e
+account_reset_mail_tip=Je account is ontgrendeld. Als je dit niet zelf gedaan hebt raden we je aan je wachtwoord te resetten om je account te beveiligen. 
+meal_time_energy_push=Energie beloning event gestart! Claim je gratis Energie punten!
+
+
+build_sid_1=Ijzermijn
+build_sid_2=Oliebron
+build_sid_3=Silicium Mijn
+build_sid_4=Uraniummijn
+build_sid_5=Munt
+build_sid_6=Dok
+build_sid_7=Commando Centrum
+build_sid_8=Wetenschappelijk Laboratorium
+build_sid_9=Werkplaats
+build_sid_10=Opslagruimte
+build_sid_11=Bommenwerper
+build_sid_12=Raket Voertuig
+build_sid_13=Kust Artillerie
+build_sid_14=Inbouw Werf
+build_sid_15=Werkplaats
+LvUpActivity_autoSendReward_mail_title=Aankondiging beginnende level up activiteit
+LvUpActivity_autoSendReward_mail=Gefeliciteerd! \n ging van % tot % in de novice level up event. Voldoe aan de eis van % tot level %. \n zal ontvangen:
+RankAwardActivity_autoSendReward_mail=Gefeliciteerd! \n ging van % tot %, in het % event, de top %. \n zal ontvangen:
+fight_score_act=Koning van de nieuwe server
+point_star_act=Koning van de Oorlog
+honor_score_act=Koning van de Eer
+muteTime_left=Geband voor % minuten
+
+no this cplayer=Deze speler bestaat niet
+get cannot=Niet beloonde tijd. Je kan geen beloning krijgen.
+not open cross war=Imperium toernooi ongeopend
+jion end=Applicatie deadline
+lv limit=Level limiet
+ship must > 0=Het inzetten van schepen moet groter zijn dan 0
+set cannot=Geen inzettijd Kan de vloot niet inzetten.
+cannot connect cross_server=Kan geen verbinding maken met cross-server centrum
+cannot handle the message=Cross-server kan niet overweg met het verzoek
+jion had=Heeft gejoind
+no the rep=Geen strijd rapport
+bet cannot=Non-weddenschappen tijd. Kan niet wedden
+had bet=Gewed
+vip gems error=Wedbedrag en VIP level komt niet overeen
+gems limit=Niet genoeg edelstenen
+cannot embattle=Helaas kun je niet vervolgen in het volgende Imperium toernooi te wijten aan een verlies in de laatste ronde
+
+cross battle award=Imperium toernooi beloning
+join in award=%, Je beloningen: % edelstenen en % zijn naar je inventaris verzonden
+anyone join in award=Geachte commandant, bedankt voor je deelname aan het Imperium toernooi. Je beloning % zijn naar je inventaris verzonden, controleer alstublieft.
+win bet award=Geachte commandant, gefeliciteerd voor het succesvol voorspellen van de kampioen van het Imperium toernooi; u ontvangt: % edelstenen
+
+win cross battle champion=Gefeliciteerd! % Server% won het kampioenschap van het Imperium toernooi!
+promoted cross battle champion=Gefeliciteerd! % won het kampioenschap van het Imperium toernooi!
+promoted cross battle finals=Gefeliciteerd! % Succesvol gevorderd tot de finale.
+promoted cross battle=Gefeliciteerd! % Succesvol gevorderd tot de top %
+promoted cross final=Gefeliciteerd! % Succesvol gevorderd tot de finale.
+alliance shield word=Nee
+mystical fleet=Mystieke vloot
+
+alliance_fight_win=Congratulations! % alliance occupied the % island successfully!
+
+alliance_bet_message=Bet successfully
+alliance_bet_win_content=Congratulations! Your alliance successfully gets the chance of participating the battle for "%".%\nIf you want to get possession of the island, please apply as soon as possible.
+alliance_bet_win_content_thing=\nYour hostile alliance to fight for the island is "%."
+
+alliance_bet_lose=Failed to bet
+alliance_bet_lose_content=Unfortunately! The island "%" that your alliance bet on has been surpassed by "%" with "%"supplies. "%"supplies have been returned to your alliance. \n If you don't want to lose the island occupation, you can bet again to win back that island.
+new_alliance_fight_start=Next alliance war will open soon!
+
+send_alliance_science_point="%" daily reward
+send_alliance_science_content=Your alliance occupied "%", daily technology point "%" has been sent already， please head to the high technology to claim.
+send_alliance_report=%　VS　%
+alliance_fight_win_title="%"occupied successfully
+alliance_fight_win_content=Congratulations! You alliance occupied "%" successfully. You alliance won the "%" high technology. In the following 5 days, you will continue to gain the high technology.%
+alliance_fight_award=\n Thanks for your contribution to this battle,\n your ships have returned to the port. The damaged ships have been returned to the repair yard. Here are your reward: 
+allaince_fight_not_join=No players apply to participate,
+alliance_fight_lose_title=“%”failed to occupy
+alliance_fight_lose_content=Unfortunately! Your alliance "%" was defeated and failed to occupy the island. \n your alliance won % high technology % point in this alliance war. 
+alliance_fight_lose_sbstain=Send alliance war reward
+alliance_battle_abstain_content=Because no one from your alliance apply to join the "%" war. It has been viewed as waiver. \n\n your alliance only won % technology in this alliance war.
+alliance_fight_system_content=Congratulations! "% alliance" occupied "%" successfully in the alliance war! 
+alliance_fight_send_award=Sent personal reward
+allaince_reback_win_ships=Congratulations! You alliance occupied "%" successfully. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+allaince_reback_lose_ships=Unfortunately! Your alliance "%" was defeated in this battle. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+
+alliance_battle_fight_report=Alliance war news
+alliance_battle_island_15101=Low output reef
+alliance_battle_island_15102=Medium output island
+alliance_battle_island_15103=Rich output peninsula
+alliance_battle_abstain=Quit
+alliance_lucky_points=% alliance % commander won a "alliance lucky item" in the alliance database", % alliance lucky value increased by 1 ponit.
+PayRelayActivity_autoSendReward_mail=dear commander,\nprize of day % forget to claim in top-up relay,now we send it to your inventory!\n%\nhave a good time!
+
+awardshippingactivity_message=Congratulations! % received % *% from the Golden Route!
+luckyexploredactivity_message=Congratulations! % received % *% from Lucky Explore!
+robfestivalactivity_message=Congratulations! % received % *% from Special Purchase Event!
+
+
+
+
+
+
+

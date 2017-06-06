@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+	
+	<field class="foxu.cross.goalleague.ServerLeagueManager" name="factory" id="clsFactory"/>
+	<method ref="clsFactory" name="init"><ref id="context"/></method>
+	
+	<sample class="foxu.cross.server.CrossServer" sid="1" severName="alan" platid="1" areaid="3" severid="67" ip="192.168.10.67" port="7163" platName="plat_222" areaName="area_222" national="DE"/>
+
+</objects>

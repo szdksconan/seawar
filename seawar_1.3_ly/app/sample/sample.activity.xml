@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<field class="foxu.sea.activity.Activity" name="factory" id="activityFactory" />
+	
+	<method ref="activityFactory" name="init"><ref id="context"/></method>
+	
+	<sample sid="0" class="foxu.sea.activity.VaribleAwardActivity" isListShow="false" />
+    <sample sid="1" class="foxu.sea.activity.ExpActivity" />
+    <sample sid="2" class="foxu.sea.activity.BossActivity" />
+    <sample sid="3" class="foxu.sea.activity.BuyGemsActivity" />
+    <sample sid="4" class="foxu.sea.activity.LimitSaleActivity" />
+    <sample sid="5" class="foxu.sea.activity.DiscountActivity" />
+    <sample sid="6" class="foxu.sea.activity.AwardActivity" />
+    <sample sid="7" class="foxu.sea.activity.ExpActivity" />
+    <sample sid="8" class="foxu.sea.activity.ExpActivity" />
+    <sample sid="9" class="foxu.sea.activity.ExpActivity" />
+    <sample sid="10" class="foxu.sea.activity.AwardActivity" />
+    <sample sid="11" class="foxu.sea.activity.DatePriceOffActivity" isListShow="false" />
+    <sample sid="12" class="foxu.sea.activity.DoubleGemsAcitivity" />
+    <sample sid="13" class="foxu.sea.activity.TotalBuyActivity" />
+    <sample sid="14" class="foxu.sea.activity.ConsumeGemsActivity" />
+    <sample sid="15" class="foxu.sea.activity.NianActivity" />
+    <sample sid="16" class="foxu.sea.activity.AppGradeActivity" />
+	<sample sid="17" class="foxu.sea.activity.NewPlayerLvUpActivity" buildSid="7" />
+	<sample sid="18" class="foxu.sea.activity.AppShareActivity" />
+	<sample sid="19" class="foxu.sea.activity.FightScoreActivity" />
+	<sample sid="20" class="foxu.sea.activity.PointStarActivity" />
+	<sample sid="21" class="foxu.sea.activity.HonorActivity" />
+	<sample sid="22" class="foxu.sea.activity.JigsawActivity" />
+	<sample sid="23" class="foxu.sea.activity.WebShowActivity" isListShow="false" />
+	<sample sid="24" class="foxu.sea.activity.LoginRewardActivity" />
+	<sample sid="25" class="foxu.sea.activity.PayRelayActivity" />
+	<sample sid="26" class="foxu.sea.activity.WarManicActivity" isnew="true"/>
+	<sample sid="27" class="foxu.sea.activity.QuestionnaireActivity" />
+    <sample sid="28" class="foxu.sea.activity.AwardShippingActivity" isnew="true" />
+    <sample sid="29" class="foxu.sea.activity.LuckyExploredActivity" isnew="true" />
+    <sample sid="30" class="foxu.sea.activity.RobFestivalActivity" isnew="true" />
+    <sample sid="31" class="foxu.sea.activity.PeaceActivity" isnew="true"/>
+    <sample sid="32" class="foxu.sea.activity.SellingPackageOne" isnew="true"/>
+    <sample sid="33" class="foxu.sea.activity.SellingPackageTwo" isnew="true"/>
+    <sample sid="34" class="foxu.sea.activity.SellingPackageThree" isnew="true"/>
+</objects>

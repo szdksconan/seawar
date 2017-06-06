@@ -1,0 +1,902 @@
+﻿plunder resources=약탈 가능한 자원
+metal=철광
+oil=석유
+silicon=실리콘
+uranium=우라늄
+money=금화
+
+
+world_island_1=철 매장지
+world_island_2=기름오염 해역
+world_island_3=실리콘 매장지
+world_island_4=우라늄 매장지
+world_island_5=침몰선
+
+
+
+server_name_taiwan_001=번체중문001
+server_name_taiwan_002=번체중문002
+server_name_cn_001=간체중문001
+server_name_cn_002=간체중문002
+
+the invetid is=입력하신 초대ID는 해당 서버에 존재하지 않습니다. 서버를 다시 확인해주세요.
+inveted is wrong=초대ID 입력 에러
+
+
+game_name=배틀쉽
+
+
+
+
+be_attack_npc_island_push=% 사령관님의 함대가 사령관님(%)께서 주둔한 %(%)을(를) 향해 오고 있습니다. 속히 명령을 내려주세요!
+be_attack_self_island_push=% 사령관님의 함대가 사령관님(%)의 기지를 향해 오고 있습니다. 속히 명령을 내려주세요!
+
+
+account is have=해당 계정은 이미 존재한 계정 입니다. 
+user_count_full=이미 %, %, %을(를) 귀속 하였습니다. 더 이상 게스트로 접속할 수 없습니다.
+
+
+system_mail=시스템 메일
+invite_new_one_title=%기 가입
+invite_new_one_content=사령관님의 친구 % 님께서 배틀쉽을 시작하였습니다. 초대 보상으로 [우라늄 자원 세트*1]와 [보석*15]을 획득하였습니다. 친구와 함께 적군을 처치하세요!
+
+be_invite_new_one_title=WEL COME TO 배틀쉽!
+be_invite_new_one_content=WEL COME TO 배틀쉽! 사령관님의 친구 % 님께서 적군의 공격을 받고 있습니다. 어서 연합하여 적군을 처치하세요! 보상으로 [보석*10]와 [평화진*1]을 추가 획득 하였습니다.
+
+
+player_type_up=축하합니다! % 사령관님께서 %(으)로 진급하였습니다
+player_type_2=중사
+player_type_3=상사
+player_type_4=원사
+player_type_5=현사
+player_type_6=준위
+player_type_7=소위
+player_type_8=중위
+player_type_9=대위
+player_type_10=소령
+player_type_11=중령
+player_type_12=대령
+player_type_13=준장
+player_type_14=소장
+player_type_15=중장
+player_type_16=대장
+player_type_17=총사령
+
+
+
+attack_island_prop=축하합니다! % 사령관님께서 [% Lv.%]을(를) 공격하여 %을(를) 획득 하였습니다!
+attack_checkpoint=축하합니다! % 사령관님께서 스테이지 전투에서 %을(를) 획득 하였습니다!
+prop_use_tips=축하합니다! % 사령관님께서 %을(를) 사용하여 %개의 %을(를) 획득 하였습니다!
+success_check_point=% 사령관님은 치열한 전투 끝에 [%]의 모든 적군을 격퇴 하였습니다!
+success_check_10016=제1장 : 탈출
+success_check_10032=제2장 : 전초기지
+success_check_10048=제3장 : 강철거인
+success_check_10064=제4장 : 흑금섬
+success_check_10080=제5장 : 태평양 함대
+success_check_10096=제6장 : 웨이퍼 공장
+success_check_10112=제7장 : 산업도시
+success_check_10128=제8장 : 죽음의 자원 매장지
+success_check_10144=제9장 : 악의 뿌리
+success_check_10160=제10장 : 수도 호위대
+success_check_10176=제11장 : 수도 결전
+success_check_10192=제12장 : 추격전
+success_check_10208=제13장 : 감옥섬
+success_check_10224=제14장 : 혼란한 항로
+success_check_10240=제15장 : 자유항구
+success_check_10256=제16장 : 북해해만
+success_check_10272=제17장 : 위대한 항로
+
+
+commander_level_up=축하합니다! % 사령관님의 지휘가 Lv.%에 달성 하였습니다!
+
+
+alliance_system_title=시스템 통지
+alliance_refuse_content=사령관님의 연맹 가입요청은 거절 되었습니다!
+alliance_be_kick_content=사령관님은 % 님에게 연맹에서 탈퇴 되었습니다!
+
+
+server_is_not_open=점검 중 입니다. 점검 완료 후 접속 해주시기 바랍니다!
+connection_timeout=통신시간 초과
+
+
+
+alliance_level_up=축하합니다! [연맹 : %]은(는) Lv.%(으)로 UP 하였습니다!
+
+buy gems fail=구매실패. 루팅 프로그램 삭제 후 다시 시도하세요.
+alliance_gave_value_not_enough=%P 이상의 연맹기부 시 수령할 수 있습니다!
+lotto_special_prop=축하합니다! % 사령관님께서 로또보상으로 %을(를) 획득 하였습니다!
+
+
+boss_came=월드맵에 [월드BOSS Lv.%]가 나타났습니다!
+boss_has_been_killed=[월드BOSS Lv.%] 처지 완료! 처치수 랭킹 TOP 10내의 연맹원은 보상을 수령할 수 있습니다. [연맹 : %]의 처치수 %척, TOP 1!
+boss_has_been_last_kill=축하합니다! % 사령관님은 [월드BOSS Lv.%]의 최종막타 보상을 획득 하였습니다!
+boss_taunt=[월드BOSS Lv.%]가 %에서 나타났습니다. 속히 함대를 소집하여 처치하세요!
+lucky_draw_prop=축하합니다! % 사령관님은 신비로또에서 %개의 %을(를) 획득 하였습니다!
+lucky_draw_prop2=축하합니다! % 사령관님은 행운룰렛에서 %개의 %을(를) 획득 하였습니다!
+success_hei_check_55001=제1장 : 자욱한 바다
+success_hei_check_55002=제2장 : 유적폐허
+success_hei_check_55003=제3장 : 유적외곽
+success_hei_check_55004=제4장 : 유적도심
+success_hei_check_55005=제5장 : 왕묘유적
+success_hei_check_55006=제6장 : 신전유적
+success_hei_check_55007=제7장 : 신묘유적
+success_hei_check_55008=제8장 : 고대보고
+success_hei_check_point=% 사령관님은 치열한 전투 끝에 [%]의 모든 적군을 격퇴 하였습니다!
+
+
+password_reset_mail_title=배틀쉽 시스템 메시지
+password_reset_mail_title1=배틀쉽 시스템 메시지
+password_reset_mail_code=인증코드
+password_reset_mail_device=단말기 번호
+password_reset_mail_command=비밀번호 재 설정
+password_reset_mail_tip=현재 비밀번호 재설정 중입니다. 본인이 진행중인 것이 아니라면 타인이 계정 도용한 것일 수 있으니 안전한 비밀번호로 변경하세요.
+password_reset_mail_foottip=해당 메일주소는 회신을 받을 수 없는 메일 계정입니다.
+password_reset_mail_reg=%YEAR% 배틀쉽 운영팀
+have geted award=이미 해당 보상을 수령 하였습니다!
+boss_taunt_sixhour=[월드BOSS Lv.%]가 %에서 나타났습니다.
+boss_taunt_direction=북쪽, 남쪽, 서쪽, 동쪽, 중부, 서북, 동북, 서남, 동남 방향
+equip not open=부품기능의 오픈조건에 도달하지 못하였습니다.
+equip not exist=해당 부품은 존재하지 않습니다.
+can not equip=해당 부품을 장착할 수 없습니다
+equip can not level up=해당 부품은 경험치를 증가할 수 없습니다.
+equip can not feed itself=자체소모로 경험치를 증가할 수 없습니다.
+equip can not quality up=해당 부품은 진화할 수 없습니다.
+prop or resource not enough=아이템 혹은 자원이 부족합니다.
+quality stuff not exist=진화재료가 존재하지 않습니다
+stuff can not combine=금화가 부족합니다.
+equip storehouse is full=부품창고의 공간이 부족합니다.
+equip can not sale=해당 부품은 판매할 수 없습니다.
+lotto_count_limit=해당 로또 추첨이 완료되었습니다.
+annoucement not exist=공지없음
+annoucement is pass=공지의 유효기한을 초과 하였습니다.
+annoucement is erro=공지오류
+alliance_auto_transfer=%님께서 연맹회장으로 임명 중입니다.
+err:propId=아이템 id 오류
+err:gems=입력한 보석 오류
+err:initDat=입력한 보상 오류
+player not buy=충전하지 않은 유저입니다.
+err:not award id=보상 ID가 존재하지 않습니다.
+err:Can't get=보상을 수령할 수 없습니다.
+totalBuyActivity_autoSendReward_mail=축하합니다! \n 사령관님은 [%~% 누적충전 이벤트]에서 %의 요구를 달성 하여 \n 사령관님은 해당 보상을 획득할 수 있습니다 : 
+gems=보석
+totalBuyActivity_autoSendReward_mail_title=당첨 공지
+consume_gems_auto_award=존경하는 [PNAME] : \n 은(는) [START] - [END]까지의 누적소비 이벤트에서 총 [COUNT] 보석 소비하여 [PERCENT]%의 비율에 근거하여 [RETURN] 보석 증정합니다. 확인하시기 바랍니다.
+date_price_off_start=신비한 상점 오픈 되었습니다.
+account is wrong=우편 오류
+alliance_transfer_last_title=연맹장 이관 공지
+alliance_transfer_last_content=사령관님께서 7일간 연속 접속하지 않고 연맹관리를 소홀한 원인으로 자동으로 연맹 회장을 % 사령관으로 임명 하였습니다. 사령관님은 현재 부회장으로 임명 되었습니다.
+alliance_transfer_next_title=연맹장 이관 공지
+alliance_transfer_next_content=% 사령관님께서 7일간 연속 접속하지 않고 연맹관리를 소홀한 원인으로 자동으로 연맹 회장을 사령관님에게 이관 드립니다. 돋보이는 활약으로 더욱 강대한 연맹으로 이끌어 가시길 바랍니다.
+new_alliance_title=연맹공지
+new_alliance_content=축하드립니다! 사령관님은 성공적으로 [연맹 : %]을 설립 하였습니다. \n\n주의 : 7일간 연속 게임 접속하지 않으면 연맹 회장은 자동으로 활약도 높은 부회장에게 이관 됩니다. (부회장 없을 시 연맹원에게 이관)
+dismiss_alliance_title=연맹 해산 공지
+dismiss_alliance_content=사령관님의 연맹은 %에 해체 되었습니다.
+must pay=첫 충전을 완료하세요.
+set_fleet=유적도시 점검 중 입니다.
+
+
+prop_sid_10001=소형 전열함
+prop_sid_10011=소형 잠수함
+prop_sid_10021=소형 순양함
+prop_sid_10031=소형 항공모함
+prop_sid_10002=중형 전열함
+prop_sid_10012=중형 잠수함
+prop_sid_10022=중형 순양함
+prop_sid_10032=중형 항공모함
+prop_sid_10003=대형 전열함
+prop_sid_10013=대형 잠수함
+prop_sid_10023=대형 순양함
+prop_sid_10033=대형 항공모함
+prop_sid_10004=들곰 전열함
+prop_sid_10014=유령 잠수함
+prop_sid_10024=맹금 순양함
+prop_sid_10034=용애 항공모함
+prop_sid_10005=요새 전열함
+prop_sid_10015=사신 잠수함
+prop_sid_10025=호신 순양함
+prop_sid_10035=제국의 칼날
+prop_sid_10006=타이탄전열함
+prop_sid_10007=겁없는 요새
+prop_sid_10016=명왕잠수함
+prop_sid_10017=액운 사신
+prop_sid_10026=제우스 순양함
+prop_sid_10027=레이저 호신
+prop_sid_10036=전신의 칼날
+prop_sid_10037=뜨거운 칼날
+prop_sid_10008=저승의 현무
+prop_sid_10018=청용의 분노
+prop_sid_10028=백호의 위엄
+prop_sid_10038=불타는 주작
+
+
+
+
+
+prop_sid_40111=소형자주포
+prop_sid_40112=중형자주포
+prop_sid_40113=강습자주포
+prop_sid_40114=레이저자주포
+prop_sid_40115=극광자주포
+prop_sid_40121=저주파레이더
+prop_sid_40122=고주파레이더
+prop_sid_40123=강주파레이더
+prop_sid_40124=위상제어레이더
+prop_sid_40125=유령레이더
+prop_sid_40131=경량강선갑
+prop_sid_40132=강철선갑
+prop_sid_40133=합금선갑
+prop_sid_40134=새별선갑
+prop_sid_40135=신성선갑
+prop_sid_40141=추풍터빈
+prop_sid_40142=환영터빈
+prop_sid_40143=분노터빈
+prop_sid_40144=허공터빈
+prop_sid_40145=사룡터빈
+prop_sid_40211=소형어뢰
+prop_sid_40212=중형어뢰
+prop_sid_40213=강습어뢰
+prop_sid_40214=레이저어뢰
+prop_sid_40215=극광어뢰
+prop_sid_40221=저주파음파
+prop_sid_40222=고주파음파
+prop_sid_40223=강주파음파
+prop_sid_40224=위상제어음파
+prop_sid_40225=유령음파
+prop_sid_40231=경량강선체
+prop_sid_40232=강철선체
+prop_sid_40233=합금선체
+prop_sid_40234=새별선체
+prop_sid_40235=신성선체
+prop_sid_40241=질풍추진
+prop_sid_40242=환영추진
+prop_sid_40243=분노추진
+prop_sid_40244=허공추진
+prop_sid_40245=사룡추진
+prop_sid_40411=소형미사일
+prop_sid_40412=중형미사일
+prop_sid_40413=강습미사일
+prop_sid_40414=레이저미사일
+prop_sid_40415=극광미사일
+prop_sid_40421=저주파경고
+prop_sid_40422=고주파경고
+prop_sid_40423=강주파경고
+prop_sid_40424=위상제어경고
+prop_sid_40425=유령경고
+prop_sid_40431=경량강함체
+prop_sid_40432=강철함체
+prop_sid_40433=합금함체
+prop_sid_40434=새별함체
+prop_sid_40435=신성함체
+prop_sid_40441=질풍엔진
+prop_sid_40442=환영엔진
+prop_sid_40443=분노엔진
+prop_sid_40444=허공엔진
+prop_sid_40445=사룡엔진
+prop_sid_40811=소형전투기
+prop_sid_40812=중형전투기
+prop_sid_40813=강습전투기
+prop_sid_40814=레이저전투기
+prop_sid_40815=극광전투기
+prop_sid_40821=저주파감시기
+prop_sid_40822=고주파감시기
+prop_sid_40823=강주파감시기
+prop_sid_40824=위상제어감시기
+prop_sid_40825=유령감시기
+prop_sid_40831=경량강갑판
+prop_sid_40832=강철갑판
+prop_sid_40833=합금갑판
+prop_sid_40834=새별갑판
+prop_sid_40835=신성갑판
+prop_sid_40841=질풍륜기
+prop_sid_40842=환영륜기
+prop_sid_40843=분노륜기
+prop_sid_40844=허공륜기
+prop_sid_40845=사룡륜기
+prop_sid_41101=집능모듈Ⅰ
+prop_sid_41102=집능모듈Ⅱ
+prop_sid_41103=집능모듈Ⅲ
+prop_sid_41104=집능모듈Ⅳ
+prop_sid_41105=집능모듈Ⅴ
+prop_sid_41201=진화크랭크축Ⅰ
+prop_sid_41202=진화크랭크축Ⅱ
+prop_sid_41203=진화크랭크축Ⅲ
+prop_sid_41204=진화크랭크축Ⅳ
+
+prop_sid_1=작은 쇠뭉치
+prop_sid_2=작은통 석유
+prop_sid_3=작은 실리콘 덩어리
+prop_sid_4=작은 우라늄 덩어리
+prop_sid_5=작은 금화 더미
+prop_sid_6=큰 쇠뭉치 더미
+prop_sid_7=큰통 석유
+prop_sid_8=큰 실리콘 덩어리
+prop_sid_9=큰 우라늄 덩어리
+prop_sid_10=큰 금괴 더미
+prop_sid_11=영예 훈장 상자
+prop_sid_12=초보 자원상자
+prop_sid_13=대형 자원상자
+prop_sid_14=초대형 자원상자
+prop_sid_15=특대형 자원상자
+prop_sid_16=급속 생산
+prop_sid_17=급속발전상자
+prop_sid_18=빠른발전상자
+prop_sid_19=급속발전상자C
+prop_sid_400=작은 우라늄 상자
+prop_sid_401=큰 우라늄 상자
+prop_sid_402=증익 상자
+prop_sid_403=작은 지휘 상자
+prop_sid_404=큰 지휘 상자
+prop_sid_405=철광 상자
+prop_sid_406=석유 상자
+prop_sid_407=실리콘 상자
+prop_sid_408=대형 철광 상자
+prop_sid_409=대형 석유 상자
+prop_sid_410=대형 실리콘 상자
+prop_sid_411=대형 훈장 상자
+prop_sid_412=가스터빈 오더
+prop_sid_413=퓨전핵심 오더
+prop_sid_414=동력기계 오더
+prop_sid_415=정밀기계 오더
+prop_sid_416=운석 더미
+prop_sid_417=운석 컨테이너
+prop_sid_418=크리스마스 상자
+prop_sid_419=큰 운석 더미
+prop_sid_420=우라늄 오더5
+prop_sid_501=철광 채굴
+prop_sid_502=석유 채굴
+prop_sid_503=실리콘 생산
+prop_sid_504=우라늄 생산
+prop_sid_505=금화 주조
+prop_sid_506=이온방패
+prop_sid_507=고폭발약
+prop_sid_508=윈드 행군
+prop_sid_509=평화진
+prop_sid_1001=에너지 시약
+prop_sid_1002=에너지 물약
+prop_sid_1003=경험서
+prop_sid_1004=명성서
+prop_sid_1005=섬 이전령
+prop_sid_1006=고급 섬 이전령
+prop_sid_2001=공중지원
+prop_sid_2002=펄스폭탄
+prop_sid_510=레이저 제어
+prop_sid_511=스모크 방어
+prop_sid_512=열화우라늄탄
+prop_sid_513=반응 장갑
+prop_sid_2007=C98 가스터빈
+prop_sid_2008=퓨전핵심
+prop_sid_2009=운석
+prop_sid_2010=해피 보석 상자
+prop_sid_2011=유쾌한 보석 상자
+prop_sid_2012=큰 보석 상자
+prop_sid_2013=작은 보석 상자
+prop_sid_2014=VIP 실버카드
+prop_sid_2015=VIP 골드카드
+prop_sid_2016=VIP 다이아 카드
+prop_sid_2017=종이7
+prop_sid_2018=퀵 시공
+prop_sid_2019=초고속 시공
+prop_sid_2020=자동 건설
+prop_sid_2021=영예 훈장
+prop_sid_2022=지휘서
+prop_sid_2023=소형 우라늄 상자
+prop_sid_2024=소형 철광 상자
+prop_sid_2025=소형 석유 상자
+prop_sid_2026=소형 실리콘 상자
+prop_sid_2027=용마 선물세트
+prop_sid_2028=백구 선물세트
+prop_sid_403=작은 지휘 상자
+prop_sid_2030=작은 영예 훈장 상자
+prop_sid_3001=작은 자원상자
+prop_sid_3002=럭셔리 초보상자
+prop_sid_3003=제왕 상자
+prop_sid_3004=레이저 상자
+prop_sid_3005=엘리트 상자
+prop_sid_3006=평화진 상자
+prop_sid_3007=엘리트 강습 상자
+prop_sid_3008=격전 상자
+prop_sid_4001=생산증가 상자
+prop_sid_4002=우라늄 상자
+prop_sid_4003=금화 상자
+prop_sid_4004=큰 금화 상자
+prop_sid_4005=버전 업데이트 선물세트
+prop_sid_4006=오픈 지연 선물세트
+prop_sid_4007=특별 선물 세트
+prop_sid_4008=항공모함 도면2
+prop_sid_4009=큰상자 쇠뭉치
+prop_sid_4010=큰상자 석유
+prop_sid_4011=큰상자 실리콘 덩어리
+prop_sid_4012=큰상자 우라늄 덩어리
+prop_sid_4013=큰상자 금괴 더미
+prop_sid_4014=전용 선물세트
+prop_sid_4015=백금 선물세트
+prop_sid_4016=보석 선물세트
+prop_sid_4017=이벤트 보상 선물 세트
+prop_sid_4018=보상 선물 세트
+prop_sid_4019=감사 선물 세트
+prop_sid_4020=복귀 선물세트
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=은빛닻
+prop_sid_6002=황금닻
+prop_sid_7001=600 보석상자
+prop_sid_7002=1250 보석상자
+prop_sid_7003=6500 보석상자
+prop_sid_7004=13500 보석상자
+prop_sid_7011=五仁月饼
+prop_sid_7012=豆沙月饼
+prop_sid_7013=桂花月饼
+prop_sid_3010=하급재료 상자
+prop_sid_3011=중급재료 상자
+prop_sid_3012=고급재료 상자
+prop_sid_3013=하급 진화상자
+prop_sid_3014=녹색 부품상자
+prop_sid_3015=청색 부품상자
+prop_sid_3016=자주색 부품상자
+prop_sid_3017=황금색 부품상자
+prop_sid_3018=전열함 무기상자-정예
+prop_sid_3019=전열함 명중상자-정예
+prop_sid_3020=전열함 함체상자-정예
+prop_sid_3021=전열함 회피상자-정예
+prop_sid_3022=전열함 무기상자-전설
+prop_sid_3023=전열함 명중상자-전설
+prop_sid_3024=전열함 함체상자-전설
+prop_sid_3025=전열함 회피상자-전설
+prop_sid_3026=잠수함 무기상자-정예
+prop_sid_3027=잠수함 명중상자-정예
+prop_sid_3028=잠수함 함체상자-정예
+prop_sid_3029=잠수함 회피상자-정예
+prop_sid_3030=잠수함 무기상자-전설
+prop_sid_3031=잠수함 명중상자-전설
+prop_sid_3032=잠수함 함체상자-전설
+prop_sid_3033=잠수함 회피상자-전설
+prop_sid_3034=순양함 무기상자-정예
+prop_sid_3035=순양함 명중상자-정예
+prop_sid_3036=순양함 함체상자-정예
+prop_sid_3037=순양함 회피상자-정예
+prop_sid_3038=순양함 무기상자-전설
+prop_sid_3039=순양함 명중상자-전설
+prop_sid_3040=순양함 함체상자-전설
+prop_sid_3041=순양함 회피상자-전설
+prop_sid_3042=항공모함 무기상자-정예
+prop_sid_3043=항공모함 명중상자-정예
+prop_sid_3044=항공모함 함체상자-정예
+prop_sid_3045=항공모함 회피상자-정예
+prop_sid_3046=항공모함 무기상자-전설
+prop_sid_3047=항공모함 명중상자-전설
+prop_sid_3048=항공모함 함체상자-전설
+prop_sid_3049=항공모함 회피상자-전설
+prop_sid_3050=집능모듈 보물상자Ⅰ
+prop_sid_3051=집능모듈 보물상자Ⅱ
+prop_sid_3052=집능모듈 보물상자Ⅲ
+prop_sid_3053=집능모듈 보물상자Ⅳ
+prop_sid_3054=집능모듈 보물상자Ⅴ
+prop_sid_3055=집능모듈상자Ⅰ
+prop_sid_3056=집능모듈상자Ⅱ
+prop_sid_3057=집능모듈상자Ⅲ
+prop_sid_3058=집능모듈상자Ⅳ
+prop_sid_3059=집능모듈상자Ⅴ
+prop_sid_3060=작은 운석 주머니
+prop_sid_3061=전열함 부품상자 - 전설
+prop_sid_3062=잠수함 부품상자 - 전설
+prop_sid_3063=순양함함 부품상자 - 전설
+prop_sid_3064=항공모함 부품상자 - 전설
+prop_sid_3065=훈장운석 보물상자
+prop_sid_3066=복귀전함 보물상자
+prop_sid_3067=항공모함 기본 부품 보물상자
+prop_sid_3068=크리스마스 양말
+prop_sid_3069=크리스마스 선물세트
+prop_sid_8111=전열함 무기상자-백색
+prop_sid_8112=전열함 무기상자-녹색
+prop_sid_8113=전열함 무기상자-청색
+prop_sid_8114=전열함 무기상자-자주색
+prop_sid_8115=전열함 무기상자-황금색
+prop_sid_8121=전열함 명중상자-백색
+prop_sid_8122=전열함 명중상자-녹색
+prop_sid_8123=전열함 명중상자-청색
+prop_sid_8124=전열함 명중상자-자주색
+prop_sid_8125=전열함 명중상자-황금색
+prop_sid_8131=전열함 장갑상자-백색
+prop_sid_8132=전열함 장갑상자-녹색
+prop_sid_8133=전열함 장갑상자-청색
+prop_sid_8134=전열함 장갑상자-자주색
+prop_sid_8135=전열함 장갑상자-황금색
+prop_sid_8141=전열함 회피상자-백색
+prop_sid_8142=전열함 회피상자-녹색
+prop_sid_8143=전열함 회피상자-청색
+prop_sid_8144=전열함 회피상자-자주색
+prop_sid_8145=전열함 회피상자-황금색
+prop_sid_8211=잠수함 무기상자-백색
+prop_sid_8212=잠수함 무기상자-녹색
+prop_sid_8213=잠수함 무기상자-청색
+prop_sid_8214=잠수함 무기상자-자주색
+prop_sid_8215=잠수함 무기상자-황금색
+prop_sid_8221=잠수함 명중상자-백색
+prop_sid_8222=잠수함 명중상자-녹색
+prop_sid_8223=잠수함 명중상자-청색
+prop_sid_8224=잠수함 명중상자-자주색
+prop_sid_8225=잠수함 명중상자-황금색
+prop_sid_8231=잠수함 장갑상자-백색
+prop_sid_8232=잠수함 장갑상자-녹색
+prop_sid_8233=잠수함 장갑상자-청색
+prop_sid_8234=잠수함 장갑상자-자주색
+prop_sid_8235=잠수함 장갑상자-황금색
+prop_sid_8241=잠수함 회피상자-백색
+prop_sid_8242=잠수함 회피상자-녹색
+prop_sid_8243=잠수함 회피상자-청색
+prop_sid_8244=잠수함 회피상자-자주색
+prop_sid_8245=잠수함 회피상자-황금색
+prop_sid_8311=순양함 무기상자-백색
+prop_sid_8312=순양함 무기상자-녹색
+prop_sid_8313=순양함 무기상자-청색
+prop_sid_8314=순양함 무기상자-자주색
+prop_sid_8315=순양함 무기상자-황금색
+prop_sid_8321=순양함 명중상자-백색
+prop_sid_8322=순양함 명중상자-녹색
+prop_sid_8323=순양함 명중상자-청색
+prop_sid_8324=순양함 명중상자-자주색
+prop_sid_8325=순양함 명중상자-황금색
+prop_sid_8331=순양함 장갑상자-백색
+prop_sid_8332=순양함 장갑상자-녹색
+prop_sid_8333=순양함 장갑상자-청색
+prop_sid_8334=순양함 장갑상자-자주색
+prop_sid_8335=순양함 장갑상자-황금색
+prop_sid_8341=순양함 회피상자-백색
+prop_sid_8342=순양함 회피상자-녹색
+prop_sid_8343=순양함 회피상자-청색
+prop_sid_8344=순양함 회피상자-자주색
+prop_sid_8345=순양함 회피상자-황금색
+prop_sid_8411=항공모함 무기상자-백색
+prop_sid_8412=항공모함 무기상자-녹색
+prop_sid_8413=항공모함 무기상자-청색
+prop_sid_8414=항공모함 무기상자-자주색
+prop_sid_8415=항공모함 무기상자-황금색
+prop_sid_8421=항공모함 명중상자-백색
+prop_sid_8422=항공모함 명중상자-녹색
+prop_sid_8423=항공모함 명중상자-청색
+prop_sid_8424=항공모함 명중상자-자주색
+prop_sid_8425=항공모함 명중상자-황금색
+prop_sid_8431=항공모함 장갑상자-백색
+prop_sid_8432=항공모함 장갑상자-녹색
+prop_sid_8433=항공모함 장갑상자-청색
+prop_sid_8434=항공모함 장갑상자-자주색
+prop_sid_8435=항공모함 장갑상자-황금색
+prop_sid_8441=항공모함 회피상자-백색
+prop_sid_8442=항공모함 회피상자-녹색
+prop_sid_8443=항공모함 회피상자-청색
+prop_sid_8444=항공모함 회피상자-자주색
+prop_sid_8445=항공모함 회피상자-황금색
+prop_sid_900=캐릭터명 변경 카드
+prop_sid_901=연맹명 변경 카드
+prop_sid_3070=설날 선물
+prop_sid_3071=설날 세배선물
+prop_sid_3072=새해 선물
+prop_sid_3073=설날 보물상자
+prop_sid_902=소탕쿠폰
+prop_sid_3074=여왕특권 선물세트
+prop_sid_3075=1주년 이벤트 선물세트1
+prop_sid_3076=1주년 이벤트 선물세트2
+prop_sid_3077=1주년 이벤트 선물세트3
+prop_sid_3078=2주년 이벤트 선물세트
+prop_sid_3079=USB 교환카드
+prop_sid_3080=사은품 교환쿠폰
+prop_sid_3081=대형 훈장상자
+prop_sid_3082=초급 진급상자
+prop_sid_3083=중급 진급상자
+prop_sid_3084=고급 진급상자
+prop_sid_3085=증익 상자
+prop_sid_3086=초대형 철광상자
+prop_sid_3087=초대형 석유상자
+prop_sid_3088=초대형 실리콘상자
+prop_sid_3089=초대형 금화상자
+prop_sid_3090=초대형 우라늄상자
+prop_sid_3091=신병상자
+prop_sid_3092=VIP신병상자
+prop_sid_3093=연맹 행운카드
+prop_sid_3094=탐색증빙
+prop_sid_3095=파시즘 반대 기념동전
+prop_sid_3096=초급장교 파편상자
+prop_sid_3097=고급장교 파편상자
+prop_sid_3098=녹색 장교 파편상자
+prop_sid_3099=파란색 장교 파편상자
+prop_sid_3100=자주색 장교 파편상자
+prop_sid_3101=고급공훈증명
+prop_sid_3102=중급공훈증명
+prop_sid_3103=초급공훈증명
+prop_sid_3104=웨치 포인트상자
+prop_sid_3105=지얼스 파편상자
+prop_sid_3106=메리 파편상자
+prop_sid_3107=크리디 파편상자
+prop_sid_3108=고든 파편상자
+prop_sid_3109=마헤르 파편상자
+prop_sid_3110=헬렌 파편상자
+prop_sid_3111=니미 파편상자
+prop_sid_3112=카로프 파편상자
+prop_sid_3113=체스터 파편상자
+prop_sid_3114=예린나 파편상자
+prop_sid_3115=레이몬드 파편상자
+prop_sid_3116=칼 파편상자
+prop_sid_3117=댄스타 파편상자
+prop_sid_3118=타리스 파편상자
+prop_sid_3119=디온 파편상자
+prop_sid_3120=웨치 파편상자
+prop_sid_3121=멘로 파편상자
+prop_sid_3122=무자이  파편상자
+prop_sid_3123=브루스 파편상자
+prop_sid_3124=코소프 파편상자
+prop_sid_3125=장교 파편상자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=지얼스
+prop_sid_60002=메리
+prop_sid_60003=크리디
+prop_sid_60004=고든
+prop_sid_60005=마헤르
+prop_sid_60006=헬렌
+prop_sid_60007=니미
+prop_sid_60008=카로프
+prop_sid_60009=체스터
+prop_sid_60010=예린나
+prop_sid_60011=레이몬드
+prop_sid_60012=칼
+prop_sid_60013=댄스타
+prop_sid_60014=타리스
+prop_sid_60015=디온
+prop_sid_60016=웨치
+prop_sid_60017=멘로
+prop_sid_60018=무자이
+prop_sid_60019=브루스
+prop_sid_60020=코소프
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=지얼스 파편
+prop_sid_61002=메리 파편
+prop_sid_61003=크리디 파편
+prop_sid_61004=고든 파편
+prop_sid_61005=마헤르 파편
+prop_sid_61006=헬렌 파편
+prop_sid_61007=니미 파편
+prop_sid_61008=카로프 파편
+prop_sid_61009=체스터 파편
+prop_sid_61010=예린나 파편
+prop_sid_61011=레이몬드 파편
+prop_sid_61012=칼 파편
+prop_sid_61013=댄스타 파편
+prop_sid_61014=타리스 파편
+prop_sid_61015=디온 파편
+prop_sid_61016=웨치 파편
+prop_sid_61017=멘로 파편
+prop_sid_61018=무자이  파편
+prop_sid_61019=브루스 파편
+prop_sid_61020=코소프 파편
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Lv.% 이상부터 연맹을 설립할 수 있습니다
+join_alliance_level_limit=Lv.% 이상부터 연맹에 가입할 수 있습니다
+alliance_donate_level_limit=Lv.% 이상부터 연맹에 기부할 수 있습니다
+alliance_ship_donate_level_limit=Lv.% 이상부터 연맹함대를 기부할 수 있습니다
+world_chat_level_limit=Lv.% 이상부터 월드채팅을 이용할 수 있습니다
+self_chat_level_limit=Lv.% 이상부터 개인채팅을 이용할 수 있습니다
+email_level_limit=Lv.% 이상부터 개인채팅을 이용할 수 있습니다
+dest_self_chat_level_limit=상대방 사령관님은 레벨이 낮아 개인채팅을 이용할 수 없습니다
+meal_time_send_energy=사령관님! 에너지 이벤트에서 %P 에너지가 발급 되었습니다. \n즐거운 게임되시길 바랍니다!
+nian_has_been_last_kill=[몬스터 섬 Lv.%]은  % 사령관님에게 점령 되었습니다. 축하합니다! % 사령관님께서 몬스터의 보상을 차지하였습니다.
+nian_has_been_killed=몬스터 섬(Lv.%) 점령 완료! TOP 3 연맹은 공로에 따라 보상이 지급 됩니다：\nTOP 1 : [연맹 : %]\nTOP 2 : [연맹 : %]\nTOP 3 : [연맹 : %]
+kill nian title=몬스터 섬 점령보상
+kill nian content=존경하는 사령관님!\n    사령관의 활약에 의하여 성공적으로 몬스터 섬을 점령하여 다시 조용한 해양의 평화를 가져왔습니다. [배틀쉽]에서 준비한 %의 보상을 발급 드립니다!\n    *보상은 메일로 발급하오니 확인해주시길 바랍니다.
+kill nian rank_a=몬스터 섬 연맹 점령보상
+kill nian rank_a content=존경하는 사령관님,\n    몬스터 섬(Lv.%) 점령 완료! 전투에서 사령관님 연맹의 활약으로 누적 피해가 TOP%에 도달 하였습니다. [배틀쉽]에서 전체 연맹원에게 준비한 %의 보상을 발급드립니다!\n    *보상은 메일로 발급하오니 확인해주시길 바랍니다.
+kill nian rank_p=몬스터 섬 점령의 개인 점령보상
+kill nian rank_p content=존경하는 사령관님,\n    몬스터 섬(Lv.%) 점령 완료! 전투에서 사령관의 출중한 능력으로 피해 누적이 TOP %까지 누적 되었습니다. [배틀쉽 운영팀]에서 준비한 %의 보상을 발급 드립니다.! \n     *보상은 메일로 발급하오니 확인해주시길 바랍니다.
+nian born=몬스터(Lv.%)들이 약탈한 대량의 보물들이 %에서 발견되었습니다. 어서 그들을 제거하여 보물을 차지하세요!
+nian showxy=속보 : 보고! 몬스터 섬의 좌표가 노출 되었습니다. (%，%) ! 사령관님 신속히 함대를 파견하여 그들을 제거하세요!
+nian away=속보 : 몬스터(Lv.%) 탈출! 대량의 몬스터의 보물들이 넓은 바다에 소실되었습니다
+dest_join_alliance_level_limit=상대방 사령관님은 %레벨 되어야 연맹에 가입할 수 있습니다
+activity not open=이벤트가 오픈되지 않았습니다
+friends_list=친구이름 변경안내
+black_list=차단 캐릭터 이름 변경안내
+alliance_list=연맹명 변경안내
+player_role_list=캐릭터명 변경안내
+alliance_mail=사령관님께서 귀속된 연맹  %은(는) %으로(로) 이름을 변경하였습니다
+friend_mail=친구 %은(는) %으로(로) 이름을 변경하였습니다
+black_mail=차단리스트의 %은(는) %으로(로) 이름을 변경하였습니다
+alliance_modify_info=사령관님께서 귀속된 연맹의 명칭은 %으로(로) 변경되었습니다
+sysmessage_modify_name=% 연맹은 연맹명을 %으로(로) 변경하였습니다
+modify_hostile=적군 연맹명 변경안내
+modify_hostile_content=적군 연맹으로 설정한 [연맹 : %]의 연맹명칭이 %으로(로) 변경 되었습니다.
+dismiss_hostile=적군 연맹정보 안내
+dismiss_hostile_content=적군 연맹으로 설정한 [연맹 : %]은(는) 해체 되었습니다.
+account_reset_mail_command=귀속해제
+alliance has been dismiss=존재하지 않은 연맹 입니다
+arena_ranking_title=금일 군사훈련은 종료되었으며 TOP 5 사령관님은 하기와 같습니다
+arena_ranking_1=TOP 1 : 
+arena_ranking_2=TOP 2 : 
+arena_ranking_3=TOP 3 : 
+arena_ranking_4=TOP 4 : 
+arena_ranking_5=TOP 5 : 
+account_reset_mail_tip=사령관님은 현재 계정귀속을 해제하고 있습니다.  본인이 진행중인 것이 아니라면 타인이 계정 도용한 것일 수 있으니 안전한 비밀번호로 변경하세요.
+meal_time_energy_push=체력 이벤트 접속 성공! 에너지바에 에너지가 지급되었습니다!
+
+
+build_sid_1=제철소
+build_sid_2=유전
+build_sid_3=실리콘 공장
+build_sid_4=우라늄 공장
+build_sid_5=화폐 주조장
+build_sid_6=조선소
+build_sid_7=지휘 센터
+build_sid_8=과학 연구센터
+build_sid_9=제조 공장
+build_sid_10=창고
+build_sid_11=폭격기
+build_sid_12=미사일차
+build_sid_13=해안포
+build_sid_14=개조장
+build_sid_15=강화 공장
+LvUpActivity_autoSendReward_mail_title=레벨업 이벤트 공지
+LvUpActivity_autoSendReward_mail=축하합니다: \n 사령관님은 %부터 %까지의 레벨업 이벤트에서 %의 %레벨 조건에 달성 하였습니다. \n획득 보상: 
+RankAwardActivity_autoSendReward_mail=축하합니다!\n 사령관님은 %부터 %까지 진행한 %이벤트에서 TOP %위 달성하였습니다.\n획득 보상: 
+fight_score_act=서버의 왕
+point_star_act=전쟁의 왕
+honor_score_act=명예의 왕
+muteTime_left=채팅금지 %분
+
+no this cplayer=해당 진급 유저는 존재하지 않습니다.
+get cannot=보상수령 기간 외에는 수령할 수 없습니다.
+not open cross war=서버대전는 오픈 상태가 아닙니다.
+jion end=신청기한
+lv limit=레벨제한
+ship must > 0=설정한 전함수량은 0보다 많아야 합니다.
+set cannot=전함변경 기간 외에는 설정할 수 없습니다.
+cannot connect cross_server=서버 센터와 연결할 수 없습니다.
+cannot handle the message=서버 센터에서 해당 요청을 처리할 수 없습니다.
+jion had=이미 신청
+no the rep=해당 전투보고는 존재하지 않습니다.
+bet cannot=후보선정 기간 외에는 선정할 수 없습니다.
+had bet=선정 완료
+vip gems error=선정금액과 VIP레벨은 맞지 않습니다.
+gems limit=보석이 부족합니다.
+cannot embattle=기존 라운드에서 실격되어 다음 라운드에 참여할 수 없습니다.
+
+cross battle award=서버대전 경기보상
+join in award=% 사령관님, 보상 %개 보석과 %이(가) 물품함으로 지급되었습니다.
+anyone join in award=존경하는 사령관님! 서버대전 참여해주셔서 감사합니다. 보상 %이(가) 물품함으로 지급되었습니다.
+win bet award=존경하는 사령관님! 서버대전 우승자 후보선정에 성공하였습니다. %보석 획득하였습니다.
+
+win cross battle champion=서버대전의 최고 챔피언 %서버 % 사령관님!!! 당신은 욕심쟁이 우후훗!
+promoted cross battle champion=나를 따르라! 서버대전의 최고 챔피언! % 사령관님!!!
+promoted cross battle finals=축하합니다! % 사령관님께서 결승으로 진출하였습니다.
+promoted cross battle=축하합니다! % 사령관님께서 %강으로 진출하였습니다.
+promoted cross final=축하합니다! % 사령관님께서 최종 결승전으로 진출하였습니다.
+alliance shield word=无
+mystical fleet=神秘舰队
+
+alliance_fight_win=축하합니다![연맹 : %]은(는) % 섬을 점령하였습니다.
+
+alliance_bet_message=경매 성공
+alliance_bet_win_content=축하합니다! 소속 연맹은 [%] 쟁탈권리를 획득하였습니다.%\n섬 점령권을 획득하려면 쟁탈전에 등록하세요.
+alliance_bet_win_content_thing=\n섬 쟁탈전에서 소속 연맹의 적군 연맹은 [%] 입니다.
+
+alliance_bet_lose=경매실패
+alliance_bet_lose_content=유감입니다. 소속 연맹에서 베팅한 [%] 섬은 [%]에게 [%] 물자로 초과되여 [%] 물자를 다시 반환합니다.\n섬 쟁탈권을 쟁탈하려면 재 베팅 가능합니다.
+new_alliance_fight_start=새로운 연맹쟁패전이 오픈되었습니다!
+
+send_alliance_science_point=[%] 일일보상
+send_alliance_science_content=소속 연맹에서 점령한 [%]에서 금일 일일보상의 [%]기술 포인트 발급하였습니다. 첨단 과학기술에서 확인하세요.
+send_alliance_report=%　VS　%
+alliance_fight_win_title=[%] 점령 성공
+alliance_fight_win_content=축하합니다. 소속 연맹에서 [%] 섬을 점령하였습니다. 금번 쟁패전에서 [%] 첨단 기술 포인트를 획득하였으며 미래 5일간 지속 획득할 수 있습니다.%
+alliance_fight_award=\n\n금번 시합에 참가 해주셔서 감사합니다.\n\n참가 함대는 이미 항구로 귀항하였습니다. 다음같이 보상을 획득할 수 있습니다:
+allaince_fight_not_join=등록한 사령관이 없는 원인으로 인하여
+alliance_fight_lose_title=[%] 점령 실패
+alliance_fight_lose_content=유감입니다. 소속 연맹은 [%] 쟁탈전에서 실패하여 섬 정령권을 획득하지 못하였습니다.\n금번 쟁패전에서 [%] 첨단 기술 포인트를 획득하였습니다.%
+alliance_fight_lose_sbstain=연맹쟁패 보상 발급
+alliance_battle_abstain_content=소석 연맹에서 금번 [%] 쟁탈전에 등록하지 않은 원인으로 기권으로 처리되었습니다.\n\n금번 쟁패전에서 [%] 첨단 기술 포인트를 획득하였습니다.
+alliance_fight_system_content=축하합니다! [연맹 : %]은(는) 연맹쟁패에서 [%]을(를) 점령하였습니다.
+alliance_fight_send_award=개인보상 발급
+allaince_reback_win_ships=축하합니다! 소속 연맹은 [%]을(를) 점령하였습니다. 금번 쟁패전에서 사령관님께서 등록한 함대는 하기와 같습니다 : %%%%%% 금번 쟁패전에서 사령관님의 함대 손실상황은 하기와 같습니다 : %%%%%%
+allaince_reback_lose_ships=유감입니다. 소석 연맹은 [%] 쟁탈전에서 패배하였습니다. 금번 쟁패전에서 사령관님께서 등록한 함대는 하기와 같습니다 : %%%%%% 금번 쟁패전에서 사령관님의 함대 손실상황은 하기와 같습니다 : %%%%%%
+
+alliance_battle_fight_report=연맹전 정보
+alliance_battle_island_15101=저산량 암초
+alliance_battle_island_15102=중산량 해섬
+alliance_battle_island_15103=고산량 반도
+alliance_battle_abstain=기권
+alliance_lucky_points=[연맹 : %]의 % 사령관님은 연맹 보물상자에서 연맹 행운 아이템, %연맹 행운 포인트+1를 획득하였습니다.
+PayRelayActivity_autoSendReward_mail=사령관님!\n참가한 [충전 릴레이 이벤트]에서 %일차의 충전보상을 수령하지 않았습니다. 현재 보상을 물품함에 발급되었습니다! \n%\n 즐거운 게임되기시 바랍니다!
+
+awardshippingactivity_message=% 사령관님께서 골드항로에서 %개의 % 을(를) 획득하였습니다.
+luckyexploredactivity_message=% 사령관님께서 행운탐색에서 %개의 % 을(를) 획득하였습니다.
+robfestivalactivity_message=% 사령관님께서 신비항로에서 %개의 % 을(를) 획득하였습니다.
+
+
+
+
+
+
+

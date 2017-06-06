@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects> 
+	<obj class="foxu.sea.gm.GMManager" id="gmManager">
+		<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+		<method name="setConnectionManager"><ref id="connectionManager" /></method>
+		<method name="setCCManager"><ref id="ccmanager" /></method>
+		<method name="setDSManager"><ref id="dsmanager" /></method>
+	</obj>
+	<method name="setGMManager" ref="gmSetManager">
+		<ref id="gmManager"/>
+	</method>
+	
+	<!--JAVAWEB-->
+	<method name="setGMManager" ref="webgmSetManager">
+		<ref id="gmManager"/>
+	</method>
+	<!-- 创建GM账号 -->
+	<method name="addOperator" ref="gmManager">
+		<string>creategm</string>
+		<value type="int">500</value>
+		<obj class="foxu.sea.gm.operators.CreateGMAccount" />
+	</method>
+	
+	<!-- 修改GM密码 -->
+	<method name="addOperator" ref="gmManager">
+		<string>changegmpw</string>
+		<value type="int">0</value>
+		<obj class="foxu.sea.gm.operators.ChangeGMPassword" />
+	</method>
+	
+	<!-- 查看运营数据 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getoperation</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.GetOperationData" />
+	</method>
+	
+	<!-- 查看运营数据  基于设备id 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>databydid</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.GetOperationDataByDid" />
+	</method>
+	
+	<!-- 查看50名充值玩家 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>top50</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.TopRecharge50" />
+	</method>
+	
+	<!-- 船只日志 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>shipevent</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetShipEvent" />
+	</method>
+	
+	<!-- 盟战船只日志 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>ashipevent</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetAFightShipLog" />
+	</method>
+	
+	<!-- 宝石日志 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>gemslog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GemsLog" />
+	</method>
+	
+	<!-- 接管账号 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>takeover</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.TakeOver" />
+	</method>
+	
+	<!-- 绑定游客账号 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>linkaccount</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.LinkAccount">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 增加船只 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addship</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddShip" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 增加资源 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addresource</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddResources" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 增加物品 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addprop</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddProp" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 设置建筑等级 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>buildlevel</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.BuildLevel" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 设置新手任务步数 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>guidmark</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.GuidMark" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 设置科技等级 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>sciencelevel</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ScienceLevel" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 修改联盟等级 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>alliancelevel</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.SetAllianceLevel" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 修改联盟技能等级 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>allianceskill</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.SetAllianceSkill" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 查询GM工具增加宝石数量 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>gmgemslog</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.GMGemsLog" >
+		</obj>
+	</method>
+	
+	<!-- 禁言和封号 1 -->
+	<method name="addOperator" ref="gmManager">
+		<string>bannedplayer</string>
+		<value type="int">1</value>
+		<obj class="foxu.sea.gm.operators.BannedPlayer" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 封设备 1 -->
+	<method name="addOperator" ref="gmManager">
+		<string>banneddevice</string>
+		<value type="int">1</value>
+		<obj class="foxu.sea.gm.operators.BannedDevice" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 修改玩家密码 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>resetpass</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ResetPassword" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 发送系统消息 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>systemmessage</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SystemMessage" >
+		</obj>
+	</method>
+	
+	<!-- 发送滚动系统消息 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>rollmessage</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.RollSystemMessage" >
+		</obj>
+	</method>
+	
+	<!-- 发送系统邮件 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>systemmail</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SystemMail" >
+			<method name="setUidkit">
+				<obj class="foxu.sea.uid.UidKit">
+				  <method name="setUidFile"><ref id="messageUidFile"/></method>
+				</obj>			
+			</method>
+			<method name="startTimer"/>
+		</obj>
+	</method>
+	
+	<!-- 连续登陆玩家奖励 -->
+	<method name="addOperator" ref="gmManager">
+		<string>loginaward</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SendLoginAward" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 查看系统邮件 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>getsystemmail</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetSystemMail" >
+		</obj>
+	</method>
+	
+	<!-- 删除系统邮件 200-->
+	<method name="addOperator" ref="gmManager">
+		<string>removesystemmail</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.RemoveSystemMail" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 发送玩家邮件 200-->
+	<!--method name="addOperator" ref="gmManager">
+		<string>playermail</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.PlayerMail" >
+		</obj>
+	</method-->
+	
+	<!-- 开放天数的活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>daysactivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.DaysActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 时限购买，折扣，宝石充值返利活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>timeactivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.TimeActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 限时抽奖活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>award</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.TimeAwardActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+		<!-- 经验加成活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>exception</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.TimeExpActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- boss刷新活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>boss</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.TimeBossActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 天降好礼 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>varibleaward</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.VaribleAward" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 年兽活动 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>nianboss</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.NianBossActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 提升玩家为GM 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>playergm</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.PlayerGM" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 全服补偿 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>compensall</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.CompensAll" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 召回邮件和push消息 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>pushmessage</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.PushMessage" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	
+	<!-- 查看玩家信息 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>playerinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetPlayerInfo" />
+	</method>
+	
+	<!-- 查看玩家包裹 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getbundle</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetPlayerBundle" />
+	</method>
+	
+	<!-- 回收玩家岛屿 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>recoverisland</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.RecoverIsland">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 密码重置记录 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>pwdinfo</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.PwdRecordInfo">
+			<method name="setPwdDBAccess"><ref id="passwordDBAccess" /></method>
+		</obj>
+	</method>
+	
+	<!-- 获取客户端版本使用信息300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getversion</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.GetVersion" />
+	</method>
+	
+	<!-- 获取活动信息300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>actinfo</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.GetActInfo" />
+	</method>
+	
+	<!-- 活动销售统计 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>selldata</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.GetActSelldata" />
+	</method>
+	
+	<!-- 活动玩家统计 300 -->
+	<method name="addOperator" ref="gmManager">
+		<string>playerdata</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.GetAcitivityPlayerInfo" />
+	</method>
+	
+	<!-- 提升玩家关卡进度-->
+	<method name="addOperator" ref="gmManager">
+		<string>playercheckpoint</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.PlayerCheckPoint">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 角色名模糊查询 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>indistinctname</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.IndistinctName">
+		</obj>
+	</method>
+	
+	<!-- 虚空实验室条目查询 200 -->
+	<method name="addOperator" ref="gmManager">
+		<string>shiplevel</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ShipLevelViewer">
+		</obj>
+	</method>
+	
+	
+	<!-- 查询全服运营数据 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>dbodata</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.GetDBOData">
+		</obj>
+	</method>
+	
+		<!-- 查询全服运营数据 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>dbodatabydid</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.GetDBODataByDid">
+		</obj>
+	</method>
+	
+	<!-- 修改封停设备 400 -->
+	<method name="addOperator" ref="gmManager">
+		<string>forbid</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ForbidDevice">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 查询玩家登陆日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>loginlog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetLoginLog">
+		</obj>
+	</method>
+	
+	
+	<!-- 闭关旧GM工具协议 -->
+	<method name="addOperator" ref="gmManager">
+		<string>checkold</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.CheckOld" />
+	</method>
+	<!-- 关闭服务器 500 -->
+	<method name="addOperator" ref="gmManager">
+		<string>closeserver</string>
+		<value type="int">500</value>
+		<obj class="foxu.sea.gm.operators.CloseServer"/>
+	</method>
+	
+	<!-- 兑换码 -->
+	<method name="addOperator" ref="gmManager">
+		<string>createcode</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.CodeInfomation">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 查询兑换码 -->
+	
+	<method name="addOperator" ref="gmManager">
+		<string>serchcode</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.SerchCode" />
+	</method>
+	
+	<!-- 月票的添加 -->
+		<method name="addOperator" ref="gmManager">
+		<string>addmouthcard</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddMouthCard">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 联盟信息查询 -->
+	<method name="addOperator" ref="gmManager">
+		<string>allianceinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewAlliance" />
+	</method>
+
+	<!-- 解除设备账户数量限制 -->
+	<method name="addOperator" ref="gmManager">
+		<string>unlimitdevice</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.UnlimitDevice">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 添加装备 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addequip</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddEquip">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 宝石信息查询 -->
+	<method name="addOperator" ref="gmManager">
+		<string>gemsinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetGemsInfo" />
+	</method>
+	<!-- 清空世界聊天 -->
+	<method name="addOperator" ref="gmManager">
+		<string>clearchat</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ClearChatMessage" />
+	</method>
+	
+	<!-- 清空联盟聊天  -->
+	<method name="addOperator" ref="gmManager">
+		<string>clearalchat</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ClearAliianceChatMessage" />
+	</method>
+	<!-- VIP  -->
+	<method name="addOperator" ref="gmManager">
+		<string>addvippoint</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddVIPInfomation">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 物品信息  -->
+	<method name="addOperator" ref="gmManager">
+		<string>serchprop</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddPropInfo">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- buff信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getbuffinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetBuffInfo" />
+	</method>
+	<!-- 另类禁言 -->
+	<method name="addOperator" ref="gmManager">
+		<string>forbidchat</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ForbidChat">
+			<method name="setNeedLog">true</method>
+		</obj>	
+	</method>
+	<!--添加公告 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addannounce</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddAnnouncement">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--更新公告 -->
+	<method name="addOperator" ref="gmManager">
+		<string>updateannounce</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.UpdateAnnouncement">
+			<method name="setObjectFactory">
+				<ref id="creatObjectFactory" />
+			</method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--删除玩家 -->
+	<method name="addOperator" ref="gmManager">
+		<string>clearplayer</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ClearPlayerInfo">
+			<method name="setAfightManager"><ref id="allianceFightManager"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--推送第三方支付开关 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setrechange</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetRechangeStyle" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--设置服务器登录状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setready</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.SetLoginLimit" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+		<!--推送兑换码,邀请码,制造车间的星石状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>invitationcode</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetSwitchState">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--设定星石船舰等级 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addupship</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddUpShip">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+		<!-- 查询前100名的宝石数量 -->
+	<method name="addOperator" ref="gmManager">
+		<string>gemtop</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GemTopHundred"/>
+	</method>
+	
+	<!-- 修改白名单 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setfree</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.SetFree">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 设置绑定状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>bindingstate</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetBindingState">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>	
+	<!-- 查询装备日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>equiplog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.getEquipLog"/>
+	</method>
+	<!-- 每日折扣 -->
+	<method name="addOperator" ref="gmManager">
+		<string>daydiscount</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.DayDiscountActivity">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>	
+	<!-- 产品日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>productlog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewProduceProp"/>
+	</method>
+	<!-- 查看解除限制设备 -->
+	<method name="addOperator" ref="gmManager">
+		<string>viewunlimit</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewUnlimitDevice"/>
+	</method>
+	<!-- 产看物品日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>proplog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewPropLog"/>
+	</method>
+	<!-- 禁用充值货币 -->
+	<method name="addOperator" ref="gmManager">
+		<string>validcur</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.ValidCurrency">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--服务器数据 备份 -->
+	<method name="addOperator" ref="gmManager">
+		<string>backup</string>
+		<value type="int">500</value>
+		<obj class="foxu.sea.gm.operators.DataBaseBackUp" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+		<!--服务器上下文变量管理 -->
+	<method name="addOperator" ref="gmManager">
+		<string>contextvar</string>
+		<value type="int">500</value>
+		<obj class="foxu.sea.gm.operators.ContextVarManage" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--手动提示奖励品管理 -->
+	<method name="addOperator" ref="gmManager">
+		<string>luckysid</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ManualLuckySid" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!--设置绑定状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>bindingstate</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetBindingState"/>
+	</method>
+	
+	<!--设置跳转 -->
+	<method name="addOperator" ref="gmManager">
+		<string>jumpaddress</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.JumpAddress"/>
+	</method>
+	<!--设定星石船舰等级 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addupship</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddUpShip" />
+	</method>
+	<!--修改名称 -->
+	<method name="addOperator" ref="gmManager">
+		<string>modifyname</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ModifyName" >
+			<method name="setTv"><ref id="textValidity"/></method>
+			<method name="setBattleFightManager"><ref id="battleFightManager"/></method>
+			<method name="setNeedLog">true</method>
+			
+		</obj>
+	</method>
+	
+	<!--修改名称 -->
+	<method name="addOperator" ref="gmManager">
+		<string>modifyaname</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ModifyAllianceName" >
+			<method name="setTv"><ref id="textValidity"/></method>
+			<method name="setBattleFightManager"><ref id="battleFightManager"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 修改玩家技能 -->
+	<method name="addOperator" ref="gmManager">
+		<string>adjustplayerskill</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.webgm.opertrator.AdjustPlayerSkill" />
+	</method>
+	
+	<!-- 联盟信息-->
+	<method name="addOperator" ref="gmManager">
+		<string>getallianceinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.webgm.opertrator.GetAllianceinfo" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 联盟事件-->
+	<method name="addOperator" ref="gmManager">
+		<string>aevent</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetAllianceEvent" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 评分活动-->
+	<method name="addOperator" ref="gmManager">
+		<string>scoreacitivty</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ScoreAcitity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--查询装备-->
+	<method name="addOperator" ref="gmManager">
+		<string>equipinfo</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.EquipInfo" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!--设置玩家的统御等级 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setplayercommand</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetPlayerCommand">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--强制让玩家离开联盟 -->
+	<method name="addOperator" ref="gmManager">
+		<string>leavealliance</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ForcePlayerLeaveAlliance">
+			<method name="setAfightManager"><ref id="allianceFightManager"/></method>
+			<method name="setbFight"><ref id="battleFight" /></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--清除联盟 -->
+	<method name="addOperator" ref="gmManager">
+		<string>clearalliance</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ClearAlliance">
+			<method name="setAfightManager"><ref id="allianceFightManager"/></method>
+			<method name="setbFight"><ref id="battleFight"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--设置联盟捐献点 -->
+	<method name="addOperator" ref="gmManager">
+		<string>playervalue</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetAlliancePlayerValue">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--设置排名奖励活动 -->
+	<method name="addOperator" ref="gmManager">
+		<string>rankactivity</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.RankActivity">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--跨服战 -->
+	<method name="addOperator" ref="gmManager">
+		<string>crosswar</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.CrossWarGM">
+			<method name="setActManager"><ref id="crossActManager"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--增加联盟船只 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addAllianceship</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.AddAllianceShip">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--查询玩家贡献点 -->
+	<method name="addOperator" ref="gmManager">
+		<string>serchValue</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetAllianceValue">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--移除boss岛屿 -->
+	<method name="addOperator" ref="gmManager">
+		<string>removeworldBoss</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.RemoveWorldBoss">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!--设置当前统御成功率 -->
+	<method name="addOperator" ref="gmManager">
+		<string>commandpercent</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.SetCommandPercent">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--战争狂人 -->
+	<method name="addOperator" ref="gmManager">
+		<string>warmanic</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.WarManicGM">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 查询军官日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>officerlog</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetOfficerLog"/>
+	</method>
+		<!-- 添加军官物件 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addofficer</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.AddOfficer">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+		<!-- 操作军官总功勋 -->
+	<method name="addOperator" ref="gmManager">
+		<string>officerfeats</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ControlOfficerFeats">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 登陆有礼 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>loginrewardactivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.LoginRewardActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 充值接力 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>payrelayactivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.PayRelayActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 问卷调查 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>questionnaireactivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.QuestionnaireActivityGM" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--验证器参数设置 -->
+	<method name="addOperator" ref="gmManager">
+		<string>vertifysetting</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.VertifySetting">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--查询玩家积分信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>viewintegration</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewPlayerIntegration">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--添加联盟物资 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addAllianceResource</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddAllianceResource">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--添加玩家积分 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addPlayerIntegral</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddPlayerIntegral">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!--查询联盟物资和科技点的记录 -->
+	<method name="addOperator" ref="gmManager">
+		<string>viewsmaterial</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.ViewAllianceSMaterial">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!-- 添加设备信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addPlayerChargeDevice</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddPlayerChargeDevice">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!-- 添加2级货币 -->
+	<method name="addOperator" ref="gmManager">
+		<string>addCoins</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.AddCoins">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 添加军官随机碎片的限制 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setOffcerShopLimit</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SetOffcerShopLimit">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	<!-- 查询服务器状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getServerStatus</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetServerStatus">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 设置新公告开启和关闭状态 -->
+	<method name="addOperator" ref="gmManager">
+		<string>setCenterAnnState</string>
+		<value type="int">400</value>
+		<obj class="foxu.sea.gm.operators.SetCenterAnnState">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 查询新联盟信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>getbattleFight</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.getBattleFightInfo">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+		<!-- 电话绑定信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>telbinding</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.TelBindingInfo">
+			<method name="setNeedLog">true</method>
+			<method name="setTelManager"><ref id="bindingManager" /></method>
+		</obj>
+	</method>
+	
+			<!-- 获取电话绑定日志 -->
+	<method name="addOperator" ref="gmManager">
+		<string>bindingtrack</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.GetBindingLog">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 获取宝石岛屿的坐标 -->
+	<method name="addOperator" ref="gmManager">
+		<string>serchGemsIsland</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.SerchGemsIsland">
+			<method name="setManager"><ref id="gemsIslandManger"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!-- 获取充值服务器订单信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>orderbypdid</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ViewOrdersByPdid">
+			<method name="setPurchaseUrl"><ref id="queryUrl" /></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--热销大礼包 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>sellingActivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.SellingActivity" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--活动限时奖励 300-->
+	<method name="addOperator" ref="gmManager">
+		<string>activityaward</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ActivityLimitAward" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--查询玩家积分信息 -->
+	<method name="addOperator" ref="gmManager">
+		<string>viewcoins</string>
+		<value type="int">200</value>
+		<obj class="foxu.sea.gm.operators.Viewcoins">
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	<!--关闭活动 -->
+	<method name="addOperator" ref="gmManager">
+		<string>closeActivity</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.CloseEachActivity" >
+			<method name="setDsManager"><ref id="dsmanager"/></method>
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+	
+	
+	<!--添加荣誉 -->
+	<method name="addOperator" ref="gmManager">
+		<string>changeHonorScore</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.ChangeHonorScore" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+
+	<!--添加荣誉 -->
+	<method name="addOperator" ref="gmManager">
+		<string>playerLeagueInfo</string>
+		<value type="int">300</value>
+		<obj class="foxu.sea.gm.operators.EditPlayerLeagueInfo" >
+			<method name="setNeedLog">true</method>
+		</obj>
+	</method>
+</objects>

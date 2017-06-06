@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+    <!-- 战友招募  -->
+	<field class="foxu.sea.comrade.ComradeTask" name="factory" id="comradeTaskFactory"/>
+	<method ref="comradeTaskFactory" name="init">
+        <ref id="context" />
+    </method>
+    <!-- 战友招募complete 最大完成次数    taskType= 任务类型 充值-1 ,等级-2,最大战斗力-3 taskCondition 任务条件  -->
+    <sample class="foxu.sea.comrade.ComradeTask" sid="1" complete="15" taskType="1" taskCondition="50" awardSid="65301" key="0" value="0"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="2" complete="10" taskType="1" taskCondition="200" awardSid="65302" key="0" value="1"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="3" complete="5" taskType="1" taskCondition="500" awardSid="65303" key="0" value="2"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="4" complete="3" taskType="1" taskCondition="2000" awardSid="65304" key="0" value="3"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="5" complete="1" taskType="1" taskCondition="10000" awardSid="65305" key="0" value="4"/>
+
+    <sample class="foxu.sea.comrade.ComradeTask" sid="6" complete="15" taskType="2" taskCondition="5" awardSid="65306" key="0" value="5"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="7" complete="10" taskType="2" taskCondition="10" awardSid="65307" key="0" value="6"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="8" complete="5" taskType="2" taskCondition="20" awardSid="65308" key="0" value="7"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="9" complete="3" taskType="2" taskCondition="40" awardSid="65309" key="0" value="8"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="10" complete="1" taskType="2" taskCondition="60" awardSid="65310" key="0" value="9"/>
+
+    <sample class="foxu.sea.comrade.ComradeTask" sid="11" complete="15" taskType="3" taskCondition="1000" awardSid="65311" key="0" value="10"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="12" complete="10" taskType="3" taskCondition="5000" awardSid="65312" key="0" value="11"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="13" complete="5" taskType="3" taskCondition="10000" awardSid="65313" key="0" value="12"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="14" complete="3" taskType="3" taskCondition="50000" awardSid="65314" key="0" value="13"/>
+    <sample class="foxu.sea.comrade.ComradeTask" sid="15" complete="1" taskType="3" taskCondition="1000000" awardSid="65315" key="0" value="14"/>
+	
+</objects>

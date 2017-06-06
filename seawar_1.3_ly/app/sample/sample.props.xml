@@ -1,0 +1,3823 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.proplist.Prop" name="factory" id="propFactory" />
+    <method ref="propFactory" name="init">
+  
+        <ref id="context" /> 
+
+    </method>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="1" name="sample_prop_name_1" description="sample_prop_des_1" pname="小块铁锭" price="1" maxCount="65535" sortId="521" buildTime="10" needGems="4">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30001</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2" name="sample_prop_name_2" description="sample_prop_des_2" pname="小桶石油" price="1" maxCount="65535" sortId="522" buildTime="10" needGems="4">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30002</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3" name="sample_prop_name_3" description="sample_prop_des_3" pname="小块硅矿" price="1" maxCount="65535" sortId="523" buildTime="10" needGems="4">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30003</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4" name="sample_prop_name_4" description="sample_prop_des_4" pname="小块铀矿" price="1" maxCount="65535" sortId="524" buildTime="10" needGems="4">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30004</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5" name="sample_prop_name_5" description="sample_prop_des_5" pname="小堆金币" price="1" maxCount="65535" sortId="525" buildTime="10" needGems="4">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30005</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="6" name="sample_prop_name_6" description="sample_prop_des_6" pname="大堆铁锭" price="1" maxCount="65535" sortId="526" buildTime="10" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30006</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7" name="sample_prop_name_7" description="sample_prop_des_7" pname="大桶石油" price="1" maxCount="65535" sortId="527" buildTime="10" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30007</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8" name="sample_prop_name_8" description="sample_prop_des_8" pname="大块硅矿" price="1" maxCount="65535" sortId="528" buildTime="10" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30008</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="9" name="sample_prop_name_9" description="sample_prop_des_9" pname="大块铀矿" price="1" maxCount="65535" sortId="529" buildTime="10" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30009</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="10" name="sample_prop_name_10" description="sample_prop_des_10" pname="大堆金块" price="1" maxCount="65535" sortId="530" buildTime="10" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30010</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="11" name="sample_prop_name_11" description="sample_prop_des_11" pname="荣誉勋章宝箱" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="480">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30011</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="12" name="sample_prop_name_12" description="sample_prop_des_12" pname="新手资源箱" price="1" maxCount="65535" sortId="501" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="13" name="sample_prop_name_13" description="sample_prop_des_13" pname="大型资源箱" price="1" maxCount="65535" sortId="502" buildTime="10" needGems="380">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="14" name="sample_prop_name_14" description="sample_prop_des_14" pname="超大资源箱" price="1" maxCount="65535" sortId="503" buildTime="10" needGems="2800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30014</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="15" name="sample_prop_name_15" description="sample_prop_des_15" pname="特大资源箱" price="1" maxCount="65535" sortId="504" buildTime="10" needGems="960">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30015</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="16" name="sample_prop_name_16" description="sample_prop_des_16" pname="急速生产" price="1" maxCount="65535" sortId="112" buildTime="10" needGems="210">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40001,40002,40003,40004,40005,40001,40002,40003,40004,40005,40001,40002,40003,40004,40005</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="17" name="sample_prop_name_17" description="sample_prop_des_17" pname="急速发展箱" price="1" maxCount="65535" sortId="505" buildTime="10" needGems="6580">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30017</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="18" name="sample_prop_name_18" description="sample_prop_des_18" pname="快速发展箱" price="1" maxCount="65535" sortId="506" buildTime="10" needGems="3290">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30018</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="19" name="sample_prop_name_19" description="sample_prop_des_19" pname="急速发展箱C" price="1" maxCount="65535" sortId="507" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30019</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="400" name="sample_prop_name_400" description="sample_prop_des_400" pname="小铀矿宝箱" price="1" maxCount="65535" sortId="471" buildTime="10" needGems="798">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30020</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="401" name="sample_prop_name_401" description="sample_prop_des_401" pname="大铀矿宝箱" price="1" maxCount="65535" sortId="223" buildTime="10" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30021</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="402" name="sample_prop_name_402" description="sample_prop_des_402" pname="增益宝箱" price="1" maxCount="65535" sortId="508" buildTime="10" needGems="798">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30022</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="403" name="sample_prop_name_403" description="sample_prop_des_403" pname="小统御宝箱" price="1" maxCount="65535" sortId="509" buildTime="10" needGems="498">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30023</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="404" name="sample_prop_name_404" description="sample_prop_des_404" pname="大统御宝箱" price="1" maxCount="65535" sortId="510" buildTime="10" needGems="998">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30024</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="405" name="sample_prop_name_405" description="sample_prop_des_405" pname="铁矿资源箱" price="1" maxCount="65535" sortId="496" buildTime="10" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30025</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="406" name="sample_prop_name_406" description="sample_prop_des_406" pname="石油资源箱" price="1" maxCount="65535" sortId="497" buildTime="10" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30026</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="407" name="sample_prop_name_407" description="sample_prop_des_407" pname="硅矿资源箱" price="1" maxCount="65535" sortId="498" buildTime="10" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30027</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="408" name="sample_prop_name_408" description="sample_prop_des_408" pname="大型铁资源箱" price="1" maxCount="65535" sortId="220" buildTime="10" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30028</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="409" name="sample_prop_name_409" description="sample_prop_des_409" pname="大型油资源箱" price="1" maxCount="65535" sortId="221" buildTime="10" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30029</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="410" name="sample_prop_name_410" description="sample_prop_des_410" pname="大型硅资源箱" price="1" maxCount="65535" sortId="222" buildTime="10" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30030</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="411" name="sample_prop_name_411" description="sample_prop_des_411" pname="大型勋章宝箱" price="1" maxCount="65535" sortId="224" buildTime="36000" needGems="768">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30031</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="412" name="sample_prop_name_412" description="sample_prop_des_412" pname="燃气轮机货单" price="1" maxCount="65535" sortId="329" buildTime="36000" needGems="240">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30032</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="413" name="sample_prop_name_413" description="sample_prop_des_413" pname="聚变核心货单" price="1" maxCount="65535" sortId="330" buildTime="45000" needGems="480">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30033</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="414" name="sample_prop_name_414" description="sample_prop_des_414" pname="动力机械货单" price="1" maxCount="65535" sortId="331" buildTime="45000" maxExchangeNum="5" needGems="98" needAllianceScore="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30034</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="415" name="sample_prop_name_415" description="sample_prop_des_415" pname="精密机械货单" price="1" maxCount="65535" sortId="332" buildTime="45000" maxExchangeNum="5" needGems="198" needAllianceScore="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30035</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="416" name="sample_prop_name_416" description="sample_prop_des_416" pname="一堆星石" price="1" maxCount="65535" sortId="326" buildTime="45000" buyUse="true" needGems="1998">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30036</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="417" name="sample_prop_name_417" description="sample_prop_des_417" pname="星石集装箱" price="1" maxCount="65535" sortId="327" buildTime="54000" needGems="980">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30037</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="418" name="sample_prop_name_418" description="sample_prop_des_418" pname="圣诞宝箱" price="1" maxCount="65535" sortId="328" buildTime="54000" needGems="4298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30038</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="419" name="sample_prop_name_419" description="sample_prop_des_419" pname="大堆星石" price="1" maxCount="65535" sortId="325" buildTime="54000" needGems="1260">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30039</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="420" name="sample_prop_name_420" description="sample_prop_des_420" pname="铀矿货单5" price="1" maxCount="65535" sortId="511" buildTime="54000" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>30040</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="501" name="sample_prop_name_501" description="sample_prop_des_501" pname="铁矿开采" price="1" maxCount="65535" sortId="113" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40001</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="502" name="sample_prop_name_502" description="sample_prop_des_502" pname="石油开采" price="1" maxCount="65535" sortId="114" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40002</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="503" name="sample_prop_name_503" description="sample_prop_des_503" pname="硅矿开采" price="1" maxCount="65535" sortId="115" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40003</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="504" name="sample_prop_name_504" description="sample_prop_des_504" pname="铀矿开采" price="1" maxCount="65535" sortId="116" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40004</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="505" name="sample_prop_name_505" description="sample_prop_des_505" pname="金币铸造" price="1" maxCount="65535" sortId="117" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40005</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="506" name="sample_prop_name_506" description="sample_prop_des_506" pname="离子盾" price="1" maxCount="65535" sortId="102" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40006</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="507" name="sample_prop_name_507" description="sample_prop_des_507" pname="高爆炸药" price="1" maxCount="65535" sortId="101" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40007</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="508" name="sample_prop_name_508" description="sample_prop_des_508" pname="顺风行军" price="1" maxCount="65535" sortId="118" buildTime="28800" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40008</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="509" name="sample_prop_name_509" description="sample_prop_des_509" pname="和平旗" price="1" maxCount="65535" sortId="4" buildTime="86400" needGems="28">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40009</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="1001" name="sample_prop_name_1001" description="sample_prop_des_1001" pname="能量试剂" price="1" maxCount="65535" sortId="5" buildTime="10" needGems="20">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>56001</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="1002" name="sample_prop_name_1002" description="sample_prop_des_1002" pname="能量药水" price="1" maxCount="65535" sortId="1" buildTime="10" needGems="80">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>56002</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="1003" name="sample_prop_name_1003" description="sample_prop_des_1003" pname="经验书" price="1" maxCount="65535" sortId="2" buildTime="10" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="1004" name="sample_prop_name_1004" description="sample_prop_des_1004" pname="声望书" price="1" maxCount="65535" sortId="3" buildTime="10" needGems="18">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="1005" name="sample_prop_name_1005" description="sample_prop_des_1005" pname="迁岛令" price="1" maxCount="65535" sortId="10" buildTime="10" needGems="28">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="1006" name="sample_prop_name_1006" description="sample_prop_des_1006" pname="高级迁岛令" price="1" maxCount="65535" sortId="9" buildTime="10" needGems="98">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2001" name="sample_prop_name_2001" description="sample_prop_des_2001" pname="空中支援" price="1" maxCount="65535" sortId="107" buildTime="10" needGems="98">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2002" name="sample_prop_name_2002" description="sample_prop_des_2002" pname="脉冲炸弹" price="1" maxCount="65535" sortId="108" buildTime="10" needGems="98">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="510" name="sample_prop_name_510" description="sample_prop_des_510" pname="激光制导" price="1" maxCount="65535" sortId="103" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40010</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="511" name="sample_prop_name_511" description="sample_prop_des_511" pname="烟雾屏障" price="1" maxCount="65535" sortId="104" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40011</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="512" name="sample_prop_name_512" description="sample_prop_des_512" pname="贫铀弹" price="1" maxCount="65535" sortId="105" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="513" name="sample_prop_name_513" description="sample_prop_des_513" pname="反应装甲" price="1" maxCount="65535" sortId="106" buildTime="28800" needGems="38">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,3</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2007" name="sample_prop_name_2007" description="sample_prop_des_2007" pname="C98燃气轮机" price="1" maxCount="65535" sortId="9493" buildTime="10" needGems="3">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,2</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2008" name="sample_prop_name_2008" description="sample_prop_des_2008" pname="聚变核心" price="1" maxCount="65535" sortId="9494" buildTime="10" needGems="6">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,2</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2009" name="sample_prop_name_2009" description="sample_prop_des_2009" pname="星石" price="1" maxCount="65535" sortId="9495" buildTime="10" needGems="6">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2010" name="sample_prop_name_2010" description="sample_prop_des_2010" pname="欢乐宝石箱" price="1" maxCount="65535" sortId="205" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40015</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2011" name="sample_prop_name_2011" description="sample_prop_des_2011" pname="愉悦宝石箱" price="1" maxCount="65535" sortId="206" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40016</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2012" name="sample_prop_name_2012" description="sample_prop_des_2012" pname="大宝石箱" price="1" maxCount="65535" sortId="207" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40017</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2013" name="sample_prop_name_2013" description="sample_prop_des_2013" pname="小宝石箱" price="1" maxCount="65535" sortId="208" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40018</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2014" name="sample_prop_name_2014" description="sample_prop_des_2014" pname="VIP银卡" price="1" maxCount="65535" sortId="8" buildTime="10" needGems="25">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40057</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2015" name="sample_prop_name_2015" description="sample_prop_des_2015" pname="VIP金卡" price="1" maxCount="65535" sortId="7" buildTime="10" needGems="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40058</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2016" name="sample_prop_name_2016" description="sample_prop_des_2016" pname="VIP钻石卡" price="1" maxCount="65535" sortId="6" buildTime="10" needGems="150">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40059</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2017" name="sample_prop_name_2017" description="sample_prop_des_2017" pname="纸7" price="1" maxCount="65535" sortId="9499" buildTime="10">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2018" name="sample_prop_name_2018" description="sample_prop_des_2018" pname="快速吊装" price="1" maxCount="65535" sortId="109" buildTime="10" type="1" needGems="180" cdTime="1800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2019" name="sample_prop_name_2019" description="sample_prop_des_2019" pname="极速吊装" price="1" maxCount="65535" sortId="110" buildTime="10" type="1" needGems="360" cdTime="3600">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.BuildAutoUpProp" sid="2020" name="sample_prop_name_2020" description="sample_prop_des_2020" pname="自动建设" price="1" maxCount="65535" sortId="111" buildTime="10" needGems="180">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40056</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2021" name="sample_prop_name_2021" description="sample_prop_des_2021" pname="荣誉勋章" price="1" maxCount="65535" sortId="9498" buildTime="10" needGems="8">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="2022" name="sample_prop_name_2022" description="sample_prop_des_2022" pname="统御书" price="1" maxCount="65535" sortId="9497" buildTime="10" needGems="28">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2023" name="sample_prop_name_2023" description="sample_prop_des_2023" pname="小型铀资源箱" price="1" maxCount="65535" sortId="472" buildTime="10" needGems="428">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40019</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2024" name="sample_prop_name_2024" description="sample_prop_des_2024" pname="小型铁资源箱" price="1" maxCount="65535" sortId="473" buildTime="10" needGems="428">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40020</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2025" name="sample_prop_name_2025" description="sample_prop_des_2025" pname="小型油资源箱" price="1" maxCount="65535" sortId="474" buildTime="10" needGems="428">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40021</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2026" name="sample_prop_name_2026" description="sample_prop_des_2026" pname="小型硅资源箱" price="1" maxCount="65535" sortId="475" buildTime="10" needGems="428">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40022</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2027" name="sample_prop_name_2027" description="sample_prop_des_2027" pname="龙马礼包" price="1" maxCount="65535" sortId="333" buildTime="10" needGems="3498">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40023</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2028" name="sample_prop_name_2028" description="sample_prop_des_2028" pname="白驹礼包" price="1" maxCount="65535" sortId="334" buildTime="10" needGems="460">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40024</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2029" name="sample_prop_name_2029" description="sample_prop_des_2029" pname="小统御宝箱" price="1" maxCount="65535" sortId="512" buildTime="10" needGems="98">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40025</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="2030" name="sample_prop_name_2030" description="sample_prop_des_2030" pname="小荣誉勋章宝箱" price="1" maxCount="65535" sortId="513" buildTime="10" needGems="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40026</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3001" name="sample_prop_name_3001" description="sample_prop_des_3001" pname="小资源箱" price="1" maxCount="65535" sortId="514" buildTime="10" needGems="25">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40027</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3002" name="sample_prop_name_3002" description="sample_prop_des_3002" pname="豪华新手宝箱" price="1" maxCount="65535" sortId="515" buildTime="10" needGems="160">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40028</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3003" name="sample_prop_name_3003" description="sample_prop_des_3003" pname="王者宝箱" price="1" maxCount="65535" sortId="335" buildTime="10" needGems="3800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40029</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3004" name="sample_prop_name_3004" description="sample_prop_des_3004" pname="雷霆宝箱" price="1" maxCount="65535" sortId="336" buildTime="10" needGems="2000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40030</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3005" name="sample_prop_name_3005" description="sample_prop_des_3005" pname="精英宝箱" price="1" maxCount="65535" sortId="337" buildTime="10" needGems="800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40031</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3006" name="sample_prop_name_3006" description="sample_prop_des_3006" pname="和平旗宝箱" price="1" maxCount="65535" sortId="516" buildTime="10" needGems="1">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40032</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3007" name="sample_prop_name_3007" description="sample_prop_des_3007" pname="精英强袭宝箱" price="1" maxCount="65535" sortId="517" buildTime="10" needGems="1">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40033</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3008" name="sample_prop_name_3008" description="sample_prop_des_3008" pname="激战宝箱" price="1" maxCount="65535" sortId="518" buildTime="10" needGems="1">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40034</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4001" name="sample_prop_name_4001" description="sample_prop_des_4001" pname="增产宝箱" price="1" maxCount="65535" sortId="519" buildTime="10" needGems="1">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40035</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4002" name="sample_prop_name_4002" description="sample_prop_des_4002" pname="铀矿资源箱" price="1" maxCount="65535" sortId="494" buildTime="10" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40036</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4003" name="sample_prop_name_4003" description="sample_prop_des_4003" pname="金币资源箱" price="1" maxCount="65535" sortId="495" buildTime="10" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40037</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4004" name="sample_prop_name_4004" description="sample_prop_des_4004" pname="大金币资源箱" price="1" maxCount="65535" sortId="476" buildTime="10" needGems="428">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40038</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4005" name="sample_prop_name_4005" description="sample_prop_des_4005" pname="版本更新礼包" price="1" maxCount="65535" sortId="491" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51011</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4006" name="sample_prop_name_4006" description="sample_prop_des_4006" pname="延迟开放礼包" price="1" maxCount="65535" sortId="492" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4007" name="sample_prop_name_4007" description="sample_prop_des_4007" pname="合服礼包" price="1" maxCount="65535" sortId="493" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="4008" name="sample_prop_name_4008" description="sample_prop_des_4008" pname="航母图纸II" price="1" maxCount="65535" sortId="9496" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4009" name="sample_prop_name_4009" description="sample_prop_des_4009" pname="大箱铁锭" price="1" maxCount="65535" sortId="477" buildTime="10" needGems="298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40051</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4010" name="sample_prop_name_4010" description="sample_prop_des_4010" pname="大箱石油" price="1" maxCount="65535" sortId="478" buildTime="10" needGems="298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40052</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4011" name="sample_prop_name_4011" description="sample_prop_des_4011" pname="大箱硅矿" price="1" maxCount="65535" sortId="479" buildTime="10" needGems="298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40053</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4012" name="sample_prop_name_4012" description="sample_prop_des_4012" pname="大箱铀矿" price="1" maxCount="65535" sortId="480" buildTime="10" needGems="298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40054</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4013" name="sample_prop_name_4013" description="sample_prop_des_4013" pname="大箱金块" price="1" maxCount="65535" sortId="481" buildTime="10" needGems="298">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40055</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4014" name="sample_prop_name_4014" description="sample_prop_des_4014" pname="专属礼包" price="1" maxCount="65535" sortId="482" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40048</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4015" name="sample_prop_name_4015" description="sample_prop_des_4015" pname="白金礼包" price="1" maxCount="65535" sortId="210" buildTime="10" needGems="1000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40049</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4016" name="sample_prop_name_4016" description="sample_prop_des_4016" pname="钻石礼包" price="1" maxCount="65535" sortId="209" buildTime="10" needGems="2000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40050</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4017" name="sample_prop_name_4017" description="sample_prop_des_4017" pname="活动奖励礼包" price="1" maxCount="65535" sortId="483" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51014</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4018" name="sample_prop_name_4018" description="sample_prop_des_4018" pname="奖励礼包" price="1" maxCount="65535" sortId="484" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51015</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4019" name="sample_prop_name_4019" description="sample_prop_des_4019" pname="补偿礼包" price="1" maxCount="65535" sortId="485" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>51016</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="4020" name="sample_prop_name_4020" description="sample_prop_des_4020" pname="回归礼包" price="1" maxCount="65535" sortId="486" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59174</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5001" name="sample_prop_name_5001" description="sample_prop_des_5001" pname="兑换码礼包" price="1" maxCount="65535" sortId="487" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40060</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5002" name="sample_prop_name_5002" description="sample_prop_des_5002" pname="兑换码礼包B" price="1" maxCount="65535" sortId="488" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40061</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5003" name="sample_prop_name_5003" description="sample_prop_des_5003" pname="兑换码礼包C" price="1" maxCount="65535" sortId="489" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40062</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5004" name="sample_prop_name_5004" description="sample_prop_des_5004" pname="兑换码礼包D" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40063</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="6001" name="sample_prop_name_6001" description="sample_prop_des_6001" pname="白银船锚" price="1" maxCount="65535" sortId="9492" buildTime="10" needGems="10">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="6002" name="sample_prop_name_6002" description="sample_prop_des_6002" pname="黄金船锚" price="1" maxCount="65535" sortId="9491" buildTime="10" needGems="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7001" name="sample_prop_name_7001" description="sample_prop_des_7001" pname="600宝石箱" price="1" maxCount="65535" sortId="204" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59001</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7002" name="sample_prop_name_7002" description="sample_prop_des_7002" pname="1250宝石箱" price="1" maxCount="65535" sortId="203" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59002</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7003" name="sample_prop_name_7003" description="sample_prop_des_7003" pname="6500宝石箱" price="1" maxCount="65535" sortId="202" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59003</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7004" name="sample_prop_name_7004" description="sample_prop_des_7004" pname="13500宝石箱" price="1" maxCount="65535" sortId="201" buildTime="10" needGems="59999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59004</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7011" name="sample_prop_name_7011" description="sample_prop_des_7011" pname="五仁月饼" price="1" maxCount="65535" sortId="213" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59011</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7012" name="sample_prop_name_7012" description="sample_prop_des_7012" pname="豆沙月饼" price="1" maxCount="65535" sortId="212" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59012</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="7013" name="sample_prop_name_7013" description="sample_prop_des_7013" pname="桂花月饼" price="1" maxCount="65535" sortId="211" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59013</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3010" name="sample_prop_name_3010" description="sample_prop_des_3010" pname="低级材料宝箱" price="1" maxCount="65535" sortId="451" buildTime="10" limitLevel="20" needGems="50">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59103</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3011" name="sample_prop_name_3011" description="sample_prop_des_3011" pname="中级材料宝箱" price="1" maxCount="65535" sortId="450" buildTime="10" limitLevel="20" needGems="480">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59102</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3012" name="sample_prop_name_3012" description="sample_prop_des_3012" pname="高级材料宝箱" price="1" maxCount="65535" sortId="428" buildTime="10" limitLevel="20" needGems="2580">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59101</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3013" name="sample_prop_name_3013" description="sample_prop_des_3013" pname="低级进阶宝箱" price="1" maxCount="65535" sortId="392" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59104</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3014" name="sample_prop_name_3014" description="sample_prop_des_3014" pname="绿色配件宝箱" price="1" maxCount="65535" sortId="449" buildTime="10" limitLevel="20" needGems="288">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59105</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3015" name="sample_prop_name_3015" description="sample_prop_des_3015" pname="蓝色配件宝箱" price="1" maxCount="65535" sortId="427" buildTime="10" limitLevel="20" needGems="888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59106</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3016" name="sample_prop_name_3016" description="sample_prop_des_3016" pname="紫色配件宝箱" price="1" maxCount="65535" sortId="391" buildTime="10" limitLevel="20" needGems="3288">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59107</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3017" name="sample_prop_name_3017" description="sample_prop_des_3017" pname="橙色配件宝箱" price="1" maxCount="65535" sortId="338" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59108</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3018" name="sample_prop_name_3018" description="sample_prop_des_3018" pname="战列舰武器箱-精良" price="1" maxCount="65535" sortId="411" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59109</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3019" name="sample_prop_name_3019" description="sample_prop_des_3019" pname="战列舰命中箱-精良" price="1" maxCount="65535" sortId="412" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59110</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3020" name="sample_prop_name_3020" description="sample_prop_des_3020" pname="战列舰装甲箱-精良" price="1" maxCount="65535" sortId="413" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59111</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3021" name="sample_prop_name_3021" description="sample_prop_des_3021" pname="战列舰闪避箱-精良" price="1" maxCount="65535" sortId="414" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59112</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3022" name="sample_prop_name_3022" description="sample_prop_des_3022" pname="战列舰武器箱-史诗" price="1" maxCount="65535" sortId="373" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59113</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3023" name="sample_prop_name_3023" description="sample_prop_des_3023" pname="战列舰命中箱-史诗" price="1" maxCount="65535" sortId="374" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59114</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3024" name="sample_prop_name_3024" description="sample_prop_des_3024" pname="战列舰装甲箱-史诗" price="1" maxCount="65535" sortId="375" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59115</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3025" name="sample_prop_name_3025" description="sample_prop_des_3025" pname="战列舰闪避箱-史诗" price="1" maxCount="65535" sortId="376" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59116</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3026" name="sample_prop_name_3026" description="sample_prop_des_3026" pname="潜艇武器箱-精良" price="1" maxCount="65535" sortId="415" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59117</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3027" name="sample_prop_name_3027" description="sample_prop_des_3027" pname="潜艇命中箱-精良" price="1" maxCount="65535" sortId="416" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59118</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3028" name="sample_prop_name_3028" description="sample_prop_des_3028" pname="潜艇装甲箱-精良" price="1" maxCount="65535" sortId="417" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59119</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3029" name="sample_prop_name_3029" description="sample_prop_des_3029" pname="潜艇闪避箱-精良" price="1" maxCount="65535" sortId="418" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59120</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3030" name="sample_prop_name_3030" description="sample_prop_des_3030" pname="潜艇武器箱-史诗" price="1" maxCount="65535" sortId="377" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59121</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3031" name="sample_prop_name_3031" description="sample_prop_des_3031" pname="潜艇命中箱-史诗" price="1" maxCount="65535" sortId="378" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59122</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3032" name="sample_prop_name_3032" description="sample_prop_des_3032" pname="潜艇装甲箱-史诗" price="1" maxCount="65535" sortId="379" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59123</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3033" name="sample_prop_name_3033" description="sample_prop_des_3033" pname="潜艇闪避箱-史诗" price="1" maxCount="65535" sortId="380" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59124</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3034" name="sample_prop_name_3034" description="sample_prop_des_3034" pname="巡洋舰武器箱-精良" price="1" maxCount="65535" sortId="419" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59125</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3035" name="sample_prop_name_3035" description="sample_prop_des_3035" pname="巡洋舰命中箱-精良" price="1" maxCount="65535" sortId="420" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59126</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3036" name="sample_prop_name_3036" description="sample_prop_des_3036" pname="巡洋舰装甲箱-精良" price="1" maxCount="65535" sortId="421" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59127</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3037" name="sample_prop_name_3037" description="sample_prop_des_3037" pname="巡洋舰闪避箱-精良" price="1" maxCount="65535" sortId="422" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59128</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3038" name="sample_prop_name_3038" description="sample_prop_des_3038" pname="巡洋舰武器箱-史诗" price="1" maxCount="65535" sortId="381" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59129</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3039" name="sample_prop_name_3039" description="sample_prop_des_3039" pname="巡洋舰命中箱-史诗" price="1" maxCount="65535" sortId="382" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59130</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3040" name="sample_prop_name_3040" description="sample_prop_des_3040" pname="巡洋舰装甲箱-史诗" price="1" maxCount="65535" sortId="383" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59131</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3041" name="sample_prop_name_3041" description="sample_prop_des_3041" pname="巡洋舰闪避箱-史诗" price="1" maxCount="65535" sortId="384" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59132</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3042" name="sample_prop_name_3042" description="sample_prop_des_3042" pname="航母武器箱-精良" price="1" maxCount="65535" sortId="423" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59133</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3043" name="sample_prop_name_3043" description="sample_prop_des_3043" pname="航母命中箱-精良" price="1" maxCount="65535" sortId="424" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59134</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3044" name="sample_prop_name_3044" description="sample_prop_des_3044" pname="航母装甲箱-精良" price="1" maxCount="65535" sortId="425" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59135</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3045" name="sample_prop_name_3045" description="sample_prop_des_3045" pname="航母闪避箱-精良" price="1" maxCount="65535" sortId="426" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59136</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3046" name="sample_prop_name_3046" description="sample_prop_des_3046" pname="航母武器箱-史诗" price="1" maxCount="65535" sortId="385" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59137</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3047" name="sample_prop_name_3047" description="sample_prop_des_3047" pname="航母命中箱-史诗" price="1" maxCount="65535" sortId="386" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59138</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3048" name="sample_prop_name_3048" description="sample_prop_des_3048" pname="航母装甲箱-史诗" price="1" maxCount="65535" sortId="387" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59139</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3049" name="sample_prop_name_3049" description="sample_prop_des_3049" pname="航母闪避箱-史诗" price="1" maxCount="65535" sortId="388" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59140</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3050" name="sample_prop_name_3050" description="sample_prop_des_3050" pname="聚能模块宝箱I" price="1" maxCount="65535" sortId="448" buildTime="10" limitLevel="20" needGems="30">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59141</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3051" name="sample_prop_name_3051" description="sample_prop_des_3051" pname="聚能模块宝箱Ⅱ" price="1" maxCount="65535" sortId="429" buildTime="10" limitLevel="20" needGems="240">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59142</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3052" name="sample_prop_name_3052" description="sample_prop_des_3052" pname="聚能模块宝箱Ⅲ" price="1" maxCount="65535" sortId="409" buildTime="10" limitLevel="20" needGems="1280">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59143</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3053" name="sample_prop_name_3053" description="sample_prop_des_3053" pname="聚能模块宝箱Ⅳ" price="1" maxCount="65535" sortId="389" buildTime="10" limitLevel="20" needGems="3280">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59144</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3054" name="sample_prop_name_3054" description="sample_prop_des_3054" pname="聚能模块宝箱Ⅴ" price="1" maxCount="65535" sortId="339" buildTime="10" limitLevel="20" needGems="15888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59145</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3055" name="sample_prop_name_3055" description="sample_prop_des_3055" pname="聚能模块箱I" price="1" maxCount="65535" sortId="447" buildTime="600" limitLevel="20" needGems="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,100</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59147</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3056" name="sample_prop_name_3056" description="sample_prop_des_3056" pname="聚能模块箱Ⅱ" price="1" maxCount="65535" sortId="430" buildTime="3600" limitLevel="20" needGems="48">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,1000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,5</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59148</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3057" name="sample_prop_name_3057" description="sample_prop_des_3057" pname="聚能模块箱Ⅲ" price="1" maxCount="65535" sortId="410" buildTime="14400" limitLevel="20" maxExchangeNum="5" needGems="258" needAllianceScore="10">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,10000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,10</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59149</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3058" name="sample_prop_name_3058" description="sample_prop_des_3058" pname="聚能模块箱Ⅳ" price="1" maxCount="65535" sortId="390" buildTime="86400" limitLevel="20" needGems="728">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,50000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,20</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59150</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3059" name="sample_prop_name_3059" description="sample_prop_des_3059" pname="聚能模块箱Ⅴ" price="1" maxCount="65535" sortId="340" buildTime="259200" limitLevel="20" needGems="3280">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,100000</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,50</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59151</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3060" name="sample_prop_name_3060" description="sample_prop_des_3060" pname="小包星石" price="1" maxCount="65535" sortId="520" buildTime="600" needGems="58">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,15</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59146</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3061" name="sample_prop_name_3061" description="sample_prop_des_3061" pname="战列舰配件箱-史诗" price="1" maxCount="65535" sortId="391" buildTime="10" limitLevel="20" needGems="2888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59152</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3062" name="sample_prop_name_3062" description="sample_prop_des_3062" pname="潜艇配件箱-史诗" price="1" maxCount="65535" sortId="392" buildTime="10" limitLevel="20" needGems="2888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59153</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3063" name="sample_prop_name_3063" description="sample_prop_des_3063" pname="巡洋舰配件箱-史诗" price="1" maxCount="65535" sortId="393" buildTime="10" limitLevel="20" needGems="2888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59154</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3064" name="sample_prop_name_3064" description="sample_prop_des_3064" pname="航母配件箱-史诗" price="1" maxCount="65535" sortId="394" buildTime="10" limitLevel="20" needGems="2888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59155</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3065" name="sample_prop_name_3065" description="sample_prop_des_3065" pname="勋章星石宝箱" price="1" maxCount="65535" sortId="452" buildTime="10" needGems="3800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59156</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3066" name="sample_prop_name_3066" description="sample_prop_des_3066" pname="回归战舰宝箱" price="1" maxCount="65535" sortId="453" buildTime="10" needGems="2000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59157</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3067" name="sample_prop_name_3067" description="sample_prop_des_3067" pname="航母基础配件宝箱" price="1" maxCount="65535" sortId="454" buildTime="10" limitLevel="20" needGems="800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59158</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3068" name="sample_prop_name_3068" description="sample_prop_des_3068" pname="圣诞袜子" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="100">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59159</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3069" name="sample_prop_name_3069" description="sample_prop_des_3069" pname="圣诞礼包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59160</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8111" name="sample_prop_name_8111" description="sample_prop_des_8111" pname="战列舰武器箱-白色" price="1" maxCount="65535" sortId="455" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59301</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8112" name="sample_prop_name_8112" description="sample_prop_des_8112" pname="战列舰武器箱-绿色" price="1" maxCount="65535" sortId="431" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59302</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8113" name="sample_prop_name_8113" description="sample_prop_des_8113" pname="战列舰武器箱-蓝色" price="1" maxCount="65535" sortId="393" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59303</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8114" name="sample_prop_name_8114" description="sample_prop_des_8114" pname="战列舰武器箱-紫色" price="1" maxCount="65535" sortId="357" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59304</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8115" name="sample_prop_name_8115" description="sample_prop_des_8115" pname="战列舰武器箱-橙色" price="1" maxCount="65535" sortId="341" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59305</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8121" name="sample_prop_name_8121" description="sample_prop_des_8121" pname="战列舰命中箱-白色" price="1" maxCount="65535" sortId="456" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59306</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8122" name="sample_prop_name_8122" description="sample_prop_des_8122" pname="战列舰命中箱-绿色" price="1" maxCount="65535" sortId="432" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59307</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8123" name="sample_prop_name_8123" description="sample_prop_des_8123" pname="战列舰命中箱-蓝色" price="1" maxCount="65535" sortId="394" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59308</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8124" name="sample_prop_name_8124" description="sample_prop_des_8124" pname="战列舰命中箱-紫色" price="1" maxCount="65535" sortId="358" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59309</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8125" name="sample_prop_name_8125" description="sample_prop_des_8125" pname="战列舰命中箱-橙色" price="1" maxCount="65535" sortId="342" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59310</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8131" name="sample_prop_name_8131" description="sample_prop_des_8131" pname="战列舰装甲箱-白色" price="1" maxCount="65535" sortId="457" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59311</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8132" name="sample_prop_name_8132" description="sample_prop_des_8132" pname="战列舰装甲箱-绿色" price="1" maxCount="65535" sortId="433" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59312</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8133" name="sample_prop_name_8133" description="sample_prop_des_8133" pname="战列舰装甲箱-蓝色" price="1" maxCount="65535" sortId="395" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59313</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8134" name="sample_prop_name_8134" description="sample_prop_des_8134" pname="战列舰装甲箱-紫色" price="1" maxCount="65535" sortId="359" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59314</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8135" name="sample_prop_name_8135" description="sample_prop_des_8135" pname="战列舰装甲箱-橙色" price="1" maxCount="65535" sortId="343" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59315</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8141" name="sample_prop_name_8141" description="sample_prop_des_8141" pname="战列舰闪避箱-白色" price="1" maxCount="65535" sortId="458" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59316</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8142" name="sample_prop_name_8142" description="sample_prop_des_8142" pname="战列舰闪避箱-绿色" price="1" maxCount="65535" sortId="434" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59317</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8143" name="sample_prop_name_8143" description="sample_prop_des_8143" pname="战列舰闪避箱-蓝色" price="1" maxCount="65535" sortId="396" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59318</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8144" name="sample_prop_name_8144" description="sample_prop_des_8144" pname="战列舰闪避箱-紫色" price="1" maxCount="65535" sortId="360" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59319</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8145" name="sample_prop_name_8145" description="sample_prop_des_8145" pname="战列舰闪避箱-橙色" price="1" maxCount="65535" sortId="344" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59320</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8211" name="sample_prop_name_8211" description="sample_prop_des_8211" pname="潜艇武器箱-白色" price="1" maxCount="65535" sortId="459" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59321</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8212" name="sample_prop_name_8212" description="sample_prop_des_8212" pname="潜艇武器箱-绿色" price="1" maxCount="65535" sortId="435" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59322</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8213" name="sample_prop_name_8213" description="sample_prop_des_8213" pname="潜艇武器箱-蓝色" price="1" maxCount="65535" sortId="397" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59323</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8214" name="sample_prop_name_8214" description="sample_prop_des_8214" pname="潜艇武器箱-紫色" price="1" maxCount="65535" sortId="361" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59324</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8215" name="sample_prop_name_8215" description="sample_prop_des_8215" pname="潜艇武器箱-橙色" price="1" maxCount="65535" sortId="345" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59325</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8221" name="sample_prop_name_8221" description="sample_prop_des_8221" pname="潜艇命中箱-白色" price="1" maxCount="65535" sortId="460" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59326</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8222" name="sample_prop_name_8222" description="sample_prop_des_8222" pname="潜艇命中箱-绿色" price="1" maxCount="65535" sortId="436" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59327</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8223" name="sample_prop_name_8223" description="sample_prop_des_8223" pname="潜艇命中箱-蓝色" price="1" maxCount="65535" sortId="398" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59328</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8224" name="sample_prop_name_8224" description="sample_prop_des_8224" pname="潜艇命中箱-紫色" price="1" maxCount="65535" sortId="362" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59329</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8225" name="sample_prop_name_8225" description="sample_prop_des_8225" pname="潜艇命中箱-橙色" price="1" maxCount="65535" sortId="346" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59330</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8231" name="sample_prop_name_8231" description="sample_prop_des_8231" pname="潜艇装甲箱-白色" price="1" maxCount="65535" sortId="461" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59331</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8232" name="sample_prop_name_8232" description="sample_prop_des_8232" pname="潜艇装甲箱-绿色" price="1" maxCount="65535" sortId="437" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59332</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8233" name="sample_prop_name_8233" description="sample_prop_des_8233" pname="潜艇装甲箱-蓝色" price="1" maxCount="65535" sortId="399" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59333</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8234" name="sample_prop_name_8234" description="sample_prop_des_8234" pname="潜艇装甲箱-紫色" price="1" maxCount="65535" sortId="363" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59334</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8235" name="sample_prop_name_8235" description="sample_prop_des_8235" pname="潜艇装甲箱-橙色" price="1" maxCount="65535" sortId="347" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59335</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8241" name="sample_prop_name_8241" description="sample_prop_des_8241" pname="潜艇闪避箱-白色" price="1" maxCount="65535" sortId="462" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59336</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8242" name="sample_prop_name_8242" description="sample_prop_des_8242" pname="潜艇闪避箱-绿色" price="1" maxCount="65535" sortId="438" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59337</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8243" name="sample_prop_name_8243" description="sample_prop_des_8243" pname="潜艇闪避箱-蓝色" price="1" maxCount="65535" sortId="400" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59338</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8244" name="sample_prop_name_8244" description="sample_prop_des_8244" pname="潜艇闪避箱-紫色" price="1" maxCount="65535" sortId="364" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59339</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8245" name="sample_prop_name_8245" description="sample_prop_des_8245" pname="潜艇闪避箱-橙色" price="1" maxCount="65535" sortId="348" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59340</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8311" name="sample_prop_name_8311" description="sample_prop_des_8311" pname="巡洋舰武器箱-白色" price="1" maxCount="65535" sortId="463" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59341</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8312" name="sample_prop_name_8312" description="sample_prop_des_8312" pname="巡洋舰武器箱-绿色" price="1" maxCount="65535" sortId="439" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59342</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8313" name="sample_prop_name_8313" description="sample_prop_des_8313" pname="巡洋舰武器箱-蓝色" price="1" maxCount="65535" sortId="401" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59343</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8314" name="sample_prop_name_8314" description="sample_prop_des_8314" pname="巡洋舰武器箱-紫色" price="1" maxCount="65535" sortId="365" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59344</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8315" name="sample_prop_name_8315" description="sample_prop_des_8315" pname="巡洋舰武器箱-橙色" price="1" maxCount="65535" sortId="349" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59345</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8321" name="sample_prop_name_8321" description="sample_prop_des_8321" pname="巡洋舰命中箱-白色" price="1" maxCount="65535" sortId="464" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59346</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8322" name="sample_prop_name_8322" description="sample_prop_des_8322" pname="巡洋舰命中箱-绿色" price="1" maxCount="65535" sortId="440" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59347</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8323" name="sample_prop_name_8323" description="sample_prop_des_8323" pname="巡洋舰命中箱-蓝色" price="1" maxCount="65535" sortId="402" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59348</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8324" name="sample_prop_name_8324" description="sample_prop_des_8324" pname="巡洋舰命中箱-紫色" price="1" maxCount="65535" sortId="366" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59349</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8325" name="sample_prop_name_8325" description="sample_prop_des_8325" pname="巡洋舰命中箱-橙色" price="1" maxCount="65535" sortId="350" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59350</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8331" name="sample_prop_name_8331" description="sample_prop_des_8331" pname="巡洋舰装甲箱-白色" price="1" maxCount="65535" sortId="465" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59351</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8332" name="sample_prop_name_8332" description="sample_prop_des_8332" pname="巡洋舰装甲箱-绿色" price="1" maxCount="65535" sortId="441" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59352</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8333" name="sample_prop_name_8333" description="sample_prop_des_8333" pname="巡洋舰装甲箱-蓝色" price="1" maxCount="65535" sortId="403" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59353</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8334" name="sample_prop_name_8334" description="sample_prop_des_8334" pname="巡洋舰装甲箱-紫色" price="1" maxCount="65535" sortId="367" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59354</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8335" name="sample_prop_name_8335" description="sample_prop_des_8335" pname="巡洋舰装甲箱-橙色" price="1" maxCount="65535" sortId="351" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59355</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8341" name="sample_prop_name_8341" description="sample_prop_des_8341" pname="巡洋舰闪避箱-白色" price="1" maxCount="65535" sortId="466" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59356</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8342" name="sample_prop_name_8342" description="sample_prop_des_8342" pname="巡洋舰闪避箱-绿色" price="1" maxCount="65535" sortId="442" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59357</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8343" name="sample_prop_name_8343" description="sample_prop_des_8343" pname="巡洋舰闪避箱-蓝色" price="1" maxCount="65535" sortId="404" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59358</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8344" name="sample_prop_name_8344" description="sample_prop_des_8344" pname="巡洋舰闪避箱-紫色" price="1" maxCount="65535" sortId="368" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59359</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8345" name="sample_prop_name_8345" description="sample_prop_des_8345" pname="巡洋舰闪避箱-橙色" price="1" maxCount="65535" sortId="352" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59360</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8411" name="sample_prop_name_8411" description="sample_prop_des_8411" pname="航母武器箱-白色" price="1" maxCount="65535" sortId="467" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59361</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8412" name="sample_prop_name_8412" description="sample_prop_des_8412" pname="航母武器箱-绿色" price="1" maxCount="65535" sortId="443" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59362</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8413" name="sample_prop_name_8413" description="sample_prop_des_8413" pname="航母武器箱-蓝色" price="1" maxCount="65535" sortId="405" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59363</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8414" name="sample_prop_name_8414" description="sample_prop_des_8414" pname="航母武器箱-紫色" price="1" maxCount="65535" sortId="369" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59364</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8415" name="sample_prop_name_8415" description="sample_prop_des_8415" pname="航母武器箱-橙色" price="1" maxCount="65535" sortId="353" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59365</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8421" name="sample_prop_name_8421" description="sample_prop_des_8421" pname="航母命中箱-白色" price="1" maxCount="65535" sortId="468" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59366</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8422" name="sample_prop_name_8422" description="sample_prop_des_8422" pname="航母命中箱-绿色" price="1" maxCount="65535" sortId="444" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59367</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8423" name="sample_prop_name_8423" description="sample_prop_des_8423" pname="航母命中箱-蓝色" price="1" maxCount="65535" sortId="406" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59368</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8424" name="sample_prop_name_8424" description="sample_prop_des_8424" pname="航母命中箱-紫色" price="1" maxCount="65535" sortId="370" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59369</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8425" name="sample_prop_name_8425" description="sample_prop_des_8425" pname="航母命中箱-橙色" price="1" maxCount="65535" sortId="354" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59370</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8431" name="sample_prop_name_8431" description="sample_prop_des_8431" pname="航母装甲箱-白色" price="1" maxCount="65535" sortId="469" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59371</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8432" name="sample_prop_name_8432" description="sample_prop_des_8432" pname="航母装甲箱-绿色" price="1" maxCount="65535" sortId="445" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59372</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8433" name="sample_prop_name_8433" description="sample_prop_des_8433" pname="航母装甲箱-蓝色" price="1" maxCount="65535" sortId="407" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59373</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8434" name="sample_prop_name_8434" description="sample_prop_des_8434" pname="航母装甲箱-紫色" price="1" maxCount="65535" sortId="371" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59374</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8435" name="sample_prop_name_8435" description="sample_prop_des_8435" pname="航母装甲箱-橙色" price="1" maxCount="65535" sortId="355" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59375</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8441" name="sample_prop_name_8441" description="sample_prop_des_8441" pname="航母闪避箱-白色" price="1" maxCount="65535" sortId="470" buildTime="10" limitLevel="20" needGems="88">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59376</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8442" name="sample_prop_name_8442" description="sample_prop_des_8442" pname="航母闪避箱-绿色" price="1" maxCount="65535" sortId="446" buildTime="10" limitLevel="20" needGems="388">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59377</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8443" name="sample_prop_name_8443" description="sample_prop_des_8443" pname="航母闪避箱-蓝色" price="1" maxCount="65535" sortId="408" buildTime="10" limitLevel="20" needGems="988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59378</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8444" name="sample_prop_name_8444" description="sample_prop_des_8444" pname="航母闪避箱-紫色" price="1" maxCount="65535" sortId="372" buildTime="10" limitLevel="20" needGems="3888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59379</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="8445" name="sample_prop_name_8445" description="sample_prop_des_8445" pname="航母闪避箱-橙色" price="1" maxCount="65535" sortId="356" buildTime="10" limitLevel="20" needGems="38888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59380</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="51" name="sample_prop_name_51" description="sample_prop_des_51" pname="以太" price="1" maxCount="65535" sortId="9499" buildTime="10" needGems="100">
+        <field name="costResources" declared="1">
+            <ints>10000000,10000000,10000000,0,0</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2021,10</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="900" name="sample_prop_name_900" description="sample_prop_des_900" pname="角色更名卡" price="1" maxCount="65535" sortId="10" buildTime="10" needGems="980">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="901" name="sample_prop_name_901" description="sample_prop_des_901" pname="联盟更名卡" price="1" maxCount="65535" sortId="11" buildTime="10" needGems="1988">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3070" name="sample_prop_name_3070" description="sample_prop_des_3070" pname="红包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="100">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59161</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3071" name="sample_prop_name_3071" description="sample_prop_des_3071" pname="春节红包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="100">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59162</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3072" name="sample_prop_name_3072" description="sample_prop_des_3072" pname="新春红包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="100">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59163</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3073" name="sample_prop_name_3073" description="sample_prop_des_3073" pname="春节宝箱" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59164</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="902" name="sample_prop_name_902" description="sample_prop_des_902" pname="扫荡卷" price="1" maxCount="65535" sortId="10" buildTime="10" needGems="1">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3074" name="sample_prop_name_3074" description="sample_prop_des_3074" pname="女王特权礼包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="1000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59169</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3075" name="sample_prop_name_3075" description="sample_prop_des_3075" pname="周年庆活动礼包1" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59170</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3076" name="sample_prop_name_3076" description="sample_prop_des_3076" pname="周年庆活动礼包2" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59171</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3077" name="sample_prop_name_3077" description="sample_prop_des_3077" pname="周年庆活动礼包3" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59172</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3078" name="sample_prop_name_3078" description="sample_prop_des_3078" pname="2周年庆典礼包" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="2000">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59173</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3079" name="sample_prop_name_3079" description="sample_prop_des_3079" pname="U盘兑换卡" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="99999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3080" name="sample_prop_name_3080" description="sample_prop_des_3080" pname="周边兑换卡" price="1" maxCount="65535" sortId="500" buildTime="10" needGems="99999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3081" name="sample_prop_name_3081" description="sample_prop_des_3081" pname="大型勋章箱" price="1" maxCount="65535" sortId="225" buildTime="36000" needGems="768">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59179</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3082" name="sample_prop_name_3082" description="sample_prop_des_3082" pname="初级进阶宝箱" price="1" maxCount="65535" sortId="392" buildTime="10" limitLevel="20" needGems="888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59180</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3083" name="sample_prop_name_3083" description="sample_prop_des_3083" pname="中级级进阶宝箱" price="1" maxCount="65535" sortId="392" buildTime="10" limitLevel="20" needGems="8888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59181</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3084" name="sample_prop_name_3084" description="sample_prop_des_3084" pname="高级进阶宝箱" price="1" maxCount="65535" sortId="392" buildTime="10" limitLevel="20" needGems="88888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59182</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3085" name="sample_prop_name_3085" description="sample_prop_des_3085" pname="增益宝箱" price="1" maxCount="65535" sortId="392" buildTime="10" needGems="599">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59183</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3086" name="sample_prop_name_3086" description="sample_prop_des_3086" pname="巨型铁资源箱" price="1" maxCount="65535" sortId="215" buildTime="10" needGems="6888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59184</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3087" name="sample_prop_name_3087" description="sample_prop_des_3087" pname="巨型油资源箱" price="1" maxCount="65535" sortId="216" buildTime="10" needGems="6888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59185</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3088" name="sample_prop_name_3088" description="sample_prop_des_3088" pname="巨型硅资源箱" price="1" maxCount="65535" sortId="217" buildTime="10" needGems="6888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59186</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3089" name="sample_prop_name_3089" description="sample_prop_des_3089" pname="巨型金币箱" price="1" maxCount="65535" sortId="219" buildTime="10" needGems="6888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59187</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3090" name="sample_prop_name_3090" description="sample_prop_des_3090" pname="巨型铀矿资源箱" price="1" maxCount="65535" sortId="218" buildTime="10" needGems="6888">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59188</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3091" name="sample_prop_name_3091" description="sample_prop_des_3091" pname="新兵宝箱" price="1" maxCount="65535" sortId="119" buildTime="10" needAllianceScore="30" needGems="30">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59189</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3092" name="sample_prop_name_3092" description="sample_prop_des_3092" pname="VIP新兵宝箱" price="1" maxCount="65535" sortId="120" buildTime="10" needAllianceScore="80" needGems="80">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59190</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3093" name="sample_prop_name_3093" description="sample_prop_des_3093" pname="联盟积分卡" price="1" maxCount="65535" sortId="121" buildTime="10" needAllianceScore="500" needGems="500">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3094" name="sample_prop_name_3094" description="sample_prop_des_3094" pname="探索凭证" price="1" maxCount="65535" sortId="226" buildTime="10" maxExchangeNum="5" needGems="10" needAllianceScore="10">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3095" name="sample_prop_name_3095" description="sample_prop_des_3095" pname="反法西斯纪念币" price="1" maxCount="65535" sortId="214" buildTime="10" maxExchangeNum="5" needGems="100" needAllianceScore="100">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59401</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3096" name="sample_prop_name_3096" description="sample_prop_des_3096" pname="初级将领碎片征召宝箱" price="1" maxCount="65535" sortId="231" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59417</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3097" name="sample_prop_name_3097" description="sample_prop_des_3097" pname="高级将领碎片征召宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59418</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3098" name="sample_prop_name_3098" description="sample_prop_des_3098" pname="绿色将领碎片征召宝箱" price="1" maxCount="65535" sortId="234" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59419</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3099" name="sample_prop_name_3099" description="sample_prop_des_3099" pname="蓝色将领碎片征召宝箱" price="1" maxCount="65535" sortId="233" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59420</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3100" name="sample_prop_name_3100" description="sample_prop_des_3100" pname="紫色将领碎片征召宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59421</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3101" name="sample_prop_name_3101" description="sample_prop_des_3101" pname="高级功勋证明" price="1" maxCount="65535" sortId="236" buildTime="10" limitLevel="10" needGems="248" needAllianceScore="248" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59422</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3102" name="sample_prop_name_3102" description="sample_prop_des_3102" pname="中级功勋证明" price="1" maxCount="65535" sortId="237" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59423</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3103" name="sample_prop_name_3103" description="sample_prop_des_3103" pname="初级功勋证明" price="1" maxCount="65535" sortId="238" buildTime="10" limitLevel="10" needGems="10" needAllianceScore="10" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59424</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3104" name="sample_prop_name_3104" description="sample_prop_des_3104" pname="维奇的积分宝箱" price="1" maxCount="65535" sortId="239" buildTime="10" limitLevel="10" needGems="100" needAllianceScore="100" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59425</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3105" name="sample_prop_name_3105" description="sample_prop_des_3105" pname="吉尔逊的碎片宝箱" price="1" maxCount="65535" sortId="249" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59426</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3106" name="sample_prop_name_3106" description="sample_prop_des_3106" pname="梅丽的碎片宝箱" price="1" maxCount="65535" sortId="248" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59427</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3107" name="sample_prop_name_3107" description="sample_prop_des_3107" pname="克雷德的碎片宝箱" price="1" maxCount="65535" sortId="247" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59428</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3108" name="sample_prop_name_3108" description="sample_prop_des_3108" pname="戈登的碎片宝箱" price="1" maxCount="65535" sortId="259" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59429</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3109" name="sample_prop_name_3109" description="sample_prop_des_3109" pname="马赫尔的碎片宝箱" price="1" maxCount="65535" sortId="258" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59430</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3110" name="sample_prop_name_3110" description="sample_prop_des_3110" pname="海伦的碎片宝箱" price="1" maxCount="65535" sortId="254" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59431</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3111" name="sample_prop_name_3111" description="sample_prop_des_3111" pname="尼米的碎片宝箱" price="1" maxCount="65535" sortId="257" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59432</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3112" name="sample_prop_name_3112" description="sample_prop_des_3112" pname="卡罗夫的碎片宝箱" price="1" maxCount="65535" sortId="253" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59433</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3113" name="sample_prop_name_3113" description="sample_prop_des_3113" pname="切斯特的碎片宝箱" price="1" maxCount="65535" sortId="252" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59434</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3114" name="sample_prop_name_3114" description="sample_prop_des_3114" pname="耶琳娜的碎片宝箱" price="1" maxCount="65535" sortId="251" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59435</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3115" name="sample_prop_name_3115" description="sample_prop_des_3115" pname="雷蒙的碎片宝箱" price="1" maxCount="65535" sortId="250" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59436</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3116" name="sample_prop_name_3116" description="sample_prop_des_3116" pname="卡尔的碎片宝箱" price="1" maxCount="65535" sortId="240" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59437</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3117" name="sample_prop_name_3117" description="sample_prop_des_3117" pname="旦施坦的碎片宝箱" price="1" maxCount="65535" sortId="246" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59438</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3118" name="sample_prop_name_3118" description="sample_prop_des_3118" pname="塔季娜的碎片宝箱" price="1" maxCount="65535" sortId="245" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59439</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3119" name="sample_prop_name_3119" description="sample_prop_des_3119" pname="迪翁的碎片宝箱" price="1" maxCount="65535" sortId="244" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59440</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3120" name="sample_prop_name_3120" description="sample_prop_des_3120" pname="维奇的碎片宝箱" price="1" maxCount="65535" sortId="243" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59441</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3121" name="sample_prop_name_3121" description="sample_prop_des_3121" pname="曼隆的碎片宝箱" price="1" maxCount="65535" sortId="242" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59442</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3122" name="sample_prop_name_3122" description="sample_prop_des_3122" pname="穆扎伊的碎片宝箱" price="1" maxCount="65535" sortId="241" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59443</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3123" name="sample_prop_name_3123" description="sample_prop_des_3123" pname="布鲁斯的碎片宝箱" price="1" maxCount="65535" sortId="255" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59444</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3124" name="sample_prop_name_3124" description="sample_prop_des_3124" pname="科索夫的碎片宝箱" price="1" maxCount="65535" sortId="256" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59445</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3125" name="sample_prop_name_3125" description="sample_prop_des_3125" pname="将领碎片征召宝箱" price="1" maxCount="65535" sortId="235" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59446</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3126" name="sample_prop_name_3126" description="sample_prop_des_3126" pname="绿色将领宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="400" needAllianceScore="400" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59447</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3127" name="sample_prop_name_3127" description="sample_prop_des_3127" pname="蓝色将领宝箱" price="1" maxCount="65535" sortId="231" buildTime="10" limitLevel="10" needGems="1000" needAllianceScore="1000" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59448</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3128" name="sample_prop_name_3128" description="sample_prop_des_3128" pname="紫色将领宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="1800" needAllianceScore="1800" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59449</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3129" name="sample_prop_name_3129" description="sample_prop_des_3129" pname="杰克的碎片宝箱" price="1" maxCount="65535" sortId="249" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59450</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3130" name="sample_prop_name_3130" description="sample_prop_des_3130" pname="马克的碎片宝箱" price="1" maxCount="65535" sortId="248" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59451</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3131" name="sample_prop_name_3131" description="sample_prop_des_3131" pname="苏维尔的碎片宝箱" price="1" maxCount="65535" sortId="247" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59452</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3132" name="sample_prop_name_3132" description="sample_prop_des_3132" pname="约翰的碎片宝箱" price="1" maxCount="65535" sortId="259" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59453</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3133" name="sample_prop_name_3133" description="sample_prop_des_3133" pname="本森的碎片宝箱" price="1" maxCount="65535" sortId="258" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59454</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3134" name="sample_prop_name_3134" description="sample_prop_des_3134" pname="阿尔瓦的碎片宝箱" price="1" maxCount="65535" sortId="254" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59455</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3135" name="sample_prop_name_3135" description="sample_prop_des_3135" pname="娇拉汀的碎片宝箱" price="1" maxCount="65535" sortId="257" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59456</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3136" name="sample_prop_name_3136" description="sample_prop_des_3136" pname="西蒙的碎片宝箱" price="1" maxCount="65535" sortId="253" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59457</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3137" name="sample_prop_name_3137" description="sample_prop_des_3137" pname="斯考特的碎片宝箱" price="1" maxCount="65535" sortId="252" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59458</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3138" name="sample_prop_name_3138" description="sample_prop_des_3138" pname="马库斯的碎片宝箱" price="1" maxCount="65535" sortId="251" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59459</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3139" name="sample_prop_name_3139" description="sample_prop_des_3139" pname="埃德加的碎片宝箱" price="1" maxCount="65535" sortId="250" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59460</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3140" name="sample_prop_name_3140" description="sample_prop_des_3140" pname="帕特里克的碎片宝箱" price="1" maxCount="65535" sortId="240" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59461</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3141" name="sample_prop_name_3141" description="sample_prop_des_3141" pname="克劳迪娅的碎片宝箱" price="1" maxCount="65535" sortId="246" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59462</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3142" name="sample_prop_name_3142" description="sample_prop_des_3142" pname="昆廷的碎片宝箱" price="1" maxCount="65535" sortId="245" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59463</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3143" name="sample_prop_name_3143" description="sample_prop_des_3143" pname="阿希莉的碎片宝箱" price="1" maxCount="65535" sortId="244" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59464</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3144" name="sample_prop_name_3144" description="sample_prop_des_3144" pname="尤兰达的碎片宝箱" price="1" maxCount="65535" sortId="243" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59465</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3145" name="sample_prop_name_3145" description="sample_prop_des_3145" pname="艾莎的碎片宝箱" price="1" maxCount="65535" sortId="242" buildTime="10" limitLevel="10" needGems="9999" needAllianceScore="9999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59466</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3146" name="sample_prop_name_3146" description="sample_prop_des_3146" pname="亚摩斯的碎片宝箱" price="1" maxCount="65535" sortId="241" buildTime="10" limitLevel="10" needGems="9999" needAllianceScore="9999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59467</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3147" name="sample_prop_name_3147" description="sample_prop_des_3147" pname="汉克的碎片宝箱" price="1" maxCount="65535" sortId="255" buildTime="10" limitLevel="10" needGems="9999" needAllianceScore="9999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59468</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3148" name="sample_prop_name_3148" description="sample_prop_des_3148" pname="陶德的碎片宝箱" price="1" maxCount="65535" sortId="256" buildTime="10" limitLevel="10" needGems="9999" needAllianceScore="9999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59469</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2041" name="sample_prop_name_2041" description="sample_prop_des_2041" pname="星空科技加速1级" price="1" maxCount="65535" sortId="109" buildTime="10" type="2" needGems="60" cdTime="3600">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2042" name="sample_prop_name_2042" description="sample_prop_des_2042" pname="星空科技加速2级" price="1" maxCount="65535" sortId="110" buildTime="10" type="2" needGems="240" cdTime="14400">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2043" name="sample_prop_name_2043" description="sample_prop_des_2043" pname="星空科技加速3级" price="1" maxCount="65535" sortId="109" buildTime="10" type="2" needGems="480" cdTime="28800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2044" name="sample_prop_name_2044" description="sample_prop_des_2044" pname="极效生产1级" price="1" maxCount="65535" sortId="110" buildTime="10" type="3" needGems="240" cdTime="3600">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2045" name="sample_prop_name_2045" description="sample_prop_des_2045" pname="极效生产2级" price="1" maxCount="65535" sortId="109" buildTime="10" type="3" needGems="480" cdTime="7200">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.CDProp" sid="2046" name="sample_prop_name_2046" description="sample_prop_des_2046" pname="极效生产3级" price="1" maxCount="65535" sortId="110" buildTime="10" type="3" needGems="960" cdTime="14400">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3149" name="sample_prop_name_3149" description="sample_prop_des_3149" pname="宝石单次探索" price="1" maxCount="65535" sortId="226" buildTime="10" needGems="300">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.NormalProp" sid="3150" name="sample_prop_name_3150" description="sample_prop_des_3150" pname="宝石十次探索" price="1" maxCount="65535" sortId="226" buildTime="10" needGems="2800">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3151" name="sample_prop_name_3151" description="sample_prop_des_3151" pname="橙色将领碎片征召宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="9999" needAllianceScore="9999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59471</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3152" name="sample_prop_name_3152" description="sample_prop_des_3152" pname="橙色将领宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="99999" needAllianceScore="99999" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59472</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3153" name="sample_prop_name_3153" description="sample_prop_des_3153" pname="绿色将领碎片宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="40" needAllianceScore="40" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59473</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3154" name="sample_prop_name_3154" description="sample_prop_des_3154" pname="超级绿色将领宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="400" needAllianceScore="400" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59474</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3155" name="sample_prop_name_3155" description="sample_prop_des_3155" pname="蓝色将领碎片宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="50" needAllianceScore="50" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59475</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3156" name="sample_prop_name_3156" description="sample_prop_des_3156" pname="超级蓝色将领宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="1000" needAllianceScore="1000" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59476</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3157" name="sample_prop_name_3157" description="sample_prop_des_3157" pname="紫色将领碎片宝箱" price="1" maxCount="65535" sortId="232" buildTime="10" limitLevel="10" needGems="60" needAllianceScore="60" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59477</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3158" name="sample_prop_name_3158" description="sample_prop_des_3158" pname="超级紫色将领宝箱" price="1" maxCount="65535" sortId="230" buildTime="10" limitLevel="10" needGems="1800" needAllianceScore="1800" maxExchangeNum="5">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59478</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5005" name="sample_prop_name_5005" description="sample_prop_des_5005" pname="新手礼包" price="1" maxCount="65535" sortId="487" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40064</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5006" name="sample_prop_name_5006" description="sample_prop_des_5006" pname="精英新手礼包" price="1" maxCount="65535" sortId="488" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40065</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5007" name="sample_prop_name_5007" description="sample_prop_des_5007" pname="史诗新手礼包" price="1" maxCount="65535" sortId="489" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40066</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5008" name="sample_prop_name_5008" description="sample_prop_des_5008" pname="活动礼包" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40067</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5009" name="sample_prop_name_5009" description="sample_prop_des_5009" pname="精英活动礼包" price="1" maxCount="65535" sortId="487" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40068</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5010" name="sample_prop_name_5010" description="sample_prop_des_5010" pname="史诗活动礼包" price="1" maxCount="65535" sortId="488" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40069</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5011" name="sample_prop_name_5011" description="sample_prop_des_5011" pname="召唤礼包" price="1" maxCount="65535" sortId="489" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40070</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5012" name="sample_prop_name_5012" description="sample_prop_des_5012" pname="精英召唤礼包" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40071</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="5013" name="sample_prop_name_5013" description="sample_prop_des_5013" pname="史诗召唤礼包" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>40072</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3161" name="sample_prop_name_3161" description="sample_prop_des_3161" pname="冠军宝箱" price="1" maxCount="65535" sortId="487" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59481</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3162" name="sample_prop_name_3162" description="sample_prop_des_3162" pname="亚军宝箱" price="1" maxCount="65535" sortId="488" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59482</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3163" name="sample_prop_name_3163" description="sample_prop_des_3163" pname="季军宝箱" price="1" maxCount="65535" sortId="489" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59483</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3164" name="sample_prop_name_3164" description="sample_prop_des_3164" pname="五强宝箱" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59484</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3165" name="sample_prop_name_3165" description="sample_prop_des_3165" pname="十强宝箱" price="1" maxCount="65535" sortId="487" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59485</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3166" name="sample_prop_name_3166" description="sample_prop_des_3166" pname="二十强宝箱" price="1" maxCount="65535" sortId="488" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59486</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3167" name="sample_prop_name_3167" description="sample_prop_des_3167" pname="三十强宝箱" price="1" maxCount="65535" sortId="489" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59487</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3168" name="sample_prop_name_3168" description="sample_prop_des_3168" pname="五十强宝箱" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59488</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.proplist.AwardProp" sid="3169" name="sample_prop_name_3169" description="sample_prop_des_3169" pname="百强宝箱" price="1" maxCount="65535" sortId="490" buildTime="10" needGems="9999">
+        <field name="costResources" declared="1">
+            <ints>0,0,0,0,0</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>59489</ints>
+        </field>
+    </sample>
+
+
+</objects>

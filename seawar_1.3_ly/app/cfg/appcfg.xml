@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects> 	 
+ 	 <method ref="buyGemsPort" name="addIAP" >
+		 <string>com.seawar</string>
+ 	 	 <strings separator=",">com.seawar.one,com.seawar.two,com.seawar.three,com.seawar.four,com.seawar.five1,com.seawar.six1,com.seawar.gemscard</strings>
+ 	 </method>
+ 	 
+ 	 <obj class="foxu.push.PushManager" id="pushManager" />
+ 	 
+ 	 <!-- android tw 需要注释掉push -->
+ 	 <method name="addPushHandler" ref="pushManager">
+ 	 	<string>com.foxUgame.seawar</string>
+ 	 	<obj class="foxu.push.ApplePushHandler">
+ 	 		<method name="init">
+ 	 			<string>../aps_developer_identity.p12</string>
+ 	 			<string>../aps_production.p12</string>
+ 	 			<string>123123ly</string>
+ 	 		</method>
+ 	 		<method name="setProduction">true</method>
+ 	 	</obj>
+ 	 </method>
+ 	 
+<!--产品地址 ios apple-->
+<method name="addConfig" ref="configManager">
+	<value type="int">0</value>
+	<value type="float">11.00</value>
+	<string>apple</string>
+	<string>https://itunes.apple.com/cn/app/id578965167</string>
+	<string>http://t.cn/RZsVOly</string>
+</method>
+<!--产品地址 android google-->
+<method name="addConfig" ref="configManager">
+	<value type="int">1</value>
+	<value type="float">10.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.foxugame.hk</string>
+	<string>https://play.google.com/store/apps/details?id=com.foxugame.hk</string>
+</method>
+<!--产品地址 android intouch-->
+<method name="addConfig" ref="configManager">
+	<value type="int">2</value>
+	<value type="float">6.00</value>
+	<string>intouch</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/id578965167</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/share</string>
+</method>
+<!--产品地址 android T-store（韩国）-->
+<method name="addConfig" ref="configManager">
+	<value type="int">3</value>
+	<value type="float">6.00</value>
+	<string>tstore</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/id578965167</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/share</string>
+</method>
+<!--产品地址 android LGU（韩国）-->
+<method name="addConfig" ref="configManager">
+	<value type="int">4</value>
+	<value type="float">6.00</value>
+	<string>lgu</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/id578965167</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/share</string>
+</method>
+
+<!--产品地址 android amazon(欧美)-->
+<method name="addConfig" ref="configManager">
+	<value type="int">5</value>
+	<value type="float">6.00</value>
+	<string>amazon</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/id578965167</string>
+	<string>https://itunes.apple.com/us/app/di-guo-jian-dui/share</string>
+</method>
+
+<!--产品地址 ios apple日本推广1-->
+<method name="addConfig" ref="configManager">
+	<value type="int">6</value>
+	<value type="float">8.00</value>
+	<string>apple</string>
+	<string>https://itunes.apple.com/app/id935143925</string>
+	<string>https://itunes.apple.com/app/id935143925</string>
+</method>
+
+<!--产品地址 ios apple 欧美推广1-->
+<method name="addConfig" ref="configManager">
+	<value type="int">7</value>
+	<value type="float">8.00</value>
+	<string>apple</string>
+	<string>https://itunes.apple.com/app/id935143925</string>
+	<string>https://itunes.apple.com/app/id935143925</string>
+</method>
+
+<!--产品地址 欧美android google推广1-->
+<method name="addConfig" ref="configManager">
+	<value type="int">8</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.promotion.warfare</string>
+	<string>https://play.google.com/store/apps/details?id=com.promotion.warfare</string>
+</method>
+
+<!--产品地址 欧美android google推广2-->
+<method name="addConfig" ref="configManager">
+	<value type="int">9</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.battle</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.battle</string>
+</method>
+
+<!--产品地址 欧美android google推广3-->
+<method name="addConfig" ref="configManager">
+	<value type="int">10</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.alliance</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.alliance</string>
+</method>
+
+<!--产品地址 欧美android google推广4-->
+<method name="addConfig" ref="configManager">
+	<value type="int">11</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.ocean.warfare</string>
+	<string>https://play.google.com/store/apps/details?id=com.ocean.warfare</string>
+</method>
+
+<!--产品地址 欧美android google推广6-->
+<method name="addConfig" ref="configManager">
+	<value type="int">12</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.guard</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.guard</string>
+</method>
+
+<!--产品地址 欧美android google推广7-->
+<method name="addConfig" ref="configManager">
+	<value type="int">13</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+</method>
+
+<!--产品地址 欧美android google推广5-->
+<method name="addConfig" ref="configManager">
+	<value type="int">14</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.empire</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.empire</string>
+</method>
+
+<!--产品地址 日本android google推广1 已停用或未启用-->
+<method name="addConfig" ref="configManager">
+	<value type="int">15</value>
+	<value type="float">8.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.empire</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.empire</string>
+</method>
+
+<!--产品地址 ios_海马  (与91混服) -->
+<method name="addConfig" ref="configManager">
+	<value type="int">16</value>
+	<value type="float">10.00</value>
+	<string>haima</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+</method>
+
+<!--产品地址 欧美android google推广8-->
+<method name="addConfig" ref="configManager">
+	<value type="int">17</value>
+	<value type="float">7.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+</method>
+
+<!--产品地址 欧美android google推广9-->
+<method name="addConfig" ref="configManager">
+	<value type="int">18</value>
+	<value type="float">7.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+</method>
+
+<!--产品地址 欧美android google推广10-->
+<method name="addConfig" ref="configManager">
+	<value type="int">19</value>
+	<value type="float">7.00</value>
+	<string>google</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+	<string>https://play.google.com/store/apps/details?id=com.naval.storm</string>
+</method>
+
+<!--产品地址 ios_i4  (与91混服) -->
+<method name="addConfig" ref="configManager">
+	<value type="int">20</value>
+	<value type="float">12.00</value>
+	<string>i4</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+</method>
+
+<!--产品地址 东南亚 google推广 -->
+<method name="addConfig" ref="configManager">
+	<value type="int">21</value>
+	<value type="float">12.00</value>
+	<string>google</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+	<string>http://app.91.com/Soft/iPhone/seawarfor91-1.3-1.3.html</string>
+</method>
+
+<!--产品地址 欧美 ios推广Naval Domination -->
+<method name="addConfig" ref="configManager">
+	<value type="int">22</value>
+	<value type="float">16.00</value>
+	<string>apple</string>
+	<string>https://itunes.apple.com/app/id1039210631</string>
+	<string>https://itunes.apple.com/app/id1039210631</string>
+</method>
+
+<!--产品地址 欧美android google推广11 Clash_of_Warships-->
+<method name="addConfig" ref="configManager">
+	<value type="int">23</value>
+	<value type="float">16.00</value>
+	<string>google</string>
+	<string>market://details?id=com.foxugame.us</string>
+	<string>market://details?id=com.foxugame.us</string>
+</method>
+
+<!--产品地址 欧美第三方充值推广 11月2号 新加包 -->
+<method name="addConfig" ref="configManager">
+	<value type="int">24</value>
+	<value type="float">16.00</value>
+	<string>google</string>
+	<string>market://details?id=com.foxugame.us</string>
+	<string>market://details?id=com.foxugame.us</string>
+</method>
+
+</objects>

@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.checkpoint.CheckPoint" name="factory" id="pointFactory" />
+    <method ref="pointFactory" name="init">
+    
+        <ref id="context" />
+
+    </method>
+
+
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10001" npcIslandSid="10001" chapter="1" nextSid="10002" levelLimit="1" rankLimit="1" index="0" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10002" npcIslandSid="10002" chapter="1" nextSid="10003" levelLimit="1" rankLimit="1" index="1" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10003" npcIslandSid="10003" chapter="1" nextSid="10004" levelLimit="1" rankLimit="1" index="2" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10004" npcIslandSid="10004" chapter="1" nextSid="10005" levelLimit="1" rankLimit="1" index="3" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10005" npcIslandSid="10005" chapter="1" nextSid="10006" levelLimit="1" rankLimit="1" index="4" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10006" npcIslandSid="10006" chapter="1" nextSid="10007" levelLimit="1" rankLimit="1" index="5" pointLevel="1" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10007" npcIslandSid="10007" chapter="1" nextSid="10008" levelLimit="1" rankLimit="1" index="6" pointLevel="2" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10008" npcIslandSid="10008" chapter="1" nextSid="10009" levelLimit="1" rankLimit="1" index="7" pointLevel="2" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10009" npcIslandSid="10009" chapter="1" nextSid="10010" levelLimit="1" rankLimit="1" index="8" pointLevel="2" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10010" npcIslandSid="10010" chapter="1" nextSid="10011" levelLimit="1" rankLimit="1" index="9" pointLevel="3" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10011" npcIslandSid="10011" chapter="1" nextSid="10012" levelLimit="1" rankLimit="1" index="10" pointLevel="3" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10012" npcIslandSid="10012" chapter="1" nextSid="10013" levelLimit="1" rankLimit="1" index="11" pointLevel="3" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10013" npcIslandSid="10013" chapter="1" nextSid="10014" levelLimit="1" rankLimit="1" index="12" pointLevel="4" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10014" npcIslandSid="10014" chapter="1" nextSid="10015" levelLimit="1" rankLimit="1" index="13" pointLevel="4" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10015" npcIslandSid="10015" chapter="1" nextSid="10016" levelLimit="1" rankLimit="1" index="14" pointLevel="4" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10016" npcIslandSid="10016" chapter="1" nextSid="10017" levelLimit="1" rankLimit="1" index="15" pointLevel="4" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10017" npcIslandSid="10017" chapter="2" nextSid="10018" levelLimit="1" rankLimit="1" index="0" pointLevel="5" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10018" npcIslandSid="10018" chapter="2" nextSid="10019" levelLimit="1" rankLimit="1" index="1" pointLevel="5" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10019" npcIslandSid="10019" chapter="2" nextSid="10020" levelLimit="1" rankLimit="1" index="2" pointLevel="5" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10020" npcIslandSid="10020" chapter="2" nextSid="10021" levelLimit="1" rankLimit="1" index="3" pointLevel="6" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10021" npcIslandSid="10021" chapter="2" nextSid="10022" levelLimit="1" rankLimit="1" index="4" pointLevel="6" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10022" npcIslandSid="10022" chapter="2" nextSid="10023" levelLimit="1" rankLimit="1" index="5" pointLevel="6" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10023" npcIslandSid="10023" chapter="2" nextSid="10024" levelLimit="1" rankLimit="1" index="6" pointLevel="7" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10024" npcIslandSid="10024" chapter="2" nextSid="10025" levelLimit="1" rankLimit="1" index="7" pointLevel="7" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10025" npcIslandSid="10025" chapter="2" nextSid="10026" levelLimit="1" rankLimit="1" index="8" pointLevel="7" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10026" npcIslandSid="10026" chapter="2" nextSid="10027" levelLimit="1" rankLimit="1" index="9" pointLevel="8" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10027" npcIslandSid="10027" chapter="2" nextSid="10028" levelLimit="1" rankLimit="1" index="10" pointLevel="8" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10028" npcIslandSid="10028" chapter="2" nextSid="10029" levelLimit="1" rankLimit="1" index="11" pointLevel="8" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10029" npcIslandSid="10029" chapter="2" nextSid="10030" levelLimit="1" rankLimit="1" index="12" pointLevel="9" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10030" npcIslandSid="10030" chapter="2" nextSid="10031" levelLimit="1" rankLimit="1" index="13" pointLevel="9" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10031" npcIslandSid="10031" chapter="2" nextSid="10032" levelLimit="1" rankLimit="1" index="14" pointLevel="9" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10032" npcIslandSid="10032" chapter="2" nextSid="10033" levelLimit="1" rankLimit="1" index="15" pointLevel="9" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10033" npcIslandSid="10033" chapter="3" nextSid="10034" levelLimit="1" rankLimit="1" index="0" pointLevel="10" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10034" npcIslandSid="10034" chapter="3" nextSid="10035" levelLimit="1" rankLimit="1" index="1" pointLevel="10" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10035" npcIslandSid="10035" chapter="3" nextSid="10036" levelLimit="1" rankLimit="1" index="2" pointLevel="10" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10036" npcIslandSid="10036" chapter="3" nextSid="10037" levelLimit="1" rankLimit="1" index="3" pointLevel="11" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10037" npcIslandSid="10037" chapter="3" nextSid="10038" levelLimit="1" rankLimit="1" index="4" pointLevel="11" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10038" npcIslandSid="10038" chapter="3" nextSid="10039" levelLimit="1" rankLimit="1" index="5" pointLevel="11" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10039" npcIslandSid="10039" chapter="3" nextSid="10040" levelLimit="1" rankLimit="1" index="6" pointLevel="12" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10040" npcIslandSid="10040" chapter="3" nextSid="10041" levelLimit="1" rankLimit="1" index="7" pointLevel="12" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10041" npcIslandSid="10041" chapter="3" nextSid="10042" levelLimit="1" rankLimit="1" index="8" pointLevel="12" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10042" npcIslandSid="10042" chapter="3" nextSid="10043" levelLimit="1" rankLimit="1" index="9" pointLevel="13" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10043" npcIslandSid="10043" chapter="3" nextSid="10044" levelLimit="1" rankLimit="1" index="10" pointLevel="13" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10044" npcIslandSid="10044" chapter="3" nextSid="10045" levelLimit="1" rankLimit="1" index="11" pointLevel="13" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10045" npcIslandSid="10045" chapter="3" nextSid="10046" levelLimit="1" rankLimit="1" index="12" pointLevel="14" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10046" npcIslandSid="10046" chapter="3" nextSid="10047" levelLimit="1" rankLimit="1" index="13" pointLevel="14" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10047" npcIslandSid="10047" chapter="3" nextSid="10048" levelLimit="1" rankLimit="1" index="14" pointLevel="14" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10048" npcIslandSid="10048" chapter="3" nextSid="10049" levelLimit="1" rankLimit="1" index="15" pointLevel="14" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10049" npcIslandSid="10049" chapter="4" nextSid="10050" levelLimit="1" rankLimit="1" index="0" pointLevel="15" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10050" npcIslandSid="10050" chapter="4" nextSid="10051" levelLimit="1" rankLimit="1" index="1" pointLevel="15" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10051" npcIslandSid="10051" chapter="4" nextSid="10052" levelLimit="1" rankLimit="1" index="2" pointLevel="15" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10052" npcIslandSid="10052" chapter="4" nextSid="10053" levelLimit="1" rankLimit="1" index="3" pointLevel="16" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10053" npcIslandSid="10053" chapter="4" nextSid="10054" levelLimit="1" rankLimit="1" index="4" pointLevel="16" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10054" npcIslandSid="10054" chapter="4" nextSid="10055" levelLimit="1" rankLimit="1" index="5" pointLevel="16" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10055" npcIslandSid="10055" chapter="4" nextSid="10056" levelLimit="1" rankLimit="1" index="6" pointLevel="17" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10056" npcIslandSid="10056" chapter="4" nextSid="10057" levelLimit="1" rankLimit="1" index="7" pointLevel="17" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10057" npcIslandSid="10057" chapter="4" nextSid="10058" levelLimit="1" rankLimit="1" index="8" pointLevel="17" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10058" npcIslandSid="10058" chapter="4" nextSid="10059" levelLimit="1" rankLimit="1" index="9" pointLevel="18" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10059" npcIslandSid="10059" chapter="4" nextSid="10060" levelLimit="1" rankLimit="1" index="10" pointLevel="18" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10060" npcIslandSid="10060" chapter="4" nextSid="10061" levelLimit="1" rankLimit="1" index="11" pointLevel="18" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10061" npcIslandSid="10061" chapter="4" nextSid="10062" levelLimit="1" rankLimit="1" index="12" pointLevel="19" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10062" npcIslandSid="10062" chapter="4" nextSid="10063" levelLimit="1" rankLimit="1" index="13" pointLevel="19" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10063" npcIslandSid="10063" chapter="4" nextSid="10064" levelLimit="1" rankLimit="1" index="14" pointLevel="19" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10064" npcIslandSid="10064" chapter="4" nextSid="10065" levelLimit="1" rankLimit="1" index="15" pointLevel="19" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10065" npcIslandSid="10065" chapter="5" nextSid="10066" levelLimit="1" rankLimit="1" index="0" pointLevel="20" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10066" npcIslandSid="10066" chapter="5" nextSid="10067" levelLimit="1" rankLimit="1" index="1" pointLevel="20" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10067" npcIslandSid="10067" chapter="5" nextSid="10068" levelLimit="1" rankLimit="1" index="2" pointLevel="20" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10068" npcIslandSid="10068" chapter="5" nextSid="10069" levelLimit="1" rankLimit="1" index="3" pointLevel="21" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10069" npcIslandSid="10069" chapter="5" nextSid="10070" levelLimit="1" rankLimit="1" index="4" pointLevel="21" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10070" npcIslandSid="10070" chapter="5" nextSid="10071" levelLimit="1" rankLimit="1" index="5" pointLevel="21" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10071" npcIslandSid="10071" chapter="5" nextSid="10072" levelLimit="1" rankLimit="1" index="6" pointLevel="22" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10072" npcIslandSid="10072" chapter="5" nextSid="10073" levelLimit="1" rankLimit="1" index="7" pointLevel="22" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10073" npcIslandSid="10073" chapter="5" nextSid="10074" levelLimit="1" rankLimit="1" index="8" pointLevel="22" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10074" npcIslandSid="10074" chapter="5" nextSid="10075" levelLimit="1" rankLimit="1" index="9" pointLevel="23" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10075" npcIslandSid="10075" chapter="5" nextSid="10076" levelLimit="1" rankLimit="1" index="10" pointLevel="23" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10076" npcIslandSid="10076" chapter="5" nextSid="10077" levelLimit="1" rankLimit="1" index="11" pointLevel="23" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10077" npcIslandSid="10077" chapter="5" nextSid="10078" levelLimit="1" rankLimit="1" index="12" pointLevel="24" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10078" npcIslandSid="10078" chapter="5" nextSid="10079" levelLimit="1" rankLimit="1" index="13" pointLevel="24" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10079" npcIslandSid="10079" chapter="5" nextSid="10080" levelLimit="1" rankLimit="1" index="14" pointLevel="24" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10080" npcIslandSid="10080" chapter="5" nextSid="10081" levelLimit="1" rankLimit="1" index="15" pointLevel="24" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10081" npcIslandSid="10081" chapter="6" nextSid="10082" levelLimit="1" rankLimit="1" index="0" pointLevel="25" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10082" npcIslandSid="10082" chapter="6" nextSid="10083" levelLimit="1" rankLimit="1" index="1" pointLevel="25" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10083" npcIslandSid="10083" chapter="6" nextSid="10084" levelLimit="1" rankLimit="1" index="2" pointLevel="25" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10084" npcIslandSid="10084" chapter="6" nextSid="10085" levelLimit="1" rankLimit="1" index="3" pointLevel="26" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10085" npcIslandSid="10085" chapter="6" nextSid="10086" levelLimit="1" rankLimit="1" index="4" pointLevel="26" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10086" npcIslandSid="10086" chapter="6" nextSid="10087" levelLimit="1" rankLimit="1" index="5" pointLevel="26" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10087" npcIslandSid="10087" chapter="6" nextSid="10088" levelLimit="1" rankLimit="1" index="6" pointLevel="27" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10088" npcIslandSid="10088" chapter="6" nextSid="10089" levelLimit="1" rankLimit="1" index="7" pointLevel="27" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10089" npcIslandSid="10089" chapter="6" nextSid="10090" levelLimit="1" rankLimit="1" index="8" pointLevel="27" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10090" npcIslandSid="10090" chapter="6" nextSid="10091" levelLimit="1" rankLimit="1" index="9" pointLevel="28" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10091" npcIslandSid="10091" chapter="6" nextSid="10092" levelLimit="1" rankLimit="1" index="10" pointLevel="28" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10092" npcIslandSid="10092" chapter="6" nextSid="10093" levelLimit="1" rankLimit="1" index="11" pointLevel="28" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10093" npcIslandSid="10093" chapter="6" nextSid="10094" levelLimit="1" rankLimit="1" index="12" pointLevel="29" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10094" npcIslandSid="10094" chapter="6" nextSid="10095" levelLimit="1" rankLimit="1" index="13" pointLevel="29" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10095" npcIslandSid="10095" chapter="6" nextSid="10096" levelLimit="1" rankLimit="1" index="14" pointLevel="29" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10096" npcIslandSid="10096" chapter="6" nextSid="10097" levelLimit="1" rankLimit="1" index="15" pointLevel="29" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10097" npcIslandSid="10097" chapter="7" nextSid="10098" levelLimit="1" rankLimit="1" index="0" pointLevel="30" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10098" npcIslandSid="10098" chapter="7" nextSid="10099" levelLimit="1" rankLimit="1" index="1" pointLevel="30" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10099" npcIslandSid="10099" chapter="7" nextSid="10100" levelLimit="1" rankLimit="1" index="2" pointLevel="30" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10100" npcIslandSid="10100" chapter="7" nextSid="10101" levelLimit="1" rankLimit="1" index="3" pointLevel="31" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10101" npcIslandSid="10101" chapter="7" nextSid="10102" levelLimit="1" rankLimit="1" index="4" pointLevel="31" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10102" npcIslandSid="10102" chapter="7" nextSid="10103" levelLimit="1" rankLimit="1" index="5" pointLevel="31" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10103" npcIslandSid="10103" chapter="7" nextSid="10104" levelLimit="1" rankLimit="1" index="6" pointLevel="32" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10104" npcIslandSid="10104" chapter="7" nextSid="10105" levelLimit="1" rankLimit="1" index="7" pointLevel="32" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10105" npcIslandSid="10105" chapter="7" nextSid="10106" levelLimit="1" rankLimit="1" index="8" pointLevel="32" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10106" npcIslandSid="10106" chapter="7" nextSid="10107" levelLimit="1" rankLimit="1" index="9" pointLevel="33" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10107" npcIslandSid="10107" chapter="7" nextSid="10108" levelLimit="1" rankLimit="1" index="10" pointLevel="33" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10108" npcIslandSid="10108" chapter="7" nextSid="10109" levelLimit="1" rankLimit="1" index="11" pointLevel="33" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10109" npcIslandSid="10109" chapter="7" nextSid="10110" levelLimit="1" rankLimit="1" index="12" pointLevel="34" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10110" npcIslandSid="10110" chapter="7" nextSid="10111" levelLimit="1" rankLimit="1" index="13" pointLevel="34" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10111" npcIslandSid="10111" chapter="7" nextSid="10112" levelLimit="1" rankLimit="1" index="14" pointLevel="34" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10112" npcIslandSid="10112" chapter="7" nextSid="10113" levelLimit="1" rankLimit="1" index="15" pointLevel="34" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10113" npcIslandSid="10113" chapter="8" nextSid="10114" levelLimit="1" rankLimit="1" index="0" pointLevel="35" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10114" npcIslandSid="10114" chapter="8" nextSid="10115" levelLimit="1" rankLimit="1" index="1" pointLevel="35" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10115" npcIslandSid="10115" chapter="8" nextSid="10116" levelLimit="1" rankLimit="1" index="2" pointLevel="35" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10116" npcIslandSid="10116" chapter="8" nextSid="10117" levelLimit="1" rankLimit="1" index="3" pointLevel="36" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10117" npcIslandSid="10117" chapter="8" nextSid="10118" levelLimit="1" rankLimit="1" index="4" pointLevel="36" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10118" npcIslandSid="10118" chapter="8" nextSid="10119" levelLimit="1" rankLimit="1" index="5" pointLevel="36" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10119" npcIslandSid="10119" chapter="8" nextSid="10120" levelLimit="1" rankLimit="1" index="6" pointLevel="37" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10120" npcIslandSid="10120" chapter="8" nextSid="10121" levelLimit="1" rankLimit="1" index="7" pointLevel="37" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10121" npcIslandSid="10121" chapter="8" nextSid="10122" levelLimit="1" rankLimit="1" index="8" pointLevel="37" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10122" npcIslandSid="10122" chapter="8" nextSid="10123" levelLimit="1" rankLimit="1" index="9" pointLevel="38" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10123" npcIslandSid="10123" chapter="8" nextSid="10124" levelLimit="1" rankLimit="1" index="10" pointLevel="38" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10124" npcIslandSid="10124" chapter="8" nextSid="10125" levelLimit="1" rankLimit="1" index="11" pointLevel="38" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10125" npcIslandSid="10125" chapter="8" nextSid="10126" levelLimit="1" rankLimit="1" index="12" pointLevel="39" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10126" npcIslandSid="10126" chapter="8" nextSid="10127" levelLimit="1" rankLimit="1" index="13" pointLevel="39" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10127" npcIslandSid="10127" chapter="8" nextSid="10128" levelLimit="1" rankLimit="1" index="14" pointLevel="39" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10128" npcIslandSid="10128" chapter="8" nextSid="10129" levelLimit="1" rankLimit="1" index="15" pointLevel="39" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10129" npcIslandSid="10129" chapter="9" nextSid="10130" levelLimit="1" rankLimit="1" index="0" pointLevel="40" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10130" npcIslandSid="10130" chapter="9" nextSid="10131" levelLimit="1" rankLimit="1" index="1" pointLevel="40" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10131" npcIslandSid="10131" chapter="9" nextSid="10132" levelLimit="1" rankLimit="1" index="2" pointLevel="40" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10132" npcIslandSid="10132" chapter="9" nextSid="10133" levelLimit="1" rankLimit="1" index="3" pointLevel="41" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10133" npcIslandSid="10133" chapter="9" nextSid="10134" levelLimit="1" rankLimit="1" index="4" pointLevel="41" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10134" npcIslandSid="10134" chapter="9" nextSid="10135" levelLimit="1" rankLimit="1" index="5" pointLevel="41" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10135" npcIslandSid="10135" chapter="9" nextSid="10136" levelLimit="1" rankLimit="1" index="6" pointLevel="42" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10136" npcIslandSid="10136" chapter="9" nextSid="10137" levelLimit="1" rankLimit="1" index="7" pointLevel="42" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10137" npcIslandSid="10137" chapter="9" nextSid="10138" levelLimit="1" rankLimit="1" index="8" pointLevel="42" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10138" npcIslandSid="10138" chapter="9" nextSid="10139" levelLimit="1" rankLimit="1" index="9" pointLevel="43" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10139" npcIslandSid="10139" chapter="9" nextSid="10140" levelLimit="1" rankLimit="1" index="10" pointLevel="43" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10140" npcIslandSid="10140" chapter="9" nextSid="10141" levelLimit="1" rankLimit="1" index="11" pointLevel="43" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10141" npcIslandSid="10141" chapter="9" nextSid="10142" levelLimit="1" rankLimit="1" index="12" pointLevel="44" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10142" npcIslandSid="10142" chapter="9" nextSid="10143" levelLimit="1" rankLimit="1" index="13" pointLevel="44" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10143" npcIslandSid="10143" chapter="9" nextSid="10144" levelLimit="1" rankLimit="1" index="14" pointLevel="44" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10144" npcIslandSid="10144" chapter="9" nextSid="10145" levelLimit="1" rankLimit="1" index="15" pointLevel="44" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10145" npcIslandSid="10145" chapter="10" nextSid="10146" levelLimit="1" rankLimit="1" index="0" pointLevel="45" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10146" npcIslandSid="10146" chapter="10" nextSid="10147" levelLimit="1" rankLimit="1" index="1" pointLevel="45" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10147" npcIslandSid="10147" chapter="10" nextSid="10148" levelLimit="1" rankLimit="1" index="2" pointLevel="45" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10148" npcIslandSid="10148" chapter="10" nextSid="10149" levelLimit="1" rankLimit="1" index="3" pointLevel="46" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10149" npcIslandSid="10149" chapter="10" nextSid="10150" levelLimit="1" rankLimit="1" index="4" pointLevel="46" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10150" npcIslandSid="10150" chapter="10" nextSid="10151" levelLimit="1" rankLimit="1" index="5" pointLevel="46" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10151" npcIslandSid="10151" chapter="10" nextSid="10152" levelLimit="1" rankLimit="1" index="6" pointLevel="47" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10152" npcIslandSid="10152" chapter="10" nextSid="10153" levelLimit="1" rankLimit="1" index="7" pointLevel="47" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10153" npcIslandSid="10153" chapter="10" nextSid="10154" levelLimit="1" rankLimit="1" index="8" pointLevel="47" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10154" npcIslandSid="10154" chapter="10" nextSid="10155" levelLimit="1" rankLimit="1" index="9" pointLevel="48" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10155" npcIslandSid="10155" chapter="10" nextSid="10156" levelLimit="1" rankLimit="1" index="10" pointLevel="48" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10156" npcIslandSid="10156" chapter="10" nextSid="10157" levelLimit="1" rankLimit="1" index="11" pointLevel="48" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10157" npcIslandSid="10157" chapter="10" nextSid="10158" levelLimit="1" rankLimit="1" index="12" pointLevel="49" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10158" npcIslandSid="10158" chapter="10" nextSid="10159" levelLimit="1" rankLimit="1" index="13" pointLevel="49" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10159" npcIslandSid="10159" chapter="10" nextSid="10160" levelLimit="1" rankLimit="1" index="14" pointLevel="49" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10160" npcIslandSid="10160" chapter="10" nextSid="10161" levelLimit="1" rankLimit="1" index="15" pointLevel="49" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10161" npcIslandSid="10161" chapter="11" nextSid="10162" levelLimit="1" rankLimit="1" index="0" pointLevel="50" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10162" npcIslandSid="10162" chapter="11" nextSid="10163" levelLimit="1" rankLimit="1" index="1" pointLevel="51" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10163" npcIslandSid="10163" chapter="11" nextSid="10164" levelLimit="1" rankLimit="1" index="2" pointLevel="52" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10164" npcIslandSid="10164" chapter="11" nextSid="10165" levelLimit="1" rankLimit="1" index="3" pointLevel="53" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10165" npcIslandSid="10165" chapter="11" nextSid="10166" levelLimit="1" rankLimit="1" index="4" pointLevel="54" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10166" npcIslandSid="10166" chapter="11" nextSid="10167" levelLimit="1" rankLimit="1" index="5" pointLevel="55" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10167" npcIslandSid="10167" chapter="11" nextSid="10168" levelLimit="1" rankLimit="1" index="6" pointLevel="56" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10168" npcIslandSid="10168" chapter="11" nextSid="10169" levelLimit="1" rankLimit="1" index="7" pointLevel="57" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10169" npcIslandSid="10169" chapter="11" nextSid="10170" levelLimit="1" rankLimit="1" index="8" pointLevel="58" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10170" npcIslandSid="10170" chapter="11" nextSid="10171" levelLimit="1" rankLimit="1" index="9" pointLevel="59" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10171" npcIslandSid="10171" chapter="11" nextSid="10172" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10172" npcIslandSid="10172" chapter="11" nextSid="10173" levelLimit="1" rankLimit="1" index="11" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10173" npcIslandSid="10173" chapter="11" nextSid="10174" levelLimit="1" rankLimit="1" index="12" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10174" npcIslandSid="10174" chapter="11" nextSid="10175" levelLimit="1" rankLimit="1" index="13" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10175" npcIslandSid="10175" chapter="11" nextSid="10176" levelLimit="1" rankLimit="1" index="14" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10176" npcIslandSid="10176" chapter="11" nextSid="10177" levelLimit="1" rankLimit="1" index="15" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10177" npcIslandSid="10177" chapter="12" nextSid="10178" levelLimit="1" rankLimit="1" index="0" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10178" npcIslandSid="10178" chapter="12" nextSid="10179" levelLimit="1" rankLimit="1" index="1" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10179" npcIslandSid="10179" chapter="12" nextSid="10180" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10180" npcIslandSid="10180" chapter="12" nextSid="10181" levelLimit="1" rankLimit="1" index="3" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10181" npcIslandSid="10181" chapter="12" nextSid="10182" levelLimit="1" rankLimit="1" index="4" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10182" npcIslandSid="10182" chapter="12" nextSid="10183" levelLimit="1" rankLimit="1" index="5" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10183" npcIslandSid="10183" chapter="12" nextSid="10184" levelLimit="1" rankLimit="1" index="6" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10184" npcIslandSid="10184" chapter="12" nextSid="10185" levelLimit="1" rankLimit="1" index="7" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10185" npcIslandSid="10185" chapter="12" nextSid="10186" levelLimit="1" rankLimit="1" index="8" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10186" npcIslandSid="10186" chapter="12" nextSid="10187" levelLimit="1" rankLimit="1" index="9" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10187" npcIslandSid="10187" chapter="12" nextSid="10188" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10188" npcIslandSid="10188" chapter="12" nextSid="10189" levelLimit="1" rankLimit="1" index="11" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10189" npcIslandSid="10189" chapter="12" nextSid="10190" levelLimit="1" rankLimit="1" index="12" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10190" npcIslandSid="10190" chapter="12" nextSid="10191" levelLimit="1" rankLimit="1" index="13" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10191" npcIslandSid="10191" chapter="12" nextSid="10192" levelLimit="1" rankLimit="1" index="14" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10192" npcIslandSid="10192" chapter="12" nextSid="10193" levelLimit="1" rankLimit="1" index="15" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10193" npcIslandSid="10193" chapter="13" nextSid="10194" levelLimit="1" rankLimit="1" index="0" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10194" npcIslandSid="10194" chapter="13" nextSid="10195" levelLimit="1" rankLimit="1" index="1" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10195" npcIslandSid="10195" chapter="13" nextSid="10196" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10196" npcIslandSid="10196" chapter="13" nextSid="10197" levelLimit="1" rankLimit="1" index="3" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10197" npcIslandSid="10197" chapter="13" nextSid="10198" levelLimit="1" rankLimit="1" index="4" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10198" npcIslandSid="10198" chapter="13" nextSid="10199" levelLimit="1" rankLimit="1" index="5" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10199" npcIslandSid="10199" chapter="13" nextSid="10200" levelLimit="1" rankLimit="1" index="6" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10200" npcIslandSid="10200" chapter="13" nextSid="10201" levelLimit="1" rankLimit="1" index="7" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10201" npcIslandSid="10201" chapter="13" nextSid="10202" levelLimit="1" rankLimit="1" index="8" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10202" npcIslandSid="10202" chapter="13" nextSid="10203" levelLimit="1" rankLimit="1" index="9" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10203" npcIslandSid="10203" chapter="13" nextSid="10204" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10204" npcIslandSid="10204" chapter="13" nextSid="10205" levelLimit="1" rankLimit="1" index="11" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10205" npcIslandSid="10205" chapter="13" nextSid="10206" levelLimit="1" rankLimit="1" index="12" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10206" npcIslandSid="10206" chapter="13" nextSid="10207" levelLimit="1" rankLimit="1" index="13" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10207" npcIslandSid="10207" chapter="13" nextSid="10208" levelLimit="1" rankLimit="1" index="14" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10208" npcIslandSid="10208" chapter="13" nextSid="10209" levelLimit="1" rankLimit="1" index="15" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10209" npcIslandSid="10209" chapter="14" nextSid="10210" levelLimit="1" rankLimit="1" index="0" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10210" npcIslandSid="10210" chapter="14" nextSid="10211" levelLimit="1" rankLimit="1" index="1" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10211" npcIslandSid="10211" chapter="14" nextSid="10212" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10212" npcIslandSid="10212" chapter="14" nextSid="10213" levelLimit="1" rankLimit="1" index="3" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10213" npcIslandSid="10213" chapter="14" nextSid="10214" levelLimit="1" rankLimit="1" index="4" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10214" npcIslandSid="10214" chapter="14" nextSid="10215" levelLimit="1" rankLimit="1" index="5" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10215" npcIslandSid="10215" chapter="14" nextSid="10216" levelLimit="1" rankLimit="1" index="6" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10216" npcIslandSid="10216" chapter="14" nextSid="10217" levelLimit="1" rankLimit="1" index="7" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10217" npcIslandSid="10217" chapter="14" nextSid="10218" levelLimit="1" rankLimit="1" index="8" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10218" npcIslandSid="10218" chapter="14" nextSid="10219" levelLimit="1" rankLimit="1" index="9" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10219" npcIslandSid="10219" chapter="14" nextSid="10220" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10220" npcIslandSid="10220" chapter="14" nextSid="10221" levelLimit="1" rankLimit="1" index="11" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10221" npcIslandSid="10221" chapter="14" nextSid="10222" levelLimit="1" rankLimit="1" index="12" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10222" npcIslandSid="10222" chapter="14" nextSid="10223" levelLimit="1" rankLimit="1" index="13" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10223" npcIslandSid="10223" chapter="14" nextSid="10224" levelLimit="1" rankLimit="1" index="14" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10224" npcIslandSid="10224" chapter="14" nextSid="10225" levelLimit="1" rankLimit="1" index="15" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10225" npcIslandSid="10225" chapter="15" nextSid="10226" levelLimit="1" rankLimit="1" index="0" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10226" npcIslandSid="10226" chapter="15" nextSid="10227" levelLimit="1" rankLimit="1" index="1" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10227" npcIslandSid="10227" chapter="15" nextSid="10228" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10228" npcIslandSid="10228" chapter="15" nextSid="10229" levelLimit="1" rankLimit="1" index="3" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10229" npcIslandSid="10229" chapter="15" nextSid="10230" levelLimit="1" rankLimit="1" index="4" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10230" npcIslandSid="10230" chapter="15" nextSid="10231" levelLimit="1" rankLimit="1" index="5" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10231" npcIslandSid="10231" chapter="15" nextSid="10232" levelLimit="1" rankLimit="1" index="6" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10232" npcIslandSid="10232" chapter="15" nextSid="10233" levelLimit="1" rankLimit="1" index="7" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10233" npcIslandSid="10233" chapter="15" nextSid="10234" levelLimit="1" rankLimit="1" index="8" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10234" npcIslandSid="10234" chapter="15" nextSid="10235" levelLimit="1" rankLimit="1" index="9" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10235" npcIslandSid="10235" chapter="15" nextSid="10236" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10236" npcIslandSid="10236" chapter="15" nextSid="10237" levelLimit="1" rankLimit="1" index="11" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10237" npcIslandSid="10237" chapter="15" nextSid="10238" levelLimit="1" rankLimit="1" index="12" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10238" npcIslandSid="10238" chapter="15" nextSid="10239" levelLimit="1" rankLimit="1" index="13" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10239" npcIslandSid="10239" chapter="15" nextSid="10240" levelLimit="1" rankLimit="1" index="14" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10240" npcIslandSid="10240" chapter="15" nextSid="10241" levelLimit="1" rankLimit="1" index="15" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10241" npcIslandSid="10241" chapter="16" nextSid="10242" levelLimit="1" rankLimit="1" index="0" pointLevel="61" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10242" npcIslandSid="10242" chapter="16" nextSid="10243" levelLimit="1" rankLimit="1" index="1" pointLevel="62" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10243" npcIslandSid="10243" chapter="16" nextSid="10244" levelLimit="1" rankLimit="1" index="2" pointLevel="63" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10244" npcIslandSid="10244" chapter="16" nextSid="10245" levelLimit="1" rankLimit="1" index="3" pointLevel="64" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10245" npcIslandSid="10245" chapter="16" nextSid="10246" levelLimit="1" rankLimit="1" index="4" pointLevel="65" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10246" npcIslandSid="10246" chapter="16" nextSid="10247" levelLimit="1" rankLimit="1" index="5" pointLevel="66" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10247" npcIslandSid="10247" chapter="16" nextSid="10248" levelLimit="1" rankLimit="1" index="6" pointLevel="67" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10248" npcIslandSid="10248" chapter="16" nextSid="10249" levelLimit="1" rankLimit="1" index="7" pointLevel="68" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10249" npcIslandSid="10249" chapter="16" nextSid="10250" levelLimit="1" rankLimit="1" index="8" pointLevel="69" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10250" npcIslandSid="10250" chapter="16" nextSid="10251" levelLimit="1" rankLimit="1" index="9" pointLevel="70" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10251" npcIslandSid="10251" chapter="16" nextSid="10252" levelLimit="1" rankLimit="1" index="10" pointLevel="71" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10252" npcIslandSid="10252" chapter="16" nextSid="10253" levelLimit="1" rankLimit="1" index="11" pointLevel="72" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10253" npcIslandSid="10253" chapter="16" nextSid="10254" levelLimit="1" rankLimit="1" index="12" pointLevel="73" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10254" npcIslandSid="10254" chapter="16" nextSid="10255" levelLimit="1" rankLimit="1" index="13" pointLevel="74" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10255" npcIslandSid="10255" chapter="16" nextSid="10256" levelLimit="1" rankLimit="1" index="14" pointLevel="75" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10256" npcIslandSid="10256" chapter="16" nextSid="10257" levelLimit="1" rankLimit="1" index="15" pointLevel="76" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10257" npcIslandSid="10257" chapter="17" nextSid="10258" levelLimit="1" rankLimit="1" index="0" pointLevel="77" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10258" npcIslandSid="10258" chapter="17" nextSid="10259" levelLimit="1" rankLimit="1" index="1" pointLevel="78" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10259" npcIslandSid="10259" chapter="17" nextSid="10260" levelLimit="1" rankLimit="1" index="2" pointLevel="79" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10260" npcIslandSid="10260" chapter="17" nextSid="10261" levelLimit="1" rankLimit="1" index="3" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10261" npcIslandSid="10261" chapter="17" nextSid="10262" levelLimit="1" rankLimit="1" index="4" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10262" npcIslandSid="10262" chapter="17" nextSid="10263" levelLimit="1" rankLimit="1" index="5" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10263" npcIslandSid="10263" chapter="17" nextSid="10264" levelLimit="1" rankLimit="1" index="6" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10264" npcIslandSid="10264" chapter="17" nextSid="10265" levelLimit="1" rankLimit="1" index="7" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10265" npcIslandSid="10265" chapter="17" nextSid="10266" levelLimit="1" rankLimit="1" index="8" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10266" npcIslandSid="10266" chapter="17" nextSid="10267" levelLimit="1" rankLimit="1" index="9" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10267" npcIslandSid="10267" chapter="17" nextSid="10268" levelLimit="1" rankLimit="1" index="10" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10268" npcIslandSid="10268" chapter="17" nextSid="10269" levelLimit="1" rankLimit="1" index="11" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10269" npcIslandSid="10269" chapter="17" nextSid="10270" levelLimit="1" rankLimit="1" index="12" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10270" npcIslandSid="10270" chapter="17" nextSid="10271" levelLimit="1" rankLimit="1" index="13" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10271" npcIslandSid="10271" chapter="17" nextSid="10272" levelLimit="1" rankLimit="1" index="14" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="10272" npcIslandSid="10272" chapter="17" nextSid="10272" levelLimit="1" rankLimit="1" index="15" pointLevel="80" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14001" npcIslandSid="14001" chapter="1" nextSid="14002" levelLimit="1" rankLimit="1" index="0" pointLevel="30" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14002" npcIslandSid="14002" chapter="1" nextSid="14003" levelLimit="1" rankLimit="1" index="1" pointLevel="33" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14003" npcIslandSid="14003" chapter="1" nextSid="14004" levelLimit="1" rankLimit="1" index="2" pointLevel="36" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14004" npcIslandSid="14004" chapter="1" nextSid="14005" levelLimit="1" rankLimit="1" index="3" pointLevel="39" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14005" npcIslandSid="14005" chapter="1" nextSid="14006" levelLimit="1" rankLimit="1" index="4" pointLevel="42" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14006" npcIslandSid="14006" chapter="1" nextSid="14007" levelLimit="1" rankLimit="1" index="5" pointLevel="45" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14007" npcIslandSid="14007" chapter="1" nextSid="14008" levelLimit="1" rankLimit="1" index="6" pointLevel="48" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14008" npcIslandSid="14008" chapter="1" nextSid="14009" levelLimit="1" rankLimit="1" index="7" pointLevel="51" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14009" npcIslandSid="14009" chapter="1" nextSid="14010" levelLimit="1" rankLimit="1" index="8" pointLevel="54" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14010" npcIslandSid="14010" chapter="1" nextSid="14011" levelLimit="1" rankLimit="1" index="9" pointLevel="57" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14011" npcIslandSid="14011" chapter="1" nextSid="14012" levelLimit="1" rankLimit="1" index="10" pointLevel="60" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14012" npcIslandSid="14012" chapter="1" nextSid="14013" levelLimit="1" rankLimit="1" index="11" pointLevel="62" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14013" npcIslandSid="14013" chapter="1" nextSid="14014" levelLimit="1" rankLimit="1" index="12" pointLevel="64" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14014" npcIslandSid="14014" chapter="1" nextSid="14015" levelLimit="1" rankLimit="1" index="13" pointLevel="66" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14015" npcIslandSid="14015" chapter="1" nextSid="14016" levelLimit="1" rankLimit="1" index="14" pointLevel="68" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="14016" npcIslandSid="14016" chapter="1" nextSid="14016" levelLimit="1" rankLimit="1" index="15" pointLevel="70" name="sample_enemy" fightType="4" />
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14051" npcIslandSid="14051" chapter="2" nextSid="14052" levelLimit="1" rankLimit="1" index="0" pointLevel="20" name="sample_enemy" fightType="17" challengTime="5" payCount="1">
+        <field name="gems" declared="1">
+            <ints>5</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14052" npcIslandSid="14052" chapter="2" nextSid="14053" levelLimit="1" rankLimit="1" index="1" pointLevel="25" name="sample_enemy" fightType="17" challengTime="5" payCount="1">
+        <field name="gems" declared="1">
+            <ints>10</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14053" npcIslandSid="14053" chapter="2" nextSid="14054" levelLimit="1" rankLimit="1" index="2" pointLevel="30" name="sample_enemy" fightType="17" challengTime="5" payCount="1">
+        <field name="gems" declared="1">
+            <ints>15</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14054" npcIslandSid="14054" chapter="2" nextSid="14055" levelLimit="1" rankLimit="1" index="3" pointLevel="40" name="sample_enemy" fightType="17" challengTime="5" payCount="1">
+        <field name="gems" declared="1">
+            <ints>20</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14055" npcIslandSid="14055" chapter="2" nextSid="14056" levelLimit="1" rankLimit="1" index="4" pointLevel="50" name="sample_enemy" fightType="17" challengTime="3" payCount="1">
+        <field name="gems" declared="1">
+            <ints>25</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14056" npcIslandSid="14056" chapter="2" nextSid="14057" levelLimit="1" rankLimit="1" index="5" pointLevel="60" name="sample_enemy" fightType="17" challengTime="3" payCount="1">
+        <field name="gems" declared="1">
+            <ints>30</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14057" npcIslandSid="14057" chapter="2" nextSid="14058" levelLimit="1" rankLimit="1" index="6" pointLevel="70" name="sample_enemy" fightType="17" challengTime="3" payCount="1">
+        <field name="gems" declared="1">
+            <ints>35</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.ArmsCheckPoint" sid="14058" npcIslandSid="14058" chapter="2" nextSid="14058" levelLimit="1" rankLimit="1" index="7" pointLevel="80" name="sample_enemy" fightType="17" challengTime="3" payCount="1">
+        <field name="gems" declared="1">
+            <ints>40</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.EliteCheckPoint" sid="14071" npcIslandSid="14071" chapter="2" nextSid="14074" levelLimit="1" rankLimit="1" index="0" pointLevel="20" name="sample_enemy" fightType="17" />
+    <sample class="foxu.sea.checkpoint.EliteCheckPoint" sid="14072" npcIslandSid="14072" chapter="2" nextSid="14074" levelLimit="1" rankLimit="1" index="1" pointLevel="40" name="sample_enemy" fightType="17" />
+    <sample class="foxu.sea.checkpoint.EliteCheckPoint" sid="14073" npcIslandSid="14073" chapter="2" nextSid="14074" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="17" />
+    <sample class="foxu.sea.checkpoint.EliteCheckPoint" sid="14074" npcIslandSid="14074" chapter="2" nextSid="14074" levelLimit="1" rankLimit="1" index="3" pointLevel="80" name="sample_enemy" fightType="17" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15001" npcIslandSid="15001" chapter="1" nextSid="15002" levelLimit="1" rankLimit="1" index="0" pointLevel="45" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15002" npcIslandSid="15002" chapter="1" nextSid="15003" levelLimit="1" rankLimit="1" index="1" pointLevel="45" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15003" npcIslandSid="15003" chapter="1" nextSid="15004" levelLimit="1" rankLimit="1" index="2" pointLevel="45" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15004" npcIslandSid="15004" chapter="1" nextSid="15005" levelLimit="1" rankLimit="1" index="3" pointLevel="45" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15005" npcIslandSid="15005" chapter="1" nextSid="15006" levelLimit="1" rankLimit="1" index="4" pointLevel="46" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15006" npcIslandSid="15006" chapter="1" nextSid="15007" levelLimit="1" rankLimit="1" index="5" pointLevel="46" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15007" npcIslandSid="15007" chapter="1" nextSid="15008" levelLimit="1" rankLimit="1" index="6" pointLevel="46" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15008" npcIslandSid="15008" chapter="1" nextSid="15009" levelLimit="1" rankLimit="1" index="7" pointLevel="46" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15009" npcIslandSid="15009" chapter="1" nextSid="15010" levelLimit="1" rankLimit="1" index="8" pointLevel="47" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15010" npcIslandSid="15010" chapter="1" nextSid="15011" levelLimit="1" rankLimit="1" index="9" pointLevel="47" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15011" npcIslandSid="15011" chapter="1" nextSid="15012" levelLimit="1" rankLimit="1" index="10" pointLevel="47" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15012" npcIslandSid="15012" chapter="1" nextSid="15013" levelLimit="1" rankLimit="1" index="11" pointLevel="47" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15013" npcIslandSid="15013" chapter="1" nextSid="15014" levelLimit="1" rankLimit="1" index="12" pointLevel="48" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15014" npcIslandSid="15014" chapter="1" nextSid="15015" levelLimit="1" rankLimit="1" index="13" pointLevel="48" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15015" npcIslandSid="15015" chapter="1" nextSid="15016" levelLimit="1" rankLimit="1" index="14" pointLevel="48" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15016" npcIslandSid="15016" chapter="1" nextSid="15017" levelLimit="1" rankLimit="1" index="15" pointLevel="48" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15017" npcIslandSid="15017" chapter="2" nextSid="15018" levelLimit="1" rankLimit="1" index="0" pointLevel="50" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15018" npcIslandSid="15018" chapter="2" nextSid="15019" levelLimit="1" rankLimit="1" index="1" pointLevel="50" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15019" npcIslandSid="15019" chapter="2" nextSid="15020" levelLimit="1" rankLimit="1" index="2" pointLevel="50" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15020" npcIslandSid="15020" chapter="2" nextSid="15021" levelLimit="1" rankLimit="1" index="3" pointLevel="50" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15021" npcIslandSid="15021" chapter="2" nextSid="15022" levelLimit="1" rankLimit="1" index="4" pointLevel="51" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15022" npcIslandSid="15022" chapter="2" nextSid="15023" levelLimit="1" rankLimit="1" index="5" pointLevel="51" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15023" npcIslandSid="15023" chapter="2" nextSid="15024" levelLimit="1" rankLimit="1" index="6" pointLevel="51" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15024" npcIslandSid="15024" chapter="2" nextSid="15025" levelLimit="1" rankLimit="1" index="7" pointLevel="51" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15025" npcIslandSid="15025" chapter="2" nextSid="15026" levelLimit="1" rankLimit="1" index="8" pointLevel="52" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15026" npcIslandSid="15026" chapter="2" nextSid="15027" levelLimit="1" rankLimit="1" index="9" pointLevel="52" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15027" npcIslandSid="15027" chapter="2" nextSid="15028" levelLimit="1" rankLimit="1" index="10" pointLevel="52" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15028" npcIslandSid="15028" chapter="2" nextSid="15029" levelLimit="1" rankLimit="1" index="11" pointLevel="52" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15029" npcIslandSid="15029" chapter="2" nextSid="15030" levelLimit="1" rankLimit="1" index="12" pointLevel="53" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15030" npcIslandSid="15030" chapter="2" nextSid="15031" levelLimit="1" rankLimit="1" index="13" pointLevel="53" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15031" npcIslandSid="15031" chapter="2" nextSid="15032" levelLimit="1" rankLimit="1" index="14" pointLevel="53" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15032" npcIslandSid="15032" chapter="2" nextSid="15033" levelLimit="1" rankLimit="1" index="15" pointLevel="53" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15033" npcIslandSid="15033" chapter="3" nextSid="15034" levelLimit="1" rankLimit="1" index="0" pointLevel="55" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15034" npcIslandSid="15034" chapter="3" nextSid="15035" levelLimit="1" rankLimit="1" index="1" pointLevel="55" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15035" npcIslandSid="15035" chapter="3" nextSid="15036" levelLimit="1" rankLimit="1" index="2" pointLevel="55" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15036" npcIslandSid="15036" chapter="3" nextSid="15037" levelLimit="1" rankLimit="1" index="3" pointLevel="55" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15037" npcIslandSid="15037" chapter="3" nextSid="15038" levelLimit="1" rankLimit="1" index="4" pointLevel="56" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15038" npcIslandSid="15038" chapter="3" nextSid="15039" levelLimit="1" rankLimit="1" index="5" pointLevel="56" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15039" npcIslandSid="15039" chapter="3" nextSid="15040" levelLimit="1" rankLimit="1" index="6" pointLevel="56" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15040" npcIslandSid="15040" chapter="3" nextSid="15041" levelLimit="1" rankLimit="1" index="7" pointLevel="56" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15041" npcIslandSid="15041" chapter="3" nextSid="15042" levelLimit="1" rankLimit="1" index="8" pointLevel="57" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15042" npcIslandSid="15042" chapter="3" nextSid="15043" levelLimit="1" rankLimit="1" index="9" pointLevel="57" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15043" npcIslandSid="15043" chapter="3" nextSid="15044" levelLimit="1" rankLimit="1" index="10" pointLevel="57" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15044" npcIslandSid="15044" chapter="3" nextSid="15045" levelLimit="1" rankLimit="1" index="11" pointLevel="57" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15045" npcIslandSid="15045" chapter="3" nextSid="15046" levelLimit="1" rankLimit="1" index="12" pointLevel="58" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15046" npcIslandSid="15046" chapter="3" nextSid="15047" levelLimit="1" rankLimit="1" index="13" pointLevel="58" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15047" npcIslandSid="15047" chapter="3" nextSid="15048" levelLimit="1" rankLimit="1" index="14" pointLevel="58" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15048" npcIslandSid="15048" chapter="3" nextSid="15049" levelLimit="1" rankLimit="1" index="15" pointLevel="58" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15049" npcIslandSid="15049" chapter="4" nextSid="15050" levelLimit="1" rankLimit="1" index="0" pointLevel="60" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15050" npcIslandSid="15050" chapter="4" nextSid="15051" levelLimit="1" rankLimit="1" index="1" pointLevel="60" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15051" npcIslandSid="15051" chapter="4" nextSid="15052" levelLimit="1" rankLimit="1" index="2" pointLevel="60" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15052" npcIslandSid="15052" chapter="4" nextSid="15053" levelLimit="1" rankLimit="1" index="3" pointLevel="60" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15053" npcIslandSid="15053" chapter="4" nextSid="15054" levelLimit="1" rankLimit="1" index="4" pointLevel="61" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15054" npcIslandSid="15054" chapter="4" nextSid="15055" levelLimit="1" rankLimit="1" index="5" pointLevel="61" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15055" npcIslandSid="15055" chapter="4" nextSid="15056" levelLimit="1" rankLimit="1" index="6" pointLevel="61" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15056" npcIslandSid="15056" chapter="4" nextSid="15057" levelLimit="1" rankLimit="1" index="7" pointLevel="61" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15057" npcIslandSid="15057" chapter="4" nextSid="15058" levelLimit="1" rankLimit="1" index="8" pointLevel="62" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15058" npcIslandSid="15058" chapter="4" nextSid="15059" levelLimit="1" rankLimit="1" index="9" pointLevel="62" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15059" npcIslandSid="15059" chapter="4" nextSid="15060" levelLimit="1" rankLimit="1" index="10" pointLevel="62" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15060" npcIslandSid="15060" chapter="4" nextSid="15061" levelLimit="1" rankLimit="1" index="11" pointLevel="62" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15061" npcIslandSid="15061" chapter="4" nextSid="15062" levelLimit="1" rankLimit="1" index="12" pointLevel="63" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15062" npcIslandSid="15062" chapter="4" nextSid="15063" levelLimit="1" rankLimit="1" index="13" pointLevel="63" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15063" npcIslandSid="15063" chapter="4" nextSid="15064" levelLimit="1" rankLimit="1" index="14" pointLevel="63" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15064" npcIslandSid="15064" chapter="4" nextSid="15065" levelLimit="1" rankLimit="1" index="15" pointLevel="63" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15065" npcIslandSid="15065" chapter="5" nextSid="15066" levelLimit="1" rankLimit="1" index="0" pointLevel="65" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15066" npcIslandSid="15066" chapter="5" nextSid="15067" levelLimit="1" rankLimit="1" index="1" pointLevel="65" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15067" npcIslandSid="15067" chapter="5" nextSid="15068" levelLimit="1" rankLimit="1" index="2" pointLevel="65" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15068" npcIslandSid="15068" chapter="5" nextSid="15069" levelLimit="1" rankLimit="1" index="3" pointLevel="65" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15069" npcIslandSid="15069" chapter="5" nextSid="15070" levelLimit="1" rankLimit="1" index="4" pointLevel="66" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15070" npcIslandSid="15070" chapter="5" nextSid="15071" levelLimit="1" rankLimit="1" index="5" pointLevel="66" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15071" npcIslandSid="15071" chapter="5" nextSid="15072" levelLimit="1" rankLimit="1" index="6" pointLevel="66" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15072" npcIslandSid="15072" chapter="5" nextSid="15073" levelLimit="1" rankLimit="1" index="7" pointLevel="66" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15073" npcIslandSid="15073" chapter="5" nextSid="15074" levelLimit="1" rankLimit="1" index="8" pointLevel="67" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15074" npcIslandSid="15074" chapter="5" nextSid="15075" levelLimit="1" rankLimit="1" index="9" pointLevel="67" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15075" npcIslandSid="15075" chapter="5" nextSid="15076" levelLimit="1" rankLimit="1" index="10" pointLevel="67" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15076" npcIslandSid="15076" chapter="5" nextSid="15077" levelLimit="1" rankLimit="1" index="11" pointLevel="67" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15077" npcIslandSid="15077" chapter="5" nextSid="15078" levelLimit="1" rankLimit="1" index="12" pointLevel="68" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15078" npcIslandSid="15078" chapter="5" nextSid="15079" levelLimit="1" rankLimit="1" index="13" pointLevel="68" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15079" npcIslandSid="15079" chapter="5" nextSid="15080" levelLimit="1" rankLimit="1" index="14" pointLevel="68" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15080" npcIslandSid="15080" chapter="5" nextSid="15081" levelLimit="1" rankLimit="1" index="15" pointLevel="68" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15081" npcIslandSid="15081" chapter="6" nextSid="15082" levelLimit="1" rankLimit="1" index="0" pointLevel="69" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15082" npcIslandSid="15082" chapter="6" nextSid="15083" levelLimit="1" rankLimit="1" index="1" pointLevel="69" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15083" npcIslandSid="15083" chapter="6" nextSid="15084" levelLimit="1" rankLimit="1" index="2" pointLevel="69" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15084" npcIslandSid="15084" chapter="6" nextSid="15085" levelLimit="1" rankLimit="1" index="3" pointLevel="69" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15085" npcIslandSid="15085" chapter="6" nextSid="15086" levelLimit="1" rankLimit="1" index="4" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15086" npcIslandSid="15086" chapter="6" nextSid="15087" levelLimit="1" rankLimit="1" index="5" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15087" npcIslandSid="15087" chapter="6" nextSid="15088" levelLimit="1" rankLimit="1" index="6" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15088" npcIslandSid="15088" chapter="6" nextSid="15089" levelLimit="1" rankLimit="1" index="7" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15089" npcIslandSid="15089" chapter="6" nextSid="15090" levelLimit="1" rankLimit="1" index="8" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15090" npcIslandSid="15090" chapter="6" nextSid="15091" levelLimit="1" rankLimit="1" index="9" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15091" npcIslandSid="15091" chapter="6" nextSid="15092" levelLimit="1" rankLimit="1" index="10" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15092" npcIslandSid="15092" chapter="6" nextSid="15093" levelLimit="1" rankLimit="1" index="11" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15093" npcIslandSid="15093" chapter="6" nextSid="15094" levelLimit="1" rankLimit="1" index="12" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15094" npcIslandSid="15094" chapter="6" nextSid="15095" levelLimit="1" rankLimit="1" index="13" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15095" npcIslandSid="15095" chapter="6" nextSid="15096" levelLimit="1" rankLimit="1" index="14" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15096" npcIslandSid="15096" chapter="6" nextSid="15097" levelLimit="1" rankLimit="1" index="15" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15097" npcIslandSid="15097" chapter="7" nextSid="15098" levelLimit="1" rankLimit="1" index="0" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15098" npcIslandSid="15098" chapter="7" nextSid="15099" levelLimit="1" rankLimit="1" index="1" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15099" npcIslandSid="15099" chapter="7" nextSid="15100" levelLimit="1" rankLimit="1" index="2" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15100" npcIslandSid="15100" chapter="7" nextSid="15101" levelLimit="1" rankLimit="1" index="3" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15101" npcIslandSid="15101" chapter="7" nextSid="15102" levelLimit="1" rankLimit="1" index="4" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15102" npcIslandSid="15102" chapter="7" nextSid="15103" levelLimit="1" rankLimit="1" index="5" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15103" npcIslandSid="15103" chapter="7" nextSid="15104" levelLimit="1" rankLimit="1" index="6" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15104" npcIslandSid="15104" chapter="7" nextSid="15105" levelLimit="1" rankLimit="1" index="7" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15105" npcIslandSid="15105" chapter="7" nextSid="15106" levelLimit="1" rankLimit="1" index="8" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15106" npcIslandSid="15106" chapter="7" nextSid="15107" levelLimit="1" rankLimit="1" index="9" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15107" npcIslandSid="15107" chapter="7" nextSid="15108" levelLimit="1" rankLimit="1" index="10" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15108" npcIslandSid="15108" chapter="7" nextSid="15109" levelLimit="1" rankLimit="1" index="11" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15109" npcIslandSid="15109" chapter="7" nextSid="15110" levelLimit="1" rankLimit="1" index="12" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15110" npcIslandSid="15110" chapter="7" nextSid="15111" levelLimit="1" rankLimit="1" index="13" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15111" npcIslandSid="15111" chapter="7" nextSid="15112" levelLimit="1" rankLimit="1" index="14" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15112" npcIslandSid="15112" chapter="7" nextSid="15113" levelLimit="1" rankLimit="1" index="15" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15113" npcIslandSid="15113" chapter="8" nextSid="15114" levelLimit="1" rankLimit="1" index="0" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15114" npcIslandSid="15114" chapter="8" nextSid="15115" levelLimit="1" rankLimit="1" index="1" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15115" npcIslandSid="15115" chapter="8" nextSid="15116" levelLimit="1" rankLimit="1" index="2" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15116" npcIslandSid="15116" chapter="8" nextSid="15117" levelLimit="1" rankLimit="1" index="3" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15117" npcIslandSid="15117" chapter="8" nextSid="15118" levelLimit="1" rankLimit="1" index="4" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15118" npcIslandSid="15118" chapter="8" nextSid="15119" levelLimit="1" rankLimit="1" index="5" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15119" npcIslandSid="15119" chapter="8" nextSid="15120" levelLimit="1" rankLimit="1" index="6" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15120" npcIslandSid="15120" chapter="8" nextSid="15121" levelLimit="1" rankLimit="1" index="7" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15121" npcIslandSid="15121" chapter="8" nextSid="15122" levelLimit="1" rankLimit="1" index="8" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15122" npcIslandSid="15122" chapter="8" nextSid="15123" levelLimit="1" rankLimit="1" index="9" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15123" npcIslandSid="15123" chapter="8" nextSid="15124" levelLimit="1" rankLimit="1" index="10" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15124" npcIslandSid="15124" chapter="8" nextSid="15125" levelLimit="1" rankLimit="1" index="11" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15125" npcIslandSid="15125" chapter="8" nextSid="15126" levelLimit="1" rankLimit="1" index="12" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15126" npcIslandSid="15126" chapter="8" nextSid="15127" levelLimit="1" rankLimit="1" index="13" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15127" npcIslandSid="15127" chapter="8" nextSid="15128" levelLimit="1" rankLimit="1" index="14" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15128" npcIslandSid="15128" chapter="8" nextSid="15128" levelLimit="1" rankLimit="1" index="15" pointLevel="70" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15129" npcIslandSid="15129" chapter="9" nextSid="15130" levelLimit="1" rankLimit="1" index="0" pointLevel="71" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15130" npcIslandSid="15130" chapter="9" nextSid="15131" levelLimit="1" rankLimit="1" index="1" pointLevel="72" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15131" npcIslandSid="15131" chapter="9" nextSid="15132" levelLimit="1" rankLimit="1" index="2" pointLevel="73" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15132" npcIslandSid="15132" chapter="9" nextSid="15133" levelLimit="1" rankLimit="1" index="3" pointLevel="74" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15133" npcIslandSid="15133" chapter="9" nextSid="15134" levelLimit="1" rankLimit="1" index="4" pointLevel="75" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15134" npcIslandSid="15134" chapter="9" nextSid="15135" levelLimit="1" rankLimit="1" index="5" pointLevel="76" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15135" npcIslandSid="15135" chapter="9" nextSid="15136" levelLimit="1" rankLimit="1" index="6" pointLevel="77" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15136" npcIslandSid="15136" chapter="9" nextSid="15137" levelLimit="1" rankLimit="1" index="7" pointLevel="78" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15137" npcIslandSid="15137" chapter="9" nextSid="15138" levelLimit="1" rankLimit="1" index="8" pointLevel="79" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15138" npcIslandSid="15138" chapter="9" nextSid="15139" levelLimit="1" rankLimit="1" index="9" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15139" npcIslandSid="15139" chapter="9" nextSid="15140" levelLimit="1" rankLimit="1" index="10" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15140" npcIslandSid="15140" chapter="9" nextSid="15141" levelLimit="1" rankLimit="1" index="11" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15141" npcIslandSid="15141" chapter="9" nextSid="15142" levelLimit="1" rankLimit="1" index="12" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15142" npcIslandSid="15142" chapter="9" nextSid="15143" levelLimit="1" rankLimit="1" index="13" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15143" npcIslandSid="15143" chapter="9" nextSid="15144" levelLimit="1" rankLimit="1" index="14" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15144" npcIslandSid="15144" chapter="9" nextSid="15145" levelLimit="1" rankLimit="1" index="15" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15145" npcIslandSid="15145" chapter="10" nextSid="15146" levelLimit="1" rankLimit="1" index="0" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15146" npcIslandSid="15146" chapter="10" nextSid="15147" levelLimit="1" rankLimit="1" index="1" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15147" npcIslandSid="15147" chapter="10" nextSid="15148" levelLimit="1" rankLimit="1" index="2" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15148" npcIslandSid="15148" chapter="10" nextSid="15149" levelLimit="1" rankLimit="1" index="3" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15149" npcIslandSid="15149" chapter="10" nextSid="15150" levelLimit="1" rankLimit="1" index="4" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15150" npcIslandSid="15150" chapter="10" nextSid="15151" levelLimit="1" rankLimit="1" index="5" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15151" npcIslandSid="15151" chapter="10" nextSid="15152" levelLimit="1" rankLimit="1" index="6" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15152" npcIslandSid="15152" chapter="10" nextSid="15153" levelLimit="1" rankLimit="1" index="7" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15153" npcIslandSid="15153" chapter="10" nextSid="15154" levelLimit="1" rankLimit="1" index="8" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15154" npcIslandSid="15154" chapter="10" nextSid="15155" levelLimit="1" rankLimit="1" index="9" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15155" npcIslandSid="15155" chapter="10" nextSid="15156" levelLimit="1" rankLimit="1" index="10" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15156" npcIslandSid="15156" chapter="10" nextSid="15157" levelLimit="1" rankLimit="1" index="11" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15157" npcIslandSid="15157" chapter="10" nextSid="15158" levelLimit="1" rankLimit="1" index="12" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15158" npcIslandSid="15158" chapter="10" nextSid="15159" levelLimit="1" rankLimit="1" index="13" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15159" npcIslandSid="15159" chapter="10" nextSid="15160" levelLimit="1" rankLimit="1" index="14" pointLevel="80" name="sample_enemy" fightType="16" />
+    <sample class="foxu.sea.checkpoint.CheckPoint" sid="15160" npcIslandSid="15160" chapter="10" nextSid="15160" levelLimit="1" rankLimit="1" index="15" pointLevel="80" name="sample_enemy" fightType="16" />
+</objects>

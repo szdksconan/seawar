@@ -1,0 +1,904 @@
+﻿plunder resources=Available resources 
+metal=Metal 
+oil=Oil 
+silicon=Silicon
+uranium=Uranium
+money=Gold
+
+#岛屿名字=#岛屿名字
+world_island_1=Iron Mine Island 
+world_island_2=Oil-stained Area
+world_island_3=Silicon Mine Island 
+world_island_4=Uranium Mine Island
+world_island_5=Shipwreck
+
+
+#服务器名字=#服务器名字
+server_name_taiwan_001=Traditional Chinese001
+server_name_taiwan_002=Traditional Chinese002
+server_name_cn_001=Simplified Chinese001
+server_name_cn_002=Simplified Chinese002
+#邀请相关=#邀请相关
+the invetid is=The inviter's ID doesn't belong to this Server
+inveted is wrong=The inviter's ID is wrong
+
+
+game_name=Empire Warfare
+game_name1=Ocean Force
+game_name2=Empire Warships
+game_name3=Battleship: Naval Battle
+
+be_attack_npc_island_push=All hands on deck! %'s fleet is heading towards your (%) garrisoned at %(%). You can recall your fleet or defend.
+be_attack_self_island_push=Mayday! Mayday! %'s fleet is heading towards your base. We're awaiting for orders!
+
+#绑定账号错误=#绑定账号错误
+account is have=The account already exists
+user_count_full=%，%，% has been bound to the device. Unable to log in with Visitor's Account
+
+#邀请=#邀请
+system_mail=System Mail
+invite_new_one_title=% joined 
+invite_new_one_content=Your friend % has joined Empire - Warships, and in exchange you get a Uranium ore gift bag and 15 Gems. Now get in touch and fight the enemy together!
+
+be_invite_new_one_title=Welcome to Empire Warfare! 
+be_invite_new_one_content=Welcome to Empire Warfare. Your friend % is fighting a bloody war. You are awarded 10 Gems and 1 peace flag. Now get in touch and fight the enemy together!
+
+#系统公告=#系统公告
+player_type_up=Congratulations!% upgrade to %
+player_type_2=Apprentice
+player_type_3=Seaman
+player_type_4=Petty Officer
+player_type_5=Warrant officer
+player_type_6=Ensign
+player_type_7=Junior Lieutenant
+player_type_8=Lieutenant
+player_type_9=Lieutenant Commander
+player_type_10=Commander
+player_type_11=Captain
+player_type_12=Commodore
+player_type_13=Rear Admiral
+player_type_14=Vice Admiral
+player_type_15=Admiral
+player_type_16=Marshal
+player_type_17=Warlord
+
+
+
+attack_island_prop=% attacked % Lvl.%,won % , Congratulations!
+attack_checkpoint=% won % in the checkpoint battle, Congratulations!
+prop_use_tips=Congratulations! % use % to receive %*%!
+success_check_point=% fought bravely and beat "%" of all enemies!
+success_check_10016=Chapter 1: Escape
+success_check_10032=Chapter 2: The Outpost
+success_check_10048=Chapter 3: Steel Giant 
+success_check_10064=Chapter 4: Black Gold Island
+success_check_10080=Chapter 5: Pacific Fleet
+success_check_10096=Chapter 6: Crystal Factory
+success_check_10112=Chapter 7: Industrial Town
+success_check_10128=Chapter 8: The Death Mine
+success_check_10144=Chapter 9: Root of All Evil
+success_check_10160=Chapter 10: Capital Guards
+success_check_10176=Chapter 11: Final in the Capital 
+success_check_10192=Chapter 12: Hot Pursuit
+success_check_10208=Chapter 13: The Rock
+success_check_10224=Chapter 14: Chaos Seaway
+success_check_10240=Chapter 15: The Freeport
+success_check_10256=Chapter 16: North sea bay
+success_check_10272=Chapter 17: Grand Line
+
+#统御=#统御
+commander_level_up=Congratulations! % has upgraded Leadership to Lvl.%.
+
+#联盟=#联盟
+alliance_system_title=System Notice
+alliance_refuse_content=Your Alliance application has been rejected!
+alliance_be_kick_content=% has booted you out from the alliance!
+
+#服务器维护=#服务器维护
+server_is_not_open=Server maintenance. Please try again later.
+connection_timeout=connection time out
+
+
+#联盟等级提升=#联盟等级提升
+alliance_level_up=Congratulations! % (Alliance) has been upgraded to Lvl.%.
+#购买效验错误=#购买效验错误
+buy gems fail=Purchase failed, please uninstall the jailbreak software and try again.
+alliance_gave_value_not_enough=% Alliance Contribution required to claim.
+lotto_special_prop=Congratulations! % has received % from the Lucky Lottery!
+
+
+boss_came=World Boss (Lvl.%) has appeared on the world map.
+boss_has_been_killed=World Boss (Lvl.%) has been defeated. All members from the Alliances killing chart top 10 will receive a reward. The number 1 Alliance % (Alliance) sank % ships.
+boss_has_been_last_kill=Congratulations! % has defeated the Boss(Lvl.%) and received an reward for the final strike.
+boss_taunt=Level % World Boss appeared in %. Hurry up and destroy him!
+lucky_draw_prop=Congratulations! % win % % in Mysterious Lottery!
+lucky_draw_prop2=Congratulations! % received % % in the lucky draw.
+success_hei_check_55001=Chapter 1 Veiled Sea
+success_hei_check_55002=Chapter 2 Ruins 
+success_hei_check_55003=Chapter 3 Ruins of Outer City
+success_hei_check_55004=Chapter 4 Ruins of Inner City
+success_hei_check_55005=Chapter 5 Ruins of Tomb
+success_hei_check_55006=Chapter 6 Ruins of Shrine
+success_hei_check_55007=Chapter 7 Ruins of Temple
+success_hei_check_55008=Chapter 8 Ancient Treasury
+success_hei_check_point=% fight bravely and beat all enemies down from "%".
+
+#密码找回=#密码找回
+password_reset_mail_title=% system mail.
+password_reset_mail_title1=% system mail.
+password_reset_mail_code=Verification Code
+password_reset_mail_device=DEVICE ID
+password_reset_mail_command=Reset Password
+password_reset_mail_tip=You are resetting the password, if it is not operated by yourself, then you are hacked. Please change your password as soon as possible and keep it safe.
+password_reset_mail_foottip=Please do not reply to this email.
+password_reset_mail_reg=%YEAR% Empire - Warships
+have geted award=You have claimed the reward.
+boss_taunt_sixhour=World Boss Lv. % appeared in %
+boss_taunt_direction=North,South,West,East,Middle,Northwest,Northeast,Southwest,Southeast
+equip not open=You haven't met the requirements to open the equipment system yet.
+equip not exist=The equipment doesn't exist.
+can not equip=The equipment can't be equipped.
+equip can not level up=The equipment can't increase Exp.
+equip can not feed itself=You cannot consume yourself to improve experience.
+equip can not quality up=This equipment cannot be advanced.
+prop or resource not enough=Insufficent items or resources.
+quality stuff not exist=The material to be advanced doesn't exist.
+stuff can not combine=Not enough gold.
+equip storehouse is full=Equipment Storage is full.
+equip can not sale=Equipment can't be sold.
+lotto_count_limit=You have reached the lotto limit for today.
+annoucement not exist=No announcement
+annoucement is pass=Announcement has expired
+annoucement is erro=Announcement error
+alliance_auto_transfer=% is currently the alliance leader
+err:propId=Item id error
+err:gems=Gems input error
+err:initDat=Award input error
+player not buy=The player hasn't purchased yet
+err:not award id=No available award id
+err:Can't get=Unable to claim
+totalBuyActivity_autoSendReward_mail=Congratulations! In the % to % accumulation recharge event, \n meets the % accumulation recharge requirement. \n will receive: 
+gems=Gems
+totalBuyActivity_autoSendReward_mail_title=Award notice
+consume_gems_auto_award=Dear [PNAME]:\n, you have cumulatively consumed [COUNT] Gems in [START] - [END]. According to the [PERCENT] % proportion, we have returned [RETURN] Gems to you, please check and enjoy!
+date_price_off_start=Mystery shop is now open for business!
+account is wrong=Email error
+alliance_transfer_last_title=Leader transfer notice
+alliance_transfer_last_content=As you haven’t logged in to the game for 7 days, and neglected the alliance management. The system has assigned % as the alliance leader. Now you are the vice leader of the alliance. 
+alliance_transfer_next_title=Alliance leader transfer notice
+alliance_transfer_next_content=As % hasn’t logged in to the game for 7 days, and neglected the alliance management. You have been assigned as the alliance leader by the system. Hope you can lead the alliance to a glorious new chapter.
+new_alliance_title=Alliance notice
+new_alliance_content=Congratulations! You have successfully created %. Quickly recruit and expand the alliance. \n\n Note: If you haven’t logged in to the game for 7 days, the alliance leader will be auto-transferred to the more active vice leader of the alliance. (If no vice leader, it will be transferred to one of the alliance members.)
+dismiss_alliance_title=Alliance dismission notice
+dismiss_alliance_content=Your alliance was dismissed on % 
+must pay=please finish the first purchase
+set_fleet=temporary close 
+
+
+prop_sid_10001=Light Battleship 
+prop_sid_10011=Light Submarine 
+prop_sid_10021=Light Cruiser 
+prop_sid_10031=Light Aircraft Carrier 
+prop_sid_10002=Medium Battleship
+prop_sid_10012=Medium Submarine 
+prop_sid_10022=Medium Cruiser 
+prop_sid_10032=Medium Aircraft Carrier
+prop_sid_10003=Heavy Battleship 
+prop_sid_10013=Heavy Submarine
+prop_sid_10023=Heavy Cruiser
+prop_sid_10033=Heavy Aircraft Carrier
+prop_sid_10004=Wild Bear Battleship 
+prop_sid_10014=Ghost Submarine
+prop_sid_10024=Raptor Cruiser 
+prop_sid_10034=Dragon Cliff Aircraft Carrier
+prop_sid_10005=Barrier Battleship
+prop_sid_10015=Aries Submarine
+prop_sid_10025=Aegis Cruiser
+prop_sid_10035=Blade of Empire
+prop_sid_10006=Titan Battleship
+prop_sid_10007=Fearless Barrier
+prop_sid_10016=Hades Submarine
+prop_sid_10017=Doom Bleach
+prop_sid_10026=Zeus Cruiser
+prop_sid_10027=Wrath Aegis
+prop_sid_10036=Blade of Ares
+prop_sid_10037=Blade of Flame
+prop_sid_10008=Black Tortoise
+prop_sid_10018=Green Dragon
+prop_sid_10028=White Tiger
+prop_sid_10038=Rosefinch
+
+
+
+
+
+prop_sid_40111=Light artillery
+prop_sid_40112=Heavy artillery
+prop_sid_40113=Assault artillery
+prop_sid_40114=Thunder artillery
+prop_sid_40115=Auroral artillery
+prop_sid_40121=Low-frequency radar
+prop_sid_40122=High-frequency radar
+prop_sid_40123=Strong-frequency radar
+prop_sid_40124=Phase-array radar
+prop_sid_40125=Phantom radar
+prop_sid_40131=Light steel board
+prop_sid_40132=Steel board
+prop_sid_40133=Alloy board
+prop_sid_40134=New star board
+prop_sid_40135=Holy board
+prop_sid_40141=Windchasing turbine
+prop_sid_40142=Phantom turbine
+prop_sid_40143=Fury turbine
+prop_sid_40144=Void turbine
+prop_sid_40145=Dragon turbine
+prop_sid_40211=Light torpedo
+prop_sid_40212=Heavy torpedo
+prop_sid_40213=Assault torpedo
+prop_sid_40214=Thunder torpedo
+prop_sid_40215=Auroral torpedo
+prop_sid_40221=Low-frequency sonar
+prop_sid_40222=High-frequency sonar
+prop_sid_40223=Strong-frequency sonar
+prop_sid_40224=Phase-array sonar
+prop_sid_40225=Phantom sonar
+prop_sid_40231=Light steel hull
+prop_sid_40232=Steel hull
+prop_sid_40233=Alloy hull
+prop_sid_40234=New star hull
+prop_sid_40235=Holy hull
+prop_sid_40241=Windchasing propulsion
+prop_sid_40242=Phantom propulsion
+prop_sid_40243=Fury propulsion
+prop_sid_40244=Void propulsion
+prop_sid_40245=Dragon propulsion
+prop_sid_40411=Light  missile
+prop_sid_40412=Heavy missile
+prop_sid_40413=Strong missile
+prop_sid_40414=Thunder missile
+prop_sid_40415=Auroral missile
+prop_sid_40421=Low-frequency warning
+prop_sid_40422=High-frequency warning
+prop_sid_40423=Strong-frequency warning
+prop_sid_40424=Phase-array warning
+prop_sid_40425=Phantom warning
+prop_sid_40431=Light steel hull
+prop_sid_40432=Steel hull
+prop_sid_40433=Alloy hull
+prop_sid_40434=New star hull
+prop_sid_40435=Holy hull
+prop_sid_40441=Windchasing engine
+prop_sid_40442=Phantom engine
+prop_sid_40443=Fury engine
+prop_sid_40444=Void engine
+prop_sid_40445=Dragon engine
+prop_sid_40811=Light fighter
+prop_sid_40812=Heavy fighter
+prop_sid_40813=Strong fighter
+prop_sid_40814=Thunder fighter
+prop_sid_40815=Auroral fighter
+prop_sid_40821=Low-frequency monitor
+prop_sid_40822=High-frequency monitor
+prop_sid_40823=Strong-frequency monitor
+prop_sid_40824=Phase-array monitor
+prop_sid_40825=Phantom monitor
+prop_sid_40831=Light steel deck
+prop_sid_40832=Steel deck
+prop_sid_40833=Alloy deck
+prop_sid_40834=New star deck
+prop_sid_40835=Holy deck
+prop_sid_40841=Windchasing motorship engine
+prop_sid_40842=Phantom motorship engine
+prop_sid_40843=Fury motorship engine
+prop_sid_40844=Void motorship engine
+prop_sid_40845=Dragon motorship engine
+prop_sid_41101=Energy-gathered module Ⅰ
+prop_sid_41102=Energy-gathered module Ⅱ
+prop_sid_41103=Energy-gathered module Ⅲ
+prop_sid_41104=Energy-gathered module Ⅳ
+prop_sid_41105=Energy-gathered module Ⅴ
+prop_sid_41201=Advanced crank I
+prop_sid_41202=Advanced crank Ⅱ
+prop_sid_41203=Advanced crank Ⅲ
+prop_sid_41204=Advanced crank Ⅳ
+
+prop_sid_1=Small Iron Ingot
+prop_sid_2=Small Barrel of Oil
+prop_sid_3=Small Silicon Ore
+prop_sid_4=Small Uranium Ore
+prop_sid_5=Small Pile of Gold
+prop_sid_6=Large Iron Ingot
+prop_sid_7=Large Barrel of Oil
+prop_sid_8=Large Silicon Ore
+prop_sid_9=Large Uranium Ore
+prop_sid_10=Large Pile of Gold
+prop_sid_11=Honor Medal Pack
+prop_sid_12=Beginner Resource Pack
+prop_sid_13=Large Resource Chest
+prop_sid_14=Oversized Resource Chest
+prop_sid_15=Extra Large Resource Chest
+prop_sid_16=Rapid Production 
+prop_sid_17=Rapid Growth Chest
+prop_sid_18=Fast Growth Chest
+prop_sid_19=Fast Growth Chest C
+prop_sid_400=Small Uranium Chest
+prop_sid_401=Large Uranium Chest
+prop_sid_402=Buff Chest
+prop_sid_403=Small Leadership Pack
+prop_sid_404=Large Leadership Pack
+prop_sid_405=Iron Chest
+prop_sid_406=Oil Chest
+prop_sid_407=Silicon Chest
+prop_sid_408=Large Iron Chest
+prop_sid_409=Large Oil Chest
+prop_sid_410=Large Silicon Chest
+prop_sid_411=Large Honor Medal Pack
+prop_sid_412=Gas Turbine Manifest
+prop_sid_413=Fusion Core Manifest
+prop_sid_414=Power Machinery Manifest
+prop_sid_415=Precision Machinery Manifest
+prop_sid_416=Star Rock Stack
+prop_sid_417=Star Rock Container
+prop_sid_418=Xmas Chest
+prop_sid_419=Packs of Star Rock
+prop_sid_420=Uranium Manifest 5
+prop_sid_501=Iron Exploitation
+prop_sid_502=Oil Exploitation 
+prop_sid_503=Silicon Exploitation 
+prop_sid_504=Uranium Exploitation
+prop_sid_505=Gold Smelting
+prop_sid_506=Ion Shield
+prop_sid_507=High Explosive
+prop_sid_508=Quick March
+prop_sid_509=Peace Flag
+prop_sid_1001=Energy Reagent
+prop_sid_1002=Energy Potion
+prop_sid_1003=Exp Book
+prop_sid_1004=Reputation Book
+prop_sid_1005=Migration Token
+prop_sid_1006=Advanced Migration Token
+prop_sid_2001=Air Support
+prop_sid_2002=EMP Bomb
+prop_sid_510=Laser Guidance
+prop_sid_511=Smoke Screen
+prop_sid_512=Depleted Uranium Bomb
+prop_sid_513=Reactive Armor
+prop_sid_2007=C98 Gas Turbine
+prop_sid_2008=Fusion Core
+prop_sid_2009=Star Rock
+prop_sid_2010=Super Gem Chest
+prop_sid_2011=Huge Gem Chest
+prop_sid_2012=Big Gem Chest
+prop_sid_2013=Small Gem Chest
+prop_sid_2014=Silver VIP Card
+prop_sid_2015=Gold VIP Card
+prop_sid_2016=Diamond VIP Card
+prop_sid_2017=Paper 7
+prop_sid_2018=Express Hoisting
+prop_sid_2019=Rapid Hoisting
+prop_sid_2020=Auto-Constructing
+prop_sid_2021=Honor Medal
+prop_sid_2022=Leadership Book
+prop_sid_2023=Small Uranium Chest
+prop_sid_2024=Small Iron Chest
+prop_sid_2025=Small Oil Chest
+prop_sid_2026=Small Silicon Chest
+prop_sid_2027=Dragon Horse Pack
+prop_sid_2028=White Steed Pack
+prop_sid_403=Small Leadership Pack
+prop_sid_2030=Small Honor Medal Pack
+prop_sid_3001=Small Resource Chest
+prop_sid_3002=Exclusive Newbie Chest
+prop_sid_3003=Emperor's Chest
+prop_sid_3004=Thunderbolt Chest
+prop_sid_3005=Elite Chest
+prop_sid_3006=Banner of Peace Chest
+prop_sid_3007=Elite Raid Chest
+prop_sid_3008=Fierce Battle Chest
+prop_sid_4001=Yield Increase Chest
+prop_sid_4002=Uranium Chest
+prop_sid_4003=Gold Chest
+prop_sid_4004=Large Gold Chest
+prop_sid_4005=Version updating Pack
+prop_sid_4006=Launch delay Pack
+prop_sid_4007=Server consolidation Pack
+prop_sid_4008=Aircraft Carrier Plans 2
+prop_sid_4009=Large Iron Chest
+prop_sid_4010=Large Oil Chest
+prop_sid_4011=Large Silicon Chest
+prop_sid_4012=Large Uranium Chest
+prop_sid_4013=Large Gold Chest
+prop_sid_4014=Exclusive Pack
+prop_sid_4015=Platinum Pack
+prop_sid_4016=Diamond Pack
+prop_sid_4017=Event Reward Pack
+prop_sid_4018=Reward Pack
+prop_sid_4019=Compensation Pack
+prop_sid_4020=Return Gift Pack
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=Silver anchor
+prop_sid_6002=Golden anchor
+prop_sid_7001=600 Gems Pack
+prop_sid_7002=1250 Gems Pack
+prop_sid_7003=6500 Gems Pack
+prop_sid_7004=13500 Gems Pack
+prop_sid_7011=五仁月餅
+prop_sid_7012=豆沙月餅
+prop_sid_7013=桂花月餅
+prop_sid_3010=Low Material Pack
+prop_sid_3011=Middle Material Pack
+prop_sid_3012=High Material Pack
+prop_sid_3013=Basic evolution chest
+prop_sid_3014=Green accessory chest
+prop_sid_3015=Blue accessory chest
+prop_sid_3016=Purple accessory chest
+prop_sid_3017=Orange accessory chest
+prop_sid_3018=Battleship weapon chest - excellent
+prop_sid_3019=Battleship accuracy chest - excellent
+prop_sid_3020=Battleship armour chest - excellent
+prop_sid_3021=Battleship dodge chest - excellent
+prop_sid_3022=Battleship weapon chest - epic
+prop_sid_3023=Battleship accuracy chest - epic
+prop_sid_3024=Battleship armour chest - epic
+prop_sid_3025=Battleship dodge chest - epic
+prop_sid_3026=Submarine weapon chest - excellent
+prop_sid_3027=Submarine accuracy chest - excellent
+prop_sid_3028=Submarine armor chest - excellent
+prop_sid_3029=Submarine dodge chest - excellent
+prop_sid_3030=Submarine weapon chest - epic
+prop_sid_3031=Submarine accuracy chest - epic
+prop_sid_3032=Submarine armor chest - epic
+prop_sid_3033=Submarine dodge chest - epic
+prop_sid_3034=Cruiser weapon chest - excellent
+prop_sid_3035=Cruiser accuracy chest - excellent
+prop_sid_3036=Cruiser armor chest - excellent
+prop_sid_3037=Cruiser dodge chest - excellent
+prop_sid_3038=Cruiser weapon chest - epic
+prop_sid_3039=Cruiser accuracy chest - epic
+prop_sid_3040=Cruiser armor chest - epic
+prop_sid_3041=Cruiser dodge chest - epic
+prop_sid_3042=Aircraft Carrier weapon chest - excellent
+prop_sid_3043=Aircraft Carrier accuracy chest - excellent
+prop_sid_3044=Aircraft Carrier armor chest - excellent
+prop_sid_3045=Aircraft Carrier dodge chest - excellent
+prop_sid_3046=Aircraft Carrier weapon chest - epic
+prop_sid_3047=Aircraft Carrier accuracy chest - epic
+prop_sid_3048=Aircraft Carrier armor chest - epic
+prop_sid_3049=Aircraft Carrier dodge chest - epic
+prop_sid_3050=Energy-gathered module I chest
+prop_sid_3051=Energy-gathered module Ⅱ chest
+prop_sid_3052=Energy-gathered module Ⅲ chest
+prop_sid_3053=Energy-gathered module Ⅳ chest
+prop_sid_3054=Energy-gathered module Ⅴ chest
+prop_sid_3055=Energy-gathered module I chest
+prop_sid_3056=Energy-gathered module Ⅱ chest
+prop_sid_3057=Energy-gathered module Ⅲ chest
+prop_sid_3058=Energy-gathered module Ⅳ chest
+prop_sid_3059=Energy-gathered module Ⅴ chest
+prop_sid_3060=Small Star Rock Pack
+prop_sid_3061=Battleship accessory chest - epic
+prop_sid_3062=Submarine accessory chest - epic
+prop_sid_3063=Cruiser accessory chest - epic
+prop_sid_3064=Aircraft carrier accessory chest - epic
+prop_sid_3065=Honor Medal &amp; Star Rock chest
+prop_sid_3066=Regression warships chest
+prop_sid_3067=Aircraft carrier basic accessory chest
+prop_sid_3068=Christmas stockings
+prop_sid_3069=Christmas Gift Pack
+prop_sid_8111=Battleship weapon chest - White
+prop_sid_8112=Battleship weapon chest - Green
+prop_sid_8113=Battleship weapon chest - Blue
+prop_sid_8114=Battleship weapon chest - Purple
+prop_sid_8115=Battleship weapon chest - Orange
+prop_sid_8121=Battleship accuracy chest - White
+prop_sid_8122=Battleship accuracy chest - Green
+prop_sid_8123=Battleship accuracy chest - Blue
+prop_sid_8124=Battleship accuracy chest - Purple
+prop_sid_8125=Battleship accuracy chest - Orange
+prop_sid_8131=Battleship armor chest - White
+prop_sid_8132=Battleship armor chest - Green
+prop_sid_8133=Battleship armor chest - Blue
+prop_sid_8134=Battleship armor chest - Purple
+prop_sid_8135=Battleship armor chest - Orange
+prop_sid_8141=Battleship dodge chest - White
+prop_sid_8142=Battleship dodge chest - Green
+prop_sid_8143=Battleship dodge chest - Blue
+prop_sid_8144=Battleship dodge chest - Purple
+prop_sid_8145=Battleship dodge chest - Orange
+prop_sid_8211=Submarine weapon chest - White
+prop_sid_8212=Submarine weapon chest - Green
+prop_sid_8213=Submarine weapon chest - Blue
+prop_sid_8214=Submarine weapon chest - Purple
+prop_sid_8215=Submarine weapon chest - Orange
+prop_sid_8221=Submarine accuracy chest - White
+prop_sid_8222=Submarine accuracy chest - Green
+prop_sid_8223=Submarine accuracy chest - Blue
+prop_sid_8224=Submarine accuracy chest - Purple
+prop_sid_8225=Submarine accuracy chest - Orange
+prop_sid_8231=Submarine armor chest - White
+prop_sid_8232=Submarine armor chest - Green
+prop_sid_8233=Submarine armor chest - Blue
+prop_sid_8234=Submarine armor chest - Purple
+prop_sid_8235=Submarine armor chest - Orange
+prop_sid_8241=Submarine dodge chest - White
+prop_sid_8242=Submarine dodge chest - Green
+prop_sid_8243=Submarine dodge chest - Blue
+prop_sid_8244=Submarine dodge chest - Purple
+prop_sid_8245=Submarine dodge chest - Orange
+prop_sid_8311=Cruiser weapon chest - White
+prop_sid_8312=Cruiser weapon chest - Green
+prop_sid_8313=Cruiser weapon chest - Blue
+prop_sid_8314=Cruiser weapon chest - Purple
+prop_sid_8315=Cruiser weapon chest - Orange
+prop_sid_8321=Cruiser accuracy chest - White
+prop_sid_8322=Cruiser accuracy chest - Green
+prop_sid_8323=Cruiser accuracy chest - Blue
+prop_sid_8324=Cruiser accuracy chest - Purple
+prop_sid_8325=Cruiser accuracy chest - Orange
+prop_sid_8331=Cruiser armor chest - White
+prop_sid_8332=Cruiser armor chest - Green
+prop_sid_8333=Cruiser armor chest - Blue
+prop_sid_8334=Cruiser armor chest - Purple
+prop_sid_8335=Cruiser armor chest - Orange
+prop_sid_8341=Cruiser dodge chest - White
+prop_sid_8342=Cruiser dodge chest - Green
+prop_sid_8343=Cruiser dodge chest - Blue
+prop_sid_8344=Cruiser dodge chest - Purple
+prop_sid_8345=Cruiser dodge chest - Orange
+prop_sid_8411=Aircraft Carrier weapon chest - White
+prop_sid_8412=Aircraft Carrier weapon chest - Green
+prop_sid_8413=Aircraft Carrier weapon chest - Blue
+prop_sid_8414=Aircraft Carrier weapon chest - Purple
+prop_sid_8415=Aircraft Carrier weapon chest - Orange
+prop_sid_8421=Aircraft Carrier accuracy chest - White
+prop_sid_8422=Aircraft Carrier accuracy chest - Green
+prop_sid_8423=Aircraft Carrier accuracy chest - Blue
+prop_sid_8424=Aircraft Carrier accuracy chest - Purple
+prop_sid_8425=Aircraft Carrier accuracy chest - Orange
+prop_sid_8431=Aircraft Carrier armor chest - White
+prop_sid_8432=Aircraft Carrier armor chest - Green
+prop_sid_8433=Aircraft Carrier armor chest - Blue
+prop_sid_8434=Aircraft Carrier armor chest - Purple
+prop_sid_8435=Aircraft Carrier armor chest - Orange
+prop_sid_8441=Aircraft Carrier dodge chest - White
+prop_sid_8442=Aircraft Carrier dodge chest - Green
+prop_sid_8443=Aircraft Carrier dodge chest - Blue
+prop_sid_8444=Aircraft Carrier dodge chest - Purple
+prop_sid_8445=Aircraft Carrier dodge chest - Orange
+prop_sid_900=Character Name Change Card
+prop_sid_901=Alliance Name Change Card
+prop_sid_3070=Red Envelop
+prop_sid_3071=New Year Red Envelop
+prop_sid_3072=New Year Red Envelop
+prop_sid_3073=New Year Chest
+prop_sid_902=Wipe Out Coupon
+prop_sid_3074=Queen's Gift
+prop_sid_3075=Anniversary Gift I
+prop_sid_3076=Anniversary Gift II
+prop_sid_3077=Anniversary Gift III
+prop_sid_3078=2nd Anniversary Gift
+prop_sid_3079=U-Disk Exchange Card
+prop_sid_3080=Redeem card
+prop_sid_3081=Large Honor Medals Pack
+prop_sid_3082=Low Advanced Chest
+prop_sid_3083=Middle Advanced Chest
+prop_sid_3084=High Advanced Chest
+prop_sid_3085=Buff Chest
+prop_sid_3086=Huge Iron Chest
+prop_sid_3087=Huge Oil Chest
+prop_sid_3088=Huge Silicon Chest
+prop_sid_3089=Huge Gold Chest
+prop_sid_3090=Huge Uranium  Chest
+prop_sid_3091=Novice pack
+prop_sid_3092=VIP novice pack
+prop_sid_3093=Alliance lucky card
+prop_sid_3094=Search certificate
+prop_sid_3095=Liberation Memorial currency
+prop_sid_3096=Primary Insignias chest
+prop_sid_3097=Advanced Insignias chest
+prop_sid_3098=Green Insignias chest
+prop_sid_3099=Blue Insignias chest
+prop_sid_3100=Purple Insignias chest
+prop_sid_3101=Advanced merit certificate
+prop_sid_3102=Intermediate merit certificate
+prop_sid_3103=Primary merit certificate
+prop_sid_3104=Veitch's score chest 
+prop_sid_3105=Gilson's Insignias chest
+prop_sid_3106=Meri's Insignias chest
+prop_sid_3107=Creed's Insignias chest
+prop_sid_3108=Gordon's Insignias chest
+prop_sid_3109=Maher's Insignias chest
+prop_sid_3110=Helen's Insignias chest
+prop_sid_3111=Niemi's Insignias chest
+prop_sid_3112=Karow's Insignias chest
+prop_sid_3113=Chester's Insignias chest
+prop_sid_3114=Yuliya's Insignias chest
+prop_sid_3115=Ramon's Insignias chest
+prop_sid_3116=Carl's Insignias chest
+prop_sid_3117=Denier's Insignias chest
+prop_sid_3118=Tatiana's Insignias chest
+prop_sid_3119=Dion's Insignias chest
+prop_sid_3120=Veitch's Insignias chest
+prop_sid_3121=Marohn's Insignias chest
+prop_sid_3122=Mujdza's Insignias chest
+prop_sid_3123=Bruce's Insignias chest
+prop_sid_3124=Kossoff's Insignias chest
+prop_sid_3125=General summoning Insignias chest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliya
+prop_sid_60011=Ramon 
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Gilson's Insignia
+prop_sid_61002=Meri's Insignia
+prop_sid_61003=Creed's Insignia
+prop_sid_61004=Gordon's Insignia
+prop_sid_61005=Maher's Insignia
+prop_sid_61006=Helen's Insignia
+prop_sid_61007=Niemi's Insignia
+prop_sid_61008=Karow's Insignia
+prop_sid_61009=Chester's Insignia
+prop_sid_61010=Yuliya's Insignia
+prop_sid_61011=Ramon's Insignia
+prop_sid_61012=Carl's Insignia
+prop_sid_61013=Denier's Insignia
+prop_sid_61014=Tatiana's Insignia
+prop_sid_61015=Dion's Insignia
+prop_sid_61016=Veitch's Insignia
+prop_sid_61017=Marohn's Insignia
+prop_sid_61018=Mujdza's Insignia
+prop_sid_61019=Bruce's Insignia
+prop_sid_61020=Kossoff's Insignia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Reach character Lv.% to create an alliance
+join_alliance_level_limit=Reach character Lv.% to join an alliance
+alliance_donate_level_limit=Reach character Lv.% to donate to the alliance
+alliance_ship_donate_level_limit=Reach character Lv.% to donate ships to the alliance
+world_chat_level_limit=Reach character Lv.% to unlock World Chat
+self_chat_level_limit=Reach character Lv.% to unlock Private Chat
+email_level_limit=Reach character Lv.% to send mails
+dest_self_chat_level_limit=The target player hasn't reached a high enough level to activate Private Chat.
+meal_time_send_energy=Commander, for the Energy event you joined you have been awarded % Energy points.\nHave fun!
+nian_has_been_last_kill=Nian island (Lv.%) has been defeated by %. Congratulations to % for landing the final strike!
+nian_has_been_killed=These alliances made undeniable contributions in defeating the Nian island (Lv. %). They will receive a great reward! \n 1st: %(Alliance)\n 2nd: % (Alliance)\n 3rd: % (Alliance).
+kill nian title=Defeating Nian island reward
+kill nian content=Commander, \n Nian island has been defeated! For your bravery, we prepared % for you as reward. Hope everything goes well for you this year! \n    * reward have been sent to you with system mail. Please check it!
+kill nian rank_a=Nian island and alliance reward
+kill nian rank_a content=Commander, \n Nian island (Lv.%) has been defeated. You and your alliance members fought bravely and ranked %. We thank you and your alliance for contributing in the Nian defeat. We have prepared % for you and your alliance members as reward. Hope everything goes well for you this year! \n    * reward have been sent to you with system mail. Please check it!
+kill nian rank_p=Nian island defeat and personal reward
+kill nian rank_p content=Commander, \n Nian island (Lv.%) has been defeated. You fought bravely and ranked %. We thank you for contributing in the Nian defeat. We have prepared % for you as reward. Hope everything goes well for you this year! \n    * reward have been sent to you with system mail. Please check it!
+nian born=During the Spring Festival, the Whirlpool adds a new boss. Nian (Lv. %) with many treasures in % rised out of the water. All hands on deck! Defeat the Nian and get the treasure.
+nian showxy=Notice: Spy G has found the Nian's coordinate (%,%). This is an emergency, all commanders, please launch your fleet and defeat this Nian!
+nian away=Notice: Nian (Lv.%) has fled, taking the treasure with it.
+dest_join_alliance_level_limit=The target's player needs to be level % to join the alliance.
+activity not open=Event Closed
+friends_list=Friend name change notice
+black_list=Blacklist name change notice
+alliance_list=Alliance name change notice
+player_role_list=Character name change notice
+alliance_mail=Your alliance member % has changed name to %.
+friend_mail=Your friend % has changed name to %.
+black_mail=Your blacklist % has changed name to %.
+alliance_modify_info=Your alliance has changed alliance name to %.
+sysmessage_modify_name=% alliance has changed alliance name to %.
+modify_hostile=Hostile alliance name change notice
+modify_hostile_content=The hostile alliance % has changed to %.
+dismiss_hostile=Hostile alliance notice
+dismiss_hostile_content=The hostile alliance % has dissolved.
+account_reset_mail_command=Unlock Account
+alliance has been dismiss=Alliance does not exist.
+arena_ranking_title=Today's military exercise has ended. The top 5 winners as follows:
+arena_ranking_1=1st
+arena_ranking_2=2nd
+arena_ranking_3=3rd
+arena_ranking_4=4th
+arena_ranking_5=5th
+account_reset_mail_tip=Your account has been unlocked. If you did not do this, please reset your password to secure your account.
+meal_time_energy_push=Energy reward event started! Claim your free Energy points!
+
+
+build_sid_1=Iron Mine
+build_sid_2=Oil Well
+build_sid_3=Silicon Mine
+build_sid_4=Uranium Mine
+build_sid_5=Mint
+build_sid_6=Dock
+build_sid_7=Command Center
+build_sid_8=Science Lab
+build_sid_9=Workshop
+build_sid_10=Storage
+build_sid_11=Bomber
+build_sid_12=Missile Vehicle
+build_sid_13=Coastal Artillery
+build_sid_14=Refitting Yard
+build_sid_15=Workshop
+LvUpActivity_autoSendReward_mail_title=Level up Activity Announcement
+LvUpActivity_autoSendReward_mail=Congratulations! \n went from % to % in the novice level up event. Meeting the requirement from % to level %.  \n will receive: 
+RankAwardActivity_autoSendReward_mail=Congratulations! \n went from % to %, in the % event, the top %. \n will receive: 
+fight_score_act=King of the New Server
+point_star_act=King of War
+honor_score_act=King of Honor
+muteTime_left=Banned for % minutes
+
+no this cplayer=This player doesn't exist
+get cannot=Non-rewarding time. Cannot get reward
+not open cross war=Empire tournament unopened
+jion end=Application deadline
+lv limit=Level limit
+ship must > 0=Deploying ships must be greater than 0
+set cannot=Non-deploying time. Cannot deploy fleet
+cannot connect cross_server=Cannot connect to cross-server center
+cannot handle the message=Cross-server can not handle the request
+jion had=Had joined
+no the rep=No battle report
+bet cannot=Non-betting time. Cannot bet
+had bet=Betted
+vip gems error=Bet amount and VIP level doesn't match
+gems limit=No enough gems
+cannot embattle=Unfortunately you cannot continue in the next Empire tournament due to a loss in the last round
+
+cross battle award=Empire tournament reward
+join in award=%, your rewards: % gems and % have been sent to your inventory
+anyone join in award=Dear commander, thanks for participating the Empire tournament. Your reward % have been sent to your inventory, please check.
+win bet award=Dear commander, congratulations for successfully predicting the champion of the Empire tournament; you will receive: % gems
+
+win cross battle champion=Congratulations! % server % won the championship of the Empire tournament! 
+promoted cross battle champion=Congratulation! % won the championship of the Empire tournament!
+promoted cross battle finals=Congratulation! % successfully advanced to the finals.
+promoted cross battle=Congratulation! % successfully advanced to the top %
+promoted cross final=Congratulation! % successfully advanced to the finals.
+alliance shield word=No
+mystical fleet=Mystical fleet
+
+alliance_fight_win=Congratulations! % alliance occupied the % island successfully!
+
+alliance_bet_message=Bet successfully
+alliance_bet_win_content=Congratulations! Your alliance successfully gets the chance of participating the battle for "%".%\nIf you want to get possession of the island, please apply as soon as possible.
+alliance_bet_win_content_thing=\nYour hostile alliance to fight for the island is "%."
+
+alliance_bet_lose=Failed to bet
+alliance_bet_lose_content=Unfortunately! The island "%" that your alliance bet on has been surpassed by "%" with "%"supplies. "%"supplies have been returned to your alliance. \n If you don't want to lose the island occupation, you can bet again to win back that island.
+new_alliance_fight_start=Next alliance war will open soon!
+
+send_alliance_science_point="%" daily reward
+send_alliance_science_content=Your alliance occupied "%", daily technology point "%" has been sent already， please head to the high technology to claim.
+send_alliance_report=%　VS　%
+alliance_fight_win_title="%"occupied successfully
+alliance_fight_win_content=Congratulations! You alliance occupied "%" successfully. You alliance won the "%" high technology. In the following 5 days, you will continue to gain the high technology.%
+alliance_fight_award=\n Thanks for your contribution to this battle,\n your ships have returned to the port. The damaged ships have been returned to the repair yard. Here are your reward: 
+allaince_fight_not_join=No players apply to participate,
+alliance_fight_lose_title=“%”failed to occupy
+alliance_fight_lose_content=Unfortunately! Your alliance "%" was defeated and failed to occupy the island. \n your alliance won % high technology % point in this alliance war. 
+alliance_fight_lose_sbstain=Send alliance war reward
+alliance_battle_abstain_content=Because no one from your alliance apply to join the "%" war. It has been viewed as waiver. \n\n your alliance only won % technology in this alliance war.
+alliance_fight_system_content=Congratulations! "% alliance" occupied "%" successfully in the alliance war! 
+alliance_fight_send_award=Sent personal reward
+allaince_reback_win_ships=Congratulations! You alliance occupied "%" successfully. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+allaince_reback_lose_ships=Unfortunately! Your alliance "%" was defeated in this battle. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+
+alliance_battle_fight_report=Alliance war news
+alliance_battle_island_15101=Low output reef
+alliance_battle_island_15102=Medium output island
+alliance_battle_island_15103=Rich output peninsula
+alliance_battle_abstain=Quit
+alliance_lucky_points=% alliance % commander won a "alliance lucky item" in the alliance database", % alliance lucky value increased by 1 ponit.
+PayRelayActivity_autoSendReward_mail=dear commander,\nprize of day % forget to claim in top-up relay,now we send it to your inventory!\n%\nhave a good time!
+
+awardshippingactivity_message=Congratulations! % received % *% from the Golden Route!
+luckyexploredactivity_message=Congratulations! % received % *% from Lucky Explore!
+robfestivalactivity_message=Congratulations! % received % *% from Special Purchase Event!
+warfareAllianceIntegral_autoSendReward_title=League points ranking Award
+warfareAllianceIntegral_autoSendReward_mail=dear commander: \ n your alliance in the league this week integral chest rankings obtained the%, received the following rankings reward. Please note to check! "\n\n" the imperial fleet operations team from \n
+sellingcitivity_message=Congratulations! % received % *% from Hot packs!
+gems_returnback_title=Return record
+gems_returnback_content=You collected gem Island (%,%) has been sinking, your acquisition fleet carrying% gem, beginning to return
+gems_island_show=The fog cleared, the storm was calm, and the gem Island (Lv.%) in percent of the surface, the occupation of precious stones on the island can be mined above the gem resources!
+cross_goal_league_rank_title=Inter Service Competition Award
+cross_goal_league_rank_award=Dear captain \n, congratulations on inter service Integral game to%, now we send it to your inventory!\n%\nhave a good time!
+lucky_intimacy_prop=Congratulations! % received % *% from Friend intimacy!

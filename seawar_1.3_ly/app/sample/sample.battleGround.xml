@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.alliance.alliancefight.BattleGround" name="factory" id="battleFactory" />
+    <method ref="battleFactory" name="init">
+        <ref id="context" />
+    </method>
+
+
+    <sample class="foxu.sea.alliance.alliancefight.BattleGround" sid="1" showSid="15001">
+        <field name="sids" declared="1">
+            <ints>301</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.alliance.alliancefight.BattleGround" sid="2" showSid="15002">
+        <field name="sids" declared="1">
+            <ints>302</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.alliance.alliancefight.BattleGround" sid="3" showSid="15003">
+        <field name="sids" declared="1">
+            <ints>303</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.alliance.alliancefight.BattleGround" sid="4" showSid="15006" upPoint="5" />
+</objects>

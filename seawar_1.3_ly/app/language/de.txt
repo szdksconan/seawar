@@ -1,0 +1,902 @@
+﻿plunder resources=Ressourcen
+metal=Eisen
+oil=Erdöl
+silicon=Silizium
+uranium=Uranerz
+money=Gold
+
+#岛屿名字=#岛屿名字
+world_island_1=Eisen Insel
+world_island_2=Ölteppich
+world_island_3=Siliziummine Insel
+world_island_4=Uranerz Insel
+world_island_5=Wrack
+
+
+#服务器名字=#服务器名字
+server_name_taiwan_001=Traditionelles Chinesisch001
+server_name_taiwan_002=Traditionelles Chinesisch002
+server_name_cn_001=Vereinfachtes Chinesisch001
+server_name_cn_002=Vereinfachtes Chinesisch002
+#邀请相关=#邀请相关
+the invetid is=Die Einladungscode gilt nicht auf diesem Server
+inveted is wrong=Die Einladungscode ist falsch
+
+
+game_name=Empire Warfare
+game_name1=Ocean Force
+
+
+
+be_attack_npc_island_push=Flotte von Spieler %  ist unterwegs zu deiner (%), die auf %(%) stationiert ist. Erteile umgehend Befehle.
+be_attack_self_island_push=Flotte von Spieler % unterwegs zu deiner Basis (%). Erteile umgehend Befehle.
+
+#绑定账号错误=#绑定账号错误
+account is have=Der Account wurde bereits registiert
+user_count_full=%，%，% wurde mit dem Gerät verknüpft. Besucher Account kann nicht mehr verwenden werden.
+
+#邀请=#邀请
+system_mail=System Mail
+invite_new_one_title=% beigetreten
+invite_new_one_content=Dein Freund % ist Empire - Warships beigetreten. Du erhälst als Belohnung ein Uranerz-Paket und 15 Juwelen. Verbündet euch schnellstmöglich um feindliche Flotten zu vernichten!
+
+be_invite_new_one_title=Willkommen bei Empire Warfare!
+be_invite_new_one_content=Willkommen bei Empire Warfare! Dein Freund % ist inmittem einer blutigen Schlacht. Du bekommst 10 Juwelen und 1 Friedensflagge dazu. Verbündet euch schnellstmöglich um feindliche Flotten zu vernichten!
+
+#系统公告=#系统公告
+player_type_up=Glückwunsch! %, befördert zu % 
+player_type_2=Unteroffizier zweiter Klasse
+player_type_3=Unteroffizier erster Klasse
+player_type_4=Höchste Unteroffizier
+player_type_5=Fachdienstoffizier
+player_type_6=Fähnrich
+player_type_7=Oberleutnant
+player_type_8=Kapitänleutnant
+player_type_9=Stabskapitänleutnant
+player_type_10=Korvettenkapitän
+player_type_11=Fregattenkapitän
+player_type_12=Commodore
+player_type_13=Flottillenadmiral
+player_type_14=Konteradmiral
+player_type_15=Vizeadmiral
+player_type_16=Marschall
+player_type_17=Kriegsherr
+
+
+
+attack_island_prop=% hat % Lvl.% angegriffen, und bekommt %. Glückwunsch!
+attack_checkpoint=% gewinnt gegen % im Checkpoint gefecht. Glückwunsch!
+prop_use_tips=Herzlichen Glückwunsch! % Verwendung% zu erhalten% *%!
+success_check_point=Mit heroischem Kampfgeist besiegt % die Gegener von "%" !
+success_check_10016=Kapitel 1: Die Flucht
+success_check_10032=Kapitel 2: Der Vorposten
+success_check_10048=Kapitel 3: Der stählerne Gigant
+success_check_10064=Kapitel 4: Die Schwarzgold Insel
+success_check_10080=Kapitel 5: Die Pazifische Flotte
+success_check_10096=Kapitel 6: Die Mikrochipfabrik
+success_check_10112=Kapitel 7: Die Industriestadt
+success_check_10128=Kapitel 8: Die Todesmine
+success_check_10144=Kapitel 9: Die Wurzel allen Übels
+success_check_10160=Kapitel 10: Die Leibgarde
+success_check_10176=Kapitel 11: Die Schlacht um die Hauptstadt
+success_check_10192=Kapitel 12: Die Verfolgung
+success_check_10208=Kapitel 13: Das Gefängnis
+success_check_10224=Kapitel 14: Chaotischer Seeweg
+success_check_10240=Kapitel 15: Freeport
+success_check_10256=Kapitel 16: Nordseebucht
+success_check_10272=Kapitel 17: Große Linie
+
+#统御=#统御
+commander_level_up=Glückwunsch % hat Führungs Level % erreichet!
+
+#联盟=#联盟
+alliance_system_title=System Meldung
+alliance_refuse_content=Deine Allianz Bewerbung wurde abglehnet! 
+alliance_be_kick_content=Du wurdest von % aus der Allianz entlassen!
+
+#服务器维护=#服务器维护
+server_is_not_open=Wartungsarbeiten auf dem Server. Bitte später versuchen.
+
+
+
+#联盟等级提升=#联盟等级提升
+alliance_level_up=Glückwunsch! %(Allianz) aufgestiegen auf Lvl.% 
+#购买效验错误=#购买效验错误
+buy gems fail=Kauf fehlgeschlagen. Bitte zuerst Jailbreak-Software deinstallieren.
+alliance_gave_value_not_enough=Du brauchst % Allianzbeiträge, um die Belohnung zu erhalten.
+lotto_special_prop=Glückwunsch! % erhält % aus der Lotterie!
+
+
+boss_came=Boss(Lvl.%) ist auf der Weltkarte erschienen.
+boss_has_been_killed=Boss(Lvl.%) wurde besiegt. Die 10 beste Allianzen erhalten einen Booster. Die beste Allianz % hat % Schiffe versenkt.
+boss_has_been_last_kill=Glückwunsch % hat den Boss(Lvl.%) besieg und die extra Belohnung erhalten.
+boss_taunt=Level % Boss in % erschienen. Beeile dich und zerstöre ihn!
+lucky_draw_prop=Glückwunsch! % erhält % % aus Mysteriöser Lotterie!
+lucky_draw_prop2=Glückwunsch! % erhält % % aus Glücksspiel!
+success_hei_check_55001=Kapitel 1 Verschleiertes Meer
+success_hei_check_55002=Kapitel 2 Die Ruinen
+success_hei_check_55003=Kapitel 3 Vorstädtische Ruinen
+success_hei_check_55004=Kapitel 4 Innerstädtische Ruinen
+success_hei_check_55005=Kapitel 5 Grab Ruinen
+success_hei_check_55006=Kapitel 6 Schrein Ruinen
+success_hei_check_55007=Kapitel 7 Tempel Ruinen
+success_hei_check_55008=Kapitel 8 Antike Schatzkammer
+success_hei_check_point=% hat tapfer gekämpft und alle Feinde aus "%" vertrieben.
+
+#密码找回=#密码找回
+password_reset_mail_title=Empire Warships Systemnachricht.
+password_reset_mail_title1=Empire Warfare Systemnachricht.
+password_reset_mail_code=Verifizierungscode
+password_reset_mail_device=Geräte ID
+password_reset_mail_command=Passwort zurücksetzen
+password_reset_mail_tip=Du setzt dein Passwort zurück. Falls du den Befehl nicht selbst aktiviert hast wurdest du gehackt. Ändere um sicher zu sein dein Passwort so schnell wie möglich.
+password_reset_mail_foottip=Bitte Antworte nicht auf diese Nachricht.
+password_reset_mail_reg=%YEAR% Empire - Warships
+have geted award=Du hast die belohnung eingelöst.
+boss_taunt_sixhour=Welt Boss Lv. % aufgetaucht in %
+boss_taunt_direction=Norden,Süden,Westen,Osten,Mitte,Nordwesten,Nordosten,Südwesten,Südosten
+equip not open=Du hast die Voraussetzungen zum Öffnen des Ausrüstungs-Systems noch nicht erfüllt.
+equip not exist=Die Ausrüstung existiert nicht.
+can not equip=Die Ausrüstung kann nicht ausgerüstet werden.
+equip can not level up=Die Ausrüstung kann nicht die EP erhöhen.
+equip can not feed itself=Du kannst dich nicht selbst verbrauchen um Erfahrung zu verbessern.
+equip can not quality up=Die Ausrüstung kann nicht fortschrittlicher gemacht werden.
+prop or resource not enough=Ungenügend Items oder Ressourcen.
+quality stuff not exist=Das Material das fortschrittlicher gemacht werden soll existiert nicht.
+stuff can not combine=Nicht genügend Gold.
+equip storehouse is full=Ausrüstungs-Lager voll.
+equip can not sale=Ausrüstung kann nicht verkauft werden.
+lotto_count_limit=Elitäre Lotterie Limit erreicht.
+annoucement not exist=Keine Ankündigung
+annoucement is pass=Ankündigung ist abgelaufen
+annoucement is erro=Ankündigung Fehler
+alliance_auto_transfer=% ist derzeit der Bündnisführer
+err:propId=Artikel-ID Fehler
+err:gems=Edelstein Eingabefehler
+err:initDat=Auszeichnung Eingabfehler
+player not buy=Der Spieler hat noch nichts gekauft
+err:not award id=Keine Verfügbare Auszeichnung-ID
+err:Can't get=Keinen Anspruch drauf
+totalBuyActivity_autoSendReward_mail=Herzlichen Glückwunsch! Von % bis % Sammelauflade-Event \n erfüllt die Sammelaufladeanforderung % . \n erhalte:
+gems=Edelstein
+totalBuyActivity_autoSendReward_mail_title=Bekanntmachung über vergebene Aufträge
+consume_gems_auto_award=Sehr geehrter [PNAME]: \n Sie haben kumulativ verbraucht [COUNT] Edelsteine in [START] - [END]. Nach dem [PROZENT]% Anteil haben wir [RETURN] Edelsteine an Sie zurückgeschickt, bitte überprüfen sie dies und  genießen sie!
+date_price_off_start=Geheimer Laden hat geöffnet
+account is wrong=Email-Fehler
+alliance_transfer_last_title=Führer Transfer Ankündigung
+alliance_transfer_last_content=Sie haben sich für 7 Tage nicht ins Spiel eingeloggt und vernachlässigen das Allianz Management. In dem System ist % als der Allianz Führer zugeordnet. Sie sind jetzt der stellvertretende Leiter der Allianz.
+alliance_transfer_next_title=Allianz Führer Transfer Ankündigung
+alliance_transfer_next_content=% hat sich für 7 Tage nicht ins Spiel eingeloggt und vernachlässigt das Allianz Management.Vom System wurde zugewiesen, dass Sie nun die Führung der Allianz haben. Hoffe ihr könnt die Allianz  zu einem herrlichen neuen Kapitel führen.
+new_alliance_title=Allianz Ankündigung
+new_alliance_content=Herzlichen Glückwunsch! Sie haben erfolgreich %. Fange Schnell an zu rekrutieren um die  Allianz zu erweitern. \n \n Hinweis: Wenn Sie sich für 7 Tage nicht im Spiel angemeldet haben, wird die Allianz Führung an einen  Aktiven Spieler automatisch übertragen. (Wenn kein Vizeführer vorhanden ist , wird die Führung zu einem der Allianzmitglieder übertragen werden.)
+dismiss_alliance_title=Allianz Entlassung Ankündigung
+dismiss_alliance_content=Ihre Allianz wurde am % entlassen
+must pay=Bitte beenden Sie den ersten Einkauf
+set_fleet=Die Ruinenstadt ist wegen Umbauarbeiten vorübergehend gesperrt.
+
+
+prop_sid_10001=Leichtes Schlachtschiff
+prop_sid_10011=Leichtes U-Boot
+prop_sid_10021=Leichter Kreuzer
+prop_sid_10031=Leichter Flugzeugträger
+prop_sid_10002=Mittleres Schlachtschiff
+prop_sid_10012=Mittleres U-Boot
+prop_sid_10022=Mittlerer Kreuzer
+prop_sid_10032=Mittlerer Flugzeugträger
+prop_sid_10003=Schweres Schlachtschiff
+prop_sid_10013=Schweres U-Boot
+prop_sid_10023=Schwerer Kreuzer
+prop_sid_10033=Schwerer Flugzeugträger
+prop_sid_10004=Wild Bear Schlachtschiff
+prop_sid_10014=Ghost U-Boot
+prop_sid_10024=Raptor Kreuzer
+prop_sid_10034=Dragon Cliff Flugzeugträger
+prop_sid_10005=Schutzwall Schlachtschiff
+prop_sid_10015=Azrael U-Boot
+prop_sid_10025=Aegis Kreuzer
+prop_sid_10035=Imperiale Klinge
+prop_sid_10006=Titan Schlachtschiff
+prop_sid_10007=Fearless Schlachtschiff
+prop_sid_10016=Hades U-Boot
+prop_sid_10017=Zerstörer U-Boot
+prop_sid_10026=Zeus Kreuzer
+prop_sid_10027=Aegis Zorn
+prop_sid_10036=Aresklinge
+prop_sid_10037=Flammenklinge
+prop_sid_10008=schwarze Schildkröte
+prop_sid_10018=grüner Drachen
+prop_sid_10028=weißer Tiger
+prop_sid_10038=Rosefinch
+
+
+
+
+
+prop_sid_40111=Leichte Artillerie
+prop_sid_40112=Schwere Artillerie
+prop_sid_40113=Sturm-Artillerie
+prop_sid_40114=Donner-Artillerie
+prop_sid_40115=Polarlicht-Artillerie
+prop_sid_40121=Niederfrequenz-Radar
+prop_sid_40122=Hochfrequenz-Radar
+prop_sid_40123=Starkfrequenz-Radar
+prop_sid_40124=Phased-array-Radar
+prop_sid_40125=Phantom-Radar
+prop_sid_40131=leichte Stahlplatte
+prop_sid_40132=Stahlplatte
+prop_sid_40133=Legierungsplatte
+prop_sid_40134=Neues Sterne-Platte
+prop_sid_40135=Heilige Platte
+prop_sid_40141=Windchaser-Turbine
+prop_sid_40142=Phantom-Turbine
+prop_sid_40143=Wut-Turbine
+prop_sid_40144=Loch-Turbine
+prop_sid_40145=Drachen-Turbine
+prop_sid_40211=Leichter Torpedo
+prop_sid_40212=Schwerer Torpedo
+prop_sid_40213=Sturm-Torpedo
+prop_sid_40214=Donner-Torpedo
+prop_sid_40215=Polarlicht-Torpedo
+prop_sid_40221=Niederfrequenz-Sonar
+prop_sid_40222=Hochfrequenz-Sonar
+prop_sid_40223=Starkfrequenz-Sonar
+prop_sid_40224=Phased-array-Sonar
+prop_sid_40225=Phantom-Sonar
+prop_sid_40231=Leichtes Stahlhülle
+prop_sid_40232=Stahlhülle
+prop_sid_40233=Legierungshülle
+prop_sid_40234=Neues Sterne-Hülle
+prop_sid_40235=Heiliges Hülle
+prop_sid_40241=Windjagende Antriebskraft
+prop_sid_40242=Phantom-Antriebskraft
+prop_sid_40243=Wut-Antriebskraft
+prop_sid_40244=Loch-Antriebskraft
+prop_sid_40245=Drachen-Antriebskraft
+prop_sid_40411=Leichte Rakete
+prop_sid_40412=Schwere Rakete
+prop_sid_40413=Starke Rakete
+prop_sid_40414=Donner-Rakete
+prop_sid_40415=Polarlicht-Rakete
+prop_sid_40421=Niederfrequenz-Warnung
+prop_sid_40422=Hochfrequenz-Warnung
+prop_sid_40423=Starkfrequenz-Warnung
+prop_sid_40424=Phased-array-Warnung
+prop_sid_40425=Phantom-Warnung
+prop_sid_40431=Leichtes Stahlhülle
+prop_sid_40432=Stahlhülle
+prop_sid_40433=Legierungshülle
+prop_sid_40434=Neues Sterne-Hülle
+prop_sid_40435=Heiliges Hülle
+prop_sid_40441=Windjagender Motor
+prop_sid_40442=Phantom-Motor
+prop_sid_40443=Wut-Motor
+prop_sid_40444=Loch-Motor
+prop_sid_40445=Drachen-Motor
+prop_sid_40811=Leichter Kämpfer
+prop_sid_40812=Schwerer Kämpfer
+prop_sid_40813=Starker Kämpfer
+prop_sid_40814=Donner-Kämpfer
+prop_sid_40815=Polarlicht-Kämpfer
+prop_sid_40821=Niederfrequenz-Monitor
+prop_sid_40822=Hochfrequenz-Monitor
+prop_sid_40823=Starkfrequenz-Monitor
+prop_sid_40824=Phased-array-Monitor
+prop_sid_40825=Phantom-Monitor
+prop_sid_40831=Leichtes Stahldeck
+prop_sid_40832=Stahldeck
+prop_sid_40833=Legierungsdeck
+prop_sid_40834=Neues Sterne-Deck
+prop_sid_40835=Heiliges Deck
+prop_sid_40841=Windjagender Motorboot-Antrieb
+prop_sid_40842=Phantom-Motorboot-Antrieb
+prop_sid_40843=Wut-Motorboot-Antrieb
+prop_sid_40844=Loch-Motorboot-Antrieb
+prop_sid_40845=Drachen-Motorboot-Antrieb
+prop_sid_41101=Energie-gesammelt Modul I
+prop_sid_41102=Energie-gesammelt Modul Ⅱ
+prop_sid_41103=Energie-gesammelt Modul Ⅲ
+prop_sid_41104=Energie-gesammelt Modul Ⅳ
+prop_sid_41105=Energie-gesammelt Modul Ⅴ
+prop_sid_41201=Fortgeschrittene Kurbel Ⅰ
+prop_sid_41202=Fortgeschrittene Kurbel Ⅱ
+prop_sid_41203=Fortgeschrittene Kurbel Ⅲ
+prop_sid_41204=Fortgeschrittene Kurbel Ⅳ
+
+prop_sid_1=Kleines Stück Eisen
+prop_sid_2=Kleines Fass Erdöl
+prop_sid_3=Kleines Stück Silizium
+prop_sid_4=Kleines Stück Uranerz
+prop_sid_5=Kleiner Stapel Gold
+prop_sid_6=Großer Stapel Eisen
+prop_sid_7=Großes Fass Erdöl
+prop_sid_8=Großes Stück Silizium
+prop_sid_9=Großes Stück Uranerz
+prop_sid_10=Großer Stapel Gold
+prop_sid_11=Ehren-Medaillen-Paket
+prop_sid_12=Anfänger Ressourcen Paket
+prop_sid_13=Große Ressourcen Truhe
+prop_sid_14=Sehr Große Ressourcen Truhe
+prop_sid_15=XL Ressourcen Truhe
+prop_sid_16=Schnellproduktion
+prop_sid_17=Große Truhe für Entwicklung 
+prop_sid_18=Kleine Truhe für Entwicklung 
+prop_sid_19=Fast Growth Chest C
+prop_sid_400=Große Uranerz Truhe
+prop_sid_401=Kleine Uranerz Truhe
+prop_sid_402=Booster Truhe
+prop_sid_403=Große Führungsbuch Truhe
+prop_sid_404=Kleine Führungsbuch Truhe
+prop_sid_405=Eisen Truhe
+prop_sid_406=Erdöl Truhe
+prop_sid_407=Silizium Truhe
+prop_sid_408=Große Einsenerz Truhe
+prop_sid_409=Große Erdöl Truhe
+prop_sid_410=Große Silizium Truhe
+prop_sid_411=Große Ehrenmedaillen Truhe
+prop_sid_412=Bestellliste von Gasturbine
+prop_sid_413=Bestellliste von Fusionskern
+prop_sid_414=Bestellliste von Maschinenelemente
+prop_sid_415=Bestellliste von Präzisionselemente
+prop_sid_416=Großer Stapel Sternensteine
+prop_sid_417=Sternensteinecontainer
+prop_sid_418=Weihnachtstruhe
+prop_sid_419=Großer Stapel Sternensteine
+prop_sid_420=Uranium Manifest 5
+prop_sid_501=Eisen abbauen
+prop_sid_502=Erdöl abbauen
+prop_sid_503=Silizium abbauen
+prop_sid_504=Uranerz abbauen
+prop_sid_505=Gold gießen
+prop_sid_506=Ionen Schild
+prop_sid_507=Sprengstoff
+prop_sid_508=Eilmarsch
+prop_sid_509=Friedensflagge
+prop_sid_1001=Energie Reagens
+prop_sid_1002=Energie Trank
+prop_sid_1003=EP Buch
+prop_sid_1004=Prestige Buch
+prop_sid_1005=Relokalisierungsbefehl
+prop_sid_1006=Fortschrittlicher Relokalisierungsbefehl
+prop_sid_2001=Luftunterstützung
+prop_sid_2002=EMP Bombe
+prop_sid_510=Lasergelenkte Bomben
+prop_sid_511=Rauchstörung
+prop_sid_512=Abgereicherte Uran Bombe
+prop_sid_513=Reaktive Rüstung
+prop_sid_2007=C98 Gasturbine
+prop_sid_2008=Fusionskern
+prop_sid_2009=Sternenstein
+prop_sid_2010=Gigantische Juwelentruhe
+prop_sid_2011=Große Juwelentruhe
+prop_sid_2012=Mittlere Juwelentruhe
+prop_sid_2013=Kleine Juwelentruhe
+prop_sid_2014=Silberne VIP Karte
+prop_sid_2015=Goldene VIP Karte
+prop_sid_2016=Diamant VIP Karte
+prop_sid_2017=Paper 7
+prop_sid_2018=Express Herstellung
+prop_sid_2019=Schnelle Herstellung
+prop_sid_2020=Auto-Konstrukion
+prop_sid_2021=Ehrenmedaille
+prop_sid_2022=Führungsbuch
+prop_sid_2023=Kleine Uranerz Truhe
+prop_sid_2024=Kleine Eisen Truhe
+prop_sid_2025=kleine Erdöl Truhe
+prop_sid_2026=Kleine Silizium truhe
+prop_sid_2027=Drachenpferd Paket
+prop_sid_2028=Weißer Hengst Paket
+prop_sid_403=Große Führungsbuch Truhe
+prop_sid_2030=Kleines Ehren-Medaillen-Paket
+prop_sid_3001=kleine Ressourcen Truhe
+prop_sid_3002=Luxuriöse Anfänger Truhe
+prop_sid_3003=Imperator Truhe
+prop_sid_3004=Donnerschlag Truhe
+prop_sid_3005=Elite Truhe
+prop_sid_3006=Friedensbanner Truhe
+prop_sid_3007=Elite Beutezug Truhe
+prop_sid_3008=Erbitterte Schlachten Truhe
+prop_sid_4001=Ausbeute Erhöhen Truhe
+prop_sid_4002=Uranerz Truhe
+prop_sid_4003=Gold Truhe
+prop_sid_4004=Große Gold Truhe
+prop_sid_4005=Version Update Paket
+prop_sid_4006=Launchverzögerung Paket
+prop_sid_4007=Server Konsolidierung Paket
+prop_sid_4008=Aircraft Carrier Plans 2
+prop_sid_4009=Große Eisentruhe
+prop_sid_4010=Große Öltruhe
+prop_sid_4011=Große Siliziumtruhe
+prop_sid_4012=Große Uranerztruhe
+prop_sid_4013=Große Goldtruhe
+prop_sid_4014=Exklusives Paket
+prop_sid_4015=Platin Paket
+prop_sid_4016=Diamant Paket
+prop_sid_4017=Event Belohnung Paket
+prop_sid_4018=Belohnungspaket
+prop_sid_4019=Entschädigungspaket
+prop_sid_4020=Geschenk-Zurück-Paket
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=Silberner Anker
+prop_sid_6002=Goldener Anker
+prop_sid_7001=600 Juwelen-Paket
+prop_sid_7002=1250 Juwelen-Paket
+prop_sid_7003=6500 Juwelen-Paket
+prop_sid_7004=13500 Juwelen-Paket
+prop_sid_7011=五仁月饼
+prop_sid_7012=豆沙月饼
+prop_sid_7013=桂花月饼
+prop_sid_3010=Niedriges Material Paket
+prop_sid_3011=Mittleres Material Paket
+prop_sid_3012=Hohes Material Paket
+prop_sid_3013=Grund-Evolution-Bogen
+prop_sid_3014=Grüne-Zubehör-Bogen
+prop_sid_3015=Blaue-Zubehör-Bogen
+prop_sid_3016=Lila-Zubehör-Bogen
+prop_sid_3017=Orange-Zubehör-Bogen
+prop_sid_3018=Kampfschiff-Waffentruhe – exzellent
+prop_sid_3019=Kampfschiff-Genauigkeitstruhe – exzellent
+prop_sid_3020=Kampfschiff-Rüstungstruhe – exzellent
+prop_sid_3021=Kampfschiff-Verteidigungstruhe – exzellent
+prop_sid_3022=Kampfschiff-Waffentruhe – episch
+prop_sid_3023=Kampfschiff-Genauigkeitstruhe – episch
+prop_sid_3024=Kampfschiff -Rüstungstruhe – episch
+prop_sid_3025=Kampfschiff-Verteidigungstruhe – episch
+prop_sid_3026=U-Boot-Waffentruhe – exzellent
+prop_sid_3027=U-Boot-Genauigkeitstruhe – exzellent
+prop_sid_3028=U-Boot-Rüstungstruhe – exzellent
+prop_sid_3029=U-Boot-Verteidigungstruhe – exzellent
+prop_sid_3030=U-Boot-Waffentruhe – episch
+prop_sid_3031=U-Boot-Genauigkeitstruhe – episch
+prop_sid_3032=U-Boot-Rüstungstruhe – episch
+prop_sid_3033=U-Boot-Verteidigungstruhe – episch
+prop_sid_3034=Cruiser-Waffentruhe – exzellent
+prop_sid_3035=Cruiser-Genauigkeitstruhe – exzellent
+prop_sid_3036=Cruiser-Rüstungstruhe – exzellent
+prop_sid_3037=Cruiser-Verteidigungstruhe – exzellent
+prop_sid_3038=Cruiser-Waffentruhe – episch
+prop_sid_3039=Cruiser-Genauigkeitstruhe – episch
+prop_sid_3040=Cruiser-Rüstungstruhe – episch
+prop_sid_3041=Cruiser-Verteidigungstruhe – episch
+prop_sid_3042=Flugzeugträger-Waffentruhe – exzellent
+prop_sid_3043=Flugzeugträger-Genauigkeitstruhe – exzellent
+prop_sid_3044=Flugzeugträger-Rüstungstruhe – exzellent
+prop_sid_3045=Flugzeugträger-Verteidigungstruhe – exzellent
+prop_sid_3046=Flugzeugträger-Waffentruhe – episch
+prop_sid_3047=Flugzeugträger-Genauigkeitstruhe – episch
+prop_sid_3048=Flugzeugträger-Rüstungstruhe – episch
+prop_sid_3049=Flugzeugträger-Verteidigungstruhe – episch
+prop_sid_3050=Energiesammel-Modul Truhe I
+prop_sid_3051=Energiesammel-Modul Truhe Ⅱ
+prop_sid_3052=Energiesammel-Modul Truhe Ⅲ
+prop_sid_3053=Energiesammel-Modul Truhe Ⅳ
+prop_sid_3054=Energiesammel-Modul Truhe Ⅴ
+prop_sid_3055=Energiesammel-Modul Truhe I
+prop_sid_3056=Energiesammel-Modul Truhe Ⅱ
+prop_sid_3057=Energiesammel-Modul Truhe Ⅲ
+prop_sid_3058=Energiesammel-Modul Truhe Ⅳ
+prop_sid_3059=Energiesammel-Modul Truhe Ⅴ
+prop_sid_3060=Kleiner-Sternenstein-Paket
+prop_sid_3061=Kampfschiffszubehör-Truhe  - episch
+prop_sid_3062=U-Bootszubehör-Truhe – episch
+prop_sid_3063=Cruiserszubehör-Truhe – episch
+prop_sid_3064=Flugzeugträgerzubehör-Truhe – episch
+prop_sid_3065=Ehrenmedaille &amp; Sternsteintruhe
+prop_sid_3066=Regression Kriegsschiffstruhe
+prop_sid_3067=Flugzeugträger Grundzubehör-Truhe
+prop_sid_3068=Weihnachtsstrumpf
+prop_sid_3069=Weihnachtsgeschenk-Paket
+prop_sid_8111=Kriegsschiff-Waffentruhe – Weiß
+prop_sid_8112=Kriegsschiff-Waffentruhe – Grün
+prop_sid_8113=Kriegsschiff-Waffentruhe – Blau
+prop_sid_8114=Kriegsschiff-Waffentruhe – Lila
+prop_sid_8115=Kriegsschiff-Waffentruhe – Orange
+prop_sid_8121=Kriegsschiff Genauigkeitstruhe – Weiß
+prop_sid_8122=Kriegsschiff Genauigkeitstruhe – Grün
+prop_sid_8123=Kriegsschiff Genauigkeitstruhe – Blau
+prop_sid_8124=Kriegsschiff Genauigkeitstruhe – Lila
+prop_sid_8125=Kriegsschiff Genauigkeitstruhe – Orange
+prop_sid_8131=Kriegsschiff Rüstungstruhe – Weiß
+prop_sid_8132=Kriegsschiff Rüstungstruhe – Grün
+prop_sid_8133=Kriegsschiff Rüstungstruhe – Blau
+prop_sid_8134=Kriegsschiff Rüstungstruhe – Lila
+prop_sid_8135=Kriegsschiff Rüstungstruhe – Orange
+prop_sid_8141=Kriegsschiff Verteidigungstruhe – Weiß
+prop_sid_8142=Kriegsschiff Verteidigungstruhe – Grün
+prop_sid_8143=Kriegsschiff Verteidigungstruhe – Blau
+prop_sid_8144=Kriegsschiff Verteidigungstruhe – Lila
+prop_sid_8145=Kriegsschiff Verteidigungstruhe – Orange
+prop_sid_8211=U-Boot Waffentruhe – Weiß
+prop_sid_8212=U-Boot Waffentruhe – Grün
+prop_sid_8213=U-Boot Waffentruhe – Blau
+prop_sid_8214=U-Boot Waffentruhe – Lila
+prop_sid_8215=U-Boot Waffentruhe – Orange
+prop_sid_8221=U-Boot Genauigkeitstruhe – Weiß
+prop_sid_8222=U-Boot Genauigkeitstruhe – Grün
+prop_sid_8223=U-Boot Genauigkeitstruhe – Blau
+prop_sid_8224=U-Boot Genauigkeitstruhe – Lila
+prop_sid_8225=U-Boot Genauigkeitstruhe – Orange
+prop_sid_8231=U-Boot Rüstungstruhe – Weiß
+prop_sid_8232=U-Boot Rüstungstruhe – Grün
+prop_sid_8233=U-Boot Rüstungstruhe – Blau
+prop_sid_8234=U-Boot Rüstungstruhe – Lila
+prop_sid_8235=U-Boot Rüstungstruhe – Orange
+prop_sid_8241=U-Boot Verteidigungstruhe – Weiß
+prop_sid_8242=U-Boot Verteidigungstruhe – Grün
+prop_sid_8243=U-Boot Verteidigungstruhe – Blau
+prop_sid_8244=U-Boot Verteidigungstruhe – Lila
+prop_sid_8245=U-Boot Verteidigungstruhe – Orange
+prop_sid_8311=Cruiser Waffentruhe – Weiß
+prop_sid_8312=Cruiser Waffentruhe – Grün
+prop_sid_8313=Cruiser Waffentruhe – Blau
+prop_sid_8314=Cruiser Waffentruhe – Lila
+prop_sid_8315=Cruiser Waffentruhe – Orange
+prop_sid_8321=Cruiser Genauigkeitstruhe – Weiß
+prop_sid_8322=Cruiser Genauigkeitstruhe – Grün
+prop_sid_8323=Cruiser Genauigkeitstruhe – Blau
+prop_sid_8324=Cruiser Genauigkeitstruhe – Lila
+prop_sid_8325=Cruiser Genauigkeitstruhe – Orange
+prop_sid_8331=Cruiser Rüstungstruhe – Weiß
+prop_sid_8332=Cruiser Rüstungstruhe – Grün
+prop_sid_8333=Cruiser Rüstungstruhe – Blau
+prop_sid_8334=Cruiser Rüstungstruhe – Lila
+prop_sid_8335=Cruiser Rüstungstruhe – Orange
+prop_sid_8341=Cruiser Verteidigungstruhe – Weiß
+prop_sid_8342=Cruiser Verteidigungstruhe – Grün
+prop_sid_8343=Cruiser Verteidigungstruhe – Blau
+prop_sid_8344=Cruiser Verteidigungstruhe – Lila
+prop_sid_8345=Cruiser Verteidigungstruhe – Orange
+prop_sid_8411=Flugzeugträger Waffentruhe – Weiß
+prop_sid_8412=Flugzeugträger Waffentruhe – Grün
+prop_sid_8413=Flugzeugträger Waffentruhe – Blau
+prop_sid_8414=Flugzeugträger Waffentruhe – Lila
+prop_sid_8415=Flugzeugträger Waffentruhe – Orange
+prop_sid_8421=Flugzeugträger Genauigkeitstruhe – Weiß
+prop_sid_8422=Flugzeugträger Genauigkeitstruhe – Grün
+prop_sid_8423=Flugzeugträger Genauigkeitstruhe – Blau
+prop_sid_8424=Flugzeugträger Genauigkeitstruhe – Lila
+prop_sid_8425=Flugzeugträger Genauigkeitstruhe – Orange
+prop_sid_8431=Flugzeugträger Rüstungstruhe – Weiß
+prop_sid_8432=Flugzeugträger Rüstungstruhe – Grün
+prop_sid_8433=Flugzeugträger Rüstungstruhe – Blau
+prop_sid_8434=Flugzeugträger Rüstungstruhe – Lila
+prop_sid_8435=Flugzeugträger Rüstungstruhe – Orange
+prop_sid_8441=Flugzeugträger Verteidigungstruhe – Weiß
+prop_sid_8442=Flugzeugträger Verteidigungstruhe – Grün
+prop_sid_8443=Flugzeugträger Verteidigungstruhe – Blau
+prop_sid_8444=Flugzeugträger Verteidigungstruhe – Lila
+prop_sid_8445=Flugzeugträger Verteidigungstruhe – Orange
+prop_sid_900=Namen ändern
+prop_sid_901=Allianzumbenennungs-Karte
+prop_sid_3070=Rote Hülle
+prop_sid_3071=Neujahrs Hülle
+prop_sid_3072=Neujahrs rote Hülle
+prop_sid_3073=Neujahrs Truhe
+prop_sid_902=Auslöschungs-Gutschein
+prop_sid_3074=Geschenk der Königin
+prop_sid_3075=Jubiläumsgeschenk I
+prop_sid_3076=Jubiläumsgeschenk II
+prop_sid_3077=Jubiläumsgeschenk III
+prop_sid_3078=Geschenk zum 2-jährigen Jubiläum
+prop_sid_3079=U-Disk Austauschkarte
+prop_sid_3080=Wertkarte
+prop_sid_3081=Großes Ehrenmedaillenpaket
+prop_sid_3082=Wenig erweiterten Truhe
+prop_sid_3083=Mittler erweiterte Truhe
+prop_sid_3084=Hoch erweiterte Truhe
+prop_sid_3085=Booster Truhe
+prop_sid_3086=Große Eisentruhe
+prop_sid_3087=Große Öltruhe
+prop_sid_3088=Große Silikontruhe
+prop_sid_3089=Große Goldtruhe
+prop_sid_3090=Große Urantruhe
+prop_sid_3091=Anfängerpaket
+prop_sid_3092=VIP Anfängerpaket
+prop_sid_3093=Allianz Glückskarte
+prop_sid_3094=Suchzertifikat
+prop_sid_3095=Liberation Denkmahl Währung
+prop_sid_3096=Hauptabzeichentruhe
+prop_sid_3097=Fortgeschrittenen Abzeichentruhe
+prop_sid_3098=Grüne Abzeichentruhe
+prop_sid_3099=Blau Abzeichentruhe
+prop_sid_3100=Lila Abzeichentruhe
+prop_sid_3101=Fortgeschrittenen Leistungszertifikat
+prop_sid_3102=Mittlere Leistungszertifikat
+prop_sid_3103=Haupt Leistungszertifikat
+prop_sid_3104=Veitchs Punktetruhe
+prop_sid_3105=Gilsons Abzeichentruhe
+prop_sid_3106=Meris Abzeichentruhe
+prop_sid_3107=Creeds Abzeichentruhe
+prop_sid_3108=Gordons Abzeichentruhe
+prop_sid_3109=Mahers Abzeichentruhe
+prop_sid_3110=Helens Abzeichentruhe
+prop_sid_3111=Niemis Abzeichentruhe
+prop_sid_3112=Karows Abzeichentruhe
+prop_sid_3113=Chesters Abzeichentruhe
+prop_sid_3114=Yuliyas Abzeichentruhe
+prop_sid_3115=Ramons Abzeichentruhe
+prop_sid_3116=Carls Abzeichentruhe
+prop_sid_3117=Deniers Abzeichentruhe
+prop_sid_3118=Tatianas Abzeichentruhe
+prop_sid_3119=Dions Abzeichentruhe
+prop_sid_3120=Veitchs Abzeichentruhe
+prop_sid_3121=Marohns Abzeichentruhe
+prop_sid_3122=Muidzas Abzeichentruhe
+prop_sid_3123=Bruces Abzeichentruhe
+prop_sid_3124=Kossoffs Abzeichentruhe
+prop_sid_3125=Generaleinberufung Abzeichentruhe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliva
+prop_sid_60011=Ramon
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Gilsons Abzeichen
+prop_sid_61002=Meris Abzeichen
+prop_sid_61003=Creeds Abzeichen
+prop_sid_61004=Gordons Abzeichen
+prop_sid_61005=Mahers Abzeichen
+prop_sid_61006=Helens Abzeichen
+prop_sid_61007=Niems Abzeichen
+prop_sid_61008=Karows Abzeichen
+prop_sid_61009=Chesters Abzeichen
+prop_sid_61010=Yulivas Abzeichen
+prop_sid_61011=Ramons Abzeichen
+prop_sid_61012=Carls Abzeichen
+prop_sid_61013=Deniers Abzeichnen
+prop_sid_61014=Tatianas Abzeichen
+prop_sid_61015=Dions Abzeichen
+prop_sid_61016=Veitch Abzeichen
+prop_sid_61017=Marohns Abzeichen
+prop_sid_61018=Mujdzas Abzeichen
+prop_sid_61019=Bruces Abzeichen
+prop_sid_61020=Kossoffs Abzeichen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Erreiche Charakter Lv.% um eine Allianz zu gründen
+join_alliance_level_limit=Erreiche Charakter Lv.% um einer Allianz beizutreten
+alliance_donate_level_limit=Erreiche Charakter Lv.% um der Allianz zu spenden
+alliance_ship_donate_level_limit=Erreiche Charakter Lv.% um der Allianz Schiffe zu spenden
+world_chat_level_limit=Erreiche Charakter Lv.% um den Welt Chat freizuschalten
+self_chat_level_limit=Erreiche Charakter Lv.% um Privaten Chat freizuschalten
+email_level_limit=Erreiche Charakter Lv.% um Mails zu versenden
+dest_self_chat_level_limit=Der ausgewählte Spieler hat noch kein ausreichend hohes Level erreicht um den Privaten Chat zu aktivieren
+meal_time_send_energy=Kommandant, für die Teilnahme am Energie Event bekommst du % Energie Punkte.\nViel Spaß!
+nian_has_been_last_kill=Die Nian Inseln (Lv.%) wurden von % besiegt. Glückwunsch zu % für Landen des letzten Schlags!
+nian_has_been_killed=Diese Allianzen haben einen unbestreitbaren Beitrag in dem Sieg über die Nian Inseln (Lv.%) geleistet. Sie werden eine große Belohnung erhalten!  \n 1. %(Allianz)\n 2. % (Allianz)\n 3. % (Allianz).
+kill nian title=Sieg über Nian Inseln Belohnung
+kill nian content=Kommandant, \n Die Nian Inseln wurden besiegt! Für deine Tapferkeit haben wir dir % als Belohnung vorbereitet. Hoffe, dass alles gut geht für dich in diesem Jahr! \n * Belohnung wurde über System-Mail versendet. Überprüfen es bitte!
+kill nian rank_a=Nian Inseln und Allianz Belohnung
+kill nian rank_a content=Kommandant, \n Nian Inseln (Lv.%)  wurden besiegt. Du und deine Allianzmitglieder kämpften tapfer und erreichten Rang:%. Wir danken dir und deiner Allianz für euren Beitrag in der Nian Niederlage. Wir haben % für dich und deine Allianzmitglieder eine Belohnung vorbereitet. Hoffe, dass alles gut geht für euch in diesem Jahr! \n *Belohnung wurde über System-Mail versendet. Überprüfen es bitte!
+kill nian rank_p=Nian Inseln Niederlage und persönliche Belohnung
+kill nian rank_p content=Kommandant, \n Nian Inseln (Lv.%)  wurden besiegt. Du hast tapfer gekämpft und hast  Rang:% erreicht. Wir danken dir für deinen Beitrag in der Nian Niederlage. Wir haben % für dich als Belohnung vorbereitet. Hoffe, dass alles gut geht für dich in diesem Jahr! \n *Belohnung wurde über System-Mail versendet. Überprüfen es bitte!
+nian born=Während des Frühlingsfestes, fügte der Whirlpool  einen neuen Chef hinzu. Nian (Lv.%)mit seinen vielen Schätzen in % wächst  aus dem Wasser. Alle Mann an Deck! Besiege die Nian und hole den Schatz.
+nian showxy=Hinweis: Spy G hat die Nian Koordinaten (%,%) gefunden. Dies ist ein Notfall, alle Kommandeure, startet bitte eure Flotten um Nian zu schlagen!
+nian away=Bemerke: Nian (Lv.%) istb geflohen, nimm dir den Schatz.
+dest_join_alliance_level_limit=Der ausgewählte Spieler braucht Level % um der Allianz beitreten zu können.
+activity not open=Event geschlossen
+friends_list=Mitteilung von Freundes Namensänderung
+black_list=Mitteilung von Schwarze Liste Namensänderung 
+alliance_list=Mitteilung von Namensänderung der Allianz
+player_role_list=Mitteilung von Namensänderung des Charakters
+alliance_mail=Dein Allianz Name % wurde in % umbenannt
+friend_mail=Dein Freund hat seinen Namen  % in % umgeändert
+black_mail=% von der Schwarzen Liste hat Namen zu % geändert.
+alliance_modify_info=Deine Allianz hat den Namen in % umbenannt
+sysmessage_modify_name=%Alianz hat den Namen in % umbenannt
+modify_hostile=Mitteilung über Namensänderung einer Feindlichen Allianz
+modify_hostile_content=Die feindliche Allianz hat ihren Namen % in % umbenannt
+dismiss_hostile=Mitteilung von feindlicher Allianz
+dismiss_hostile_content=Die feindliche Allianz % hat sich aufgelöst
+account_reset_mail_command=Konto entsperren
+alliance has been dismiss=Allianz existiert nicht
+arena_ranking_title=Heutige Militärübung ist beendet. Die Top 5 Gewinner  sind folgende:
+arena_ranking_1=1.
+arena_ranking_2=2.
+arena_ranking_3=3.
+arena_ranking_4=4.
+arena_ranking_5=5.
+account_reset_mail_tip=Dein Benutzerkonto wurde freigegeben. Wenn Du das nicht getan hast, setze bitte dein Ihr Passwort zurück, um dein Konto zu sichern.
+meal_time_energy_push=Energie-Belohnungs Events hat begonnen! Fordere deine kostenlosen Energie-Punkte ein!
+
+
+build_sid_1=Eisenmine
+build_sid_2=Ölquelle
+build_sid_3=Siliziummine
+build_sid_4=Uranmine
+build_sid_5=Münzprägeanstalt
+build_sid_6=Werft
+build_sid_7=Kommandozentrale
+build_sid_8=Forschungslabor
+build_sid_9=Fertigungshalle
+build_sid_10=Lager
+build_sid_11=Bomber
+build_sid_12=Raketenlastzug
+build_sid_13=Küstenartillerie
+build_sid_14=Umbauwerk
+build_sid_15=Fertigungshalle
+LvUpActivity_autoSendReward_mail_title=Ankündigung des Anfänger Levelaufstiegs-Events
+LvUpActivity_autoSendReward_mail=Glückwunsch! \n ist von % zu % im Anfänger Levelaufstiegs-Event aufgestiegen. Weil damit die Voraussetzungen von % auf Level % erfüllt sind, erhält \n : 
+RankAwardActivity_autoSendReward_mail=Glückwunsch! \n ist von % zu % im % Event aufgestiegen,  in die Top %. \n erhält:
+fight_score_act=König des neuen Servers
+point_star_act=König des Krieges
+honor_score_act=König der Ehre
+muteTime_left=Für % Minuten gesperrt
+
+no this cplayer=Diesen Spieler gibt es nicht.
+get cannot=Kein Belohnungszeitraum. Belohnung kann nicht eingesammelt werden.
+not open cross war=Imperiales Turnier geschlossen
+jion end=Anmeldefrist
+lv limit=Levelbegrenzung
+ship must > 0=Anzahl der eingesetzten Schiffe muss größer als 0 sein
+set cannot=Kein Flottenbearbeitungszeitraum. Flotte kann nicht eingesetzt werden.
+cannot connect cross_server=Verbindung zur übergreifenden Serverinstanz kann nicht hergestellt werden.
+cannot handle the message=Der übergreifende Server kann die Anfrage nicht bearbeiten
+jion had=Ist beigetreten
+no the rep=Kein Schlachtbericht
+bet cannot=Kein Wettzeitraum. Derzeit können keine Wetten eingereicht werden.
+had bet=Gewettet
+vip gems error=Wetteinsatz und VIP-Level passen nicht zusammen.
+gems limit=Nicht genug Juwelen
+cannot embattle=Mit Ihrer Niederlage in der letzten Runde sind Sie vom Imperialen Turnier ausgeschieden.
+
+cross battle award=Belohnung aus dem Imperialen Turnier
+join in award=%, Ihre Belohnung: % Juwelen und % wurden in Ihr Inventar gelegt.
+anyone join in award=Geschätzter Kommandant, wir möchten uns für Ihre Teilnahme am Imperialen Turnier bedanken. Ihre Belohnung % wurde in Ihr Inventar gelegt. Bitte schauen Sie nach!
+win bet award=Geschätzter Kommandant, Gratulation zur korrekten Vorhersage des ersten Turniersiegers im Imperialen Turnier! Sie erhalten eine saftigen Wettgewinn in Höhe von % Juwelen!
+
+win cross battle champion=Herzlichen Glückwunsch! % Server % hat das Imperiale Turnier gewonnen!
+promoted cross battle champion=Herzlichen Grlückwunsch zum Turniersieg! % hat den ersten Platz beim Imperialen Turnier belegt!
+promoted cross battle finals=Glückwunsch! % hat sich für das Finale qualifiziert 
+promoted cross battle=Glückwunsch! % hat sich für die Top% Runde qualifiziert 
+promoted cross final=Glückwunsch! % hat sich für das Finale qualifiziert 
+alliance shield word=Nein
+mystical fleet=Mystische Flotte
+
+alliance_fight_win=Glückwunsch! % Allianz hat erfolgreich die % Insel eingenommen!
+
+alliance_bet_message=Wette erfolgreich
+alliance_bet_win_content=Glückwunsch! Deine Allianz hat den "%" Streit gewonnen. %\n will die Insel einnehmen, bitte bewerbe dich um sofort dem Kampf beizutreten!
+alliance_bet_win_content_thing=\n Die feindliche Allianz "%" hat die Insel eingenommen
+
+alliance_bet_lose=Wette fehlgeschlagen
+alliance_bet_lose_content=Schade! Die Insel auf die deine Allianz wettet wurde von "%" überboten mit "%" Vorräten überboten. "%" Vorräte kehren zu deiner Allianz zurück. \n Wenn du die Insel nicht verlieren möchtest, kannst du erneut auf die Insel wetten um die Insel zurück zu erobern.
+new_alliance_fight_start=Nächster Allianzkrieg wird bald starten!
+
+send_alliance_science_point="%" Tägliche Belohnung
+send_alliance_science_content=Deine Allianz hat "%"eingenommen, Tägliche Technologiepunkte "%"wurden bereits versendet, bitte gehe zur hohen Technologie um sie zu bekommen.
+send_alliance_report=%　VS　%
+alliance_fight_win_title="%" erfolgreich eingenommen
+alliance_fight_win_content=Glückwunsch! Deine Allianz hat erfolgreich "%" eingenommen. Deine Allianz gewinnt "%" hohe Technologie. In den folgenden 5 tagen, kannst du die hohe Technologie weiterhin bekommen.%
+alliance_fight_award=\n\n Danke für deinen Beitrag an diesem Kampf, \n\n Deine Schiffe sind zum Port zurückgekehrt. Die beschädigten Schiffe wurden in die Werkstatt. Hier ist deine Belohnung:
+allaince_fight_not_join=Keine Spieler haben sich für die Teilnahme beworben,
+alliance_fight_lose_title="%" Einnahmeversuch schlug fehl 
+alliance_fight_lose_content=Schade! Deine Allianz "%" wurde besiegt und schlug fehl die Insel einzunehmen. \n Deine Allianz bekommt % hohe Technologie % Punkte in diesem Allianzkrieg
+alliance_fight_lose_sbstain=Sende Allianzkriegsbelohnung
+alliance_battle_abstain_content=Weil niemand von deiner Allianz sich für den "%"  Kampf beworben hat, wurde es als Verzicht angesehen. \n\n Deine Allianz hat nur % Technologie in diesem Allianzkrieg gewonnen .
+alliance_fight_system_content=Glückwunsch! "% Allianz" hat erfolgreich "%" im Allianzkrieg eingenommen
+alliance_fight_send_award=Sende persönliche Belohnung
+allaince_reback_win_ships=Glückwunsch! Deine Allianz hat erfolgreich "%" eingenommen. Die folgenden deiner Schiffe sind dem Allianzkrieg beigetreten: %%%%%% der Verlust deiner Schiffe ist folgender: %%%%%%
+allaince_reback_lose_ships=Schade! Deine Allianz "%" wurde in diesem Kampf besiegt.Die folgenden deiner Schiffe sind dem Allianzkrieg beigetreten: %%%%%% der Verlust deiner Schiffe ist folgender: %%%%%%
+
+alliance_battle_fight_report=Allianzkriegs Neuigkeiten
+alliance_battle_island_15101=Geringer Ausgangsriff
+alliance_battle_island_15102=Mittlere Ausgangsinsel
+alliance_battle_island_15103=Reiche Ausgangsinsel
+alliance_battle_abstain=Verlassen
+alliance_lucky_points=% Allianz % Kommandant hat ein „Glückliches Allianz Item“ in der Allianz Datenbank" gewonnen, % Allianz Glückswert wir um einen Punkt verbessert.
+
+
+awardshippingactivity_message=Nutze um zufällig einen grünen Admiral*1 zu erhalten
+luckyexploredactivity_message=Nutze um zufällig einen blauen Admiral*1 zu erhalten
+robfestivalactivity_message=Nutze um zufällig einen lila Admiral*1 zu erhalten
+
+
+
+
+
+
+

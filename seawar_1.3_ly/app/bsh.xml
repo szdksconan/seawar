@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+	
+<script language="BeanShell">
+<!-- 
+//脚本内容
+import foxu.sea.kit.SeaBackKit;
+
+public void echo()
+{
+	System.out.println("=================Script Start====================");
+	System .out.println("");
+	System.out.println("");
+	System.out.println("");
+
+	mustang.log.Logger log=mustang.log.LogFactory.getLogger(foxu.sea.messgae.Message.class);
+	String title="你好啊heheda";
+	int limit=0;
+	int[] keys=creatObjectFactory.getPlayerCache().getCacheMap().keyArray();
+	foxu.sea.Player player=null;
+	for(int i=0;i<keys.length;i++)
+	{
+		player=creatObjectFactory.getPlayerById(keys[i]);
+		if(player==null) continue;
+		mustang.set.ArrayList messageList=creatObjectFactory.getMessageCache().getMessageListById(
+			player.getId());
+		if(messageList!=null)
+		{
+			int count=0;
+			for(int j=0;j<messageList.size();j++)
+			{
+				foxu.sea.messgae.Message message=(foxu.sea.messgae.Message)messageList.get(j);			
+				if(message.getReceiveId()!=player.getId())
+					continue;
+				if(message.getSendId()==message.getReceiveId())
+					continue;
+				if(!title.equals(message.getTitle()))
+					continue;
+				count++;
+				if(count>limit)
+				{
+					message.addState(foxu.sea.messgae.Message.ONE_DELETE);
+					message.addReciveState(foxu.sea.messgae.Message.ONE_DELETE);
+				}
+			}
+			if(count>limit)
+				log.error("==========="+player.getId()+"====player:"+player.getName()+"====have mail:"+title+"=====count:"+count);
+		}
+	}
+	
+	System.out.println("=================Script End====================");
+	
+}
+echo();
+-->
+</script>
+</objects>

@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.achieve.Achievement" name="factory" id="achieveFactory" />
+    <method ref="achieveFactory" name="init">
+        <ref id="context" />
+    </method>
+
+
+    <sample sid="1" class="foxu.sea.achieve.Achievement" atrKey="1" baseType="1" sort="1" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62001,62002,62003,62004,62005,62006</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>3,7,13,30,60,80</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,45,60,75</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="2" class="foxu.sea.achieve.Achievement" atrKey="2" baseType="1" sort="2" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62011,62012,62013,62014,62015,62016,62017</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>4,10,22,34,46,60,80</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,45,60,75,95</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="3" class="foxu.sea.achieve.Achievement" atrKey="3" baseType="1" sort="3" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62021,62022,62023,62024,62025,62026,62027</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>2,10,20,30,40,50,80</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40,55,70,85</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="4" class="foxu.sea.achieve.Achievement" atrKey="4" baseType="1" sort="4" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62031,62032,62033,62034,62035,62036,62037</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10,20,30,40,50,60,80</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,45,60,75,95</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="5" class="foxu.sea.achieve.Achievement" atrKey="5" baseType="1" sort="5" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62041,62042,62043,62044</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1000000,10000000,30000000,100000000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="6" class="foxu.sea.achieve.Achievement" atrKey="6" baseType="1" sort="6" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62051,62052,62053,62054</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1000000,10000000,30000000,100000000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="7" class="foxu.sea.achieve.Achievement" atrKey="7" baseType="1" sort="7" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62061,62062,62063,62064</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1000000,10000000,30000000,100000000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="8" class="foxu.sea.achieve.Achievement" atrKey="8" baseType="1" sort="8" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62071,62072,62073,62074</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1000000,10000000,30000000,100000000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="9" class="foxu.sea.achieve.Achievement" atrKey="9" baseType="1" sort="9" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62081,62082,62083,62084</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1000000,10000000,30000000,100000000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="101" class="foxu.sea.achieve.Achievement" atrKey="601" baseType="2" sort="1" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62091,62092,62093,62094,62095,62096</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1,5,10,13,15,17</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,35,50,65,85</ints>
+        </field>
+         <field name="headSids" declared="1">
+            <ints>50005,0,0,0,0,0</ints>
+        </field>
+    </sample>
+    
+    <!-- 每日联盟捐献 -->
+    <sample sid="301" class="foxu.sea.achieve.Achievement" atrKey="602" baseType="4" sort="1" awardClear="False" fullCollect="True">
+        <field name="score" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>105</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50007</ints>
+        </field>
+    </sample>
+    
+    <!--环球军演排名 -->
+    <sample sid="302" class="foxu.sea.achieve.ArenaRankAchievement" atrKey="603" baseType="4" sort="1" awardClear="False" fullCollect="True">
+        <field name="score" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50009</ints>
+        </field>
+        <field name="needRank" declared="1">
+       		 <ints>100</ints>
+        </field>
+    </sample>
+    
+    <!-- 激活月卡 -->
+ 	<sample sid="303" class="foxu.sea.achieve.Achievement" atrKey="604" baseType="4" sort="1" awardClear="False" fullCollect="True">
+        <field name="score" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50004</ints>
+        </field>
+    </sample>
+    
+     <!-- 荣耀值 -->
+ 	<sample sid="304" class="foxu.sea.achieve.Achievement" atrKey="605" baseType="4" sort="1" awardClear="False" fullCollect="True">
+        <field name="score" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10000</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50008</ints>
+        </field>
+    </sample>
+    
+    <!--战力 -->
+ 	<sample sid="305" class="foxu.sea.achieve.Achievement" atrKey="606" baseType="4" sort="1" awardClear="False" fullCollect="True">
+        <field name="score" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10000</ints>
+        </field>
+        <field name="awardSids" declared="1">
+            <ints>0</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50010</ints>
+        </field>
+    </sample>
+
+    <sample sid="102" class="foxu.sea.achieve.WildAchievement" atrKey="1101" baseType="2" sort="2" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62101,62102,62103,62104</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10,50,200,500</ints>
+        </field>
+        <field name="wildlevel" declared="1">
+            <ints>2,10,26,46</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,45</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="103" class="foxu.sea.achieve.Achievement" atrKey="1102" baseType="2" sort="3" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62111,62112,62113,62114</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10,50,100,200</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="104" class="foxu.sea.achieve.KillShipAchievement" atrKey="1103" baseType="2" sort="4" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62121,62122,62123,62124</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>100,200,300,400</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+        <field name="shiplevel" declared="1">
+            <ints>10002,10003,10004,10005</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="105" class="foxu.sea.achieve.KillShipAchievement" atrKey="1104" baseType="2" sort="5" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62131,62132,62133,62134</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>100,200,300,400</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+        <field name="shiplevel" declared="1">
+            <ints>10012,10013,10014,10015</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="106" class="foxu.sea.achieve.KillShipAchievement" atrKey="1105" baseType="2" sort="6" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62141,62142,62143,62144</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>100,200,300,400</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+        <field name="shiplevel" declared="1">
+            <ints>10022,10023,10024,10025</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="107" class="foxu.sea.achieve.KillShipAchievement" atrKey="1106" baseType="2" sort="7" awardClear="True" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62151,62152,62153,62154</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>100,200,300,400</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+        <field name="shiplevel" declared="1">
+            <ints>10032,10033,10034,10035</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="201" class="foxu.sea.achieve.Achievement" atrKey="1201" baseType="3" sort="1" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62161,62162,62163,62164,62165,62166</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>50,460,4000,10000,20000,50000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,35,55,80,110</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="202" class="foxu.sea.achieve.Achievement" atrKey="201" baseType="3" sort="2" awardClear="False" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62171</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>20</ints>
+        </field>
+        <field name="headSids" declared="1">
+			<ints>50003</ints>        
+        </field>
+    </sample>
+
+
+    <sample sid="203" class="foxu.sea.achieve.Achievement" atrKey="202" baseType="3" sort="3" awardClear="False" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62181</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>5</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>20</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="204" class="foxu.sea.achieve.Achievement" atrKey="1202" baseType="3" sort="4" awardClear="False" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62191</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>20</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="205" class="foxu.sea.achieve.Achievement" atrKey="1203" baseType="3" sort="5" awardClear="False" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62201</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>20</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="206" class="foxu.sea.achieve.Achievement" atrKey="203" baseType="3" sort="6" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62211,62212,62213,62214</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>10,25,40,60</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,35,55</ints>
+        </field>
+        <field name="headSids" declared="1">
+			<ints>0,0,50011,0</ints>        
+        </field>
+    </sample>
+
+
+    <sample sid="207" class="foxu.sea.achieve.Achievement" atrKey="204" baseType="3" sort="7" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62221,62222,62223,62224</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>5,15,25,35</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,45</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="208" class="foxu.sea.achieve.Achievement" atrKey="1204" baseType="3" sort="8" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62231,62232,62233</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>3,10,20</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>15,30,45</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="209" class="foxu.sea.achieve.Achievement" atrKey="1205" baseType="3" sort="9" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62241,62242,62243,62244</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>5,100,800,2000</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,30,40</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="210" class="foxu.sea.achieve.Achievement" atrKey="1206" baseType="3" sort="10" awardClear="False" fullCollect="True">
+        <field name="awardSids" declared="1">
+            <ints>62251,62252,62253,62254</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1,50,100,500</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>10,20,35,55</ints>
+        </field>
+    </sample>
+
+
+    <sample sid="211" class="foxu.sea.achieve.Achievement" atrKey="1207" baseType="3" sort="11" awardClear="False" fullCollect="False">
+        <field name="awardSids" declared="1">
+            <ints>62261</ints>
+        </field>
+        <field name="needValue" declared="1">
+            <ints>1</ints>
+        </field>
+        <field name="score" declared="1">
+            <ints>30</ints>
+        </field>
+        <field name="headSids" declared="1">
+            <ints>50006</ints>
+        </field>
+    </sample>
+
+
+</objects>

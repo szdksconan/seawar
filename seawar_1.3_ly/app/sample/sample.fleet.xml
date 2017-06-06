@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+	<field class="foxu.sea.fight.Fleet" name="factory" id="fleetFactory"/>
+	<method ref="fleetFactory" name="init"><ref id="context"/></method>
+	
+	<sample class="foxu.sea.fight.Fleet" sid="1" num="100">
+		<field name="ship" declared="1">
+			<sample class="foxu.sea.Ship" sid="0" life="12" defence="5" attack="15" playerType="1" normalAbility="2">
+				<field name="resist" declared="1">
+					<ints>1,1,1,1,1</ints>
+				</field>
+			</sample>
+		</field>
+	</sample>
+</objects>

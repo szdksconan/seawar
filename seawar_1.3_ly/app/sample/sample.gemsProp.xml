@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <method ref="propFactory" name="init">
+        <ref id="context" /> 
+    </method>
+    
+    <sample sid="500" class="foxu.sea.proplist.AwardProp" needGems="100" awardSid="10" name="宝箱1" description="道具1描述" price="1" maxCount="999" sortId="1" buildTime="60" unit="个">
+        <field name="costResources" declared="1">
+            <ints>100,200,300,400,500</ints>
+        </field>
+        <field name="costPropSid" declared="1">
+            <ints>2,1</ints>
+        </field>
+    </sample>
+    
+    
+</objects>

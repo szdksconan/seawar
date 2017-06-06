@@ -1,0 +1,902 @@
+﻿plunder resources=Yağmalanabilir Kaynak
+metal=Demir
+oil=Petrol
+silicon=Silikon
+uranium=Uranyum
+money=Altın
+
+#岛屿名字=#岛屿名字
+world_island_1=Demir Adası
+world_island_2=Petrol Denizi
+world_island_3=Silikon Adası
+world_island_4=Uranyum Adası
+world_island_5=Gemi Enkazı
+
+
+#服务器名字=#服务器名字
+server_name_taiwan_001=Geleneksel Çince001
+server_name_taiwan_002=Geleneksel Çince002
+server_name_cn_001=Basit Çince001
+server_name_cn_002=Basit Çince002
+#邀请相关=#邀请相关
+the invetid is=Davet eden ID bu server içinde değil
+inveted is wrong=Daven eden ID hatalı
+
+
+game_name=Empire Warfare
+game_name1=Ocean Force
+
+
+
+be_attack_npc_island_push=Oyuncunun % filosu senin konuşlu (%) bölgene%(%) saldırmak üzere,hemen komut ver!
+be_attack_self_island_push=Oyuncu  % filosu senin (%) bölgene saldırmak üzere.Hemen komut ver! 
+
+#绑定账号错误=#绑定账号错误
+account is have=Bu hesap zaten kullanılıyor
+user_count_full=Bu cihazı %,%,% hesabınıza bağladınız,ziyaretçi girişi yapamazsınız
+
+#邀请=#邀请
+system_mail=Sistem Mesajı
+invite_new_one_title=% katıldı
+invite_new_one_content=Arkadaşın % Empire - Warships'e katıldı,davet ödülü olarak Uranyum Paketi ve 15Elmas kazandın! Düşmana karşı arkadaşınla birlikte savaş!
+
+be_invite_new_one_title=Empire Warfare'e Hoşgeldiniz!
+be_invite_new_one_content=Empire Warfare'e Hoşgeldin! Arkadaşın % kanlı bir savaşın ortasında, ekstra 10Elmas ve 1Barış Bayrağı kazandın! Düşmana karşı arkadaşınla birlikte savaş!
+
+#系统公告=#系统公告
+player_type_up=Tebrikler! % Güncellendi %
+player_type_2=Petty Officer Second Class
+player_type_3=Petty Officer First Class
+player_type_4=Chief Petty Officer
+player_type_5=Warrant officer
+player_type_6=Ensign
+player_type_7=Junior Lieutenant
+player_type_8=Lieutenant
+player_type_9=Lieutenant Commander
+player_type_10=Commander
+player_type_11=Captain
+player_type_12=Commodore
+player_type_13=Rear Admiral
+player_type_14=Vice Admiral
+player_type_15=Admiral
+player_type_16=Marshal
+player_type_17=Warlord
+
+
+
+attack_island_prop=Tebrikler! %, %Lv.%'e saldırdı, % kazandı
+attack_checkpoint=Tebrikler, % Sahne savaşında % kazandı!
+prop_use_tips=Congratulations! % use % to receive %*%!
+success_check_point=% cesurca savaştı, tüm "%"  düşmanlarını yendi!
+success_check_10016=Bölüm 1: Kaçış
+success_check_10032=Bölüm 2: Karakol
+success_check_10048=Bölüm 3 Demir Dev
+success_check_10064=Bölüm 4: Siyah Altın Adası
+success_check_10080=Bölüm 5: Pasifik Filosu
+success_check_10096=Bölüm 6: Kristal Fabrikası
+success_check_10112=Bölüm 7: Sanayi Şehri
+success_check_10128=Bölüm 8: Ölüm Madeni
+success_check_10144=Bölüm 9: Kötülük Kuyusu
+success_check_10160=Bölüm 10: Başkent Muhafızları
+success_check_10176=Bölüm 11: Başkentte Final
+success_check_10192=Bölüm 12: Sıcak Takip
+success_check_10208=Bölüm 13: Ceza Adası
+success_check_10224=14.Bölüm:Kaos Su Yolu
+success_check_10240=15.Bölüm:Freeport
+
+
+
+#统御=#统御
+commander_level_up=Tebrikler! % , liderliğini Lv.% olarak geliştirdi!
+
+#联盟=#联盟
+alliance_system_title=Sistem Uyarısı
+alliance_refuse_content=İttifak başvurun reddedildi!
+alliance_be_kick_content=% tarafından ittifaktan çıkarıldın!
+
+#服务器维护=#服务器维护
+server_is_not_open=Server bakımda,lütfen daha sonra tekrar deneyin.
+
+
+
+#联盟等级提升=#联盟等级提升
+alliance_level_up=Tebrikler! %(İttifakı) Lv.% olarak geliştirildi.
+#购买效验错误=#购买效验错误
+buy gems fail=Satın alma başarısız,lütfen yazılımı tekrar kurup deneyin.
+alliance_gave_value_not_enough=Almak için % ittifak katkısı gerekli.
+lotto_special_prop=Tebrikler! % ,çekilişten  % kazandı!
+
+
+boss_came=DünyaBoss(Lv.%) şimdi dünya haritasında aktif.
+boss_has_been_killed=DünyaBoss(Lv.%) yenildi.Saldırıya katılan en iyi 10 ittifakın üyeleri ödül kazanacak,%(ittifak) olarak % miktarda gemi deviren sıralamada birinci olur.
+boss_has_been_last_kill=Tebrikler %, boss(Lv.%)'i yendi ve Son Darbe ödülü kazandı.
+boss_taunt=Lv% DünyaBOSS,% üzerinde artık aktif.İmha için filonu topla!
+lucky_draw_prop=% Şanslı Çekilişte % adet % kazandı
+lucky_draw_prop2=Congratulations! % win % % in Wheel Of Fortune!
+success_hei_check_55001=1.Bölüm:Örtülü Deniz
+success_hei_check_55002=2.Bölüm:Kalıntılar
+success_hei_check_55003=3.Bölüm:Şehir Dışı
+success_hei_check_55004=4.Bölüm:Şehir İçi
+success_hei_check_55005=5.Bölüm:Mezarlık Kalıntıları
+success_hei_check_55006=6.Bölüm:Saray Kalıntıları
+success_hei_check_55007=7.Bölüm:Tapınak Kalıntıları
+success_hei_check_55008=8:bölüm:Eski Hazine
+success_hei_check_point=% kahramanca savaştı ve "%" oyuncusunun tüm ordusunu yıktı!
+
+#密码找回=#密码找回
+password_reset_mail_title=《Empire Warships》 Sistem Mesajı
+password_reset_mail_title1=《Empire Warships》 Sistem Mesajı
+password_reset_mail_code=Aktivasyon Kodu
+password_reset_mail_device=Cihaz No.
+password_reset_mail_command=Şifreyi sıfırla
+password_reset_mail_tip=Şu anda şifrenizi sıfırlıyorsunuz,eğer bu işlem sizin tarafınızdan gerçekleştirilmiyorsa,lütfen güvenlik önlemi olarak önce şifrenizi değiştirin.
+password_reset_mail_foottip=Bu e-posta adresi yanıtlanan mesajları alamaz.
+password_reset_mail_reg=%YEAR% İmparator Filo Ordusu
+have geted award=You have claimed the reward.
+boss_taunt_sixhour=World Boss Lv. % appeared in %
+boss_taunt_direction=North,South,West,East,Middle,Northwest,Northeast,Southwest,Southeast
+equip not open=You haven't met the requirements to open the equipment system yet.
+equip not exist=The equipment doesn't exist.
+can not equip=The equipment can't be equipped.
+equip can not level up=The equipment can't increase Exp.
+equip can not feed itself=You cannot consume yourself to improve experience.
+equip can not quality up=This equipment cannot be advanced.
+prop or resource not enough=Insufficent items or resources.
+quality stuff not exist=The material to be advanced doesn't exist.
+stuff can not combine=Not enough gold.
+equip storehouse is full=Equipment Storage is full.
+equip can not sale=Equipment can't be sold.
+lotto_count_limit=You have reached the lotto limit for today.
+annoucement not exist=No announcement
+annoucement is pass=Announcement has expired
+annoucement is erro=Announcement error
+alliance_auto_transfer=% is currently the alliance leader
+err:propId=Item id error
+err:gems=Gems input error
+err:initDat=Award input error
+player not buy=The player hasn't purchased yet
+err:not award id=No available award id
+err:Can't get=Unable to claim
+totalBuyActivity_autoSendReward_mail=Congratulations! In the % to % accumulation recharge event, \n meets the % accumulation recharge requirement. \n will receive: 
+gems=Gems
+totalBuyActivity_autoSendReward_mail_title=Award notice
+consume_gems_auto_award=Dear [PNAME]:\n, you have cumulatively consumed [COUNT] Gems in [START] - [END]. According to the [PERCENT] % proportion, we have returned [RETURN] Gems to you, please check and enjoy!
+date_price_off_start=Mystery shop has opened
+account is wrong=Email error
+alliance_transfer_last_title=Leader transfer notice
+alliance_transfer_last_content=As you haven’t logged in to the game for 7 days, and neglected the alliance management. The system has assigned % as the alliance leader. Now you are the vice leader of the alliance. 
+alliance_transfer_next_title=Alliance leader transfer notice
+alliance_transfer_next_content=As % hasn’t logged in to the game for 7 days, and neglected the alliance management. You have been assigned as the alliance leader by the system. Hope you can lead the alliance to a glorious new chapter.
+new_alliance_title=Alliance notice
+new_alliance_content=Congratulations! You have successfully created %. Quickly recruit and expand the alliance. \n\n Note: If you haven’t logged in to the game for 7 days, the alliance leader will be auto-transferred to the more active vice leader of the alliance. (If no vice leader, it will be transferred to one of the alliance members.)
+dismiss_alliance_title=Alliance dismission notice
+dismiss_alliance_content=Your alliance was dismissed on % 
+
+
+
+
+prop_sid_10001=Hafif Savaş Gemisi
+prop_sid_10011=Hafif Denizaltı
+prop_sid_10021=Hafif Kruvazör
+prop_sid_10031=Hafif Uçak Gemisi
+prop_sid_10002=Orta Savaş Gemisi
+prop_sid_10012=Orta Denizaltı
+prop_sid_10022=Orta Kruvazör
+prop_sid_10032=Orta Uçak Gemisi
+prop_sid_10003=Ağır Savaş Gemisi
+prop_sid_10013=Ağır Denizaltı
+prop_sid_10023=Ağır Kruvazör
+prop_sid_10033=Ağır Uçak Gemisi
+prop_sid_10004=Vahşi Savaş Gemisi
+prop_sid_10014=Hayalet Denizatı
+prop_sid_10024=Yırtıcı Kruvazör
+prop_sid_10034=Ejder Uçak Gemisi
+prop_sid_10005=Bariyer Savaş Gemisi
+prop_sid_10015=Ölüm Denizaltı
+prop_sid_10025=Kalkan Kruvazör
+prop_sid_10035=İmparator Kılıcı
+prop_sid_10006=Titan Savaş Gemisi
+prop_sid_10007=Korkusuz Bariyer
+prop_sid_10016=Cehennem Denizaltı
+prop_sid_10017=Azaplı Ölüm
+prop_sid_10026=Zeus Kruvazörü
+prop_sid_10027=Yıldırım Kalkanı
+prop_sid_10036=Ares Kılıcı
+prop_sid_10037=Ateş Kılıcı
+prop_sid_10008=Black Tortoise
+prop_sid_10018=Green Dragon
+prop_sid_10028=White Tiger
+prop_sid_10038=Rosefinch
+
+
+
+
+
+prop_sid_40111=Light artillery
+prop_sid_40112=Heavy artillery
+prop_sid_40113=Assault artillery
+prop_sid_40114=Thunder artillery
+prop_sid_40115=Auroral artillery
+prop_sid_40121=Low-frequency radar
+prop_sid_40122=High-frequency radar
+prop_sid_40123=Strong-frequency radar
+prop_sid_40124=Phase-array radar
+prop_sid_40125=Phantom radar
+prop_sid_40131=Light steel board
+prop_sid_40132=Steel board
+prop_sid_40133=Alloy board
+prop_sid_40134=New star board
+prop_sid_40135=Holy board
+prop_sid_40141=Windchasing turbine
+prop_sid_40142=Phantom turbine
+prop_sid_40143=Fury turbine
+prop_sid_40144=Void turbine
+prop_sid_40145=Dragon turbine
+prop_sid_40211=Light torpedo
+prop_sid_40212=Heavy torpedo
+prop_sid_40213=Assault torpedo
+prop_sid_40214=Thunder torpedo
+prop_sid_40215=Auroral torpedo
+prop_sid_40221=Low-frequency sonar
+prop_sid_40222=High-frequency sonar
+prop_sid_40223=Strong-frequency sonar
+prop_sid_40224=Phase-array sonar
+prop_sid_40225=Phantom sonar
+prop_sid_40231=Light steel hull
+prop_sid_40232=Steel hull
+prop_sid_40233=Alloy hull
+prop_sid_40234=New star hull
+prop_sid_40235=Holy hull
+prop_sid_40241=Windchasing propulsion
+prop_sid_40242=Phantom propulsion
+prop_sid_40243=Fury propulsion
+prop_sid_40244=Void propulsion
+prop_sid_40245=Dragon propulsion
+prop_sid_40411=Light  missile
+prop_sid_40412=Heavy missile
+prop_sid_40413=Strong missile
+prop_sid_40414=Thunder missile
+prop_sid_40415=Auroral missile
+prop_sid_40421=Low-frequency warning
+prop_sid_40422=High-frequency warning
+prop_sid_40423=Strong-frequency warning
+prop_sid_40424=Phase-array warning
+prop_sid_40425=Phantom warning
+prop_sid_40431=Light steel hull
+prop_sid_40432=Steel hull
+prop_sid_40433=Alloy hull
+prop_sid_40434=New star hull
+prop_sid_40435=Holy hull
+prop_sid_40441=Windchasing engine
+prop_sid_40442=Phantom engine
+prop_sid_40443=Fury engine
+prop_sid_40444=Void engine
+prop_sid_40445=Dragon engine
+prop_sid_40811=Light fighter
+prop_sid_40812=Heavy fighter
+prop_sid_40813=Strong fighter
+prop_sid_40814=Thunder fighter
+prop_sid_40815=Auroral fighter
+prop_sid_40821=Low-frequency monitor
+prop_sid_40822=High-frequency monitor
+prop_sid_40823=Strong-frequency monitor
+prop_sid_40824=Phase-array monitor
+prop_sid_40825=Phantom monitor
+prop_sid_40831=Light steel deck
+prop_sid_40832=Steel deck
+prop_sid_40833=Alloy deck
+prop_sid_40834=New star deck
+prop_sid_40835=Holy deck
+prop_sid_40841=Windchasing motorship engine
+prop_sid_40842=Phantom motorship engine
+prop_sid_40843=Fury motorship engine
+prop_sid_40844=Void motorship engine
+prop_sid_40845=Dragon motorship engine
+prop_sid_41101=Energy-gathered module Ⅰ
+prop_sid_41102=Energy-gathered module Ⅱ
+prop_sid_41103=Energy-gathered module Ⅲ
+prop_sid_41104=Energy-gathered module Ⅳ
+prop_sid_41105=Energy-gathered module Ⅴ
+prop_sid_41201=Advanced crank I
+prop_sid_41202=Advanced crank Ⅱ
+prop_sid_41203=Advanced crank Ⅲ
+prop_sid_41204=Advanced crank Ⅳ
+
+prop_sid_1=Küçük Demir Külçesi
+prop_sid_2=Küçük Petrol Varili
+prop_sid_3=Küçük Silikon Madeni
+prop_sid_4=Küçük Uranyum Madeni
+prop_sid_5=Küçük Altın Yığını
+prop_sid_6=Büyük Demir Külçesi
+prop_sid_7=Büyük Petrol Varili
+prop_sid_8=Büyük Silikon Madeni
+prop_sid_9=Büyük Uranyum Madeni
+prop_sid_10=Büyük Altın Yığını
+prop_sid_11=Onur Madalyası Paketi
+prop_sid_12=Beginner Resource Pack
+prop_sid_13=Büyük Kaynak Kutusu
+prop_sid_14=Süper Kaynak Kutusu
+prop_sid_15=Ultra Kaynak Kutusu
+prop_sid_16=Hızlı Üretim
+prop_sid_17=Hızlı Gelişim Kutusu
+prop_sid_18=Acil Gelişim Kutusu
+prop_sid_19=e
+prop_sid_400=Küçük Uranyum Kutusu
+prop_sid_401=Büyük Uranyum Kutusu
+prop_sid_402=Kazanç Kutusu
+prop_sid_403=Küçük Liderlik Paketi
+prop_sid_404=Büyük Liderlik Paketi
+prop_sid_405=Demir Kutusu
+prop_sid_406=Petrol Kutusu
+prop_sid_407=Silikon Kutusu
+prop_sid_408=Büyük Demir Kutusu
+prop_sid_409=Büyük Petrol Kutusu
+prop_sid_410=Büyük Silikon Kutusu
+prop_sid_411=Büyük Onur Madalyası Paketi
+prop_sid_412=Gaz Türbini Manifesti
+prop_sid_413=Füzyon Çekirdek Manifesti
+prop_sid_414=Makine Güç Manifesti
+prop_sid_415=Hassas Makine Manifesti
+prop_sid_416=Yıldız Taşı Kümesi
+prop_sid_417=Yıldız Taşı Konyetnırı
+prop_sid_418=Festival Kutusu
+prop_sid_419=Yıldız Taşı Paketi
+prop_sid_420=e
+prop_sid_501=Demir Madenciliği
+prop_sid_502=Petrol Madenciliği
+prop_sid_503=Silikon Madenciliği
+prop_sid_504=Uranyum Madenciliği
+prop_sid_505=Altın Eritme
+prop_sid_506=İyon Kalkanı
+prop_sid_507=Yüksek Patlayıcı
+prop_sid_508=Hızlı Yürüyüş
+prop_sid_509=Barış Bayrağı
+prop_sid_1001=Enerji Reaktifi
+prop_sid_1002=Enerji İksiri
+prop_sid_1003=EXP Kitabı
+prop_sid_1004=Prestij Kitabı
+prop_sid_1005=Göç Simgesi
+prop_sid_1006=Üst Göç Simgesi
+prop_sid_2001=Hava Desteği
+prop_sid_2002=EMP Bombası
+prop_sid_510=Lazer Klavuzu
+prop_sid_511=Dumanlı Ekran
+prop_sid_512=Uranyum Bombası
+prop_sid_513=Reaktif Zırh
+prop_sid_2007=c98 Gaz Türbini
+prop_sid_2008=Füzyon Çekirdeği
+prop_sid_2009=Yıldız Taşı
+prop_sid_2010=Süper Elmas Kutusu
+prop_sid_2011=Büyük Elmas Kutusu
+prop_sid_2012=Dev Elmas Kutusu
+prop_sid_2013=Küçük Elmas Kutusu
+prop_sid_2014=Silver VIP Card
+prop_sid_2015=Gold VIP Card
+prop_sid_2016=Diamond VIP Card
+prop_sid_2017=e
+prop_sid_2018=Express Hoisting
+prop_sid_2019=Rapid Hoisting
+prop_sid_2020=Auto-Constructing
+prop_sid_2021=Onur Madalyası
+prop_sid_2022=Liderlik Kitabı
+prop_sid_2023=Mini Uranyum Kutusu
+prop_sid_2024=Mini Demir Kutusu
+prop_sid_2025=Mini Petrol Kutusu
+prop_sid_2026=Mini Silikon Kutusu
+prop_sid_2027=Ejder Atı Paketi
+prop_sid_2028=Beyaz At Paketi
+prop_sid_403=Küçük Liderlik Paketi
+prop_sid_2030=Small Honor Medal Pack
+prop_sid_3001=Mini Kaynak Kutusu
+prop_sid_3002=Lüks Acemi Kutusu
+prop_sid_3003=İmparator Kutusu
+prop_sid_3004=Yıldrım Kutusu
+prop_sid_3005=Elit Kutu
+prop_sid_3006=Barış Bayrağı Kutusu
+prop_sid_3007=Elit Saldırı Kutusu
+prop_sid_3008=Şiddetli Savaş Kutusu
+prop_sid_4001=Üretim Arttırıcı Kutu
+prop_sid_4002=Uranyum Kaynak Kutusu
+prop_sid_4003=Altın Kaynak Kutusu
+prop_sid_4004=Büyük Altın Kutusu
+prop_sid_4005=Sürüm Güncelleme Paketi
+prop_sid_4006=Açılış Geciktirme Paketi
+prop_sid_4007=Birleştirme Paketi
+prop_sid_4008=e
+prop_sid_4009=Large Iron Chest
+prop_sid_4010=Large Oil Chest
+prop_sid_4011=Large Silicon Chest
+prop_sid_4012=Large Uranium Chest
+prop_sid_4013=Large Gold Chest
+prop_sid_4014=Özel Paket
+prop_sid_4015=Platin Paketi
+prop_sid_4016=Elmas Paketi
+prop_sid_4017=Event Reward Pack
+prop_sid_4018=Reward Pack
+prop_sid_4019=Compensation Pack
+prop_sid_4020=Return Gift Pack
+prop_sid_5001=兌換碼禮包
+prop_sid_5002=兌換碼禮包B
+prop_sid_5003=兌換碼禮包C
+prop_sid_5004=兌換碼禮包D
+prop_sid_6001=Silver anchor
+prop_sid_6002=Golden anchor
+prop_sid_7001=600 Gems Pack
+prop_sid_7002=1250 Gems Pack
+prop_sid_7003=6500 Gems Pack
+prop_sid_7004=13500 Gems Pack
+prop_sid_7011=五仁月饼
+prop_sid_7012=豆沙月饼
+prop_sid_7013=桂花月饼
+prop_sid_3010=Low Material Pack
+prop_sid_3011=Middle Material Pack
+prop_sid_3012=High Material Pack
+prop_sid_3013=Basic evolution chest
+prop_sid_3014=Green accessory chest
+prop_sid_3015=Blue accessory chest
+prop_sid_3016=Purple accessory chest
+prop_sid_3017=Orange accessory chest
+prop_sid_3018=Battleship weapon chest - excellent
+prop_sid_3019=Battleship accuracy chest - excellent
+prop_sid_3020=Battleship armour chest - excellent
+prop_sid_3021=Battleship dodge chest - excellent
+prop_sid_3022=Battleship weapon chest - epic
+prop_sid_3023=Battleship accuracy chest - epic
+prop_sid_3024=Battleship armour chest - epic
+prop_sid_3025=Battleship dodge chest - epic
+prop_sid_3026=Submarine weapon chest - excellent
+prop_sid_3027=Submarine accuracy chest - excellent
+prop_sid_3028=Submarine armor chest - excellent
+prop_sid_3029=Submarine dodge chest - excellent
+prop_sid_3030=Submarine weapon chest - epic
+prop_sid_3031=Submarine accuracy chest - epic
+prop_sid_3032=Submarine armor chest - epic
+prop_sid_3033=Submarine dodge chest - epic
+prop_sid_3034=Cruiser weapon chest - excellent
+prop_sid_3035=Cruiser accuracy chest - excellent
+prop_sid_3036=Cruiser armor chest - excellent
+prop_sid_3037=Cruiser dodge chest - excellent
+prop_sid_3038=Cruiser weapon chest - epic
+prop_sid_3039=Cruiser accuracy chest - epic
+prop_sid_3040=Cruiser armor chest - epic
+prop_sid_3041=Cruiser dodge chest - epic
+prop_sid_3042=Aircraft Carrier weapon chest - excellent
+prop_sid_3043=Aircraft Carrier accuracy chest - excellent
+prop_sid_3044=Aircraft Carrier armor chest - excellent
+prop_sid_3045=Aircraft Carrier dodge chest - excellent
+prop_sid_3046=Aircraft Carrier weapon chest - epic
+prop_sid_3047=Aircraft Carrier accuracy chest - epic
+prop_sid_3048=Aircraft Carrier armor chest - epic
+prop_sid_3049=Aircraft Carrier dodge chest - epic
+prop_sid_3050=Energy-gathered module I chest
+prop_sid_3051=Energy-gathered module Ⅱ chest
+prop_sid_3052=Energy-gathered module Ⅲ chest
+prop_sid_3053=Energy-gathered module Ⅳ chest
+prop_sid_3054=Energy-gathered module Ⅴ chest
+prop_sid_3055=Energy-gathered module I chest
+prop_sid_3056=Energy-gathered module Ⅱ chest
+prop_sid_3057=Energy-gathered module Ⅲ chest
+prop_sid_3058=Energy-gathered module Ⅳ chest
+prop_sid_3059=Energy-gathered module Ⅴ chest
+prop_sid_3060=Small Star Rock Pack
+prop_sid_3061=Battleship accessory chest - epic
+prop_sid_3062=Submarine accessory chest - epic
+prop_sid_3063=Cruiser accessory chest - epic
+prop_sid_3064=Aircraft carrier accessory chest - epic
+prop_sid_3065=Honor Medal &amp; Star Rock chest
+prop_sid_3066=Regression warships chest
+prop_sid_3067=Aircraft carrier basic accessory chest
+prop_sid_3068=Christmas stockings
+prop_sid_3069=Christmas Gift Pack
+prop_sid_8111=Battleship weapon chest - White
+prop_sid_8112=Battleship weapon chest - Green
+prop_sid_8113=Battleship weapon chest - Blue
+prop_sid_8114=Battleship weapon chest - Purple
+prop_sid_8115=Battleship weapon chest - Orange
+prop_sid_8121=Battleship accuracy chest - White
+prop_sid_8122=Battleship accuracy chest - Green
+prop_sid_8123=Battleship accuracy chest - Blue
+prop_sid_8124=Battleship accuracy chest - Purple
+prop_sid_8125=Battleship accuracy chest - Orange
+prop_sid_8131=Battleship armor chest - White
+prop_sid_8132=Battleship armor chest - Green
+prop_sid_8133=Battleship armor chest - Blue
+prop_sid_8134=Battleship armor chest - Purple
+prop_sid_8135=Battleship armor chest - Orange
+prop_sid_8141=Battleship dodge chest - White
+prop_sid_8142=Battleship dodge chest - Green
+prop_sid_8143=Battleship dodge chest - Blue
+prop_sid_8144=Battleship dodge chest - Purple
+prop_sid_8145=Battleship dodge chest - Orange
+prop_sid_8211=Submarine weapon chest - White
+prop_sid_8212=Submarine weapon chest - Green
+prop_sid_8213=Submarine weapon chest - Blue
+prop_sid_8214=Submarine weapon chest - Purple
+prop_sid_8215=Submarine weapon chest - Orange
+prop_sid_8221=Submarine accuracy chest - White
+prop_sid_8222=Submarine accuracy chest - Green
+prop_sid_8223=Submarine accuracy chest - Blue
+prop_sid_8224=Submarine accuracy chest - Purple
+prop_sid_8225=Submarine accuracy chest - Orange
+prop_sid_8231=Submarine armor chest - White
+prop_sid_8232=Submarine armor chest - Green
+prop_sid_8233=Submarine armor chest - Blue
+prop_sid_8234=Submarine armor chest - Purple
+prop_sid_8235=Submarine armor chest - Orange
+prop_sid_8241=Submarine dodge chest - White
+prop_sid_8242=Submarine dodge chest - Green
+prop_sid_8243=Submarine dodge chest - Blue
+prop_sid_8244=Submarine dodge chest - Purple
+prop_sid_8245=Submarine dodge chest - Orange
+prop_sid_8311=Cruiser weapon chest - White
+prop_sid_8312=Cruiser weapon chest - Green
+prop_sid_8313=Cruiser weapon chest - Blue
+prop_sid_8314=Cruiser weapon chest - Purple
+prop_sid_8315=Cruiser weapon chest - Orange
+prop_sid_8321=Cruiser accuracy chest - White
+prop_sid_8322=Cruiser accuracy chest - Green
+prop_sid_8323=Cruiser accuracy chest - Blue
+prop_sid_8324=Cruiser accuracy chest - Purple
+prop_sid_8325=Cruiser accuracy chest - Orange
+prop_sid_8331=Cruiser armor chest - White
+prop_sid_8332=Cruiser armor chest - Green
+prop_sid_8333=Cruiser armor chest - Blue
+prop_sid_8334=Cruiser armor chest - Purple
+prop_sid_8335=Cruiser armor chest - Orange
+prop_sid_8341=Cruiser dodge chest - White
+prop_sid_8342=Cruiser dodge chest - Green
+prop_sid_8343=Cruiser dodge chest - Blue
+prop_sid_8344=Cruiser dodge chest - Purple
+prop_sid_8345=Cruiser dodge chest - Orange
+prop_sid_8411=Aircraft Carrier weapon chest - White
+prop_sid_8412=Aircraft Carrier weapon chest - Green
+prop_sid_8413=Aircraft Carrier weapon chest - Blue
+prop_sid_8414=Aircraft Carrier weapon chest - Purple
+prop_sid_8415=Aircraft Carrier weapon chest - Orange
+prop_sid_8421=Aircraft Carrier accuracy chest - White
+prop_sid_8422=Aircraft Carrier accuracy chest - Green
+prop_sid_8423=Aircraft Carrier accuracy chest - Blue
+prop_sid_8424=Aircraft Carrier accuracy chest - Purple
+prop_sid_8425=Aircraft Carrier accuracy chest - Orange
+prop_sid_8431=Aircraft Carrier armor chest - White
+prop_sid_8432=Aircraft Carrier armor chest - Green
+prop_sid_8433=Aircraft Carrier armor chest - Blue
+prop_sid_8434=Aircraft Carrier armor chest - Purple
+prop_sid_8435=Aircraft Carrier armor chest - Orange
+prop_sid_8441=Aircraft Carrier dodge chest - White
+prop_sid_8442=Aircraft Carrier dodge chest - Green
+prop_sid_8443=Aircraft Carrier dodge chest - Blue
+prop_sid_8444=Aircraft Carrier dodge chest - Purple
+prop_sid_8445=Aircraft Carrier dodge chest - Orange
+prop_sid_900=Name Card
+prop_sid_901=Allied Name Card
+prop_sid_3070=Red Envelope
+prop_sid_3071=New Year's Envelope
+prop_sid_3072=New Year's Bonus
+prop_sid_3073=New Year's Chest
+prop_sid_902=sweeping scroll
+prop_sid_3074=privilege gift of queen
+prop_sid_3075=anniversary gift 1
+prop_sid_3076=anniversary gift 2
+prop_sid_3077=anniversary gift 3
+prop_sid_3078=2nd anniversary celebration gift
+prop_sid_3079=premiums voucher
+prop_sid_3080=premiums voucher
+prop_sid_3081=Large Honor Medals Pack
+prop_sid_3082=Low Advanced Chest
+prop_sid_3083=Middle Advanced Chest
+prop_sid_3084=High Advanced Chest
+prop_sid_3085=Kazanç Kutusu
+prop_sid_3086=Huge Iron Chest
+prop_sid_3087=Huge Oil Chest
+prop_sid_3088=Huge Silicon Chest
+prop_sid_3089=Huge Gold Chest
+prop_sid_3090=Huge Uranium  Chest
+prop_sid_3091=Novice pack
+prop_sid_3092=VIP novice pack
+prop_sid_3093=Alliance lucky card
+prop_sid_3094=Search certificate
+prop_sid_3095=Liberation Memorial currency
+prop_sid_3096=Primary Insignias chest
+prop_sid_3097=Advanced Insignias chest
+prop_sid_3098=Green Insignias chest
+prop_sid_3099=Blue Insignias chest
+prop_sid_3100=Purple Insignias chest
+prop_sid_3101=Advanced merit certificate
+prop_sid_3102=Intermediate merit certificate
+prop_sid_3103=Primary merit certificate
+prop_sid_3104=Veitch's score chest 
+prop_sid_3105=Gilson's Insignias chest
+prop_sid_3106=Meri's Insignias chest
+prop_sid_3107=Creed's Insignias chest
+prop_sid_3108=Gordon's Insignias chest
+prop_sid_3109=Maher's Insignias chest
+prop_sid_3110=Helen's Insignias chest
+prop_sid_3111=Niemi's Insignias chest
+prop_sid_3112=Karow's Insignias chest
+prop_sid_3113=Chester's Insignias chest
+prop_sid_3114=Yuliya's Insignias chest
+prop_sid_3115=Ramon's Insignias chest
+prop_sid_3116=Carl's Insignias chest
+prop_sid_3117=Denier's Insignias chest
+prop_sid_3118=Tatiana's Insignias chest
+prop_sid_3119=Dion's Insignias chest
+prop_sid_3120=Veitch's Insignias chest
+prop_sid_3121=Marohn's Insignias chest
+prop_sid_3122=Mujdza's Insignias chest
+prop_sid_3123=Bruce's Insignias chest
+prop_sid_3124=Kossoff's Insignias chest
+prop_sid_3125=General summoning Insignias chest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliya
+prop_sid_60011=Ramon 
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Gilson's Insignia
+prop_sid_61002=Meri's Insignia
+prop_sid_61003=Creed's Insignia
+prop_sid_61004=Gordon's Insignia
+prop_sid_61005=Maher's Insignia
+prop_sid_61006=Helen's Insignia
+prop_sid_61007=Niemi's Insignia
+prop_sid_61008=Karow's Insignia
+prop_sid_61009=Chester's Insignia
+prop_sid_61010=Yuliya's Insignia
+prop_sid_61011=Ramon's Insignia
+prop_sid_61012=Carl's Insignia
+prop_sid_61013=Denier's Insignia
+prop_sid_61014=Tatiana's Insignia
+prop_sid_61015=Dion's Insignia
+prop_sid_61016=Veitch's Insignia
+prop_sid_61017=Marohn's Insignia
+prop_sid_61018=Mujdza's Insignia
+prop_sid_61019=Bruce's Insignia
+prop_sid_61020=Kossoff's Insignia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=require lv.% commander to build alliance
+join_alliance_level_limit=require lv.% commander to join alliance
+alliance_donate_level_limit=require lv.% commander to donate resources
+alliance_ship_donate_level_limit=require lv.% commander to donate ships
+world_chat_level_limit=require lv.% commander to unlock world chat
+self_chat_level_limit=require lv.% commander to unlock private chat
+email_level_limit=require lv.% commander to send mails
+dest_self_chat_level_limit=peer isn't up to grade
+meal_time_send_energy=Commander, for the Energy event you joined you have been awarded % Energy points.  Have fun, \n!
+nian_has_been_last_kill=lv.% nian's island is conquered,congratulations to % on winning treasures!
+
+kill nian title=Trophy
+kill nian content=dear commander,\n    because of your heroic performance,nian's island was taken successfully and the sea of empire restore peace! Due to your outstanding achievements, empire fleet specially offer a % as bonus! hope you good luck in the coming year!\n    *bonus have sent to your inventory, please check it.
+kill nian rank_a=nian's alliance reward
+kill nian rank_a content=dear commander,\n    lv.% nian's island has been conquered,you and your allies fought bravely,as No.% on the ranking,you will get % from empire fleet,we hope the coming year brings you happiness and prosperity!\n    *bonus have sent to your inventory, please check it.
+kill nian rank_p=nian's player reward
+kill nian rank_p content=dear commander,\n    lv.% nian's island has been conquered,you fought bravely in the combat,as No.% on the ranking,you will get % from empire fleet,we hope the coming year brings you happiness and prosperity!\n    *bonus have sent to inventory, please check it.
+nian born=follow the steps of new year,void whirlpool fresh agitation! Nian(Lv.%) carries a lot of red envelopes and treasures out of the water at %,hunt them down and seize treasures!
+nian showxy=bulletin: spy G identifies the coords of nian's island,commander,sent ships to siege!
+nian away=bulletin: unfortunely we failed to stop the monster escape, treasures are lost in the ocean.
+dest_join_alliance_level_limit=require lv.% commander to join alliance
+activity not open=unopened
+friends_list=friend rename notice
+black_list=blacklist notice
+alliance_list=alliance rename notice
+player_role_list=commander rename notice
+alliance_mail=your ally % renames himself %
+friend_mail=your friend % renames himself %
+black_mail=your blacklist member % renames himself %
+alliance_modify_info=your alliance % renames as %
+
+modify_hostile=hostile alliance rename notice
+modify_hostile_content=hostile alliance % renames as %
+dismiss_hostile=hostile alliance notice
+dismiss_hostile_content=hostile alliance % dismissed
+account_reset_mail_command=reset account
+alliance has been dismiss=alliance does not exist
+arena_ranking_title=military exercise comes to a close today,current top 5 lists below:
+arena_ranking_1=No.1:
+arena_ranking_2=No.2:
+arena_ranking_3=No.3:
+arena_ranking_4=No.4:
+arena_ranking_5=No.5:
+account_reset_mail_tip=Unbinding account operation detected,if it's not operated by yourself, someone else might be invading your account, please reset password to secure your account.
+meal_time_energy_push=energy activity is open,come and claim awards!
+
+
+build_sid_1=Iron Mine
+build_sid_2=Oil Well
+build_sid_3=Silicon Mine
+build_sid_4=Uranium Mine
+build_sid_5=Mint
+build_sid_6=Dock
+build_sid_7=Command Center
+build_sid_8=Science Lab
+build_sid_9=Workshop
+build_sid_10=Storage
+build_sid_11=Bomber
+build_sid_12=Missile Vehicle
+build_sid_13=Coastal Artillery
+build_sid_14=Refitting Yard
+build_sid_15=Workshop
+LvUpActivity_autoSendReward_mail_title=The novice level up activity announcement
+LvUpActivity_autoSendReward_mail=Congratulations! \n went from % to % in the novice level up event. Meeting the requirement from % to level %.  \n will receive: 
+RankAwardActivity_autoSendReward_mail=Congratulations! \n went from % to %, in the % event, the top %. \n will receive: 
+fight_score_act=King of the New Server
+point_star_act=King of War
+honor_score_act=King of Honor
+muteTime_left=Banned for % minutes
+
+no this cplayer=This player doesn't exist
+get cannot=Non-rewarding time. Cannot get reward
+not open cross war=Empire tournament unopened
+jion end=Application deadline
+lv limit=Level limit
+ship must > 0=Deploying ships must be greater than 0
+set cannot=Non-deploying time. Cannot deploy fleet
+cannot connect cross_server=Cannot connect to cross-server center
+cannot handle the message=Cross-server can not handle the request
+jion had=Had joined
+no the rep=No battle report
+bet cannot=Non-betting time. Cannot bet
+had bet=Betted
+vip gems error=Bet amount and VIP level doesn't match
+gems limit=No enough gems
+cannot embattle=Unfortunately you cannot continue in the next Empire tournament due to a loss in the last round
+
+cross battle award=Empire tournament reward
+join in award=%, your rewards: % gems and % have been sent to your inventory
+anyone join in award=Dear commander, thanks for participating the Empire tournament. Your reward % have been sent to your inventory, please check.
+win bet award=Dear commander, congratulations for successfully predicting the champion of the Empire tournament; you will receive: % gems
+
+win cross battle champion=Congratulations! % server % won the championship of the Empire tournament! 
+promoted cross battle champion=Congratulation! % won the championship of the Empire tournament!
+promoted cross battle finals=Congratulation! % successfully advanced to the finals.
+promoted cross battle=Congratulation! % successfully advanced to the top %
+promoted cross final=Congratulation! % successfully advanced to the finals.
+alliance shield word=No
+mystical fleet=Mystical fleet
+
+alliance_fight_win=Congratulations! % alliance occupied the % island successfully!
+
+alliance_bet_message=Bet successfully
+alliance_bet_win_content=Congratulations! Your alliance successfully gets the chance of participating the battle for "%".%\nIf you want to get possession of the island, please apply as soon as possible.
+alliance_bet_win_content_thing=\nYour hostile alliance to fight for the island is "%."
+
+alliance_bet_lose=Failed to bet
+alliance_bet_lose_content=Unfortunately! The island "%" that your alliance bet on has been surpassed by "%" with "%"supplies. "%"supplies have been returned to your alliance. \n If you don't want to lose the island occupation, you can bet again to win back that island.
+new_alliance_fight_start=Next alliance war will open soon!
+
+send_alliance_science_point="%" daily reward
+send_alliance_science_content=Your alliance occupied "%", daily technology point "%" has been sent already， please head to the high technology to claim.
+send_alliance_report=%　VS　%
+alliance_fight_win_title="%"occupied successfully
+alliance_fight_win_content=Congratulations! You alliance occupied "%" successfully. You alliance won the "%" high technology. In the following 5 days, you will continue to gain the high technology.%
+alliance_fight_award=\n Thanks for your contribution to this battle,\n your ships have returned to the port. The damaged ships have been returned to the repair yard. Here are your reward: 
+allaince_fight_not_join=No players apply to participate,
+alliance_fight_lose_title=“%”failed to occupy
+alliance_fight_lose_content=Unfortunately! Your alliance "%" was defeated and failed to occupy the island. \n your alliance won % high technology % point in this alliance war. 
+alliance_fight_lose_sbstain=Send alliance war reward
+alliance_battle_abstain_content=Because no one from your alliance apply to join the "%" war. It has been viewed as waiver. \n\n your alliance only won % technology in this alliance war.
+alliance_fight_system_content=Congratulations! "% alliance" occupied "%" successfully in the alliance war! 
+alliance_fight_send_award=Sent personal reward
+allaince_reback_win_ships=Congratulations! You alliance occupied "%" successfully. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+allaince_reback_lose_ships=Unfortunately! Your alliance "%" was defeated in this battle. The following of your ships joined in the alliance war: %%%%%% the loss of your ships are as follows: %%%%%%
+
+alliance_battle_fight_report=Alliance war news
+alliance_battle_island_15101=Low output reef
+alliance_battle_island_15102=Medium output island
+alliance_battle_island_15103=Rich output peninsula
+alliance_battle_abstain=Quit
+alliance_lucky_points=% alliance % commander won a "alliance lucky item" in the alliance database", % alliance lucky value increased by 1 ponit.
+PayRelayActivity_autoSendReward_mail=dear commander,\nprize of day % forget to claim in top-up relay,now we send it to your inventory!\n%\nhave a good time!
+
+awardshippingactivity_message=Congratulations! % received % *% from the Golden Route!
+luckyexploredactivity_message=Congratulations! % received % *% from Lucky Explore!
+robfestivalactivity_message=Congratulations! % received % *% from Special Purchase Event!
+
+
+
+
+
+
+

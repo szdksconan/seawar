@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+ <field class="foxu.sea.Service" name="factory" id="serviceFactory" />
+    <method ref="serviceFactory" name="init">
+        <ref id="context" /> 
+    </method>
+	<sample class="foxu.sea.Service" sid="1" value="50" serviceType="201" serviceTime="14400" /><!-- 铁矿增产 -->
+	<sample class="foxu.sea.Service" sid="2" value="50" serviceType="202" serviceTime="14400" /><!-- 石油增产 -->
+	<sample class="foxu.sea.Service" sid="3" value="50" serviceType="203" serviceTime="14400" /><!-- 硅矿增产 -->
+	<sample class="foxu.sea.Service" sid="4" value="50" serviceType="204" serviceTime="14400" /><!-- 铀矿增产 -->
+	<sample class="foxu.sea.Service" sid="5" value="50" serviceType="205" serviceTime="14400" /><!-- 金币增产 -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="6" value="301" serviceType="206" serviceTime="28800" /><!-- 离子盾伤害减少 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="7" value="300" serviceType="207" serviceTime="28800" /><!-- 搞爆炸药伤害增加 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="200" value="302" serviceType="215" serviceTime="28800" /><!-- BUFF道具 增加命中 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="201" value="303" serviceType="216" serviceTime="28800" /><!-- BUFF道具 增加闪避 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="202" value="304" serviceType="217" serviceTime="28800" /><!-- BUFF道具 增加暴击 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.service.ServiceAbility" sid="203" value="305" serviceType="218" serviceTime="28800" /><!-- BUFF道具 增加坚韧 -->	<!-- value是服务对应技能的sid -->
+	<sample class="foxu.sea.Service" sid="8" value="100" serviceType="208" serviceTime="14400" /><!-- 行军加速 -->
+	<sample class="foxu.sea.Service" sid="9" serviceType="209" serviceTime="43200" />			<!-- 免战 -->
+	<sample class="foxu.sea.Service" sid="10" serviceType="210" value="50" serviceTime="14400" /><!-- 战斗得金 -->
+	<sample class="foxu.sea.Service" sid="11" serviceType="211" value="50" serviceTime="14400" /><!-- 载重增加 -->
+	<sample class="foxu.sea.Service" sid="12" serviceType="212" value="50" serviceTime="14400" /><!-- 建造加速 -->
+	<sample class="foxu.sea.Service" sid="13" serviceType="213" value="50" serviceTime="14400" /><!-- 仓库容量增加 -->
+	<sample class="foxu.sea.Service" sid="501" serviceType="224" serviceTime="28800" />         <!-- 自动建设 -->
+
+    <sample class="foxu.sea.ForeverService" sid="301" value="20" serviceType="219" />			<!-- 据点铁矿增产 -->
+	<sample class="foxu.sea.ForeverService" sid="302" value="20" serviceType="220" />			<!-- 据点硅矿增产 -->
+	<sample class="foxu.sea.ForeverService" sid="303" value="20" serviceType="221" />			<!-- 据点石油增产 -->
+	<sample class="foxu.sea.ForeverService" sid="304" value="20" serviceType="222" />			<!-- 据点铀矿增产 -->
+	<sample class="foxu.sea.ForeverService" sid="305" value="20" serviceType="223" />			<!-- 据点金币增产 -->
+	
+	<sample class="foxu.sea.Service" sid="14" value="50" serviceType="201" serviceTime="3600" /><!-- 1级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="15" value="50" serviceType="203" serviceTime="3600" /><!-- 1级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="16" value="50" serviceType="202" serviceTime="3600" /><!-- 1级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="17" value="50" serviceType="204" serviceTime="3600" /><!-- 1级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="18" value="50" serviceType="205" serviceTime="3600" /><!-- 1级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="19" value="50" serviceType="201" serviceTime="3600" /><!-- 2级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="20" value="50" serviceType="203" serviceTime="3600" /><!-- 2级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="21" value="50" serviceType="202" serviceTime="3600" /><!-- 2级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="22" value="50" serviceType="204" serviceTime="3600" /><!-- 2级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="23" value="50" serviceType="205" serviceTime="3600" /><!-- 2级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="24" value="50" serviceType="201" serviceTime="7200" /><!-- 3级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="25" value="50" serviceType="203" serviceTime="7200" /><!-- 3级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="26" value="50" serviceType="202" serviceTime="7200" /><!-- 3级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="27" value="50" serviceType="204" serviceTime="7200" /><!-- 3级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="28" value="50" serviceType="205" serviceTime="7200" /><!-- 3级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="29" value="50" serviceType="201" serviceTime="7200" /><!-- 4级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="30" value="50" serviceType="203" serviceTime="7200" /><!-- 4级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="31" value="50" serviceType="202" serviceTime="7200" /><!-- 4级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="32" value="50" serviceType="204" serviceTime="7200" /><!-- 4级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="33" value="50" serviceType="205" serviceTime="7200" /><!-- 4级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="34" value="50" serviceType="201" serviceTime="10800" /><!-- 5级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="35" value="50" serviceType="203" serviceTime="10800" /><!-- 5级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="36" value="50" serviceType="202" serviceTime="10800" /><!-- 5级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="37" value="50" serviceType="204" serviceTime="10800" /><!-- 5级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="38" value="50" serviceType="205" serviceTime="10800" /><!-- 5级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="39" value="50" serviceType="201" serviceTime="10800" /><!-- 6级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="40" value="50" serviceType="203" serviceTime="10800" /><!-- 6级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="41" value="50" serviceType="202" serviceTime="10800" /><!-- 6级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="42" value="50" serviceType="204" serviceTime="10800" /><!-- 6级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="43" value="50" serviceType="205" serviceTime="10800" /><!-- 6级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="44" value="50" serviceType="201" serviceTime="14400" /><!-- 7级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="45" value="50" serviceType="203" serviceTime="14400" /><!-- 7级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="46" value="50" serviceType="202" serviceTime="14400" /><!-- 7级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="47" value="50" serviceType="204" serviceTime="14400" /><!-- 7级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="48" value="50" serviceType="205" serviceTime="14400" /><!-- 7级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="49" value="50" serviceType="201" serviceTime="14400" /><!-- 8级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="50" value="50" serviceType="203" serviceTime="14400" /><!-- 8级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="51" value="50" serviceType="202" serviceTime="14400" /><!-- 8级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="52" value="50" serviceType="204" serviceTime="14400" /><!-- 8级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="53" value="50" serviceType="205" serviceTime="14400" /><!-- 8级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="54" value="50" serviceType="201" serviceTime="18000" /><!-- 9级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="55" value="50" serviceType="203" serviceTime="18000" /><!-- 9级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="56" value="50" serviceType="202" serviceTime="18000" /><!-- 9级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="57" value="50" serviceType="204" serviceTime="18000" /><!-- 9级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="58" value="50" serviceType="205" serviceTime="18000" /><!-- 9级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="59" value="50" serviceType="201" serviceTime="18000" /><!-- 10级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="60" value="50" serviceType="203" serviceTime="18000" /><!-- 10级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="61" value="50" serviceType="202" serviceTime="18000" /><!-- 10级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="62" value="50" serviceType="204" serviceTime="18000" /><!-- 10级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="63" value="50" serviceType="205" serviceTime="18000" /><!-- 10级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="64" value="50" serviceType="201" serviceTime="21600" /><!-- 11级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="65" value="50" serviceType="203" serviceTime="21600" /><!-- 11级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="66" value="50" serviceType="202" serviceTime="21600" /><!-- 11级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="67" value="50" serviceType="204" serviceTime="21600" /><!-- 11级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="68" value="50" serviceType="205" serviceTime="21600" /><!-- 11级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="69" value="50" serviceType="201" serviceTime="21600" /><!-- 12级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="70" value="50" serviceType="203" serviceTime="21600" /><!-- 12级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="71" value="50" serviceType="202" serviceTime="21600" /><!-- 12级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="72" value="50" serviceType="204" serviceTime="21600" /><!-- 12级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="73" value="50" serviceType="205" serviceTime="21600" /><!-- 12级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="74" value="50" serviceType="201" serviceTime="25200" /><!-- 13级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="75" value="50" serviceType="203" serviceTime="25200" /><!-- 13级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="76" value="50" serviceType="202" serviceTime="25200" /><!-- 13级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="77" value="50" serviceType="204" serviceTime="25200" /><!-- 13级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="78" value="50" serviceType="205" serviceTime="25200" /><!-- 13级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="79" value="50" serviceType="201" serviceTime="25200" /><!-- 14级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="80" value="50" serviceType="203" serviceTime="25200" /><!-- 14级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="81" value="50" serviceType="202" serviceTime="25200" /><!-- 14级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="82" value="50" serviceType="204" serviceTime="25200" /><!-- 14级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="83" value="50" serviceType="205" serviceTime="25200" /><!-- 14级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="84" value="50" serviceType="201" serviceTime="28800" /><!-- 15级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="85" value="50" serviceType="203" serviceTime="28800" /><!-- 15级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="86" value="50" serviceType="202" serviceTime="28800" /><!-- 15级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="87" value="50" serviceType="204" serviceTime="28800" /><!-- 15级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="88" value="50" serviceType="205" serviceTime="28800" /><!-- 15级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="89" value="50" serviceType="201" serviceTime="28800" /><!-- 16级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="90" value="50" serviceType="203" serviceTime="28800" /><!-- 16级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="91" value="50" serviceType="202" serviceTime="28800" /><!-- 16级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="92" value="50" serviceType="204" serviceTime="28800" /><!-- 16级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="93" value="50" serviceType="205" serviceTime="28800" /><!-- 16级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="94" value="50" serviceType="201" serviceTime="32400" /><!-- 17级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="95" value="50" serviceType="203" serviceTime="32400" /><!-- 17级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="96" value="50" serviceType="202" serviceTime="32400" /><!-- 17级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="97" value="50" serviceType="204" serviceTime="32400" /><!-- 17级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="98" value="50" serviceType="205" serviceTime="32400" /><!-- 17级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="99" value="50" serviceType="201" serviceTime="36000" /><!-- 18级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="100" value="50" serviceType="203" serviceTime="36000" /><!-- 18级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="101" value="50" serviceType="202" serviceTime="36000" /><!-- 18级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="102" value="50" serviceType="204" serviceTime="36000" /><!-- 18级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="103" value="50" serviceType="205" serviceTime="36000" /><!-- 18级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="104" value="50" serviceType="201" serviceTime="39600" /><!-- 19级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="105" value="50" serviceType="203" serviceTime="39600" /><!-- 19级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="106" value="50" serviceType="202" serviceTime="39600" /><!-- 19级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="107" value="50" serviceType="204" serviceTime="39600" /><!-- 19级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="108" value="50" serviceType="205" serviceTime="39600" /><!-- 19级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="109" value="50" serviceType="201" serviceTime="43200" /><!-- 20级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="110" value="50" serviceType="203" serviceTime="43200" /><!-- 20级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="111" value="50" serviceType="202" serviceTime="43200" /><!-- 20级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="112" value="50" serviceType="204" serviceTime="43200" /><!-- 20级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="113" value="50" serviceType="205" serviceTime="43200" /><!-- 20级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="114" value="50" serviceType="201" serviceTime="46800" /><!-- 21级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="115" value="50" serviceType="203" serviceTime="46800" /><!-- 21级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="116" value="50" serviceType="202" serviceTime="46800" /><!-- 21级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="117" value="50" serviceType="204" serviceTime="46800" /><!-- 21级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="118" value="50" serviceType="205" serviceTime="46800" /><!-- 21级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="119" value="50" serviceType="201" serviceTime="50400" /><!-- 22级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="120" value="50" serviceType="203" serviceTime="50400" /><!-- 22级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="121" value="50" serviceType="202" serviceTime="50400" /><!-- 22级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="122" value="50" serviceType="204" serviceTime="50400" /><!-- 22级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="123" value="50" serviceType="205" serviceTime="50400" /><!-- 22级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="124" value="50" serviceType="201" serviceTime="54000" /><!-- 23级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="125" value="50" serviceType="203" serviceTime="54000" /><!-- 23级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="126" value="50" serviceType="202" serviceTime="54000" /><!-- 23级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="127" value="50" serviceType="204" serviceTime="54000" /><!-- 23级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="128" value="50" serviceType="205" serviceTime="54000" /><!-- 23级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="129" value="50" serviceType="201" serviceTime="57600" /><!-- 24级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="130" value="50" serviceType="203" serviceTime="57600" /><!-- 24级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="131" value="50" serviceType="202" serviceTime="57600" /><!-- 24级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="132" value="50" serviceType="204" serviceTime="57600" /><!-- 24级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="133" value="50" serviceType="205" serviceTime="57600" /><!-- 24级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="134" value="50" serviceType="201" serviceTime="61200" /><!-- 25级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="135" value="50" serviceType="203" serviceTime="61200" /><!-- 25级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="136" value="50" serviceType="202" serviceTime="61200" /><!-- 25级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="137" value="50" serviceType="204" serviceTime="61200" /><!-- 25级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="138" value="50" serviceType="205" serviceTime="61200" /><!-- 25级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="139" value="50" serviceType="201" serviceTime="64800" /><!-- 26级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="140" value="50" serviceType="203" serviceTime="64800" /><!-- 26级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="141" value="50" serviceType="202" serviceTime="64800" /><!-- 26级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="142" value="50" serviceType="204" serviceTime="64800" /><!-- 26级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="143" value="50" serviceType="205" serviceTime="64800" /><!-- 26级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="144" value="50" serviceType="201" serviceTime="68400" /><!-- 27级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="145" value="50" serviceType="203" serviceTime="68400" /><!-- 27级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="146" value="50" serviceType="202" serviceTime="68400" /><!-- 27级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="147" value="50" serviceType="204" serviceTime="68400" /><!-- 27级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="148" value="50" serviceType="205" serviceTime="68400" /><!-- 27级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="149" value="50" serviceType="201" serviceTime="72000" /><!-- 28级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="150" value="50" serviceType="203" serviceTime="72000" /><!-- 28级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="151" value="50" serviceType="202" serviceTime="72000" /><!-- 28级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="152" value="50" serviceType="204" serviceTime="72000" /><!-- 28级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="153" value="50" serviceType="205" serviceTime="72000" /><!-- 28级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="154" value="50" serviceType="201" serviceTime="75600" /><!-- 29级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="155" value="50" serviceType="203" serviceTime="75600" /><!-- 29级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="156" value="50" serviceType="202" serviceTime="75600" /><!-- 29级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="157" value="50" serviceType="204" serviceTime="75600" /><!-- 29级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="158" value="50" serviceType="205" serviceTime="75600" /><!-- 29级世界BOSS金币增产 -->	
+		
+	<sample class="foxu.sea.Service" sid="159" value="50" serviceType="201" serviceTime="79200" /><!-- 30级世界BOSS铁矿增产 -->	
+	<sample class="foxu.sea.Service" sid="160" value="50" serviceType="203" serviceTime="79200" /><!-- 30级世界BOSS硅矿增产 -->	
+	<sample class="foxu.sea.Service" sid="161" value="50" serviceType="202" serviceTime="79200" /><!-- 30级世界BOSS石油增产 -->	
+	<sample class="foxu.sea.Service" sid="162" value="50" serviceType="204" serviceTime="79200" /><!-- 30级世界BOSS铀矿增产 -->	
+	<sample class="foxu.sea.Service" sid="163" value="50" serviceType="205" serviceTime="79200" /><!-- 30级世界BOSS金币增产 -->	
+
+	<sample class="foxu.sea.BuffService" sid="701" value="-10" serviceType="201" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少10% -->	
+	<sample class="foxu.sea.BuffService" sid="702" value="-20" serviceType="203" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少20% -->	
+	<sample class="foxu.sea.BuffService" sid="703" value="-30" serviceType="202" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少30% -->	
+	<sample class="foxu.sea.BuffService" sid="704" value="-40" serviceType="204" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少40% -->	
+	<sample class="foxu.sea.BuffService" sid="705" value="-50" serviceType="205" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少50% -->	
+	<sample class="foxu.sea.BuffService" sid="706" value="-60" serviceType="201" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少60% -->	
+	<sample class="foxu.sea.BuffService" sid="707" value="-70" serviceType="203" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少70% -->	
+	<sample class="foxu.sea.BuffService" sid="708" value="-80" serviceType="202" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少80% -->	
+	<sample class="foxu.sea.BuffService" sid="709" value="-90" serviceType="204" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少90% -->	
+	<sample class="foxu.sea.BuffService" sid="710" value="-100" serviceType="205" >
+		<field name="fullAttribute" declared="1">
+            <ints>100,102,103,105,106,107</ints>
+        </field>
+    </sample><!-- 减少100% -->	
+
+</objects>

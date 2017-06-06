@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="app/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="app/js.jar"/>
+	<classpathentry kind="lib" path="app/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="app/mina-core-2.0.4.jar"/>
+	<classpathentry kind="lib" path="app/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="app/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="app/jedis-2.1.0.jar"/>
+	<classpathentry kind="lib" path="app/mysql-5.1.6.jar"/>
+	<classpathentry kind="lib" path="app/bcprov-jdk16-145-1.jar"/>
+	<classpathentry kind="lib" path="app/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="app/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="app/javapns-jdk16-163.jar"/>
+	<classpathentry kind="lib" path="app/javax.mail.jar"/>
+	<classpathentry kind="lib" path="app/mustang.zip"/>
+	<classpathentry kind="lib" path="app/shelby.zip"/>
+	<classpathentry kind="output" path="app"/>
+</classpath>

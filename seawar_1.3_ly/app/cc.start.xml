@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+<obj class="foxu.sea.uid.UiDSelect" id="uiDSelect"/>
+
+
+<!--翻译器初始化-->
+<obj class="foxu.sea.InitTrans"/>
+<!-- 定义唯一编号的文件（账号类使用）16777215 -->
+<obj class="mustang.util.UidFile" id="userUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/user_uidfile.dat</String>
+		<String>../mount/save/user_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（玩家类使用）16777215 -->
+<obj class="mustang.util.UidFile" id="playerUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/player_uidfile.dat</String>
+		<String>../mount/save/player_uidfile.dat</String>
+	</method>
+</obj>
+<!-- 定义唯一编号的文件（邮件类使用） -->
+<obj class="mustang.util.UidFile" id="messageUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/message_uidfile.dat</String>
+		<String>../mount/save/message_uidfile.dat</String>
+	</method>
+</obj>
+<!-- 定义唯一编号的文件（订单类使用） -->
+<obj class="mustang.util.UidFile" id="orderUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/order_uidfile.dat</String>
+		<String>../mount/save/order_uidfile.dat</String>
+	</method>
+</obj>
+<!-- 定义唯一编号的文件（战斗事件类使用） -->
+<obj class="mustang.util.UidFile" id="fightEventUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/fightEvent_uidfile.dat</String>
+		<String>../mount/save/fightEvent_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（运营数据类使用） -->
+<obj class="mustang.util.UidFile" id="gameDataUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/gameData_uidfile.dat</String>
+		<String>../mount/save/gameData_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（宝石消费使用） -->
+<obj class="mustang.util.UidFile" id="gemsTrackUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/gemsTrack_uidfile.dat</String>
+		<String>../mount/save/gemsTrack_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（联盟使用） -->
+<obj class="mustang.util.UidFile" id="allianceUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/alliance_uidfile.dat</String>
+		<String>../mount/save/alliance_uidfile.dat</String>
+	</method>
+</obj>
+
+
+<!-- 定义唯一编号的文件（船只日志使用） -->
+<obj class="mustang.util.UidFile" id="shipDataUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/shipData_uidfile.dat</String>
+		<String>../mount/save/shipData_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（盟战事） -->
+<obj class="mustang.util.UidFile" id="afightUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/afight_uidfile.dat</String>
+		<String>../mount/save/afight_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（装备日志） -->
+<obj class="mustang.util.UidFile" id="equipLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/equiplog_uidfile.dat</String>
+		<String>../mount/save/equiplog_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（个人积分） -->
+<obj class="mustang.util.UidFile" id="integrateLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/integratelog_uidfile.dat</String>
+		<String>../mount/save/integratelog_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（个人积分） -->
+<obj class="mustang.util.UidFile" id="coinsLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/coinslog_uidfile.dat</String>
+		<String>../mount/save/conislog_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（联盟争霸） -->
+<obj class="mustang.util.UidFile" id="allianceFightRecordLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/allianceFightRecordlog_uidfile.dat</String>
+		<String>../mount/save/allianceFightRecordlog_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（联盟科技点） -->
+<obj class="mustang.util.UidFile" id="sciencePointLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/sciencepointlog_uidfile.dat</String>
+		<String>../mount/save/sciencepointlog_uidfile.dat</String>
+	</method>
+</obj>
+
+
+<!-- 定义唯一编号的文件（产品日志） -->
+<obj class="mustang.util.UidFile" id="productLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/productlog_uidfile.dat</String>
+		<String>../mount/save/productlog_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（物品日志） -->
+<obj class="mustang.util.UidFile" id="propLogUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/proplog_uidfile.dat</String>
+		<String>../mount/save/proplog_uidfile.dat</String>
+	</method>
+</obj>
+
+
+<!-- 定义唯一编号的文件（跨服活动使用） -->
+<obj class="mustang.util.UidFile" id="crossActUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/crossAct_uidfile.dat</String>
+		<String>../mount/save/crossAct_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（跨服战报使用） -->
+<obj class="mustang.util.UidFile" id="reportUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/report_uidfile.dat</String>
+		<String>../mount/save/report_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（跨服玩家使用） -->
+<obj class="mustang.util.UidFile" id="crossPlayerUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/crossPlayer_uidfile.dat</String>
+		<String>../mount/save/crossPlayer_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（军官对象使用） -->
+<obj class="mustang.util.UidFile" id="officerUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/officer_uidfile.dat</String>
+		<String>../mount/save/officer_uidfile.dat</String>
+	</method>
+</obj>
+
+<!-- 定义唯一编号的文件（跨服积分管理器使用） -->
+<obj class="mustang.util.UidFile" id="crossLeagueUidFile">
+	<!-- 设置正数唯一编号的区间，最大不能超过2147483647 24位 前8位存服务器ID -->
+	<method name="setPlusUid">
+		<method name="selectUid" ref="uiDSelect">
+			<value>1</value>
+			<ref id="sea_ServerId"/>
+		</method>
+	    <value>2147483647</value>
+	</method>
+	<method name="initFile">
+		<String>../save/cross_league_uidfile.dat</String>
+		<String>../mount/save/cross_league_uidfile.dat</String>
+	</method>
+</obj>
+<!-- 角色加载器 -->
+<obj class="foxu.dcaccess.PlayerGameDBAccess" id="playerGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">players</method>
+		</obj>
+    </method>
+</obj>
+
+<!--npc岛屿加载器 -->
+<obj class="foxu.dcaccess.NpcIslandGameDBAccess" id="islandGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">npc_islands</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 战斗事件加载器 -->
+<obj class="foxu.dcaccess.FightEventGameDBAccess" id="fightEventGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">fight_events</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 邮件加载器 -->
+<obj class="foxu.dcaccess.MessageGameDBAccess" id="messageGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">messages</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 公告加载器 -->
+<obj class="foxu.dcaccess.AnnouncementDBAccess" id="announceGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">announce</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 充值订单加载器加载器 -->
+<obj class="foxu.dcaccess.OrderGameDBAccess" id="orderGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">orders</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- user账号加载器 -->
+<obj class="foxu.dcaccess.UserGameDBAccess" id="userGameDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">users</method>
+		</obj>
+    </method>
+    
+    <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="userUidFile"/></method>
+    	</obj>
+    </method>
+</obj>
+
+<!--玩家建议加载器-->
+<obj class="foxu.dcaccess.PlayerAdviceDBAccess" id="playerAdviceDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">player_advice</method>
+		</obj>
+    </method>
+</obj>
+
+<!--调查问卷玩家记录加载器-->
+<obj class="foxu.dcaccess.QuestionnaireDBAccess" id="questionnaireDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">questionnaire</method>
+		</obj>
+    </method>
+</obj>
+
+<!--运营数据加载器-->
+<obj class="foxu.dcaccess.GameDataDBAccess" id="gameDataDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">game_data</method>
+		</obj>
+	</method>
+</obj>
+
+<!--运营数据基于设备id 加载器-->
+<obj class="foxu.dcaccess.GameDataDBAccess" id="gDataByDidDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">gdid_data</method>
+		</obj>
+	</method>
+</obj>
+
+<!--宝石消费追踪数据加载器-->
+<obj class="foxu.dcaccess.GemsTrackDBAccess" id="gemsTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">gem_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 联盟数据加载器加载器 -->
+<obj class="foxu.dcaccess.AllianceDBAccess" id="allianceDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">alliances</method>
+		</obj>
+    </method>
+</obj>
+
+<!--船只日志加载器-->
+<obj class="foxu.dcaccess.ShipDataDBAccess" id="shipDataDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">ship_datas</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 竞技场数据加载器 -->
+<obj class="foxu.dcaccess.ArenaDBAccess" id="arenaDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">arena</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 世界boss数据加载器 -->
+<obj class="foxu.dcaccess.WorldBossDBAccess" id="worldBossDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">world_boss</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 活动数据加载器 -->
+<obj class="foxu.dcaccess.ActivityDBAccess" id="activityDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">activity</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 盟战数据加载器 -->
+<obj class="foxu.dcaccess.AllianceFightDBAccess" id="allianceFightDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">alliancefight</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 盟战事数据加载器 -->
+<obj class="foxu.dcaccess.AFightEventDBAccess" id="aFightEventDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">afightevent</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 据点数据加载器 -->
+<obj class="foxu.dcaccess.BattleGroundDBAccess" id="battleGroundDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">battleground</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 联盟岛屿数据加载器 -->
+<obj class="foxu.dcaccess.BattleIslandDBAccess" id="battleIslandDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">battleisland</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 密码重置数据加载器 -->
+<obj class="foxu.dcaccess.PasswordDBAccess" id="passwordDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">pwdrecord</method>
+		</obj>
+    </method>
+    <method name="init"/>
+</obj>
+
+<!-- 活动日志加载器 -->
+<obj class="shelby.dc.GameDBAccess" id="activityLogDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">activitylog</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 登陆日志加载器 -->
+<obj class="shelby.dc.GameDBAccess" id="loginLogDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">loginlog</method>
+		</obj>
+    </method>
+</obj>
+
+<!-- 封停设备加载器 -->
+<obj class="shelby.dc.GameDBAccess" id="forbidDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">forbid</method>
+		</obj>
+    </method>
+</obj>
+
+<!--装备追踪数据加载器-->
+<obj class="foxu.dcaccess.EquipTrackDBAccess" id="equipTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">equip_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--个人积分追踪数据加载器-->
+<obj class="foxu.dcaccess.IntegrationTrackDBAccess" id="integrationTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">integration_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--个人军魂追踪数据加载器-->
+<obj class="foxu.dcaccess.CoinsTrackDBAccess" id="coinsTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">coins_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+
+<!--联盟科技点追踪数据加载器-->
+<obj class="foxu.dcaccess.SciencePointTrackDBAccess" id="sciencePointTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">sciencepoint_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--产品日志数据加载器-->
+<obj class="foxu.dcaccess.ProducePropTrackDBAccess" id="produceTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">produceprop_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--物品日志数据加载器-->
+<obj class="foxu.dcaccess.PropTrackDBAccess" id="propTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">prop_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--军官日志数据加载器-->
+<obj class="foxu.dcaccess.OfficerTrackDBAccess" id="officerTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">officer_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!--服务器上下文变量加载器-->
+<obj class="foxu.dcaccess.ContextVarDBAccess" id="varDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">context_var</method>
+		</obj>
+	</method>
+</obj>
+
+<!--联盟战数据加载器-->
+<obj class="foxu.dcaccess.AllianceFightRecordDBAccess" id="allianceFightRecordDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">a_fight_record_track</method>
+		</obj>
+	</method>
+</obj>
+
+<!--跨服活动加载器-->
+<obj class="foxu.cross.server.CrossActDBAccess" id="crossActDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">crossact</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服玩家加载器(server) -->
+<obj class="foxu.cross.war.CrossWarPlayerDBAccess" id="crossWarPlayerDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">crosswar_player</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服战战报加载器  -->
+<obj class="foxu.cross.war.CrossWarSaveDBAccess" id="crossWarSaveDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">croundsave</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服战战报加载器(client)  -->
+<obj class="foxu.cross.war.CrossWarSaveDBAccess" id="crossWarSaveDBAccessClient">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">croundsave_client</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服玩家加载器(client)  -->
+<obj class="foxu.cross.warclient.ClientWarPlayerDBAccess" id="clientWarPlayerDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">clientwar_player</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 绑定日志  -->
+<obj class="foxu.dcaccess.BindingTrackDBAccess" id="bindingTrackDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="logConnectionManager"/></method>
+			<method name="setTable">binding_tracks</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服积分赛加载器(server) -->
+<obj class="foxu.cross.goalleague.persistent.CrossCopyPlayerDBAccess" id="copyLeaguePlayerDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">league_temp_player</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 跨服积分赛加载器(client) -->
+<obj class="foxu.cross.goalleague.persistent.CrossLeaguePlayerDBAccess" id="crossLeaguePlayerDBAccess">
+    <method name="setGamePersistence">
+		<obj class="mustang.orm.SqlPersistence">
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable">cross_league_player</method>
+		</obj>
+	</method>
+</obj>
+
+<!-- 成就管理器 -->
+<obj class="foxu.sea.achieve.AchieveManager" id="achieveManager">
+  <method name="init" />
+</obj>
+<!-- 数据加载器-->
+<obj class="shelby.dc.GameDataHandleImp" id="gameDataHandleImp"/>
+<!-- jedis加载器-->
+<obj class="jedis.SeawarJedis" id="seawarJedis">
+    <method name="init"><string>localhost</string><value>6379</value><value>1</value></method>
+</obj>
+<obj class="jedis.JedisMemCacheAccess" id="jedisMemCacheAccess">
+   <method name="setJedis"><ref id="seawarJedis"/></method>
+</obj>
+
+<!--玩家内存管理器-->
+<obj class="foxu.dcaccess.mem.PlayerMemCache" id="playerMemCache">
+   <method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="playerGameDBAccess"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="playerUidFile"/></method>
+     </obj>
+   </method>
+</obj>
+
+<!--战斗事件内存管理器-->
+<obj class="foxu.dcaccess.mem.FightEventMemCache" id="fightEventMemCache">
+   <method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="fightEventGameDBAccess"/></method>
+   <method name="setPlayerMemCache"><ref id="playerMemCache"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="fightEventUidFile"/></method>
+     </obj>
+   </method>
+</obj>
+
+<!--邮件内存管理器-->
+<obj class="foxu.dcaccess.mem.MessageMemCache" id="messageMemCache">
+   <method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="messageGameDBAccess"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="messageUidFile"/></method>
+     </obj>
+   </method>
+</obj>
+
+<!--订单内存管理器-->
+<obj class="foxu.dcaccess.mem.OrderMemCache" id="orderMemCache">
+   <method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="orderGameDBAccess"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="orderUidFile"/></method>
+     </obj>
+   </method>
+</obj>
+
+<!--npc岛屿管理器-->
+<obj class="foxu.dcaccess.mem.NpcIsLandMemCache" id="npcIsLandMemCache">
+   <method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="islandGameDBAccess"/></method>
+   <field name="islandContainer" declared="1"><ref id="islandContainer"/></field>
+</obj>
+
+<!--运营数据管理器-->
+<obj class="foxu.dcaccess.mem.GameDataMemCache" id="gameDataMemCache">
+   <method name="setDbaccess"><ref id="gameDataDBAccess"/></method>
+   	
+	<method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit" id="gdata_uid">
+        	<method name="setUidFile"><ref id="gameDataUidFile"/></method>
+    	</obj>
+    </method>
+</obj>
+
+<!--运营数据基于设备id 管理器-->
+<obj class="foxu.dcaccess.mem.GDataByDidMemCache" id="gDataByDidMemCache">
+   	<method name="setDbaccess"><ref id="gDataByDidDBAccess"/></method>
+	<method name="setUidkit"><ref id="gdata_uid"/></method>
+</obj>
+
+<!--游戏宝石消费日志追踪管理器-->
+<obj class="foxu.dcaccess.mem.GemsTrackMemCache" id="gemsTrackMemCache">
+   <method name="setDbaccess"><ref id="gemsTrackDBAccess"/></method>
+	<method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="gemsTrackUidFile"/></method>
+    	</obj>
+    </method>
+</obj>
+
+
+<!--联盟追踪管理器-->
+<obj class="foxu.dcaccess.mem.AllianceMemCache" id="allianceMemCache">
+<method name="setJedisCache"><ref id="jedisMemCacheAccess"/></method>
+   <method name="setDbaccess"><ref id="allianceDBAccess"/></method>
+	<method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="allianceUidFile"/></method>
+    	</obj>
+    </method>
+</obj>
+
+<!--船只内存追踪器-->
+<obj class="foxu.dcaccess.mem.ShipDataMemCaChe" id="shipDataMemCaChe">
+   <method name="setDbaccess"><ref id="shipDataDBAccess"/></method>
+	<method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="shipDataUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">ship</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`playerId` int(11) NOT NULL,`createAt` int(11) DEFAULT NULL,`attackPlayerName` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,`extra` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,`leftList` blob,`eventList` blob,`hurtList` blob,`list` blob,PRIMARY KEY (`id`),KEY `playerId` (`playerId`),KEY `createAt` (`createAt`) USING BTREE) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!-- 竞技场数据加载器 -->
+<obj class="foxu.dcaccess.mem.ArenaMemCache" id="arenaMemCache">
+	<method name="setDbaccess"><ref id="arenaDBAccess" /></method>
+</obj>
+
+<!-- 世界boss数据加载器 -->
+<obj class="foxu.dcaccess.mem.WorldBossMemCache" id="worldBossMemCache">
+	<method name="setDbaccess"><ref id="worldBossDBAccess" /></method>
+	<method name="setIslandCache"><ref id="npcIsLandMemCache"/></method>
+</obj>
+
+<!-- 活动管理容器 -->
+<obj class="foxu.sea.activity.ActivityContainer" id="activityContainer">
+	<method name="setDbAccess"><ref id="activityDBAccess" /></method>
+</obj>
+
+<!--盟战内存管理器-->
+<obj class="foxu.dcaccess.mem.AllianceFightMemCache" id="allianceFightMemCache">
+   <method name="setDbaccess"><ref id="allianceFightDBAccess"/></method>
+</obj>
+
+<!--盟战事内存管理器-->
+<obj class="foxu.dcaccess.mem.AFightEventMemCache" id="aFightEventMemCache">
+   <method name="setDbaccess"><ref id="aFightEventDBAccess"/></method>
+   <method name="setUidkit">
+	 <obj class="foxu.sea.uid.UidKit">
+	    <method name="setUidFile"><ref id="allianceUidFile"/></method>
+	 </obj>
+    </method>
+</obj>
+
+<!--据点内存管理器-->
+<obj class="foxu.dcaccess.mem.BattleGroundMemCache" id="battleGroundMemCache">
+  <method name="setDbaccess"><ref id="battleGroundDBAccess"/></method>
+</obj>
+
+<!--联盟岛屿内存管理器-->
+<obj class="foxu.dcaccess.mem.BattleIslandMemCache" id="battleIslandMemCache">
+  <method name="setDbaccess"><ref id="battleIslandDBAccess"/></method>
+</obj>
+
+<!-- 活动日志内存管理器 -->
+<obj class="foxu.dcaccess.mem.ActivityLogMemCache" id="activityLogMemCache">
+  <method name="setDbaccess"><ref id="activityLogDBAccess"/></method>
+</obj>
+
+<!-- 登陆日志内存管理器 -->
+<obj class="foxu.dcaccess.mem.LoginLogMemCache" id="loginLogMemCache">
+  <method name="setDbaccess"><ref id="loginLogDBAccess"/></method>
+</obj>
+
+<!-- 封停设备内存管理器 -->
+<obj class="foxu.dcaccess.mem.ForbidMemCache" id="forbidMemCache">
+  <method name="setDbaccess"><ref id="forbidDBAccess"/></method>
+  <method name="load"/>
+</obj>
+<!-- 公告内存管理器 -->
+<obj class="foxu.dcaccess.mem.AnnounceMentMemCache" id="annnounceMenCache">
+  <method name="setDbaccess"><ref id="announceGameDBAccess"/></method>
+</obj>
+
+<!--个人积分追踪管理器-->
+<obj class="foxu.dcaccess.mem.IntegrationTrackMemCache" id="integrationTrackMemCache">
+   <method name="setDbaccess"><ref id="integrationTrackDBAccess"/></method>
+   <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="integrateLogUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">integration</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`playerId` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`year` int(11) DEFAULT NULL,`month` tinyint(4) DEFAULT NULL,`day` tinyint(4) DEFAULT NULL,`propSid` int(6) DEFAULT NULL,`nowLeft` int(11) DEFAULT NULL,`state` tinyint(2) DEFAULT NULL,PRIMARY KEY (`id`),KEY `playerId` (`playerId`) USING BTREE,KEY `type` (`type`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+
+<!--个人军魂追踪管理器-->
+<obj class="foxu.dcaccess.mem.CoinsTrackMemCache" id="coinsTrackMemCache">
+   <method name="setDbaccess"><ref id="coinsTrackDBAccess"/></method>
+   <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="coinsLogUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">coins</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`playerId` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`year` int(11) DEFAULT NULL,`month` tinyint(4) DEFAULT NULL,`day` tinyint(4) DEFAULT NULL,`propSid` int(6) DEFAULT NULL,`nowLeft` int(11) DEFAULT NULL,`state` tinyint(2) DEFAULT NULL,PRIMARY KEY (`id`),KEY `playerId` (`playerId`) USING BTREE,KEY `type` (`type`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+
+<!--联盟科技点追踪管理器-->
+<obj class="foxu.dcaccess.mem.SciencePointTrackMemCache" id="sciencepointTrackMemCache">
+   <method name="setDbaccess"><ref id="sciencePointTrackDBAccess"/></method>
+   <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="sciencePointLogUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">sciencepoint</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`playerId` int(11) DEFAULT NULL,`allianceId` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`year` int(11) DEFAULT NULL,`month` tinyint(4) DEFAULT NULL,`day` tinyint(4) DEFAULT NULL,`nowLeft` int(11) DEFAULT NULL,`state` tinyint(2) DEFAULT NULL,`style` int(11) DEFAULT NULL,`extra` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,PRIMARY KEY (`id`),KEY `allianceId` (`allianceId`) USING BTREE,KEY `type` (`type`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--联盟战追踪管理器-->
+<obj class="foxu.dcaccess.mem.AllianceFightRecordMemCache" id="allianceFightRecordMemCache">
+   <method name="setDbaccess"><ref id="allianceFightRecordDBAccess"/></method>
+   <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="allianceFightRecordLogUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">a_fight_record_track</method>
+    <method name="setSaveTables">30</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`rankvalue` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,`type` tinyint(2) DEFAULT NULL,`battleisland` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`year` int(11) DEFAULT NULL,`month` tinyint(4) DEFAULT NULL,`day` tinyint(4) DEFAULT NULL,`stage` tinyint(4) DEFAULT NULL,`state` tinyint(4) DEFAULT NULL,`stime` int(11) DEFAULT NULL,`etime` int(11) DEFAULT NULL,`allianceId` int(11) DEFAULT NULL,`players` text COLLATE utf8_unicode_ci DEFAULT NULL,PRIMARY KEY (`id`),KEY `allianceId` (`allianceId`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--装备志追踪管理器-->
+<obj class="foxu.dcaccess.mem.EquipTrackMemCache" id="equipTrackMemCache">
+   <method name="setDbaccess"><ref id="equipTrackDBAccess"/></method>
+   <method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+        	<method name="setUidFile"><ref id="equipLogUidFile"/></method>
+    	</obj>
+    </method>
+    <method name="setTable">equip</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`reason` tinyint(4) DEFAULT NULL,`playerId` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`item_id` int(11) DEFAULT NULL,`year` smallint(6) DEFAULT NULL,`month` tinyint(4) DEFAULT NULL,`day` tinyint(4) DEFAULT NULL,`equipSid` int(6) DEFAULT NULL,`nowLeft` int(11) DEFAULT NULL,PRIMARY KEY (`id`),KEY `playerId` (`playerId`) USING BTREE,KEY `type` (`type`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--产品日志管理器-->
+<obj class="foxu.dcaccess.mem.ProducePropTrackMemCache" id="produceTrackMemCache">
+   <method name="setDbaccess"><ref id="produceTrackDBAccess"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="productLogUidFile"/></method>
+     </obj>
+   </method>
+   <method name="setTable">produceprop</method>
+   <method name="setSaveTables">4</method>
+   <method name="setTableCD">15</method>
+   <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) NOT NULL,`playerId` int(11) NOT NULL,`propSid` int(11) NOT NULL,`num` int(11) NOT NULL,`createAt` int(11) NOT NULL,`needTime` int(11) NOT NULL,`buildIndex` int(11) NOT NULL,`buildSid` int(11) NOT NULL,`buildLv` int(11) NOT NULL,`productId` int(11) NOT NULL,PRIMARY KEY (`id`),KEY `createAt` (`createAt`) USING BTREE,KEY `playerId_propSid` (`playerId`,`propSid`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--产品日志管理器-->
+<obj class="foxu.dcaccess.mem.PropTrackMemCache" id="propTrackMemCache">
+   <method name="setDbaccess"><ref id="propTrackDBAccess"/></method>
+   <method name="setUidkit">
+     <obj class="foxu.sea.uid.UidKit">
+        <method name="setUidFile"><ref id="propLogUidFile"/></method>
+     </obj>
+   </method>
+   <method name="setTable">prop</method>
+   <method name="setSaveTables">15</method>
+   <method name="setTableCD">1</method>
+   <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) NOT NULL,`playerId` int(11) NOT NULL,`propSid` int(11) NOT NULL,`createAt` int(11) NOT NULL,`invokeNum` int(11) NOT NULL,`leftNum` int(11) NOT NULL,PRIMARY KEY (`id`),KEY `createAt` (`createAt`) USING BTREE,KEY `playerId` (`playerId`),KEY `propSid` (`propSid`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--军官日志追踪管理器-->
+<obj class="foxu.dcaccess.mem.OfficerTrackMemCache" id="officerTrackMemCache">
+   <method name="setDbaccess"><ref id="officerTrackDBAccess"/></method>
+    <method name="setTable">officer</method>
+    <method name="setSaveTables">15</method>
+    <method name="setTableCD">1</method>
+    <method name="setCreateSql">(`id` int(11) NOT NULL AUTO_INCREMENT,`type` tinyint(4) DEFAULT NULL,`reason` int(6) DEFAULT NULL,`playerId` int(11) DEFAULT NULL,`num` int(11) DEFAULT NULL,`createAt` int(11) DEFAULT NULL,`item_id` int(11) DEFAULT NULL,`officerSid` int(6) DEFAULT NULL,`nowLeft` int(11) DEFAULT NULL,PRIMARY KEY (`id`),KEY `playerId` (`playerId`) USING BTREE,KEY `type` (`type`) USING BTREE,KEY `createAt` (`createAt`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+<!--绑定日志追踪管理器-->
+<obj class="foxu.dcaccess.mem.BindingTrackMemCache" id="bindingTrackMemCache">
+   <method name="setDbaccess"><ref id="bindingTrackDBAccess"/></method>
+    <method name="setTable">binding</method>
+    <method name="setSaveTables">4</method>
+    <method name="setTableCD">15</method>
+    <method name="setCreateSql">(`id`  int NOT NULL AUTO_INCREMENT ,`bindType`  tinyint NOT NULL ,`trackType`  tinyint NOT NULL ,`actionType`  tinyint NOT NULL ,`uid`  int NOT NULL ,`pid`  int NULL ,`time`  int NOT NULL ,`operateInfo`  varchar(255) NULL ,`lastRecord`  varchar(255) NULL ,`currentRecord`  varchar(255) NULL ,PRIMARY KEY (`id`),INDEX (`time`) ,INDEX (`uid`) ,INDEX (`pid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT</method>
+</obj>
+
+
+<!--数据工厂类-->
+<obj class="foxu.dcaccess.CreatObjectFactory" id="creatObjectFactory">
+   <method name="setPlayerCache"><ref id="playerMemCache"/></method>
+   <method name="setOrderCache"><ref id="orderMemCache"/></method>
+   <method name="setMessageCache"><ref id="messageMemCache"/></method>
+   <method name="setEventCache"><ref id="fightEventMemCache"/></method>
+   <method name="setIslandCache"><ref id="npcIsLandMemCache"/></method>
+   <method name="setGameDataCache"><ref id="gameDataMemCache"/></method>
+   <method name="setgDataByDidCache"><ref id="gDataByDidMemCache"/></method>
+   <method name="setUserDBAccess"><ref id="userGameDBAccess"/></method>
+   <method name="setPlayerAdviceDBAccess"><ref id="playerAdviceDBAccess"/></method>
+   <method name="setQuestionnaireDBAccess"><ref id="questionnaireDBAccess"/></method>
+   <method name="setGemsTrackMemCache"><ref id="gemsTrackMemCache"/></method>
+   <method name="setAllianceMemCache"><ref id="allianceMemCache"/></method>
+   <method name="setShipCache"><ref id="shipDataMemCaChe"/></method>
+   <method name="setArenaMemCache"><ref id="arenaMemCache" /></method>
+   <method name="setWorldBossCache"><ref id="worldBossMemCache" /></method>
+   <method name="setAllianceFightMemCache"><ref id="allianceFightMemCache" /></method>
+   <method name="setaFightEventMemCache"><ref id="aFightEventMemCache" /></method>
+   <method name="setBattleGroundMemCache"><ref id="battleGroundMemCache" /></method>
+   <method name="setActivityLogMemCache"><ref id="activityLogMemCache" /></method>
+   <method name="setForbidMemCache"><ref id="forbidMemCache" /></method>
+   <method name="setAnnMemcahe"><ref id="annnounceMenCache" /></method>
+   <method name="setEquipTrackMemCache"><ref id="equipTrackMemCache" /></method>
+   <method name="setProduceTrackMemCache"><ref id="produceTrackMemCache" /></method>
+   <method name="setPropTrackMemCache"><ref id="propTrackMemCache" /></method>
+   <method name="setOfficerTrackMemCache"><ref id="officerTrackMemCache" /></method>
+   <method name="setActContainer"><ref id="activityContainer" /></method>
+   <method name="setBattleIslandMemCache"><ref id="battleIslandMemCache" /></method>
+   <method name="setIntegrationTrackMemCache"><ref id="integrationTrackMemCache" /></method>
+   <method name="setSciencePointMemCache"><ref id="sciencepointTrackMemCache" /></method>
+   <method name="setAllianceFightRecordMemCache"><ref id="allianceFightRecordMemCache" /></method>
+   <method name="setBindingMemCache"><ref id="bindingTrackMemCache" /></method> 
+   <method name="setCoinsMemCache"><ref id="coinsTrackMemCache" /></method>
+   
+</obj>
+
+<method ref="allianceMemCache" name="setFactory"><ref id="creatObjectFactory"/></method>
+<method ref="playerMemCache" name="setFactory"><ref id="creatObjectFactory"/></method>
+<method ref="worldBossMemCache" name="setCreatObjectFactory"><ref id="creatObjectFactory"/></method>
+<method ref="gameDataMemCache" name="setFactory"><ref id="creatObjectFactory"/></method>
+<method ref="gDataByDidMemCache" name="setFactory"><ref id="creatObjectFactory"/></method>
+<method ref="annnounceMenCache" name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+<method ref="arenaMemCache" name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+
+<method ref="allianceMemCache" name="init"/>
+<field class="foxu.sea.kit.SeaBackKit" name="cbFactory"><ref id="creatObjectFactory"/></field>	
+<method ref="playerMemCache" name="init"/>
+<method ref="fightEventMemCache" name="init"/>
+<method ref="messageMemCache" name="init"/>
+<method ref="orderMemCache" name="init"/>
+<method ref="npcIsLandMemCache" name="init"/>
+<method ref="gemsTrackMemCache" name="init"/>
+<method ref="shipDataMemCaChe" name="init"/>
+<method ref="arenaMemCache" name="init"/>
+<method ref="allianceFightMemCache" name="init"/>
+<method ref="aFightEventMemCache" name="init"/>
+<method ref="battleGroundMemCache" name="init"/>
+<method ref="activityLogMemCache" name="init"/>
+<method ref="loginLogMemCache" name="init"/>
+<method ref="equipTrackMemCache" name="init"/>
+<method ref="produceTrackMemCache" name="init"/>
+<method ref="propTrackMemCache" name="init"/>
+<method ref="gameDataMemCache" name="init"/>
+<method ref="gDataByDidMemCache" name="init"/>
+<method ref="annnounceMenCache" name="init"/>
+<method ref="officerTrackMemCache" name="init"/>
+<method ref="battleIslandMemCache" name="init"/>
+<method ref="integrationTrackMemCache" name="init"/>
+<method ref="sciencepointTrackMemCache" name="init"/>
+<method ref="bindingTrackMemCache" name="init"/>
+<method ref="coinsTrackMemCache" name="init"/>
+
+<method name="setObjectFactory" ref="achieveManager"><ref id="creatObjectFactory"/></method>
+
+<!--http端口服务-->
+<obj class="shelby.httpclient.HttpPortService" id="httpService"/>
+<!--http服务 用于GM工具 和后期的运营数据网页 1端口-->
+<method name="setPort" ref="httpService">
+	<value type="int">1</value>
+	<obj class="foxu.sea.gm.GMSetManager" id="gmSetManager">
+    <method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>	
+</method>
+
+<!--http服务 用于push 3端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">3</value>
+	<obj class="foxu.push.PushHttpPort" id="pushHttpPort">
+	</obj>	
+</method>
+
+<!--用户Game Center在第三方支付时查询用户信息-->
+<method name="setPort" ref="httpService">
+	<value type="int">4</value>
+	<obj class="foxu.sea.port.ThirdPartRechargePort" id="thirdPartRechargePort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>	
+</method>
+
+<!-- 游戏中心通知充值 -->
+<method name="setPort" ref="httpService">
+	<value type="int">6</value>
+	<obj class="foxu.sea.PortHttpCharge" id="portHttpCharge">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>	
+</method>
+
+<!-- 中心接受数据端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">7</value>
+	<obj class="foxu.sea.CenterHttpToServer" id="centerHttp">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<method name="setPort" ref="httpService">
+	<value type="int">8</value>
+	<obj class="foxu.sea.webgm.WebSetManager" id="webgmSetManager">
+    <method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>	
+</method>
+
+<!-- 中心接受数据端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">9</value>
+	<obj class="foxu.sea.gm.operators.WebGetGameInfo" id="webGetGameInfo">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<obj class="foxu.sea.gm.SeaHttpHandler" id="seaHttpHandler">
+   <method name="setHttpService"><ref id="httpService"/></method>
+</obj>
+<obj class="shelby.httpserver.HttpServer" id="httpServer">
+    <method name="setHttpHandler"><ref id="seaHttpHandler"/></method>
+    <method name="start"/>
+</obj>
+
+<!-- 创建认证中心管理器 -->
+<obj class="shelby.cc.CCManager" id="ccmanager">
+	<method name="setCCAccess">
+		<obj class="foxu.cc.GameDBCCAccess" id="gameDBCCAccess">
+			<method name="setCreateObjectFactory"><ref id="creatObjectFactory"/></method>
+			<method name="setConnectionManager"><ref id="connectionManager"/></method>
+			<method name="setTable"><string>users</string></method>
+			<method name="setIdColumn"><string>user_account</string></method>
+			<method name="setPwColumn"><string>password</string></method>
+			<method name="setNameColumn"><string>player_id</string></method>
+		</obj>
+	</method>
+    <method name="setSidEncoder">
+        <obj class="shelby.cc.SidEncoder"/>
+    </method>
+    <method name="setTimeout">360000000</method>
+	<!-- 定时器开始工作 -->
+	<method name="timerStart"/>
+</obj>
+
+<!--建筑管理器-->
+<obj class="foxu.sea.builds.AutoUpBuildManager" id="autoUpBuilding"></obj>
+<obj class="foxu.sea.builds.BuildManager" id="buildManager">
+  <method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+  <method name="setAutoUpBuilding"><ref id="autoUpBuilding"/></method>
+</obj>
+
+<!-- 盟战管理器 -->
+<obj class="foxu.sea.alliance.alliancefight.AllianceFightManager" id="allianceFightManager">
+  <method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+</obj>
+
+<!-- 配置信息管理器 -->
+<obj class="foxu.sea.config.ConfigManager" id="configManager"/>
+<!-- 资源改变检查建筑自动升级 -->
+<obj class="foxu.sea.Resources" id="resources">
+  <method name="setAutoUpBuilding"><ref id="autoUpBuilding"/></method>
+</obj>
+
+<!--逻辑删除玩家-->
+<obj class="foxu.sea.gm.operators.ClearPlayerInfo" id="clearPlayerInfo">
+  <method name="setAfightManager"><ref id="allianceFightManager"/></method>
+</obj>
+
+<!-- 饭时活动管理器 -->
+<method name="getInstance"  class="foxu.sea.MealTimeManager" id="mealManager" />
+<method name="setObjectFactory" ref="mealManager"><ref id="creatObjectFactory"/></method>
+<method name="init" ref="mealManager" />
+
+<!-- 排名管理器 -->
+<method name="getInstance"  class="foxu.sea.RankManager" id="rankManager" />
+<method name="setObjectFactory" ref="rankManager"><ref id="creatObjectFactory" /></method>
+<method name="init" ref="rankManager" />
+
+<!-- 上下文变量管理器 -->
+<method name="getInstance"  class="foxu.sea.ContextVarManager" id="varManager" />
+<method name="setVarDBAccess" ref="varManager"><ref id="varDBAccess" /></method>
+<method ref="allianceFightRecordMemCache" name="init"/>
+<method name="init" ref="varManager" />
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>world_chat_level</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>private_chat_level</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>email_level</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>date_off_state</string>
+ 	 	<value type="int">1</value>
+ 	 	<string>default</string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>create_alliance_level_limit</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>join_alliance_level_limit</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>alliance_donate_level_limit</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>alliance_ship_donate_level_limit</string>
+ 	 	<value type="int">5</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>award_lucky_sids</string>
+ 	 	<value type="int">0</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>meal_time_energy</string>
+ 	 	<value type="int">10</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>growth_plan_data</string>
+ 	 	<value type="int">1</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 <method name="checkVars" ref="varManager">
+ 	 	<string>cross_league_server_info</string>
+ 	 	<value type="int">1</value>
+ 	 	<string></string>
+ 	 </method>
+ 	 
+ 	 <!-- 成长计划管理器  -->
+<obj class="foxu.sea.growth.GrowthPlanManager" id="growthPlanManager" />
+ <method ref="growthPlanManager" name="setVarManager">
+ 	<ref id="varManager" />
+ </method>
+ <method ref="growthPlanManager" name="setObjectFactory">
+ 	<ref id="creatObjectFactory" />
+ </method>
+<method ref="growthPlanManager" name="init"/>
+<!-- 限时掉落活动管理器  -->
+<method name="getInstance"  class="foxu.sea.award.ActivityAwardManager" id="activityAwardManager" />
+<method ref="activityAwardManager" name="init"/>
+	<!-- 百度国际登录接口 只有百度国际版本版本才打开
+	<method name="setCertifyHandler" ref="gameDBCCAccess">
+		<string>moborobo</string>
+		<obj class="foxu.cc.MoboroboCertifyHandler" />
+	</method>
+	-->
+</objects>

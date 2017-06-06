@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+	<field class="foxu.sea.alliance.Flag" name="factory" id="flagFactory" />
+    <method ref="flagFactory" name="init">
+        <ref id="context" />
+    </method>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52101" type="1"><!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52102" type="1" > <!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52103" type="1" > <!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52104" type="1" > <!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52105" type="1" > <!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52106" type="1" > <!--FLAGI_MAGE=1 ÆìÖÄÍ¼°¸ -->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52201" type="2" > <!--FLAG_COLOUR=2 ÆìÖÄÑÕÉ«-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52202" type="2" > <!--FLAG_COLOUR=2 ÆìÖÄÑÕÉ«-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52203" type="2" > <!--FLAG_COLOUR=2 ÆìÖÄÑÕÉ«-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52204" type="2" > <!--FLAG_COLOUR=2 ÆìÖÄÑÕÉ«-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52001" type="3" > <!--FLAG_MODEL=3 ÆìÖÄÔìÐÍ-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52002" type="3" > <!--FLAG_MODEL=3 ÆìÖÄÔìÐÍ-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52003" type="3" > <!--FLAG_MODEL=3 ÆìÖÄÔìÐÍ-->
+	</sample>
+
+	<sample class="foxu.sea.alliance.Flag" sid="52004" type="3" > <!--FLAG_MODEL=3 ÆìÖÄÔìÐÍ-->
+	</sample>
+
+
+</objects>

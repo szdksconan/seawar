@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+<method class="foxu.ds.PlayerKit" name="getInstance" id="playerKit"/>
+<method name="setFactory" ref="playerKit"><ref id="creatObjectFactory"/></method>
+<method name="setGrowthPlanManager" ref="playerKit"><ref id="growthPlanManager"/></method>
+
+
+<!-- 创建数据服务管理器 -->
+<obj class="foxu.ds.SWDSManager" id="dsmanager">
+	<!-- 安装认证访问接口 -->
+	<method name="setDSCAccess">
+		<obj class="shelby.ds.DirectDSCAccess">
+			<method name="setCCManager"><ref id="ccmanager"/></method>
+		</obj>
+	</method>
+	<!-- 安装数据访问接口 -->
+	<method name="setDSAccess">
+		<obj class="foxu.ds.GameDSAcess" id="__dsaccess">
+			<method name="setFactory"><ref id="creatObjectFactory"/></method>
+		</obj>
+	</method>
+	<!-- 安装数据中心级和用户级的数据序列化接口 -->
+	<method name="setDCBytesReader"><ref id="playerKit"/></method>
+	<method name="setDCBytesWriter"><ref id="playerKit"/></method>
+	<method name="setUserBytesWriter"><ref id="playerKit"/></method>
+	<!-- 定时器开始工作 -->
+	<method name="timerStart"/>
+	<!-- 注册dsListener监听 -->
+	<method name="addListener"><obj class="shelby.ds.DSChangeAdapter"/></method>
+	<method name="addListener">
+	    <obj class="foxu.ds.DSListener" id="dSListener">
+	       <method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	    </obj>
+	</method>
+</obj>
+<method ref="dsmanager" name="getSessionMap" id="__sessionMap"/>
+<method ref="dSListener" name="setSave">
+   <ref id="gameDataMemCache"/>
+</method>
+
+<method name="setManager" ref="gmSetManager">
+	<ref id="dsmanager"/>
+</method>
+
+
+
+<method name="setDsmanager" ref="creatObjectFactory">
+	<ref id="dsmanager"/>
+</method>
+
+<method name="setManager" ref="worldBossMemCache">
+	<ref id="dsmanager"/>
+</method>
+<method name="init" ref="worldBossMemCache" />
+<method name="init" ref="allianceFightManager" />
+
+
+<!-- 创建连接和会话的适配器 -->
+<obj class="shelby.ds.CSAdapter">
+	<method name="setSessionSet"><ref id="__sessionMap"/></method>
+	<!-- 定时器开始工作 -->
+	<method name="timerStart"/>
+</obj>
+
+<!-- 安装连接适配器，监听连接关闭 -->
+<method ref="serverHandle" name="addListener">
+	<ref id="dsmanager"/>
+</method>
+
+<!-- 竞技场 -->
+<obj class="foxu.sea.arena.ArenaManager" id="arenaManager">
+	<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+	<method name="init">
+		<ref id="arenaMemCache" />
+	</method>
+</obj>
+<method ref="creatObjectFactory" name="setArenaManager"><ref id="arenaManager" /></method>
+
+<!-- 电话绑定管理器 -->
+<obj class="foxu.sea.bind.TelBindingManager" id="bindingManager">
+	<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+</obj>
+
+<!-- ########################################## -->
+<!-- 安装认证码服务 -->
+<method name="setPort" ref="service">
+	<field class="mustang.net.PortService" name="CERTIFY_CODE_PORT"/>
+	<obj class="shelby.ds.CertifyCodePort"/>
+</method>
+<!-- 安装认证代理服务 -->
+<method name="setPort" ref="service">
+	<field class="mustang.net.PortService" name="CERTIFY_PROXY_PORT"/>
+	<obj class="shelby.ds.CertifyProxyPort">
+		<method name="setCCManager"><ref id="ccmanager"/></method>
+		<!-- <method name="setBase64Codec">
+			<constructor class="youkia.back.cc.SidEncoder">
+				<bytes></bytes>
+			</constructor>
+		</method> -->
+	</obj>
+</method>
+
+<!-- 安装登陆服务 -->
+<method name="setPort" ref="service">
+	<field class="mustang.net.PortService" name="LOGIN_PORT"/>
+	<obj class="shelby.ds.LoginPort">
+		<method name="setDSManager"><ref id="dsmanager"/></method>
+	</obj>
+</method>
+
+<!-- 安装加载服务 -->
+<method name="setPort" ref="service">
+	<field class="mustang.net.PortService" name="LOAD_PORT"/>
+	<obj class="shelby.ds.LoadPort">
+		<method name="setDSManager"><ref id="dsmanager"/></method>
+	</obj>
+</method>
+<!-- 安装退出服务 -->
+<method name="setPort" ref="service">
+	<field class="mustang.net.PortService" name="EXIT_PORT"/>
+	<obj class="shelby.ds.ExitPort">
+		<method name="setDSManager"><ref id="dsmanager"/></method>
+	</obj>
+</method>
+
+<!-- 安装CLL服务 -->
+<!-- <method name="setPort" ref="service">
+	<field class="zmyth.net.PortService" name="CLL_PORT"/>
+	<obj class="youkia.back.ds.CLLPort">
+		<method name="setDSManager"><ref id="dsmanager"/></method>
+		<method name="setConnectProducer"><ref id="cc.nbcp"/></method>
+		<method name="setPort"><field class="zmyth.net.PortService" name="CC_CERTIFY_PORT"/></method>
+	</obj>
+</method>
+ -->
+
+<!--安装服务器时间校正服务-->
+<!-- <method name="setPort" ref="service">
+	<field class="zmyth.net.PortService" name="TIME_PORT"/>
+	<obj class="zmyth.net.TimePort"/>
+</method> -->
+	
+<!-- 文字有效性验证器 -->
+<obj class="mustang.text.TextValidity" id="textValidity">
+<method name="setInvalidTexts">
+<strings separator=",">', ,",#,%,.biz,.c0m,.cc,.cn,.com,.info,.mobi,.name,.net,.org,.tv,.vg,/,@uid@,\,|,《新京报》,1989天安门,Abscheißer,Achselhaarratte,Achsellecker,admin,administrator,Adolf,Affenarsch,Affenarschpopper,Affenkopf,Affensack,Affentitte,Allerweltshure,Allerweltsnutte,Analbohrer,Analemse,Analerotiker,Analfickung,Analfotzenlecker,Analfraktur,Analgeburt,Analgeschwader,Analhöhlenforscher,Analhure,Analhuster,Analintigrator,Analintruder,Analkleckerburg,Analklemme,Analkonfekt,Analkönig,Analkriecher,Analkröte,Analofant,Analpfahl,Analpfropf,Analphabet,Analpopulist,Analprolaps,Analpupser,Analquetsche,Analratte,Analrosine,Analschlecker,Analseufzer,Analspecht,Analstecher,Analtelefonist,Analterminator,Analtranse,Analventilator,Analvernichter,Analvertilger,Analvibrator,Analvioline,Analwissenschaftler,Analzylinder,Apfelschlampe,Arsch,Arschabfall,Arschbacke,Arschbesamer,Arschbirne,Arschbohrer,Arschbolzen,Arschdrenage,Arscheinficker,Arschentjungferer,Arschfalte,Arschficker,Arschfickerlehrling,Arschfickerleisten,Arschforunkel,Arschfotze,Arschfotzenficker,Arschfotzengedehnter,Arschfotzenreiter,Arschfresse,Arschfurchenausschlecker,Arschfurchenlecker,Arschgeburt,Arschgefickter,Arschgeige,Arschgeigenspieler,Arschgerüst,Arschgesicht,Arschgewichse,Arschgnom,Arschgrube,Arschhaar,Arschhaarfetischist,Arschhaarmäher,Arschhaarraucher,Arschhaarsortierer,Arschi,Arschibald,Arschiologe,Arschitekt,Arschkanone,Arschkeks,Arschkerbe,Arschkipf,Arschkirsche,Arschkrampe,Arschkriecher,Arschkrüppel,Arschlecker,Arschloch,Arschlocher,Arschlochkatze,Arschlochlöcher,Arschmade,Arschmöse,Arschnase,Arschöffnung,Arschpauker,Arschpickel,Arschpilzsammler,Arschpopper,Arschprobeller,Arschprolet,Arschpupser,Arschsau,Arschwimmerl,Arschwischer,arsehole,assbag,assbandit,assbanger,assbite,assclown,asscock,asscracker,Asselarsch,asses,assface,assfuck,assfucker,assgoblin,asshat,ass-hat,asshead,asshole,asshopper,Assi,assjacker,asslick,asslicker,assmonkey,assmunch,assmuncher,assnigger,asspirate,ass-pirate,assshit,assshole,asssucker,asswad,asswipe,aurora,autoplayer,bampot,bastard,Bastardensau,Bastardhure,batheo ,Baumhure,Baumpisser,beaner,Bekloppter,Benhure,Bettspaltenficker,bitch,ｂｉｔｃｈ,bitchass,bitches,Bitchfresse,bitchtits,bitchy,Blechfotze,Blöder,Blödian,Blödmann,Blondieficker,blowjob,bollocks,bollox,boner,brotherfucker,bumblefuck,buttfucka,buttfucker,butt-pirate,buttplug,camel,cao你,carpetmuncher,cd-k,cdkey,chinc,chink,choad,chode,clapalong,Client,clit,clitface,clitfuck,clusterfuck,cocain,cock,cockass,cockbite,cockburger,cockface,cockfucker,cockhead,cockjockey,cockknoker,cockmaster,cockmongler,cockmongruel,cockmonkey,cockmuncher,cocknose,cocknugget,cockshit,cocksmith,cocksmoker,cocksucker,coochie,coochy,coon,cooter,cra,cracker,cumbubble,cumdumpster,cumguzzler,cumjockey,cumslut,cumtart,cunnie,cunnilingus,cunt,cuntface,cunthole,cuntlicker,cuntrag,cuntslut,dafa,dago,damn,deggo,dengxiaoping,Depp,dick,Dickarsch,dickbag,dickbeaters,dickface,dickfuck,dickfucker,dickhead,dickhole,dickjuice,dickmilk,dickmonger,dicks,dickslap,dicksucker,dickwad,dickweasel,dickweed,dickwod,dike,dildo,dipshit,doochbag,dookie,Dorfdepp,douche,douchebag,douche-fag,douchewaffle,Dreckfurz,Dreckhaufen,Dreckhund,Dreckloch,Drecksack,Drecksau,Drecksaugesicht,Dreckschlampe,dumass,dumb,dumbass,dumbfuck,dumbshit,Dummfick,Dummsau,Dummschwein,dumshit,dyke,ecaflip,eniripsa,Entenarsch,Entenficker,enutrof,evony,F_U_C_K,fa.(.)lun,fag,fagbag,fagfucker,faggit,faggot,faggotcock,fagtard,falu,falun,Falun Daa,Falun Daafalun,falundafa,falundafa.org,falungong,faluninfo,fatass,Faustficker,feca,fei liu,feiliu,fellatio,feltch,Ferkelficker,Fettarsch,Fettsack,Fettsau,Feuchtwichser,Fickarsch,Fickbanane,Fickbolzen,Fickbratze,Fickel,Ficker,Fickfehler,Fickfetzen,Fickfleisch,Fickfotze,Fickfresse,Fickfrosch,Fickgelegenheit,Fickgesicht,Fickheftchengesicht,Fickkrüppel,Fickmöbel,Ficknudel,Ficknutella,Ficknuttenarsch,Fickpimmel,Fickpisse,Ficksahnenauflecker,Ficksau,Fickschädel,Fickschnitte,Fickschnitzel,Fickstück,Fickvieh,Fischficker,Fischfotze,Fixpunkt,Flachbrettwichser,Flachgewichster,Flachwichser,flamer,Flaschenpisser,flg,Fliegenschiss,Flittchen,Floggie,Flussfotze,Fortzpisser,Fotze,Fotzenbär,Fotzenblutlecker,Fotzenforscher,Fotzenfreund,Fotzenglibber,Fotzengonzo,Fotzenhobel,Fotzenhuber,Fotzenknecht,Fotzenkopf,Fotzenkriecher,Fotzenkriechtier,Fotzenlecker,Fotzenragout,Fotzenscheißer,Fotzenschleim,Fotzenspecht,Fotzensucher,Fotzensuppe,Fotzentroll,Fotzenuntersucher,foxu,freechina,freenet,Freifickfotze,fuck,ｆｕｃｋ,fuckass,fuckbag,fuckboy,fuckbrain,fuckbutt,fucked,fucker,fuckersucker,fuckface,fuckhead,fuckhole,Fuckhure,fuckin,fucking,fucknut,fucknutt,fuckoff,fucks,fuckstick,fucktard,fuckup,fuckwad,fuckwit,fuckwitt,fudgepacker,G.M,g_m,Gamania,ｇａｍａｎｉａ,game,gamemaster,ｇａｍｅｍａｓｔｅｒ,gay,gayass,gaybob,gaydo,gayfuck,gayfuckist,gaylord,gaytard,gaywad,GCD,Geschissener,Gesichtsfotze,Gestapo,Getränkefotze,gm,Ｇm,Ｇｍ,gｍ,ɡm,ɡＭ,g㎡,Ｇ㎡,ɡ㎡,g㎜,Ｇ㎜,ɡ㎜,g㏕,Ｇ㏕,ɡ㏕,gnetop,goddamn,goddamnit,gooch,gook,Grasnarbenficker,gringo,Großkotz,guido,Gullifresse,Gummifotzenficker,gΜ,ＧΜ,ɡΜ,gМ,ＧМ,ɡМ,Hackfresse,Haderlump,Hafennutte,Hafenschlampe,Hahnenschiss,Halbdepp,Halbspacko,Hammelficker,Hamsterficker,handjob,heeb,Hennenficker,heroine,Hinterhofhure,Hirnpisser,Hitler,Hobbyhure,homo,homodumbshit,honkey,Hosenjodler,Hosenpisser,http,Hühnerficker,hujintao,humping,Hundeficker,Hundepimmel,Hundepissetrinker,Hundescheißesammler,Hundesohn,Hundsfott,Hure,Hurenarsch,Hurenarschwichser,Hurenbastardficker,Hurenbeutel,Hurenbitchfressensau,Hurenbock,Hurenbockverein,Hurenficker,Hurengrüßer,Hurensohn,Hurenstecher,Hurentochter,Hurentochtersohn,Hurer,iop,J8,jackass,jerk,jiangzheming,jigaboo,jizz,junglebunny,K 粉,Kackbratze,Kackekauer,Kacker,Kackfick,Kackfresser,Kacklappen,Kacknase,Kackritze,Kacksahneschlürfer,Kackschrätze,Kackspalte,Kackwurst,Kamelhöckerficker,kao,kaoni,Käsefresser,Katzenficker,kefu,Keimfotze,kike,Kinderficker,Kinderpimmel,kiss my as,Klugscheißer,Knickpimmel,kooch,kootch,Kotfotze,Kotzefresser,Krümelwichse,Krüppelficker,Kuhdarmficker,Kuhfladenficker,Kuhfotze,kunt,kyke,K粉,k他命,Lahmarsch,lei shang,Leichenficker,leishang,lesbian,lesbo,lezzie,Li Hongzhi,Lichtausficker,lihongzhi,Linkswichser,Lügensau,Lügenschwein,㏒,Männerhure,maozhedong,master,ｍａｓｔｅｒ,Matschbirne,Maulficker,Maulhure,mcfagget,㎎,minge,Missgeburt,Missgeschiss,Mistsau,Miststück,Mistvieh,Mitternachtsfick,mlgb,moc.uilief.kt,Mösenbaron,Mösendübel,Mösenfunghi,Mösenkotzer,Mösenputzer,Mösenschaaf,mothafucka,motherfucker,motherfucking,muffdiver,mule,munging,Mutterbumser,Mutterficker,naive,Nasenficker,Nassfötzchen,Naturscheisser,Nazi,Nazis,Neger,negro,NEOCYON,nigga,nigger,niggers,niglet,Nilllenflicker,Nine commentaries,NMD,nmis,nnd,nnd ,none,npc,NSDAP,nutsack,Nutte,Nuttenbefruchter,Nuttenbreller,Nuttenficker,Nuttenschlampe,Nuttentopf,Oberaffenarsch,Oberarsch,Onkelficker,osamodas,paki,pandawa,panooch,Papnase,Pappenheimer,pecker,peckerhead,penis,Penisbacke,Penisbirne,penisfucker,Penishirn,Penislecker,Penislutscher,penispuffer,Penner,Pfannenarsch,Pfeifenwichser,Pferdearsch,Pferdearschgeburt,Pferdeficker,Pickelarsch,Pimmelficker,Pimmelfresser,Pimmelkauer,Pimmelkneter,Pimmellutscher,Pimmelprinz,Pimmelschorf,Pimmelschorflecker,Pimmelvergewaltiger,Pimmelzwerg,Pissbirne,Pisser,pissflaps,Pissgesicht,Pisslappen,Pissnelke,Pissritze,polesmoker,pollock,poon,poonani,poonany,poontang,porch,porchmonkey,Pornosau,Potsau,Prairieficker,prick,punanny,punta,Pupsarsch,pussies,pussy,pussylicking,puto,queef,queer,queerbait,queerhole,Rastahure,Rattenficker,Regenwurmficker,renminbao,renminbao.com,renmingbao,renob,ri,Riesenarsch,Riesenblödarsch,rimjob,Ritzenpisser,Rumfurzer,ruski,Sackgesicht,Sacklutscher,Sackratte,Sackscheisser,Sackwichser,sacrieur,sadida,Saftarsch,sandnigger,Saudepp,Sauhund,Saukopf,Sausack,Sautrottel,sb,Scheiß,Scheißdreck,Scheiße,Scheißeballen,Scheißebatzen,Scheißeficker,Scheißefresser,Scheißehaufen,Scheißeklumpen,Scheißekopf,Scheißer,Scheißesau,Scheißetüte,Scheißewurst,Scheißgesicht,Scheißhaufen,Scheißhausfliege,Scheißhausfliegenbrut,Scheißhausnutte,Scheißhausratte,Scheißhausschlampe,Scheißkacker,Scheißkerl,Scheißkind,Scheißloch,Scheißmaus,Schinkentitte,Schisser,Schisskind,Schlabberfotze,Schlampe,Schlampenficker,Schlappschwanz,Schleimfresser,Schleimscheißer,Schlitzauge,Schlitzpisser,schlong,Schnorkenschiss,Schokohure,Schrumpelfotze,Schuppenscheißkopf,Schutzstaffel,Schwabbelsau,Schwanzloser,Schwanzlurch,Schwanzlutscher,Schwanzraspel,Schwanzwedler,Schweinearsch,Schweinebacke,Schweineficker,Schweinefotze,Schweinefurz,Schweinepimmmel,Schweinepriester,Schweineschwanz,Schwuchtel,scrote,secretchina.com,Selbstschwanzbläser,server,Sesselfurzer,sex,ｓｅｘ,sf,shit,ｓｈｉｔ,shitass,shitbag,shitbagger,shitbrains,shitcunt,shitdick,shitface,shitfaced,shithead,shithole,shithouse,shitspitter,shitstain,shitter,shittiest,shitting,shitty,shiz,shiznit,Sitzpisser,skank,skeet,skullfuck,slut,slutbag,sm,smeg,snatch,snk.ni8.net,Spack,Spacken,Spacker,Spacko,Spaken,Spakenkind,Spakspaten,Spardosenwichser,Sparwichser,Spasst,Spastificker,Spatzenhirn,spic,spick,Splatterfresse,splooge,sram,Stachelsau,Standscheißer,Stier,Stierficker,Stockficker,Stuhlfurzer,Sturmabteilung ,suck,sunray,Supersau,system,t a n k e f e n g y u n,t k,t k f y,t m d,tan ke feng yun,tankefengyun,Tank风云,tard,Teppichfurz,thundercunt,tianwang,titfuck,tits,Tittenfisch,Tittenklaus,Tittenlecker,Tittennuckler,tittyfuck,tk,tk feiliu ,tk feiliu com,tk.feiliu.com,tkfy,tkoautoplayer,tmd,tnnd,Trompetenarsch,Trottel,Truppenübungsplatz,Truthänchenficker,Tucke,Tunte,Türklinkenficker,twat,twatlips,twats,twatwaffle,Vaginakitzler,Vaginalpornoemanze,virus,Vogelficker,Vogelfotze,Vogelscheißesammler,Volkstrottel,Vollarsch,Vollassi,Volldepp,Vollidiot,Vollspacko,Vorfotze,Vulva,wai gua,waigua,Waldhure,Waldlutschie,Waldscheißer,Warmmösenficker,warning,Warzensau,Weinpanscher,Weißwurstwichser,wenjiabao,wg,wgnmd,whore,Wichsbirne,Wichsbolzen,Wichseesser,Wichsel,Wichser,Wichserkönig,Wichseule,Wichsfleck,Wichsfotze,Wichsfrosch,Wichsgebräu,Wichsgesicht,Wichsgriffel,Wichsgurke,Wichshänschen,Wichsknödel,Wichskrippel,Wichsloch,Wichsnudel,Wichssau,Wichsschlumpf,Wichssüchtiger,Wichstüte,Wichsvorlage,Wildsau,Wurstschalenwichser,Wurzelsau,xelor,Xylophondildo,Zeitlupenscheißer,zhengjianwang,zhenshanren,zhuanfalun,Zitteraal,Zuchtaffe,Zuchthäusler,Zuchtschiss,Zurückgewichster,Zwangsonnanist,Zweihandwichser,Zwiederwurzen,Zwiederwurzenziege,Zwischendeckpassagier,Zwischenpisser,Zwischenpisserziege,Zyklopenfotze,Банды,бритоголовые,вице-президент,Катынь,мафия,Медведев,Представитель министерства,президент,премьер,Путин,ゲームメーカ,メーカー,ㄇㄉ,ㄐ八,ㄐ巴,ㄐ掰,ㄙㄞ你爸,ㄙㄞ你公,ㄙㄞ你老母,ㄙㄞ你老師,ㄙㄞ你母,ㄙㄞ你娘,阿扁,阿不来提阿不都热西提,阿部信行,阿拉法特,阿罗约,阿弥陀佛,阿沛阿旺晋美,啊无卵,挨球,艾森豪威尔,爱国者同盟,爱液,爱因斯坦,爱滋,安倍晋三,安徳,安砥中,安非安南,安非他命,安康天皇,安寧天皇,安閑天皇,岸信介,奥马尔,澳门国,八九风波,巴子,扒光,白痴,白粉,白河天皇,白烂,白爛,白立忱,白莲教,班禅,浜口雄幸,薄格,保,报 警 色 红,报警色红,鲍威尔,暴干,暴乱,暴政,爆炸,北京当局,北美自由论坛,本拉登,笨b,笨逼,笨蛋,屄,逼,逼毛,逼毛逼,逼你老母,逼样,逼樣,比卵,比水,比样,妣,毕加索,赑,碧聊战士,幣原喜重郎,避孕套,鞭神,鞭王,变态,彪精,彪王,婊,婊子,冰 毒,冰毒,布莱尔,布什,财鹰,財鷹,彩虹战士,菜比,蔡武,藏独,藏妇会,藏青会,操,操蛋,操林,操尼,操你,操你老母,操你妈,操你娘,操妳妈,操神,操死,操他,操他妈,操她,操她妈,操王,曹刚川,草帽,草拟妈,草你,草你妈,草你媽,草你娘,肏,册老,册那,册那娘比,册那娘饿比,侧那,测拿,曾培炎,曾庆红,插,插你,插你妈,插死,插死你,插他,插我,柴玲,娼,娼妓,長慶天皇,朝河兰,车仑女干,陈独秀,陈良宇,陈水扁,陈毅,陈云,陈至立,称徳天皇,称光天皇,成人,成人电影,成人论坛,成人漫画,成人区,成人图片,成人网站,成人文学,成人小说,成人影视,成務天皇,池田勇人,持統天皇,赤匪,赤化,充值,崇徳天皇,崇光天皇,崇峻天皇,崇神天皇,抽奖,抽头,筹码,臭机,臭机八,臭鸡,臭鸡巴,臭鸡吹箫,臭西,臭作,出售,豖者,畜生,川岛和津实,吹喇叭,吹箫,垂仁天皇,春夏自由论坛,纯一郎,淳和天皇,淳仁天皇,蠢猪,戳b,戳比,戳那吗b,戳那吗比,戳你,催情药,村山富市,村上天皇,嵯峨天皇,错b,错比,错那吗b,错那吗比,达芬奇,达赖,达赖喇嘛,达赖喇嘛丹增嘉措,打倒共产党,打倒政府,打飞机,打飛機,打炮,打手枪,打手槍,打砸抢烧,大 纪元,大比,大参考,大法,大盖帽,大航海,大鸡巴,大纪元,大纪元新闻网,大纪园,大家论坛,大麻,大平正芳,大隈重信,大卫教,大血比,大爷,大泽惠,大正天皇,大中国论坛,大中华论坛,大众真人真事,代开发票,戴秉国,丹增嘉措,弹劾,党中央,黨中央,荡妇,导弹,道教,邓朴方,邓小平,鄧小平,地藏,地下教会,地下刊物,地下先烈们,帝国舰队,帝国舰队代表,帝国舰队公告,帝国艦隊,颠覆国家政权,叼你,叼你妈,屌,吊,吊子,钓鱼岛,东北独立,东条英机,东亚病夫,东正教,東久邇宮稔彦,東山天皇,東條英機,董建华,动乱,毒霸,独裁,独夫,独立,独立台湾会,赌博,赌马,赌球,杜冷丁,杜鲁门,杜青林,多党,多维,屙,屙民,俄国,额尔德尼,恶搞公安部领导,恩格斯,二b,二逼,二条,发伦,发沦,发轮,发骚,法.(.)功,法沦,法轮,法轮大法,法轮工,法轮公,法轮功,法輪,法輪大法,法輪功,法论,反动分子,反动派,反封锁技术,反腐败论坛,反攻,反共,反人类,反社会,反正天皇,饭岛爱,泛蓝 ,泛绿 ,贩毒,梵高,放荡,放屁,飞 流,飞流,废物,风 云 坦 克,风水,风云 坦克,风云坦克,佛教,佛祖,伏見天皇,服务管理,服务器,服务天使,福田赳夫,福田康夫,辅助程序,富兰克林,干,干X,干爆,干到,干干,干机,干鸡,干啦,干勒,干林,干尼,干你,干你老比,干你老母,干你妈,干你妈b,干你妈逼,干你娘,干妳,干妳娘,干您,干汝,干入,干爽,干死,干死你全家,干死你一家,干他,干他妈,干它,干她,干她妈,干牠,干我,干一干,幹死客服,幹死你,贛您娘,灨你娘,冈村宁次,冈村秀树,冈峦,刚比,刚比样子,肛交,肛门,岡田啓介,戆鸠,戆鸠鸠,高倉,高丹,高丽棒子,高丽朴,高橋是清,高薪养廉,高治联,高自联,高字联,睾丸,吿,哥白尼,哥伦布,革命,耿惠昌,工自联,工字联,公安,公安部,公安局,公吿,公告,公检法,功法,宮澤喜一,共残党,共惨党,共产產,共产党,共产黨,共铲党,共產党,共產黨,共産党,共産黨,共党,共匪,共狗,狗比,狗操卖逼,狗干,狗卵,狗男女,狗娘,狗娘养的,狗娘養的,狗屁,狗日,狗屎,狗杂种,拐卖,观世音,官逼民反,官方,官方公布,官方公告,官匪,官网,管里,管理,管理员,贯通两极法,光格天皇,光芒科技,光明天皇,光仁天皇,光孝天皇,光嚴天皇,广闻,広田弘毅,龟儿子,龟头,亀山天皇,桂太郎,滚那吗,滚那吗b,滚那吗错比,滚那吗老比,滚那吗瘟比,郭伯雄,国共,国家安全,国家机密,国家领导人,国家信息,国家主席,国家总理,国军,国民党,国内动态清样,国旗,国务院,国贼,國家主席,國家總理,國民黨,國務院,海部俊樹,海洛因,海明威,行房,行政院,河殇,核工业基地,核潜艇,核武,贺国强,贺龙,赫鲁晓夫,黒田清隆,黑白无常,弘文天皇,红 色 警 报,红色警报,後白河天皇,後柏原天皇,後村上天皇,後嵯峨天皇,後二条天皇,後伏見天皇,後光明天皇,後光厳天皇,後龜山天皇,後花園天皇,後堀河天皇,後冷泉天皇,後奈良天皇,後鳥羽天皇,後三条天皇,後深草天皇,後水尾天皇,後桃園天皇,後醍醐天皇,後西天皇,後小松天皇,後陽成天皇,後一条天皇,後桜町天皇,後宇多天皇,後朱雀天皇,狐乐游,胡公子,胡海峰,胡紧掏,胡紧套,胡锦涛,胡锦涛 ,胡锦滔,胡锦淘,胡錦濤,胡景涛,胡平,胡温,胡瘟,胡系,胡耀邦,胡耀邦 ,胡志明,胡主席,胡总书记,花花公子,花山天皇,花園天皇,华 夏2,华建敏,华盛顿,华夏 II,华夏2,华夏II,桓武天皇,皇極天皇,黄慈萍,黄大仙,黄带,黄祸,黄菊,黄丽满,黄孟复,黄片,黄琦,黄色,黄色电影,黄色漫画,黄色图片,黄色网站,黄色文学,黄色小说,黄色影视,黄翔,黄炎培,回回,回教,回良玉,回民暴动,回民吃猪肉,活动,活动大使,活动管理员,活人器官,活体器官移植,霍金,机八,机巴,机叭,机掰,鸡8,鸡八,鸡巴,鸡叭,鸡芭,鸡吧,鸡掰,鸡鸡,鸡奸,鸡毛信文汇,鸡歪,积克馆,姬胜德,基地组织,基督,基督教,機八,機巴,機機歪歪,激 战,激流中国,激情电影,激情视频,激情視頻,激战,雞8,雞八,雞巴,雞叭,雞芭,雞吧,雞掰,雞奸,及川奈央,吉田茂,集会,几八,几巴,几叭,几芭,幾八,幾巴,幾叭,幾芭,技术支持,技術支援,妓女,妓院,継体天皇,加藤高明,加藤友三郎,贾庆林,假币,賈慶林,奸,奸暴,奸你,奸商,奸他,奸她,奸污,奸一奸,奸淫,监察院,监督,监管,监狱,菅直人,检察院,建国党,贱b,贱比,贱货,贱人,贱种,賤b,賤貨,賤人,江core,江八点,江胡,江家帮太子党,江流氓,江罗,江绵恒,江派,江青,江戏子,江系,江则民,江泽慧,江泽民,江澤民,江贼,江贼民,江折民,江猪,江猪媳,江主席,疆独,蒋方良,蒋介石,蒋经国,蒋经國,蒋世华,蒋树声,蒋中正,蔣介石,蔣经国,蔣經国,蔣經國,蔣中正,酱猪媳,交配,姣西,叫床,叫春,教养院,接班,揭批书,姐疼,姐痛,今上天皇,金枪不倒,金日成,金泽辰,金泽文子,金正日,锦涛,锦天,锦天科技,近亲,近衛天皇,近衛文麿,禁看,茎,经文,精液,精子,景行天皇,警察,鸠,鸠屎,鳩山一郎,鳩山由紀夫,九评,九评共产党,菊花洞,巨炮连队,巨炮連隊,巨砲连队,巨砲連隊,军队,军分区,军区,军委,卡斯特罗,开苞,开放杂志,開化天皇,砍翻一条街,砍死你,看中国,抗议,尻,考试院,靠爸,靠母,靠你,靠你妈,柯賜海,嗑药,可卡因,克林顿,客服,客户服务,掯,空难,恐怖,口交,堀河天皇,酷逼,狂操,狂干,邝锦文,捆绑,拉登,拉姆斯菲尔德,拉皮条,来插我,来干,来爽我,赖昌星,览叫,懒八,懒叫,懒教,懶八,懶叫,懶教,烂b,烂逼,烂比,烂货,烂鸟,烂人,滥交,爛逼,浪叫,劳动教养所,劳改,劳教,劳拉,老b,老逼,老比,老虎机,老卵,老毛子,老母,老土,雷 尚,雷尚,冷泉天皇,李大师,李大钊,李登辉,李登輝,李洪志,李克强,李兰菊,李岚清,李嵐清,李鹏,李鵬,李长春,李总理,李总统,里根,厉无畏,立法院,连发,连胜德,连战,連戰,联总,廉政大论坛,炼功,梁光烈,梁擎墩,两岸关系,两岸三地论坛,两个中国,两会,两会报道,两会新闻,廖晖,廖锡龙,列宁,烈火,林彪,林伯渠,林海,林肯,林樵清,林慎立,林文漪,林銑十郎,林长盛,淋病,铃声下载,凌辱,鈴木貫太郎,鈴木善幸,霊元天皇,刘伯承,刘淇,刘少奇,刘信亨,刘云山,刘自明,留园网,流 飞,流飞,流氓警察,劉淇,劉少奇,劉信亨 ,劉雲山,六合采,六合彩,六合彩券,六和采,六四,六四民运,六四事件,六四运动,六条,六星合彩,芦田均,鲁迅,路易,露点,露毛,乱交,乱伦,抡功,伦公,伦功,伦攻,沦公,沦功,沦攻,轮大,轮干,轮公,轮功,轮攻,轮奸,轮流干,轮盘赌,輪奸,论公,论功,论攻,罗富和,罗干,罗礼诗,罗荣桓,罗晓音,罗永忠,罗长福,羅幹,裸聊,吕秀莲,履中天皇,氯胺酮,妈b,妈逼,妈比,妈的,妈的b,妈个,妈个b,妈啦b,妈啦逼,妈妈的,媽b,媽逼,媽比,媽的,媽的b,媽個b,媽媽的,麻 古,麻古,麻生太郎,麻醉,麻醉药,马逼,马大维,马的,马加爵,马嘉爵,马凯,马克思,马良骏,马三家,马时敏,马万祺,马馼,马亚莲,马英九,玛利亚,骂的就是你,吗的,卖b,卖逼,卖比,卖国,卖淫,賣b,賣比,賣淫,曼德拉,毛 球,毛厕洞,毛润之,毛潤之,毛泽东,毛澤東,毛贼东,毛主席,梅毒,美国之音,妹疼,妹痛,蒙独,蒙古鞑子,蒙古独立,猛插,孟建柱,梦遗,迷幻药,迷魂药,迷奸,迷药,米开朗基罗,米内光政,米青,密穴,密宗,绵恒,绵天,民国,民进党,民联,民意论坛,民运,民阵,民猪,民主,民主潮,民主墙,民族矛盾,敏達天皇,明慧网,明正天皇,明治天皇,摸咪咪,摸你鸡巴,摸你全身,摩门教,墨索里尼,默克尔,谋杀,母子,穆罕默德,穆斯林,拿破仑,那吗b,那吗错比,那吗老比,那吗瘟比,那娘错比,那娘老比,那娘瘟比,纳粹,奶娘,奶头,奶罩,奶子,南华早报,南蛮,内裤,内射,内衣,嫩b,尼克松,倪育贤,你大爷,你大爺,你老母,你姥姥的,你妈,你妈b,你妈逼,你妈的,你妈了妹,你他妈,你她马的,你她馬的,妳老母的,妳妈的,妳媽的,妳马的,妳馬的,妳娘的,妳她媽的,娘比,娘饿比,鳥羽天皇,捏你鸡巴,捏你奶子,乜捻,聂荣臻,牛b,牛逼,牛顿,牛头马面,侬着冈峦,侬着卵抛,虐待,虐杀,女干,女教师,膀胱,泡沫经济,配方,喷精,喷尿,彭德怀,彭真,皮条客,屁蛋,屁精,屁酷,屁眼,片山哲,嫖,嫖娼,嫖客,姘头,姘頭,平城天皇,平反,平沼騏一郎,破鞋,仆街,普京,普贤,奇酷,斉明天皇,骑你,骑他,骑她,起义,欠干,欠骑,欠人骑,枪王,强暴,强盗警察,强奸,强奸犯,强奸你,强歼,抢劫,橋本龍太郎,亲民党,氢弹,清和天皇,清寧天皇,情妇,情色,庆红,瞿秋白,去你的,去你妈,去妳的,去妳妈,去死,去他妈,去她妈,全国两会,犬養毅,瘸腿帮,雀子,确吉尼玛,鹊子,群P,群交,群射,热比娅,人大,人大代表,人大代表大会,人大代表大會,人民报,人民币,人民代表大会,仁徳天皇,仁明天皇,仁賢天皇,仁孝天皇,日,日你,日死,荣毅仁,蹂躏,肉棒,肉洞,肉棍,肉壶,肉欲,如来,乳房,乳峰,乳交,乳头,乳頭,乳腺,乳晕,乳罩,若槻礼次郎,若槻礼次郎,撒旦,撒切尔,萨达姆,萨马兰奇,塞你爸,塞你公,塞你老母,塞你老师,塞你母,塞你娘,赛你老母,赛你娘,赛妳阿母,赛妳娘,赛他娘,赛她娘,賽你老母,賽妳阿母,三个代表,三個代表,三级片,三木武夫,三陪,三去车仑工力,三条天皇,骚b,骚包,骚逼,骚货,骚鸡,骚卵,懆您妈,懆您媽,懆您娘,騷逼,色胆包天,色咪咪,色魔,色情,色情网站,森喜朗,杀人,莎士比亚,傻b,傻逼,傻比,山本権兵衛清浦奎吾,山本五十六,山県有朋,上帝,上访,上海孤儿院,上你,上妳,尚 雷,尚雷,少妇,少婦,邵家健,射精,射你,射屏,身寸,身寸米青,身份证号码生成器,神 泣,神功天皇,神汉,神经病,神婆,神泣,神武天皇,审查,升天,圣母,圣战,聖武天皇,湿了,湿了还说不要,石橋湛山,食捻屎,食屎,食西,驶你爸,驶你公,驶你老母,驶你老师,驶你母,驶你娘,屎,屎你娘,屎妳娘,駛你爸,駛你公,駛你老母,駛你老師,駛你母,駛你娘,示威,事实独立,释迦牟尼,手淫,受贿,兽交,舒明天皇,双倍经验,双规,爽你,爽死,水扁,順徳天皇仲恭天皇,司法部,司法部门,司法院,私处,私服,私人服务器,斯大林,斯蒂芬,死gm,死全家,四条天皇,寺内正毅,松方正義,宋楚瑜,送礼,苏家屯,綏靖天皇,孙文,孙逸仙,孙政才,孙中山,孫中山,他nnd,他干,他妈的,他吗的,他奶奶的,他娘,他娘的,她妈的,她马的,她奶奶的,她娘,塔利班,台独,台独分子,台独万岁,台獨,台联,台联党,台盟,台湾.国,台湾.國,台湾岛国,台湾独立,台湾分裂,台湾狗,台湾国,台湾建国运动组织,台湾民国,台湾青年独立联盟,台湾团结联盟,台湾政论区,台湾自由联盟,臺灣.國,太子党,贪污,坦 克,坦 克 风,坦 克 风 云,坦 克 风 云 红 警 o l,坦 克 世 界,坦 克风,坦 克风 云,坦 克风云,坦克,坦克 风云,坦克风,坦克风云,坦克风云 钢铁咆哮,坦克风云 一触即发,坦克风云 战火,坦克风云：钢铁咆哮,坦克风云：红警OL,坦克风云：一触即发,坦克风云：战火,坦克风云钢铁咆哮,坦克风云红警ol,坦克风云一 触 即 发,坦克风云一触即发,坦克风云战 火,坦克风云战火,坦克風雲,坦克世界,唐家璇,唐磊,桃園天皇,醍醐天皇,天安门事件,天皇,天武天皇,天智天皇,天主教,田中義一,跳大神,统独,统独论坛,屠杀,土匪政府,土御門天皇,推古天皇,退党,外挂,外掛,外交论坛,外交与方略,外阴,外陰,完美 国际,完美国际,王八蛋,王丹,王刚,王洪文,王乐泉,王兆国,威而钢,威而柔,维护,伟哥,猥亵,尉健行,慰安妇,温b,温宝宝温云松,温比,温夫人,温公子,温加饱,温家宝,温假饱,温元凯,温总理,溫家寶,瘟b,瘟比,瘟家,文德天皇,文革,文化大革命,文殊,文武天皇,我操,我操你妈,我干,我幹,我奸,我咧干,我妳老爸,我日,我日你,沃尔开西,龌龊,无官正,吾尔开希,吴邦国,吴官正,吴仪,吳邦國,武烈天皇,武林 外传,武林外传,武藤兰,西藏独立,西藏分裂,西藏国,西藏流亡政府,西哈努克,西園寺公望,吸储,吸毒,希拉克,希特勒,习近平,袭击,習近平,系 统,系 統,系统,系统双倍,系统双倍经验,系统信息,系统邮件,系統,細川護煕,下贱,下賤,下流,下三烂,下三爛,下体,下注,先奸后杀,顕宗天皇,乡巴佬,小b样,小比样,小参考,小磯国昭,小泉,小泉純一郎,小日本,小穴,小渕恵三,孝安天皇,孝霊天皇,孝明天皇,孝謙天皇,孝元天皇,孝昭天皇,新党,新辅导员,新疆独立,新疆分裂,新生网,新手輔導員,新手指导员,新手指導員,性爱,性高潮,性交,性免费电影,性虐,性虐待,性生活,性欲,胸部,胸罩,雄略天皇,徐向前,宣化天皇,选举,学潮,学运,巡查,押小,鸦片,亚历山大,阎王,颜射,阳具,阳萎,阳痿,阳物,杨尚昆,陽成天皇,陽具,陽萎,姚文元,摇头丸,耶和华,耶稣,野田佳彦,叶剑英,夜总会,一党,一党专政,一贯道,一条天皇,一夜情,一中一台,伊斯兰,伊藤博文,遗精,懿徳天皇,阴部,阴唇,阴道,阴蒂,阴核,阴户,阴茎,阴毛,阴门,阴囊,陰唇,陰道,陰蒂,陰戶,陰莖,陰毛,淫,淫荡,淫蕩,淫洞,淫妇,淫婦,淫秽,淫穢,淫货,淫贱,淫乱,淫亂,淫湿,淫水,淫娃,淫西,淫穴,淫液,淫汁,欽明天皇,応神天皇,桜町天皇,罂粟,用明天皇,铀,遊戲管理,遊戲監督員,遊戲嚮導,遊戲指導,游行,游魂,游戏管理,游戏管理员,游戏监督员,游戏向导,游戏指导,幼齿,幼交,诱惑,诱奸,誘姦,俞正声,宇多天皇,宇野宗佑,羽田孜,郁慕明,元明天皇,元正天皇,円融天皇,员工,原敬,原子弹,圆满,援交,援交妹,援助交际,援助交際,云 风 克 坦,云风克坦,允恭天皇,运营部,运营官,运营人,运营商,运营长,运营者,运营组,運營部,杂种,雜種,再奸,早泄,造爱,造反,贼民,渣波波,炸弹,斎藤実,翟志伟,战 火,战地坦克,战火,戰地坦克,张春桥,张德江,张立昌,张宇韬,張宇韜 ,长濑爱,昭和天皇,赵紫阳,贞操,真理教,真善忍,真主安拉,镇压,正親町天皇,政变,政府,政协,政鷹,政治,政治反对派,政治犯,政治局,支那,执法犯法,指挥官,制服,中曽根康弘,中共,中共独裁 ,中关村启示录,中国共产党,中国国家防火墙,中国民间保钓联合会,中国民主党,中国政府,中国之春,中华抗日同盟,中华民国,中华民國,中华人民共和国,中華民國,中華人民共和國,中奖,中奖 ,中南海,中央,中央军委,中御門天皇,仲哀天皇,周恩来,周恩來,周小川,周永康,周总理,周總理,朱德,朱雀天皇,朱镕基,朱鎔基,猪猡,竹下登,主权,主席,主义,专政,专制,转法轮,装,装逼,自焚,自摸,自拍,自慰,总理,总统府,總理,走私,走向圆满,组织,佐藤栄作田中角栄,坐台,坐庄,做爱,做愛,釣魚島,尖阁列岛,尖閣列島,尖閣諸島,尖阁诸岛,weezeewig,cheatmyapp,cheatshack,hacktool,•́,•̀,ั,็,ิ</strings>
+</method>
+</obj>
+<!-- 发送登录消息端口 -->
+<!-- <method ref="dsListener" name="setDcLoginEventPort">1201</method> -->
+
+<!-- 物品日志记录容器 -->
+<method name="getInstance" class="foxu.sea.proplist.PropLogManager" id="propLogManager" />
+<method name="setObjectFactory" ref="propLogManager">
+	<ref id="creatObjectFactory"/>
+</method>
+
+<!-- 建筑相关端口1000-->
+<method name="setPort" ref="service">
+	<value type="int">1000</value>
+	<obj class="foxu.sea.port.BuildPort" id="buildPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setMananger"><ref id="buildManager"/></method>
+	</obj>
+</method>
+
+<!--玩家建议提交端口1001-->
+<method name="setPort" ref="service">
+	<value type="int">1001</value>
+	<obj class="foxu.sea.port.PlayerAdvicePort" id="playerAdvicePort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 聊天信息举报管理器 -->
+<obj class="foxu.sea.messgae.ReportPlayerManager" id="reportManager">
+	<method name="setEmailServer">smtp.exmail.qq.com</method>
+	<method name="setSmtpPort">25</method>
+	<method name="setEmailUser">password@foxugame.com</method>
+	<method name="setEmailPwd">P@ssW0rd</method>
+	<method name="setToEmail">Complaint@foxugame.com</method>
+	<method name="init" />
+</obj>
+
+<!--玩家聊天端口1002-->
+<method name="setPort" ref="service">
+	<value type="int">1002</value>
+	<obj class="foxu.sea.port.ChatMessagePort" id="chatMessagePort">
+		<method name="setDsmanager"><ref id="dsmanager"/></method>
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setReportManager"><ref id="reportManager"/></method>
+	</obj>
+</method>
+
+
+<!--创建角色端口1003-->
+<method name="setPort" ref="service">
+	<value type="int">1003</value>
+	<obj class="foxu.sea.port.CreatePlayerPort" id="createPlayerPort">
+		<field name="memCache" declared="1"><ref id="npcIsLandMemCache"/></field>
+		<field name="factory" declared="1"><ref id="creatObjectFactory"/></field>
+		<method name="setSsm"><method name="getSidSessionMap" ref="ccmanager"/></method>
+		<method name="setTv"><ref id="textValidity"/></method>
+	</obj>
+</method>
+
+<!--绑定账号 注册账号端口1004-->
+<method name="setPort" ref="service">
+	<value type="int">1004</value>
+	<obj class="foxu.sea.port.UserToCenterPort" id="userToCenterPort">
+		<method name="setDbaccess"><ref id="userGameDBAccess"/></method>
+		<method name="setCcmanager"><ref id="ccmanager"/></method>
+		<method name="setCreateObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+
+<!--任务端口1005-->
+<method name="setPort" ref="service">
+	<value type="int">1005</value>
+	<obj class="foxu.sea.port.TaskPort" id="taskPort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 联合舰队 -->
+<obj class="foxu.sea.arena.CombinedFleetManager" id="combinedFleetManager">
+	<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+</obj>
+<!-- 验证器管理器  -->
+<obj class="foxu.sea.vertify.VertifyManager" id="vertifyManager">
+</obj>
+<!--战斗端口1006-->
+<method name="setPort" ref="service">
+	<value type="int">1006</value>
+	<obj class="foxu.sea.port.FightPort" id="fightPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	  	<method name="setCombinedFleetManager"><ref id="combinedFleetManager"/></method>
+	  	<method name="setVertifyManager"><ref id="vertifyManager"/></method>
+	</obj>
+</method>
+
+<!-- 实物奖励管理器 -->
+<obj class="foxu.sea.proplist.PhysicalPropManager" id="physicalPropManager">
+	<method name="setEmailServer">smtp.qq.com</method>
+	<method name="setSmtpPort">25</method>
+	<method name="setEmailUser">3032146235@qq.com</method>
+	<method name="setEmailPwd">123123123</method>
+	<method name="setToEmail">support@foxugame.com</method>
+	<method name="init" />
+</obj>
+
+<!--物品操作端口1007-->
+<method name="setPort" ref="service">
+	<value type="int">1007</value>
+	<obj class="foxu.sea.port.PropPort" id="propPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	  	<method name="setAutoUpBuilding"><ref id="autoUpBuilding"/></method>
+	  	<method name="setPhysicalPropManager"><ref id="physicalPropManager"/></method>
+	</obj>
+</method>
+<!--前台通知后台推算-->
+<method name="setPort" ref="service">
+	<value type="int">2000</value>
+	<obj class="foxu.sea.port.ForeSendPort" id="foreSendPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--排行榜端口1008-->
+<method name="setPort" ref="service">
+	<value type="int">1008</value>
+	<obj class="foxu.sea.port.RankPort" id="rankPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	  	<method name="init"/>
+	</obj>
+</method>
+
+<!--技能提升端口1009-->
+<method name="setPort" ref="service">
+	<value type="int">1009</value>
+	<obj class="foxu.sea.port.SkillUpPort" id="skillUpPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--商店购买端口1010-->
+<method name="setPort" ref="service">
+	<value type="int">1010</value>
+	<obj class="foxu.sea.port.PlayerAttPort" id="playerAttPort">
+	  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	  	<method name="setAutoUpBuilding"><ref id="autoUpBuilding"/></method>
+  		<method name="setGameDataMemCache"><ref id="gameDataMemCache"/></method>
+		<method name="setConfigManager"><ref id="configManager"/></method>
+		<method name="setPlanManager"><ref id="growthPlanManager"/></method>
+		<method name="init"/>
+	</obj>
+</method>
+
+<!--宝石购买端口1011-->
+<method name="setPort" ref="service">
+	<value type="int">1011</value>
+	<obj class="foxu.sea.port.BuyGemsPort" id="buyGemsPort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setVerifyUrl"><ref id="verifyUrl"/></method>
+	<method name="setBannedDeviceUrl"><ref id="verifyDeviceUrl"/></method>
+	</obj>
+</method>
+
+<!--(google)宝石购买端口1088-->
+<method name="setPort" ref="service">
+	<value type="int">1088</value>
+	<obj class="foxu.sea.port.BuyGemsGooglePort" id="buyGemsGooglePort">
+		<field name="uidKit" declared="1">
+			<obj class="foxu.sea.uid.UidKit">
+				<method name="setUidFile"><ref id="playerUidFile"/></method>
+			</obj>
+		</field>
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<method name="addKeyAbout" ref="buyGemsGooglePort">
+	<value type="int">1</value>
+	<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkG98HaG3dyQgDwmIQzB79eBBVRiEbW0CeZkiB2gvWyoDc4pbAnUW8w6tD3YQH0uYRIdr4kMottObGYZCGalowtfT6yHgdcl5UzcSuEvmISey7lHV0Q6wpOKfuxJSRLb5zFCPRIXDVBROHFjSfpY+jz0YdkIiRNEYoyaX3cuzdrKud3kaGYdRJCZ6aLruUPjtHcgzi6DXD7wkYyr6q0t+UVtMZSOek53s6WBALkdtytCBfVqRRzCQez5XB8yQv7tA9ZTsWz6ZainMAz+QZUEVFh42f7QBTSO5EbYBNxT7sSFxfTOep94pC5TvfMoiGrJhZsL9jwyC3BA1dqpPgGjUbwIDAQAB</string>
+	<strings separator=",">seawar.1.50,seawar.3.160,seawar.8.460,seawar.15.960,seawar.50.3420,seawar.100.8400,seawar.4.monthcard</strings>
+</method>
+<method name="addKeyAbout" ref="buyGemsGooglePort">
+	<value type="int">8</value>
+	<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3MSVBbEUfxVEkyPse8HJw4MEFo/c2NDNzNu4eVaD+IVGlNt5V9+dFFlaMm3EqMeQd4eAZqSvW+32PacHDjDBd5ncQpIbw/6DmHU9b3lXIibGus7pMdashdPF/EBkRRmgr5pRkjVlzz7lhz2CBZK8uvErTDn8rjjpH+bCLTfWJ2y9VR6o/b6JdsuOEpUBMqjZglXmM1t4tYtgImb7D9UskMUmRkYyw425HDRVfUwxBiy5Df4sqKL5NMMc17nDemNRYbnfnWoyHVF4vVH+otEDJHQWZ6x5sUtatAMr5kSsAqpJs/Zhf5P4slSI4wOz/Pz3cL4vVBxyPcdXk/D7ntfPLQIDAQAB</string>
+	<strings separator=",">seawar.1.50,seawar.3.160,seawar.8.460,seawar.15.960,seawar.50.3420,seawar.100.8400</strings>
+</method>
+<method name="addKeyAbout" ref="buyGemsGooglePort">
+	<value type="int">9</value>
+	<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3MSVBbEUfxVEkyPse8HJw4MEFo/c2NDNzNu4eVaD+IVGlNt5V9+dFFlaMm3EqMeQd4eAZqSvW+32PacHDjDBd5ncQpIbw/6DmHU9b3lXIibGus7pMdashdPF/EBkRRmgr5pRkjVlzz7lhz2CBZK8uvErTDn8rjjpH+bCLTfWJ2y9VR6o/b6JdsuOEpUBMqjZglXmM1t4tYtgImb7D9UskMUmRkYyw425HDRVfUwxBiy5Df4sqKL5NMMc17nDemNRYbnfnWoyHVF4vVH+otEDJHQWZ6x5sUtatAMr5kSsAqpJs/Zhf5P4slSI4wOz/Pz3cL4vVBxyPcdXk/D7ntfPLQIDAQAB</string>
+	<strings separator=",">seawar.1.50,seawar.3.160,seawar.8.460,seawar.15.960,seawar.50.3420,seawar.100.8400</strings>
+</method>
+
+<!--(tstore)宝石购买端口1089-->
+<method name="setPort" ref="service">
+	<value type="int">1089</value>
+	<obj class="foxu.sea.port.BuyGemsTstorePort" id="buyGemsTstorePort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setTest">false</method>
+		<method name="setAppid">OA00668142</method>
+	</obj>
+</method>
+
+<!--(cypay)宝石购买端口1090-->
+<method name="setPort" ref="service">
+	<value type="int">1090</value>
+	<obj class="foxu.sea.port.BuyGemsCypayPort" id="buyGemsCypayPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--邮件发送端口1012-->
+<method name="setPort" ref="service">
+	<value type="int">1012</value>
+	<obj class="foxu.sea.port.MessagePort" id="messagePort">
+		<method name="setFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--系统设置端口1013-->
+<method name="setPort" ref="service">
+	<value type="int">1013</value>
+	<obj class="foxu.sea.port.SystemPort" id="systemPort">
+	</obj>
+</method>
+
+<!--世界场景端口1014-->
+<method name="setPort" ref="service">
+	<value type="int">1014</value>
+	<obj class="foxu.sea.port.WorldScenePort" id="worldScenePort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--搬迁岛屿端口1015-->
+<method name="setPort" ref="service">
+	<value type="int">1015</value>
+	<obj class="foxu.sea.port.MoveIslandPort" id="moveIslandPort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setIslandContainer"><ref id="islandContainer"/></method>
+	</obj>
+</method>
+
+<!-- 联盟会长自动移交 -->
+<obj class="foxu.sea.alliance.AllianceAutoTransfer" id="allianceTransfer">
+	<method name="init">
+		<ref id="creatObjectFactory"/>
+	</method>
+</obj>
+
+<!-- 联盟宝箱管理器  -->
+<method name="getInstance" class="foxu.sea.alliance.chest.AllianceChestManager" id="allianceChestManager" />
+<method name="setObjectFactory" ref="allianceChestManager"><ref id="creatObjectFactory"/></method>
+<method name="init"  ref="allianceChestManager" />
+<!--<obj class="foxu.sea.alliance.chest.AllianceChestManager" id="allianceChestManager"></obj>-->
+
+<!-- 新联盟战 -->
+<obj class="foxu.sea.alliance.alliancebattle.AllianceBattleFight" id="battleFight">
+	<method name="setFactory"><ref id="creatObjectFactory"/></method>
+</obj>
+
+<!-- 新联盟战管理器 -->
+<obj class="foxu.sea.alliance.alliancebattle.AllianceBattleManager" id="battleFightManager">
+	<method name="setFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setAllianceFight"><ref id="battleFight"/></method>
+	<method name="init" />
+</obj>
+
+<method ref="creatObjectFactory" name="setBattleFight"><ref id="battleFight"/></method>
+
+<!--联盟port 1016-->
+<method name="setPort" ref="service">
+	<value type="int">1016</value>
+	<obj class="foxu.sea.port.AlliancePort" id="alliancePort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setTv"><ref id="textValidity"/></method>
+	<method name="setDsmanager"><ref id="dsmanager"/></method>
+	<method name="setAutoTransfer"><ref id="allianceTransfer"/></method>
+	<method name="setAllianceChestManager"/>
+	<method name="setBattleFight"><ref id="battleFight"/></method>
+	<method name="setBattleFigtmanager"><ref id="battleFightManager"/></method>
+	<method name="flushRank"/>
+	</obj>
+</method>
+
+<!--联盟BOSS port 1017-->
+<method name="setPort" ref="service">
+	<value type="int">1017</value>
+	<obj class="foxu.sea.port.AllianceBossPort" id="AllianceBossPort">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setDsmanager"><ref id="dsmanager"/></method>
+	</obj>
+</method>
+
+<!-- 竞技场端口 port 1018-->
+<method name="setPort" ref="service">
+	<value type="int">1018</value>
+	<obj class="foxu.sea.port.ArenaPort">
+		<method name="setArenaManager">
+			<ref id="arenaManager" />
+		</method>
+	</obj>
+</method>
+
+<!-- boss数据端口 port 1019-->
+<method name="setPort" ref="service">
+	<value type="int">1019</value>
+	<obj class="foxu.sea.port.WorldBossPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 活动信息端口 port 1020-->
+<method name="setPort" ref="service">
+	<value type="int">1020</value>
+	<obj class="foxu.sea.port.ActivityPort">
+		<method name="setFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--物品兑换端口 port 1021-->
+<method name="setPort" ref="service">
+	<value type="int">1021</value>
+	<obj class="foxu.sea.port.ExchangeCodePort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 舰船升级端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1022</value>
+	<obj class="foxu.sea.port.UpShipPort" id="upShipPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!--ReBootPort机器人端口5000-->
+
+<method name="setPort" ref="service">
+	<value type="int">5000</value>
+	<obj class="foxu.sea.port.ReBootPort" id="reBootPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setDsmanager"><ref id="dsmanager"/></method>
+	</obj>
+</method>
+
+<!-- 盟战端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1023</value>
+	<obj class="foxu.sea.port.AllianceFightPort" id="aFightPort">
+		<method name="setAllianceFightManager"><ref id="allianceFightManager"/></method>
+	</obj>
+</method>
+
+<!-- 成就端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1024</value>
+	<obj class="foxu.sea.port.AchievementPort" id="achievementPort">
+	</obj>
+</method>
+
+<!-- 公告端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1026</value>
+	<obj class="foxu.sea.port.AnnouncementPort" id="announceport">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+
+
+
+<!-- 密码重置记录容器 -->
+<obj class="foxu.sea.PasswordManager" id="passwordManager">
+	<method name="setEmailServer">smtp.exmail.qq.com</method>
+	<method name="setSmtpPort">25</method>
+	<method name="setEmailUser">password@foxugame.com</method>
+	<method name="setEmailPwd">P@ssW0rd</method>
+	<method name="setPwdDBAccess"><ref id="passwordDBAccess"></ref></method>
+	<method name="setDbaccess"><ref id="userGameDBAccess"/></method>
+</obj>
+
+<method name="setPasswordManager" ref="playerAttPort"><ref id="passwordManager"/></method>
+
+<!-- 重置密码端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1025</value>
+	<obj class="foxu.sea.port.PasswordResetPort" id="pwdRestPort">
+		<method name="setPwdManager"><ref id="passwordManager"/></method>
+		<method name="setTelBindingManager"><ref id="bindingManager"/></method>
+	</obj>
+</method>
+
+<!-- 装备端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1027</value>
+	<obj class="foxu.sea.port.EquipmentPort" id="equipmentPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 玩家删除端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1028</value>
+	<obj class="foxu.sea.port.PlayerInsulatePort" id="playaerInsulate">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<!-- 修改名称端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1029</value>
+	<obj class="foxu.sea.port.ModifyNamePort" id="modifyport">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setBattleFightManager"><ref id="battleFightManager"/></method>
+		<method name="setTv"><ref id="textValidity"/></method>
+	</obj>
+</method>
+
+<!-- 验证器端口  port 1030 -->
+<method name="setPort" ref="service">
+	<value type="int">1030</value>
+	<obj class="foxu.sea.port.VertifyPort" id="vertifyPort">
+  		<method name="setVertifyManager"><ref id="vertifyManager"/></method>
+	</obj>
+</method>
+
+<!-- 军官功能管理器 -->
+<method class="foxu.sea.officer.OfficerManager" name="getInstance" id="officerManager"/>
+<method name="setObjectFactory" ref="officerManager"><ref id="creatObjectFactory"/></method>
+<method name="setUidkit"  ref="officerManager">
+	<obj class="foxu.sea.uid.UidKit">
+		<method name="setUidFile"><ref id="officerUidFile"/></method>
+	</obj>
+</method>
+<method name="init" ref="officerManager"/>
+<method name="init" ref="battleFight"/>
+
+<!-- 军官功能端口  port 1031 -->
+<method name="setPort" ref="service">
+	<value type="int">1031</value>
+	<obj class="foxu.sea.port.OfficerPort" id="officerPort">
+		<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+		<method name="setOfficerManager"><ref id="officerManager"/></method>
+	</obj>
+</method>
+
+<!-- 战争狂人端口  port 1032 -->
+<method name="setPort" ref="service">
+	<value type="int">1032</value>
+	<obj class="foxu.sea.port.WarManicPort" id="warManicPort">
+  		<method name="setObjfactory"><ref id="creatObjectFactory"/></method>
+	</obj>
+</method>
+
+<method name="setAfightManager" ref="alliancePort"><ref id="allianceFightManager"/></method>
+
+<!-- 活动管理容器设置-->
+<method name="setObjectFactory" ref="activityContainer"><ref id="creatObjectFactory"/></method>
+<method name="setDsManager" ref="activityContainer"><ref id="dsmanager"/></method>
+<method name="initActivity" ref="activityContainer"/>
+<method name="startTimer" ref="activityContainer"/>
+
+<!-- 成就管理器设置 -->
+<method name="setDsManager" ref="achieveManager"><ref id="dsmanager"/></method>
+<method name="init" ref="buildManager" />
+
+<!-- push管理器 -->
+<obj class="foxu.push.AndroidPush" id="androidPush">
+  	<method name="setManager"><ref id="dsmanager"/></method>
+  	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+  	<method name="init"/>
+</obj>
+<!-- 删除玩家管理 -->
+<obj class="foxu.sea.arena.ClearPlayerInfoManager" id="clearplayerManager">
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setAfightManager"><ref id="allianceFightManager"/></method>
+	<method name="setAllianceTransfer"><ref id="allianceTransfer"/></method>
+</obj>
+
+<!-- 数据备份 -->
+<obj class="foxu.backup.DatabaseBackup" id="databackup">
+	<method name="setBackupScriptPath">/mnt/mysql/backupSh/mysql_databak.sh</method>
+	<method name="setObjectFactory"><ref id="creatObjectFactory"/></method>
+	<method name="setBackupTime">2,52,*</method>
+	<method name="start" />
+</obj>
+
+<!-- 跨服战 服务器端 -->
+<obj class="foxu.cross.server.CrossActManager" id="crossActManager">
+	<method name="setDbAccess" ><ref id="crossActDBAccess"/></method>
+	<method name="setActuid" >
+		<obj class="foxu.sea.uid.UidKit">
+			<method name="setUidFile"><ref id="crossActUidFile"/></method>
+		</obj>
+	</method>
+	<method name="init" />
+</obj>
+
+<obj class="foxu.cross.war.CrossWarServerManager" id="crossWarServerManager">
+	<method name="init" />
+</obj>
+
+
+<obj class="foxu.cross.war.CrossWarPlayerManager" id="crossWarPlayerManager">
+	<method name="setActmanager"><ref id="crossActManager"/></method>
+	<method name="setWarPlayerAccess"><ref id="crossWarPlayerDBAccess"/></method>
+	<method name="init" />
+</obj>
+
+
+<obj class="foxu.cross.war.CrossWarManager" id="crossWarManager">
+	<method name="setActmanager"><ref id="crossActManager"/></method>
+	<method name="setcWarServerManager"><ref id="crossWarServerManager"/></method>
+	<method name="setcWarPlayerManager"><ref id="crossWarPlayerManager"/></method>
+	<method name="setSaveDBAccess"><ref id="crossWarSaveDBAccess"/></method>
+	<method name="setCrossuid">
+		<obj class="foxu.sea.uid.UidKit">
+				<method name="setUidFile"><ref id="crossPlayerUidFile"/></method>
+			</obj>
+	</method>
+	<method name="setRepuid">
+		<obj class="foxu.sea.uid.UidKit">
+				<method name="setUidFile"><ref id="reportUidFile"/></method>
+			</obj>
+	</method>
+	<method name="init" />
+</obj>
+
+<method name="addListener" ref="crossActManager"><ref id="crossWarManager"/></method>
+<method name="addListener" ref="crossActManager"><ref id="crossWarPlayerManager"/></method>
+
+<!-- 跨服中心接受数据端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">10</value>
+	<obj class="foxu.cross.server.CrossDataHttpPort" id="crossDataHttpPort">
+		<method name="addAction">
+			<value>1</value>
+			<ref id="crossWarManager"/>
+		</method>
+	</obj>
+</method>
+
+
+<!-- 跨服战客服端 -->
+
+<obj class="foxu.cross.warclient.ClientWarManager" id="clientWarManager">
+	<method name="setCfactory"><ref id="creatObjectFactory"/></method>
+	<method name="setDsmanager"><ref id="dsmanager"/></method>
+	<method name="setCwsDBAccess"><ref id="crossWarSaveDBAccessClient"/></method>
+	<method name="setCwpDBAccess"><ref id="clientWarPlayerDBAccess"/></method>
+	<method name="setCross_ip"><ref id="crossServerIP"/></method>
+	<method name="setCross_port"><ref id="crossServerPort"/></method>
+	<method name="init" />
+</obj>
+
+<method name="setcWarManager" ref="playerKit"><ref id="clientWarManager"/></method>
+
+
+
+<!-- 跨服战客服端接受数据端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">11</value>
+	<obj class="foxu.cross.warclient.ClientWarHttpPort" id="clientWarHttpPort">
+		<method name="setcWarManager"><ref id="clientWarManager"/></method>
+	</obj>
+</method>
+
+<!-- 跨服积分赛客户端管理器 -->
+<obj class="foxu.cross.goalleague.ClientLeagueManager" id="clientLeagueManager">
+	<method name="setArenaManager"><ref id="arenaManager" /></method>
+	<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+	<method name="setCpDBAccess"><ref id="crossLeaguePlayerDBAccess"/></method>
+</obj>
+
+<!-- 跨服积分赛服务器端管理器 -->
+<obj class="foxu.cross.goalleague.ServerLeagueManager" id="serverLeagueManager">
+	<method name="setWarDBAccess"><ref id="copyLeaguePlayerDBAccess"/></method>
+	<method name="setUidkit">
+		<obj class="foxu.sea.uid.UidKit">
+			<method name="setUidFile"><ref id="crossLeagueUidFile" /></method>
+		</obj>
+	</method>
+</obj>
+
+<method ref="playerKit" name="setcLeagueManager"><ref id="clientLeagueManager" /></method>
+<method ref="creatObjectFactory" name="setClientLeagueManager"><ref id="clientLeagueManager" /></method>
+
+<!-- 跨服积分赛客户端http控制器 -->
+<obj class="foxu.cross.goalleague.action.ClientLeagueAction" id="clientLeagueAction">
+	<method name="setClm"><ref id="clientLeagueManager" /></method>
+</obj>
+<!-- 跨服积分赛客户端http控制器 -->
+<obj class="foxu.cross.goalleague.action.ServerLeagueAction" id="serverLeagueAction">
+	<method name="setSlm"><ref id="serverLeagueManager" /></method>
+</obj>
+
+<obj class="foxu.cross.server.CrossDataHttpPort" id="leagueDataHttpPort" />
+<method name="addAction" ref="leagueDataHttpPort">
+	<value>1</value>
+	<ref id="clientLeagueAction"/>
+</method>
+<method name="addAction" ref="leagueDataHttpPort">
+	<value>2</value>
+	<ref id="serverLeagueAction"/>
+</method>
+<!-- 跨服积分赛接受数据端口 -->
+<method name="setPort" ref="httpService">
+	<value type="int">12</value>
+	<ref id="leagueDataHttpPort"/>
+</method>
+
+<!-- 跨服战客服接收前端数据端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1056</value>
+	<obj class="foxu.cross.warclient.ClientServerPort" id="clientServerPort">
+		<method name="setcWarManager"><ref id="clientWarManager"/></method>
+	</obj>
+</method>
+
+<!-- 广播消息线程 -->
+<obj class="foxu.cross.warclient.BroadCastHander" id="broadCastHander">
+	<method name="setcWarManager"><ref id="clientWarManager"/></method>
+	<method name="start" />
+</obj>
+
+
+<method name="setCactmanager" ref="creatObjectFactory"><ref id="crossActManager"/></method>
+<method name="setCwarPmanger" ref="creatObjectFactory"><ref id="crossWarPlayerManager"/></method>
+<method name="setCwarmanager" ref="creatObjectFactory"><ref id="crossWarManager"/></method>
+<method name="setCwarCmanager" ref="creatObjectFactory"><ref id="clientWarManager"/></method>
+
+<!--新兵福利-->
+<method name="setCfactory" ref="rwManager"><ref id="creatObjectFactory"/></method>
+<method name="setDsmanager" ref="rwManager"><ref id="dsmanager"/></method>
+<method name="init" ref="rwManager"/>
+
+<!-- 新联盟战接收前端数据端口 -->
+<method name="setPort" ref="service">
+	<value type="int">1034</value>
+	<obj class="foxu.sea.alliance.alliancebattle.AllianceBattlePort" id="allianceBattlePort">
+		<method name="setManager"><ref id="battleFightManager"/></method>
+	</obj>
+</method>
+
+<field class="foxu.sea.recruit.RecruitKit" name="rmanager"><ref id="rwManager"/></field>
+<method name="setRecruitManager" ref="playerKit"><ref id="rwManager"/></method>
+
+<!-- 新兵福利端口  1033-->
+<method name="setPort" ref="service">
+	<value type="int">1033</value>
+	<obj class="foxu.sea.port.RecruitPort" id="recruitPort">
+  		<method name="setRmanager"><ref id="rwManager"/></method>
+	</obj>
+</method>
+
+<!-- 战友招募 -->
+<obj class="foxu.sea.comrade.ComradeHandler" id="comradeHandler">
+	<method name="setObjfactory"><ref id="creatObjectFactory"/></method>
+	<method name="init" /> 
+</obj>
+<!--战友端口-->
+<method name="setPort" ref="service">
+	<value type="int">1035</value>
+	<obj class="foxu.sea.port.ComradePort" id="comradePort"/>
+</method>
+<!-- 绑定端口  port 1036 -->
+<method name="setPort" ref="service">
+	<value type="int">1036</value>
+	<obj class="foxu.sea.port.BindingPort" id="bindingPort">
+  		<method name="setTelBindingManager"><ref id="bindingManager"/></method>
+	</obj>
+</method>
+<!-- 跨服积分赛端口  port 1037 -->
+<method name="setPort" ref="service">
+	<value type="int">1037</value>
+	<obj class="foxu.cross.goalleague.GoalLeaguePort" id="goalLeaguePort">
+  		<method name="setClm"><ref id="clientLeagueManager" /></method>
+  		<method name="setLfm">
+  			<obj class="foxu.cross.goalleague.LeagueFightManager" id="leagueFightManager"></obj>
+  		</method>
+  		<method name="setObjectFactory"><ref id="creatObjectFactory" /></method>
+	</obj>
+</method>
+
+<!-- 宝石岛屿管理器 -->
+<obj class="foxu.sea.GemsNpcIslandManager" id="gemsIslandManger">
+	<method name="setFactory"><ref id="creatObjectFactory" /></method>
+	<method name="setIslanddBAccess"><ref id="islandGameDBAccess" /></method>
+	<method name="init"/>
+</obj>
+
+<method name="setGemManger" ref="creatObjectFactory"><ref id="gemsIslandManger"/></method>
+
+<field class="foxu.sea.port.UserToCenterPort" name="PLAT_ID">1</field>
+<!-- 跨服积分赛初始化可能会用到PLAT_ID,重要的话说3遍-->
+<!-- 必须放到PLAT_ID设置之后 -->
+<!-- 必须放到PLAT_ID设置之后 -->
+<!-- 必须放到PLAT_ID设置之后 -->
+<method name="init" ref="serverLeagueManager"/>
+<method name="init" ref="clientLeagueManager"/>
+<!--游戏中心IP-->
+<field class="foxu.sea.activity.WebShowActivity" name="REQUEST_WEB_ADDRESS">http://zhounian.gamesule.cn/Activity/</field>
+
+</objects>

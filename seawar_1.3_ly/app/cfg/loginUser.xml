@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects> 
+	<field class="foxu.sea.PublicConst" name="USER_ID_LIMIT">
+		<ints>16799220,16799218,16799219</ints>
+	</field>
+	
+	<field class="foxu.sea.PublicConst" name="LOGIN_LIMIT">false</field>
+
+</objects>

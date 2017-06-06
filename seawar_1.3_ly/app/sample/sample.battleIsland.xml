@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.alliance.alliancebattle.BattleIsland" name="factory" id="battleIslandFactory" />
+    <method ref="battleIslandFactory" name="init">
+        <ref id="context" />
+    </method>
+    
+    <sample class="foxu.sea.alliance.alliancebattle.BattleIsland" sid="15101" awardSid="65103" loseSid="65106" output="100" lowPrice="500" name="低产海礁" winScience="1250" loseScience="1000" abstainScience="400">
+    </sample>
+
+
+    <sample class="foxu.sea.alliance.alliancebattle.BattleIsland" sid="15102" awardSid="65102" loseSid="65105" output="200" lowPrice="1000" name="中产海岛" winScience="2500" loseScience="2000" abstainScience="600">
+    </sample>
+
+
+    <sample class="foxu.sea.alliance.alliancebattle.BattleIsland" sid="15103" awardSid="65101" loseSid="65104" output="300" lowPrice="2000" name="丰饶半岛" winScience="5000" loseScience="4000" abstainScience="1000">
+    </sample>
+
+</objects>

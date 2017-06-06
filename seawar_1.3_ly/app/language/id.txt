@@ -1,0 +1,902 @@
+﻿plunder resources=Sumber Daya yang dapat direbut 
+metal=Metal
+oil=Minyak
+silicon=Silikon
+uranium=Uranium
+money=Emas
+
+
+world_island_1=Pulau Tambang Besi
+world_island_2=Perairan Minyak
+world_island_3=Pulau Tambang Silikon
+world_island_4=Pulau Tambang Uranium
+world_island_5=Reruntuhan Kapal
+
+
+
+server_name_taiwan_001=Traditional Chinese001
+server_name_taiwan_002=Traditional Chinese002
+server_name_cn_001=Simplified Chinese001
+server_name_cn_002=Simplified Chinese002
+
+the invetid is=ID ini tidak terdaftar di server ini
+inveted is wrong=ID salah
+
+
+game_name=Empire Warships
+game_name1=Ocean Force
+game_name2=Empire Warships
+game_name3=Kapal Perang:Perang Naval
+
+be_attack_npc_island_push=Pemain % sedang mengirim pasukan menuju (%) yang anda jaga %(%),Beri perintah segera
+be_attack_self_island_push=Pemain % sedang mengirim pasukan menuju (%)anda,Beri perintah segera
+
+
+account is have=Akun sudah terdaftar
+user_count_full=Anda tidak bisa login melalui tamu lagi karena sudah mengikat ID % % %
+
+
+system_mail=Surat Sistem
+invite_new_one_title=% bergabung
+invite_new_one_content=Teman anda % telah bergabung dengan Ocean Armada,anda mendapatkan hadiah mengundang,paket sumber daya,15 gem,cepat hubungi dia untuk menghadapi musuh bersama-sama!
+
+be_invite_new_one_title=Selamat Datang di Ocean Armada!
+be_invite_new_one_content=Selamat Datang di Ocean Armada,teman anda % sedang bertempur dengan musuh,anda mendapatkan 10 gem dan 1 bendera perdamaian,cepat bantu dia.
+
+
+player_type_up=Selamat! % naik pangkat menjadi %
+player_type_2=Pelaut
+player_type_3=Kopral
+player_type_4=Sersan
+player_type_5=Sersan Mayor
+player_type_6=Adjudan
+player_type_7=Letnan Muda
+player_type_8=Letnan
+player_type_9=Kapten
+player_type_10=Mayor
+player_type_11=Letnan Kolonel
+player_type_12=Kolonel
+player_type_13=Laksamana III
+player_type_14=Laksamana II
+player_type_15=Laksamana I
+player_type_16=Laksamana Besar
+player_type_17=Dewa Perang
+
+
+
+attack_island_prop=Selamat!% perang melawan % Lv.%,% berhasil mendapatkan %
+attack_checkpoint=Selamat!% berhasil mendapatkan % dari Stage.
+prop_use_tips=Selamat!% memakai % dan mendapatkan % %
+success_check_point=% berperang dengan berani dan mengalahkan semua pasukan "%"
+success_check_10016=Chapter 1: Pantai Pasir
+success_check_10032=Chapter 2: Pos Luar
+success_check_10048=Chapter 3: Pasukan Baja
+success_check_10064=Chapter 4: Pulau Emas Hitam
+success_check_10080=Chapter 5: Armada Pasifik
+success_check_10096=Chapter 6: Pabrik Kristal
+success_check_10112=Chapter 7: Kota Industri
+success_check_10128=Chapter 8: Tambang Kematian
+success_check_10144=Chapter 9: Akar Setan
+success_check_10160=Chapter 10: Penjaga Samudera
+success_check_10176=Chapter 11: Perang Samudera
+success_check_10192=Chapter 12: Perang Laut
+success_check_10208=Chapter 13: Pulau Penjara
+success_check_10224=Chapter 14: Jalur Chaos
+success_check_10240=Chapter 15: Pelabuhan Bebas
+success_check_10256=Chapter 16:Selat Laut Utara
+success_check_10272=Chapter 17:Garis Khatulistiwa
+
+
+commander_level_up=Selamat!Telah meningkatkan % ke Lv.%
+
+
+alliance_system_title=Pemberitahuan Sistem
+alliance_refuse_content=Anda ditolak masuk Aliansi!
+alliance_be_kick_content=Anda dikeluarkan dari aliansi %!
+
+
+server_is_not_open=Perbaikan server.Coba sesaat lagi.
+connection_timeout=Koneksi melebihi waktu
+
+
+
+alliance_level_up=Selamat!%(Aliansi) meningkat ke Lv.%
+
+buy gems fail=Pembelian gagal,mohon menghapus data jailbreak dan coba sekali lagi.
+alliance_gave_value_not_enough=anda butuh % kontribusi aliansi untuk mengambil.
+lotto_special_prop=Selamat! % mendapatkan % dari Undian berhadiah!
+
+
+boss_came=Bos dunia(Lv.%)telah mucul di peta dunia
+boss_has_been_killed=Bos dunia(Lv.%)berhasil dikalahkan,peringkat 10 besar aliansi yang mengalahkan bos akan mendapatkan hadiah,%(aliansi) menhancurkan % kapal,mendapatkan peringkat 1.
+boss_has_been_last_kill=Selamat!% berhasil mengalahkan bos(Lv.%) dan mendapatkan hadiah utama
+boss_taunt=Bos dunia(Lv.%)telah mucul di %,Kirim pasukan untuk mengalahkanya
+lucky_draw_prop=Selamat % mendapatkan % % di Undian Misteri
+lucky_draw_prop2=Selamat % mendapatkan % % di Roda Keberuntungan
+success_hei_check_55001=Chapter 1: Lautan Karang
+success_hei_check_55002=Chapter 2: Reruntuhan Batu
+success_hei_check_55003=Chapter 3: Reruntuhan Kerajaan
+success_hei_check_55004=Chapter 4: Reruntuhan Benteng
+success_hei_check_55005=Chapter 5: Reruntuhan Prasasti
+success_hei_check_55006=Chapter 6:  Reruntuhan Suci
+success_hei_check_55007=Chapter 7: Reruntuhan Kuil
+success_hei_check_55008=Chapter 8: Harta Kuno
+success_hei_check_point=% Berperang dengan berani dan mengalahkan semua musuh % !
+
+
+password_reset_mail_title=Email sistem Ocean Armada
+password_reset_mail_title1=Email sistem Ocean Armada
+password_reset_mail_code=kode verifikasi
+password_reset_mail_device=ID perangkat
+password_reset_mail_command=Ganti Password
+password_reset_mail_tip=Anda sedang  me-reset password, jika ini bukan anda,maka anda telah di hack. Cepat ganti password anda sekarang!
+password_reset_mail_foottip=Jangan balas email ini.Alamat email ini tidak bisa menjawab balasan anda.%{%a href='http://bbs.foxugame.com/' target='_blank'%}%nbsp;Official forumnbsp;%{%/a%}%Lebih lanjut
+password_reset_mail_reg=%YEAR% Ocean Armada
+have geted award=Anda sudah mengambil hadiah!
+boss_taunt_sixhour=Bos dunia Lv.% muncul di %
+boss_taunt_direction=Utara,selatan,barat,timur,Tengah,barat laut,timur laut,barat daya,tenggara
+equip not open=Belum memenuhi syarat untuk membuka sistem perlengkapan
+equip not exist=Tidak ada item ini
+can not equip=Item tidak bisa di pakai
+equip can not level up=Item tidak bisa mendapatkan EXP
+equip can not feed itself=Tidak bisa mengkonsumsi sendiri untuk menambah EXP
+equip can not quality up=Aksesoris ini tidak bisa ditingkatkan
+prop or resource not enough=Item atau sumber daya tidak cukup
+quality stuff not exist=Materi yang dibutuhkan tidak ada
+stuff can not combine=Tidak cukup emas
+equip storehouse is full=Kotak Item sudah penuh
+equip can not sale=Item tidak bisa dijual
+lotto_count_limit=Anda telah membuka lotto
+annoucement not exist=Tidak ada pengumuman
+annoucement is pass=Pengumuman sudah lewat
+annoucement is erro=Pengumuman error
+alliance_auto_transfer=Sekarang % adalah ketua aliansi
+err:propId=Id item salah
+err:gems=masuk gem salah
+err:initDat=masuk hadiah salah
+player not buy=Pemain belum membeli
+err:not award id=Tidak ada hadiah ID
+err:Can't get=Tidak bisa diambil
+totalBuyActivity_autoSendReward_mail=Selamat! Dalam event akumulasi dari % sampai % , \n telah mengisi ulang sebanyak % selama event. \n Akan mendapatkan:
+gems=Gem
+totalBuyActivity_autoSendReward_mail_title=Pengumuman hadiah
+consume_gems_auto_award=Yang terhormat [PNAME]:\n, Anda telah memakai [COUNT] gem dalam [START] - [END]. Berdasarkan persentase [PERCENT] % , Kita telah mengembalikan [RETURN] gem, Terima kasih!
+date_price_off_start=Toko Gelap sudah dibuka
+account is wrong=Email error
+alliance_transfer_last_title=Pemberitahuan pergantian ketua aliansi
+alliance_transfer_last_content=Dikarenakan dalam 7 hari ini anda tidak login,maka jabatan ketua aliansi anda kita berikan kepada %. Anda sekarang adalah wakil ketua aliansi.
+alliance_transfer_next_title=Pemberitahuan pergantian ketua aliansi
+alliance_transfer_next_content=Dikarenakan dalam 7 hari ini % tidak login,maka jabatan ketua aliansi anda kita berikan kepada anda. Semoga anda bisa menggunakan kesempatan ini sebaik mungkin.
+new_alliance_title=Pemberitahuan Aliansi
+new_alliance_content=Selamat! Anda telah membentuk %. Cepat perkuat dan perbesar aliansi. \n\n Note: Jika anda tidak login selama 7 hari makan jabatan ketua aliansi akan diberikan kepada wakil ketua aliansi yang lebih aktif. (Jika tidak ada wakil ketua maka jabatan akan diberikan kepada anggota aliansi.)
+dismiss_alliance_title=Pemberitahuan pembubaran aliansi
+dismiss_alliance_content=Aliansi anda sudah bubar pada %
+must pay=Lakukan Isi ulang perdana terlebih dahulu
+set_fleet=Kota Terlarang ditutup sementara
+
+
+prop_sid_10001=Kapal Perang Kecil
+prop_sid_10011=Kapal Selam Kecil
+prop_sid_10021=Kapal Misil Kecil
+prop_sid_10031=Kapal Induk Kecil
+prop_sid_10002=Kapal Perang Medium
+prop_sid_10012=Kapal Selam Medium
+prop_sid_10022=Kapal Misil Medium
+prop_sid_10032=Kapal Induk Medium
+prop_sid_10003=Kapal Perang Besar
+prop_sid_10013=Kapal Selam Besar
+prop_sid_10023=Kapal Misil Besar
+prop_sid_10033=Kapal Induk Besar
+prop_sid_10004=Kapal Perang Wild
+prop_sid_10014=Kapal Selam Hantu
+prop_sid_10024=Kapal Misil Raptor
+prop_sid_10034=Kapal Induk Naga
+prop_sid_10005=Kapal Perang Barrier
+prop_sid_10015=Kapal Selam Aries
+prop_sid_10025=Kapal Misil Aegis
+prop_sid_10035=Kapal Induk Raja
+prop_sid_10006=Kapal Perang Titan
+prop_sid_10007=Kapal Perang Fearless
+prop_sid_10016=Kapal Selam Hades
+prop_sid_10017=Kapal Selam Doom
+prop_sid_10026=Kapal Misil Zeus
+prop_sid_10027=Kapal Misil Torpedo
+prop_sid_10036=Kapal Induk Ares
+prop_sid_10037=Kapal Induk Tornado
+prop_sid_10008=Kura-kura Hitam
+prop_sid_10018=Naga Hijau
+prop_sid_10028=Harimau Putih
+prop_sid_10038=Phoenix
+
+
+
+
+
+prop_sid_40111=Meriam Pantai Kecil
+prop_sid_40112=Meriam Pantai Besar
+prop_sid_40113=Meriam Cepat
+prop_sid_40114=Meriam Petir
+prop_sid_40115=Meriam Aurora
+prop_sid_40121=Radar frekuensi lemah
+prop_sid_40122=Radar frekuensi tinggi
+prop_sid_40123=Radar frekuensi kuat
+prop_sid_40124=Radar  Radiasi
+prop_sid_40125=Radar Phantom
+prop_sid_40131=Lapisan Baja tipis
+prop_sid_40132=Lapisan Baja
+prop_sid_40133=Lapisan Platinum
+prop_sid_40134=Lapisan Bintang
+prop_sid_40135=Lapisan Holy
+prop_sid_40141=Turbin Angin
+prop_sid_40142=Turbin Phantom
+prop_sid_40143=Turbin Fury
+prop_sid_40144=Turbin Void
+prop_sid_40145=Turbin Naga
+prop_sid_40211=Torpedo Kecil
+prop_sid_40212=Torpedo Berat
+prop_sid_40213=Torpedo Cepat
+prop_sid_40214=Torpedo Petir
+prop_sid_40215=Torpedo Aurora
+prop_sid_40221=Sonar frekuensi lemah
+prop_sid_40222=Sonar frekuensi tinggi
+prop_sid_40223=Sonar frekuensi kuat
+prop_sid_40224=Sonar  Radiasi
+prop_sid_40225=Sonar Phantom
+prop_sid_40231=Lapisan Baja tipis
+prop_sid_40232=Lapisan Baja
+prop_sid_40233=Lapisan Platinum
+prop_sid_40234=Lapisan Bintang
+prop_sid_40235=Lapisan Holy
+prop_sid_40241=Pendorong Angin
+prop_sid_40242=Pendorong Phantom
+prop_sid_40243=Pendorong Fury
+prop_sid_40244=Pendorong Void
+prop_sid_40245=Pendorong Naga
+prop_sid_40411=Misil Kecil
+prop_sid_40412=Misil Besar
+prop_sid_40413=Misil Kuat
+prop_sid_40414=Misil Petir
+prop_sid_40415=Misil Aurora
+prop_sid_40421=Alarm frekuensi lemah
+prop_sid_40422=Alarm frekuensi tinggi
+prop_sid_40423=Alarm frekuensi kuat
+prop_sid_40424=Alarm  Radiasi
+prop_sid_40425=Alarm Phantom
+prop_sid_40431=Lapisan Baja tipis
+prop_sid_40432=Lapisan Baja
+prop_sid_40433=Lapisan Platinum
+prop_sid_40434=Lapisan Bintang
+prop_sid_40435=Lapisan Holy
+prop_sid_40441=Motor Angin
+prop_sid_40442=Motor Phantom
+prop_sid_40443=Motor Fury
+prop_sid_40444=Motor Void
+prop_sid_40445=Motor Naga
+prop_sid_40811=Pesawat Kecil
+prop_sid_40812=Pesawat Besar
+prop_sid_40813=Pesawat Kuat
+prop_sid_40814=Pesawat Petir
+prop_sid_40815=Pesawat Aurora
+prop_sid_40821=Monitor frekuensi lemah
+prop_sid_40822=Monitor frekuensi tinggi
+prop_sid_40823=Monitor frekuensi kuat
+prop_sid_40824=Monitor  Radiasi
+prop_sid_40825=Monitor Phantom
+prop_sid_40831=Lapisan Baja tipis
+prop_sid_40832=Lapisan Baja
+prop_sid_40833=Lapisan Platinum
+prop_sid_40834=Lapisan Bintang
+prop_sid_40835=Lapisan Holy
+prop_sid_40841=Mesin Angin
+prop_sid_40842=Mesin Phantom
+prop_sid_40843=Mesin Fury
+prop_sid_40844=Mesin Void
+prop_sid_40845=Mesin Naga
+prop_sid_41101=Model Energi I
+prop_sid_41102=Model Energi II
+prop_sid_41103=Model Energi III
+prop_sid_41104=Model Energi IV
+prop_sid_41105=Model Energi V
+prop_sid_41201=Gigi Mesin I
+prop_sid_41202=Gigi Mesin II
+prop_sid_41203=Gigi Mesin III
+prop_sid_41204=Gigi Mesin IV
+
+prop_sid_1=Potongan Besi Kecil
+prop_sid_2=Tong  Minyak Kecil
+prop_sid_3=Potongan Silikon Kecil
+prop_sid_4=Potongan Uranium Kecil
+prop_sid_5=Potongan Emas Kecil
+prop_sid_6=Potongan Besi Besar
+prop_sid_7=Tong  Minyak Besar
+prop_sid_8=Potongan Silikon Besar
+prop_sid_9=Potongan Uranium Besar
+prop_sid_10=Potongan Emas Besar
+prop_sid_11=Paket Medali Kehormatan
+prop_sid_12=Paket Sumber Daya Pemula
+prop_sid_13=Paket Sumber Daya Besar
+prop_sid_14=Paket Sumber Daya Super
+prop_sid_15=Paket Sumber Daya Extra Besar
+prop_sid_16=Produksi Cepat
+prop_sid_17=Kotak Produksi Cepat
+prop_sid_18=Kotak Produksi Express
+prop_sid_19=Kotak Produksi Express C
+prop_sid_400=Kotak Uranium Kecil
+prop_sid_401=Kotak Uranium Besar
+prop_sid_402=Kotak Harta
+prop_sid_403=Paket Kepemimpinan Kecil
+prop_sid_404=Paket Kepemimpinan Besar
+prop_sid_405=Kotak Besi
+prop_sid_406=Kotak Minyak
+prop_sid_407=Kotak Silikon
+prop_sid_408=Kotak Besi  Besar
+prop_sid_409=Kotak Minyak  Besar
+prop_sid_410=Kotak Silikon  Besar
+prop_sid_411=Kotak Medali Kehormatan Besar
+prop_sid_412=Paket Turbin Gas
+prop_sid_413=Paket Batu Fusion
+prop_sid_414=Paket Mesin Pendukung
+prop_sid_415=Paket Mesin Spesifik
+prop_sid_416=Setumpuk Batu Bintang
+prop_sid_417=Kontener Batu Bintang
+prop_sid_418=Kotak Christmas
+prop_sid_419=Paket Batu Bintang
+prop_sid_420=Muatan Uranium 5
+prop_sid_501=Percepat Tambang Besi
+prop_sid_502=Percepat Tambang Minyak
+prop_sid_503=Percepat Tambang Silikon
+prop_sid_504=Percepat Tambang Uranium
+prop_sid_505=Percepat Tambang Emas
+prop_sid_506=Pelindung Ion
+prop_sid_507=Bom Super
+prop_sid_508=Pelayaran Cepat
+prop_sid_509=Bendera perdamaian
+prop_sid_1001=Suntikan Energi
+prop_sid_1002=Obat Energi
+prop_sid_1003=Buku EXP
+prop_sid_1004=Buku Reputasi
+prop_sid_1005=Token Migrasi
+prop_sid_1006=Token Migrasi Super
+prop_sid_2001=Pasukan Udara
+prop_sid_2002=Bom EMP
+prop_sid_510=Laser
+prop_sid_511=Bom Asap
+prop_sid_512=Bom Uranium
+prop_sid_513=Pertahanan Smart
+prop_sid_2007=Turbin Gas C98
+prop_sid_2008=Batu Fusion
+prop_sid_2009=Batu Bintang
+prop_sid_2010=Kotak Gem Super
+prop_sid_2011=Kotak Gem Jumbo
+prop_sid_2012=Kotak Gem Besar
+prop_sid_2013=Kotak Gem Kecil
+prop_sid_2014=Kartu VIP Perak
+prop_sid_2015=Kartu VIP Emas
+prop_sid_2016=Kartu VIP Diamond
+prop_sid_2017=Paper 7
+prop_sid_2018=Pengangkut Cepat
+prop_sid_2019=Pengangkut Express
+prop_sid_2020=Auto-Konstruksi
+prop_sid_2021=Medali Kehormatan
+prop_sid_2022=Buku Kepemimpinan
+prop_sid_2023=Kotak Uranium Kecil
+prop_sid_2024=Kotak Besi Kecil
+prop_sid_2025=Kotak Minyak Kecil
+prop_sid_2026=Kotak Silikon Kecil
+prop_sid_2027=Paket Kuda Naga
+prop_sid_2028=Paket Naga Putih
+prop_sid_403=Paket Kepemimpinan Kecil
+prop_sid_2030=Paket Medali Kehormatan Kecil
+prop_sid_3001=Paket Sumber Daya Kecil
+prop_sid_3002=Kotak Rokkie Eksklusif
+prop_sid_3003=Kotak Raja
+prop_sid_3004=Kotak Petir
+prop_sid_3005=Kotak Elit
+prop_sid_3006=Kotak Perdamaian
+prop_sid_3007=Kotak Elit Spesial
+prop_sid_3008=Kotak Perang Sengit
+prop_sid_4001=Kotak Produksi Extra
+prop_sid_4002=Kotak Uranium
+prop_sid_4003=Kotak Emas
+prop_sid_4004=Kotak Emas Besar
+prop_sid_4005=Paket Update Versi
+prop_sid_4006=Paket Delay
+prop_sid_4007=Paket Gabung Server
+prop_sid_4008=Gambar Kapal Induk 2
+prop_sid_4009=Kotak Besi  Besar
+prop_sid_4010=Kotak Minyak  Besar
+prop_sid_4011=Kotak Silikon  Besar
+prop_sid_4012=Kotak Uranium Besar
+prop_sid_4013=Kotak Emas Besar
+prop_sid_4014=Paket eksklusif
+prop_sid_4015=Paket Platinum
+prop_sid_4016=Paket Diamond
+prop_sid_4017=Paket  Hadiah Event
+prop_sid_4018=Paket Hadiah
+prop_sid_4019=Paket Kompensasi
+prop_sid_4020=Paket Kembali
+prop_sid_5001=Paket Kupon 
+prop_sid_5002=Paket Kupon B
+prop_sid_5003=Paket Kupon C
+prop_sid_5004=Paket Kupon D
+prop_sid_6001=Jangkar Emas
+prop_sid_6002=Jangkar Perak
+prop_sid_7001=Paket 600 Gem
+prop_sid_7002=Paket 1250 Gem
+prop_sid_7003=Paket 6500 Gem
+prop_sid_7004=Paket 13500 Gem
+prop_sid_7011=五仁月餅
+prop_sid_7012=豆沙月餅
+prop_sid_7013=桂花月餅
+prop_sid_3010=Paket Material Kecil
+prop_sid_3011=Paket Material Medium
+prop_sid_3012=Paket Material Besar
+prop_sid_3013=Paket Evolusi biasa
+prop_sid_3014=Paket Aksesoris Hijau
+prop_sid_3015=Paket Aksesoris Biru
+prop_sid_3016=Paket Aksesoris Ungu
+prop_sid_3017=Paket Aksesoris Oren
+prop_sid_3018=Kotak Senjata Kapal Perang - Spesial
+prop_sid_3019=Kotak Akurasi Kapal Perang - Spesial
+prop_sid_3020=Kotak Pertahanan Kapal Perang - Spesial
+prop_sid_3021=Kotak Hindar Kapal Perang - Spesial
+prop_sid_3022=Kotak Senjata Kapal Perang - Epic
+prop_sid_3023=Kotak Akurasi Kapal Perang - Epic
+prop_sid_3024=Kotak Pertahanan Kapal Perang - Epic
+prop_sid_3025=Kotak Hindar Kapal Perang - Epic
+prop_sid_3026=Kotak Senjata Kapal Selam - Spesial
+prop_sid_3027=Kotak Akurasi Kapal Selam - Spesial
+prop_sid_3028=Kotak Pertahanan Kapal Selam - Spesial
+prop_sid_3029=Kotak Hindar Kapal Selam - Spesial
+prop_sid_3030=Kotak Senjata Kapal Selam - Epic
+prop_sid_3031=Kotak Akurasi Kapal Selam - Epic
+prop_sid_3032=Kotak Pertahanan Kapal Selam - Epic
+prop_sid_3033=Kotak Hindar Kapal Selam - Epic
+prop_sid_3034=Kotak Senjata Kapal Misil - Spesial
+prop_sid_3035=Kotak Akurasi Kapal Misil - Spesial
+prop_sid_3036=Kotak Pertahanan Kapal Misil - Spesial
+prop_sid_3037=Kotak Hindar Kapal Misil - Spesial
+prop_sid_3038=Kotak Senjata Kapal Misil - Epic
+prop_sid_3039=Kotak Akurasi Kapal Misil - Epic
+prop_sid_3040=Kotak Pertahanan Kapal Misil - Epic
+prop_sid_3041=Kotak Hindar Kapal Misil - Epic
+prop_sid_3042=Kotak Senjata Kapal Induk - Spesial
+prop_sid_3043=Kotak Akurasi Kapal Induk - Spesial
+prop_sid_3044=Kotak Pertahanan Kapal Induk - Spesial
+prop_sid_3045=Kotak Hindar Kapal Induk - Spesial
+prop_sid_3046=Kotak Senjata Kapal Induk - Epic
+prop_sid_3047=Kotak Akurasi Kapal Induk - Epic
+prop_sid_3048=Kotak Pertahanan Kapal Induk - Epic
+prop_sid_3049=Kotak Hindar Kapal Induk - Epic
+prop_sid_3050=Kotak Model Energi Jumbo I 
+prop_sid_3051=Kotak Model Energi Jumbo II
+prop_sid_3052=Kotak Model Energi Jumbo III
+prop_sid_3053=Kotak Model Energi Jumbo IV 
+prop_sid_3054=Kotak Model Energi Jumbo V
+prop_sid_3055=Kotak Model Energi I 
+prop_sid_3056=Kotak Model Energi II
+prop_sid_3057=Kotak Model Energi III
+prop_sid_3058=Kotak Model Energi IV
+prop_sid_3059=Kotak Model Energi V
+prop_sid_3060=Paket Batu Bintang Kecil
+prop_sid_3061=Kotak Aksesoris Kapal Perang - Epic
+prop_sid_3062=Kotak Aksesoris Kapal Selam - Epic
+prop_sid_3063=Kotak Aksesoris Kapal Misil - Epic
+prop_sid_3064=Kotak Aksesoris Kapal Induk - Epic
+prop_sid_3065=Kotak Medali Kehormatan &amp; Batu Bintang
+prop_sid_3066=Kotak Kapal Kembali
+prop_sid_3067=Kotak Aksesoris Kapal Induk Basic
+prop_sid_3068=Kaos Kaki Natal
+prop_sid_3069=Paket Hadiah Natal
+prop_sid_8111=Kotak Senjata Kapal Perang - Putih
+prop_sid_8112=Kotak Senjata Kapal Perang - Hijau
+prop_sid_8113=Kotak Senjata Kapal Perang - Biru
+prop_sid_8114=Kotak Senjata Kapal Perang - Ungu
+prop_sid_8115=Kotak Senjata Kapal Perang - Oren
+prop_sid_8121=Kotak Akurasi Kapal Perang - Putih
+prop_sid_8122=Kotak Akurasi Kapal Perang - Hijau
+prop_sid_8123=Kotak Akurasi Kapal Perang - Biru
+prop_sid_8124=Kotak Akurasi Kapal Perang - Ungu
+prop_sid_8125=Kotak Akurasi Kapal Perang - Oren
+prop_sid_8131=Kotak Pertahanan Kapal Perang - Putih
+prop_sid_8132=Kotak Pertahanan Kapal Perang - Hijau
+prop_sid_8133=Kotak Pertahanan Kapal Perang - Biru
+prop_sid_8134=Kotak Pertahanan Kapal Perang - Ungu
+prop_sid_8135=Kotak Pertahanan Kapal Perang - Oren
+prop_sid_8141=Kotak Hindar Kapal Perang - Putih
+prop_sid_8142=Kotak Hindar Kapal Perang - Hijau
+prop_sid_8143=Kotak Hindar Kapal Perang - Biru
+prop_sid_8144=Kotak Hindar Kapal Perang - Ungu
+prop_sid_8145=Kotak Hindar Kapal Perang - Oren
+prop_sid_8211=Kotak Senjata Kapal Selam - Putih
+prop_sid_8212=Kotak Senjata Kapal Selam - Hijau
+prop_sid_8213=Kotak Senjata Kapal Selam - Biru
+prop_sid_8214=Kotak Senjata Kapal Selam - Ungu
+prop_sid_8215=Kotak Senjata Kapal Selam - Oren
+prop_sid_8221=Kotak Akurasi Kapal Selam - Putih
+prop_sid_8222=Kotak Akurasi Kapal Selam - Hijau
+prop_sid_8223=Kotak Akurasi Kapal Selam - Biru
+prop_sid_8224=Kotak Akurasi Kapal Selam - Ungu
+prop_sid_8225=Kotak Akurasi Kapal Selam - Oren
+prop_sid_8231=Kotak Pertahanan Kapal Selam - Putih
+prop_sid_8232=Kotak Pertahanan Kapal Selam - Hijau
+prop_sid_8233=Kotak Pertahanan Kapal Selam - Biru
+prop_sid_8234=Kotak Pertahanan Kapal Selam - Ungu
+prop_sid_8235=Kotak Pertahanan Kapal Selam - Oren
+prop_sid_8241=Kotak Hindar Kapal Selam - Putih
+prop_sid_8242=Kotak Hindar Kapal Selam - Hijau
+prop_sid_8243=Kotak Hindar Kapal Selam - Biru
+prop_sid_8244=Kotak Hindar Kapal Selam - Ungu
+prop_sid_8245=Kotak Hindar Kapal Selam - Oren
+prop_sid_8311=Kotak Senjata Kapal Misil - Putih
+prop_sid_8312=Kotak Senjata Kapal Misil - Hijau
+prop_sid_8313=Kotak Senjata Kapal Misil - Biru
+prop_sid_8314=Kotak Senjata Kapal Misil - Ungu
+prop_sid_8315=Kotak Senjata Kapal Misil - Oren
+prop_sid_8321=Kotak Akurasi Kapal Misil - Putih
+prop_sid_8322=Kotak Akurasi Kapal Misil - Hijau
+prop_sid_8323=Kotak Akurasi Kapal Misil - Biru
+prop_sid_8324=Kotak Akurasi Kapal Misil - Ungu
+prop_sid_8325=Kotak Akurasi Kapal Misil - Oren
+prop_sid_8331=Kotak Pertahanan Kapal Misil - Putih
+prop_sid_8332=Kotak Pertahanan Kapal Misil - Hijau
+prop_sid_8333=Kotak Pertahanan Kapal Misil - Biru
+prop_sid_8334=Kotak Pertahanan Kapal Misil - Ungu
+prop_sid_8335=Kotak Pertahanan Kapal Misil - Oren
+prop_sid_8341=Kotak Hindar Kapal Misil - Putih
+prop_sid_8342=Kotak Hindar Kapal Misil - Hijau
+prop_sid_8343=Kotak Hindar Kapal Misil - Biru
+prop_sid_8344=Kotak Hindar Kapal Misil - Ungu
+prop_sid_8345=Kotak Hindar Kapal Misil - Oren
+prop_sid_8411=Kotak Senjata Kapal Induk - Putih
+prop_sid_8412=Kotak Senjata Kapal Induk - Hijau
+prop_sid_8413=Kotak Senjata Kapal Induk - Biru
+prop_sid_8414=Kotak Senjata Kapal Induk - Ungu
+prop_sid_8415=Kotak Senjata Kapal Induk - Oren
+prop_sid_8421=Kotak Akurasi Kapal Induk - Putih
+prop_sid_8422=Kotak Akurasi Kapal Induk - Hijau
+prop_sid_8423=Kotak Akurasi Kapal Induk - Biru
+prop_sid_8424=Kotak Akurasi Kapal Induk - Ungu
+prop_sid_8425=Kotak Akurasi Kapal Induk - Oren
+prop_sid_8431=Kotak Pertahanan Kapal Induk - Putih
+prop_sid_8432=Kotak Pertahanan Kapal Induk - Hijau
+prop_sid_8433=Kotak Pertahanan Kapal Induk - Biru
+prop_sid_8434=Kotak Pertahanan Kapal Induk - Ungu
+prop_sid_8435=Kotak Pertahanan Kapal Induk - Oren
+prop_sid_8441=Kotak Hindar Kapal Induk - Putih
+prop_sid_8442=Kotak Hindar Kapal Induk - Hijau
+prop_sid_8443=Kotak Hindar Kapal Induk - Biru
+prop_sid_8444=Kotak Hindar Kapal Induk - Ungu
+prop_sid_8445=Kotak Hindar Kapal Induk - Oren
+prop_sid_900=Kartu Ganti Nama Karakter
+prop_sid_901=Kartu Ganti Nama Aliansi
+prop_sid_3070=Angpao
+prop_sid_3071=Angpao Imlek
+prop_sid_3072=Angpao Rezeki
+prop_sid_3073=Kotak Imlek
+prop_sid_902=Kupon Loncat
+prop_sid_3074=Paket Spesial Ratu
+prop_sid_3075=Paket Ulang Tahun I
+prop_sid_3076=Paket Ulang Tahun II
+prop_sid_3077=Paket Ulang Tahun III
+prop_sid_3078=Paket Ultah ke-2
+prop_sid_3079=Kupon USB
+prop_sid_3080=Kupon ganti Hadiah
+prop_sid_3081=Kotak Honor Besar
+prop_sid_3082=Kotak EXP Kecil
+prop_sid_3083=Kotak EXP Sedang
+prop_sid_3084=Kotak EXP Besar
+prop_sid_3085=Kotak Harta
+prop_sid_3086=Kotak Besi Jumbo
+prop_sid_3087=Kotak Minyak Jumbo
+prop_sid_3088=Kotak Silikon Jumbo
+prop_sid_3089=Kotak Emas Jumbo
+prop_sid_3090=Kotak Uranium Jumbo
+prop_sid_3091=Kotak Pemain Baru 
+prop_sid_3092=Kotak Pemain Baru VIP
+prop_sid_3093=Kartu Keberuntungan Aliansi
+prop_sid_3094=Sertifikat Pencarian
+prop_sid_3095=Koin Memori Liberal
+prop_sid_3096=Kotak Serpihan Biasa
+prop_sid_3097=Kotak Serpihan Spesial
+prop_sid_3098=Kotak Serpihan Hijau
+prop_sid_3099=Kotak Serpihan Biru
+prop_sid_3100=Kotak Serpihan Ungu
+prop_sid_3101=Sertifikat Penghargaan Spesial
+prop_sid_3102=Sertifikat Penghargaan Menengah
+prop_sid_3103=Sertifikat Penghargaan Biasa
+prop_sid_3104=Kotak poin Veitch
+prop_sid_3105=Kotak Serpihan Gilson
+prop_sid_3106=Kotak Serpihan Meri
+prop_sid_3107=Kotak Serpihan Creed
+prop_sid_3108=Kotak Serpihan Gordon
+prop_sid_3109=Kotak Serpihan Maher
+prop_sid_3110=Kotak Serpihan Helen
+prop_sid_3111=Kotak Serpihan Niemi
+prop_sid_3112=Kotak Serpihan Karow
+prop_sid_3113=Kotak Serpihan Chester
+prop_sid_3114=Kotak Serpihan Yuliya
+prop_sid_3115=Kotak Serpihan Ramon
+prop_sid_3116=Kotak Serpihan Carl
+prop_sid_3117=Kotak Serpihan Denier
+prop_sid_3118=Kotak Serpihan Tatiana
+prop_sid_3119=Kotak Serpihan Dion
+prop_sid_3120=Kotak Serpihan Veitch
+prop_sid_3121=Kotak Serpihan Marohn
+prop_sid_3122=Kotak Serpihan Mujdza
+prop_sid_3123=Kotak Serpihan Bruce
+prop_sid_3124=Kotak Serpihan Kossoff
+prop_sid_3125=Kotak Serpihan Jendral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_60001=Gilson
+prop_sid_60002=Meri
+prop_sid_60003=Creed
+prop_sid_60004=Gordon
+prop_sid_60005=Maher
+prop_sid_60006=Helen
+prop_sid_60007=Niemi
+prop_sid_60008=Karow
+prop_sid_60009=Chester
+prop_sid_60010=Yuliya
+prop_sid_60011=Ramon 
+prop_sid_60012=Carl
+prop_sid_60013=Denier
+prop_sid_60014=Tatiana
+prop_sid_60015=Dion
+prop_sid_60016=Veitch
+prop_sid_60017=Marohn
+prop_sid_60018=Mujdza
+prop_sid_60019=Bruce
+prop_sid_60020=Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prop_sid_61001=Kotak Serpihan Gilson
+prop_sid_61002=Kotak Serpihan Meri
+prop_sid_61003=Kotak Serpihan Creed
+prop_sid_61004=Kotak Serpihan Gordon
+prop_sid_61005=Kotak Serpihan Maher
+prop_sid_61006=Kotak Serpihan Helen
+prop_sid_61007=Kotak Serpihan Niemi
+prop_sid_61008=Kotak Serpihan Karow
+prop_sid_61009=Kotak Serpihan Chester
+prop_sid_61010=Kotak Serpihan Yuliya
+prop_sid_61011=Kotak Serpihan Ramon
+prop_sid_61012=Kotak Serpihan Carl
+prop_sid_61013=Kotak Serpihan Denier
+prop_sid_61014=Kotak Serpihan Tatiana
+prop_sid_61015=Kotak Serpihan Dion
+prop_sid_61016=Kotak Serpihan Veitch
+prop_sid_61017=Kotak Serpihan Marohn
+prop_sid_61018=Kotak Serpihan Mujdza
+prop_sid_61019=Kotak Serpihan Bruce
+prop_sid_61020=Kotak Serpihan Kossoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_alliance_level_limit=Dibutuhkan karakter mencapai Lv.% untuk membuat Aliansi
+join_alliance_level_limit=Dibutuhkan karakter mencapai Lv.% untuk mengikuti Aliansi
+alliance_donate_level_limit=Dibutuhkan karakter mencapai Lv.% untuk memberikan donasi ke Aliansi
+alliance_ship_donate_level_limit=Dibutuhkan karakter mencapai Lv.% untuk memberikan donasi kapal ke Aliansi
+world_chat_level_limit=Dibutuhkan karakter mencapai Lv.% untuk membuka Chat Dunia
+self_chat_level_limit=Dibutuhkan karakter mencapai Lv.% untuk membuka Chat Pribadi
+email_level_limit=Dibutuhkan karakter mencapai Lv.% untuk mengirim email
+dest_self_chat_level_limit=Pemain yang dihubungi tidak mencapai syarat untuk membuka Chat Pribadi.
+meal_time_send_energy=Komandan,anda mendapatkan bonus % poin energi.\nSelamat bermain!
+nian_has_been_last_kill=Pulau Monster Nian(Lv.%)berhasil dikuasai %,Selamat % mendapatkan semua harta yang telah dikumpulkan tahun lalu.
+nian_has_been_killed=Untuk Aliansi yang berhasil mengalahkan pulau Monster Nian (Lv. %). Mereka akan mendapatkan hadiah utama! \n 1st: %(Aliansi)\n 2nd: % (Aliansi)\n 3rd: % (Aliansi).
+kill nian title=Hadiah pribadi mengalahkan Pulau Nian
+kill nian content=Komandan, \n pulau Nian berhasil dikalahkan! Atas keberanian anda,kita menghadiahkan anda % sebagai tanda terima kasih.Semoga untuk kedepannya sukses selalu! \n    * Hadiah telah dikirim melalui email,periksa email anda!
+kill nian rank_a=Hadiah Aliansi mengalahkan monster Nian
+kill nian rank_a content=Komandan, \n Pulau Nian (Lv.%) berhasil dikalahkan. Aliansi anda mendapatkan peringkat %. Terima kasih atas usaha anda dalam mengalahkan Nian. Kita menyiapkan % untuk aliansi anda sebagai hadiah. Sukses selalu untuk tahun ini! \n    * Hadiah telah dikirim ke anda melalui email,lihat segera!
+kill nian rank_p=Hadiah pribadi mengalahkan monster Nian
+kill nian rank_p content=Komandan,\n monster Nian(Lv.%) berhasil dikalahkan,berdasarkan total damage,anda berhasil mendapatkan peringkat % dalam pertempuran kali ini.Dari pihak 《Ocean Armada》 menyediakan % sebagai tanda terima kasih.Semoga anda sukses untuk kedepannya!\n   *hadiah telah dikirim ke email anda.
+nian born=Selama Tahun baru imlek,Bos Nia (Lv. %) merebut banyak harta dan muncul di lautan %. Semua segera kesana dan rebut hartanya. 
+nian showxy=Pemberitahuan:Pengintai G mengatakan bahwa pulau monster Nian terletak di koordinat (%,%)Siapkan kapal untuk mengepung pulau itu!Darurat!
+nian away=Pemberitahuan:Kita gagal menangkap Monster Nian(Lv.%),Angpao dan hartu jatuh ke laut.
+dest_join_alliance_level_limit=Pemain harus mencapai level % untuk bergabung dengan aliansi
+activity not open=Event ditutup 
+friends_list=Pemberitahuan ganti nama teman
+black_list=Pemberitahuan ganti nama blacklist
+alliance_list=Pemberitahuan ganti nama aliansi
+player_role_list=Pemberitahuan ganti nama karakter
+alliance_mail=Anggota aliansi anda % menganti nama menjadi %
+friend_mail=Teman anda % telah menganti nama menjadi %
+black_mail=Blacklist anda % telah menganti nama menjadi %
+alliance_modify_info=Aliansi anda telah menganti nama menjadi %
+sysmessage_modify_name=Aliansi % telah mengganti nama menjadi %
+modify_hostile=Pemberitahuan ganti nama musuh aliansi
+modify_hostile_content=Musuh Aliansi anda telah berganti dari % menjadi %
+dismiss_hostile=Pemberitahuan musuh aliansi
+dismiss_hostile_content=Musuh Aliansi anda % telah bubar.
+account_reset_mail_command=Unlock Akun
+alliance has been dismiss=Aliansi tidak terdaftar
+arena_ranking_title=Latihan Militer hari ini berakhir.Peringkat 5 besar adalah:
+arena_ranking_1=Peringkat 1:
+arena_ranking_2=Peringkat 2:
+arena_ranking_3=Peringkat 3:
+arena_ranking_4=Peringkat 4:
+arena_ranking_5=Peringkat 5:
+account_reset_mail_tip=Akun anda telah dibuka.Jika anda tidak melakukan ini,segera ganti password anda.
+meal_time_energy_push=Event Hadiah Energi dimulai! Ayo segera dibuka.
+
+
+build_sid_1=Tambang Besi
+build_sid_2=Tambang Minyak
+build_sid_3=Tambang Silikon
+build_sid_4=Tambang Uranium
+build_sid_5=Tambang Emas
+build_sid_6=Dermaga
+build_sid_7=Markas Pusat
+build_sid_8=Laboratorium
+build_sid_9=Pabrik
+build_sid_10=Gudang
+build_sid_11=Bomber　
+build_sid_12=Truk Misil
+build_sid_13=Meriam Pantai
+build_sid_14=Bengkel Kapal
+build_sid_15=Bengkel Kapal Elit
+LvUpActivity_autoSendReward_mail_title=Pengumuman Event Level Up pemula
+LvUpActivity_autoSendReward_mail=Selamat: \n Dari % sampai % pada event level up pemula,memenuhi % mencapai level %.\n Mendapatkan:
+RankAwardActivity_autoSendReward_mail=Selamat: \n Selama event berlangsung,dari % sampai % ,anda mendapatkan peringkat %. \n Mendapatkan:
+fight_score_act=Bos Server baru
+point_star_act=Bos perang
+honor_score_act=Bos Honor
+muteTime_left=Dilarang Chat % menit
+
+no this cplayer=Tidak terdapat pemain ini
+get cannot=Tidak bisa mengambil hadiah diluar waktunya
+not open cross war=Perang  Antar Server belum dibuka
+jion end=Pendaftaran tutup
+lv limit=Level Max
+ship must > 0=Jumlah kapal harus lebih besar dari 0
+set cannot=Tidak bisa mengatur armada diluar waktu Edit
+cannot connect cross_server=Tidak bisa menghubungi Pusat Server
+cannot handle the message=Pusat Server tidak bisa memproses masalah ini.
+jion had=Telah mendaftar
+no the rep=Tidak terdapat laporan perang
+bet cannot=Tidak memilih taruhan diluar waktunya
+had bet=Telah memilih
+vip gems error=Jumlah gem tidak sesuai dengan Level VIP
+gems limit=Gem tidak cukup
+cannot embattle=Karena anda telah kalah maka tidak bisa mengikuti perang selanjutnya
+
+cross battle award=Hadiah Perang Antar Server 
+join in award=%,Hadiah anda:%gem dan % telah dikirim ke Tas anda
+anyone join in award=Selamat Komandan,sebagai tanda terima kasih karena mengikuti Perang Antar Server kali ini,anda mendapatkan hadiah partisipasi % 
+win bet award=Selamat Komandan,karena berhasil menebak pemenang Perang Antar Server kali ini,anda mendapatkan % gem 
+
+win cross battle champion=Selamat Komandan % dari Server %  menjadi pemenang Perang Antar Server
+promoted cross battle champion=Selamat Komandan % berhasil menjadi pemenang Perang Antar Server
+promoted cross battle finals=Selamat Komandan % berhasil memasuki babak putaran Final
+promoted cross battle=Selamat Komandan % berhasil memasuki % Besar
+promoted cross final=Selamat Komandan % berhasil memasuki babak Final
+alliance shield word=No
+mystical fleet=Armada Misterius
+
+alliance_fight_win=Selamat,aliansi % berhasil mendapatkan pulau %
+
+alliance_bet_message=Berhasil
+alliance_bet_win_content=Selamat,aliansi anda berhasil mendapatkan hak perebutan "%".%\n Segera mendaftar dalam perang perebutan pulau jika ingin mendapatkan hak perebutan pulau.
+alliance_bet_win_content_thing=\n Dalam perebutan pulau ini lawan aliansi anda adalah "%"
+
+alliance_bet_lose=Gagal
+alliance_bet_lose_content=Taruhan anda pada pulau "%"  telah dilampaui "%" dengan "%" sumber daya. "%" sumber daya telah dikembalikan ke aliansi anda. \n Jika anda tidak ingin kehilangan pulau ini ,anda bisa bertaruh lagi untuk memperebutkan pulau ini.
+new_alliance_fight_start=Perang aliansi telah dibuka!
+
+send_alliance_science_point="%" hadiah harian
+send_alliance_science_content= "%" yang dimiiki aliansi anda,  "%" poin teknologi  telah dikirim， Silahkan menuju teknologi tinggi untuk mengambil.
+send_alliance_report=%　VS　%
+alliance_fight_win_title=Berhasil menguasai "%"
+alliance_fight_win_content=Selamat,Aliansi anda berhasil menguasai "%",Dalam perang kali ini anada mendapatkan “%”Poin Teknologi Tinggi.Dalam "5 hari",akan terus mendapatkan poin teknologi tinggi.%
+alliance_fight_award=\n\n Terima kasih atas kontribusi anda pada perang kali ini, \n\n kapal anda telah kembali ke pelabuhan. Kapal rusak telah dikirim ke bengkel. Ini hadiah anda: 
+allaince_fight_not_join=Dikarenakan tidak ada pemain yang mendaftar
+alliance_fight_lose_title="%" gagal menduduki pulau
+alliance_fight_lose_content=Dalam perebutan "%" aliansi anda mengalami kekalahan,tidak berhasil mendapatkan pulau tersebut.\nDalam perang ini aliansi anda mendapatkan % poin teknologi %
+alliance_fight_lose_sbstain=Pembagian hadiah perang aliansi
+alliance_battle_abstain_content=Dikarenakan dalam perebutan "%" kali ini tidak ada yang mendaftar,maka dinyatakan mengundurkan diri. \n\n Dalam perang kali ini aliansi anda hanya mendapatkan % poin teknologi.
+alliance_fight_system_content=Selamat "aliasi %" dalam perang aliansi berhasil menguasai "%"
+alliance_fight_send_award=Pembagian hadiah perorangan
+allaince_reback_win_ships=Selamat!Aliansi anda berhasil mendapatkan "%". Jumlah kapal yang mengikuti perang kali ini: %%%%%% Jumlah kapal yang mengalami kerusakan: %%%%%%
+allaince_reback_lose_ships=Dalam perebutan "%" aliansi anda mengalami kekalahan. Jumlah kapal yang mengikuti perang kali ini: %%%%%% Jumlah kapal yang mengalami kerusakan: %%%%%%
+
+alliance_battle_fight_report=Laporan perang aliansi
+alliance_battle_island_15101=Pulau produksi rendah
+alliance_battle_island_15102=Pulau produksi menengah
+alliance_battle_island_15103=Pulau produksi tinggi
+alliance_battle_abstain=Keluar
+alliance_lucky_points=Komandan %aliansi% berhasil mendapatkan "Item keberuntungan aliansi" dari kotak aliansi,poin aliansi % bertamabah +1
+
+
+awardshippingactivity_message=Bisa mendapatkan 1 serpihan hijau secara acak
+luckyexploredactivity_message=Bisa mendapatkan 1 serpihan biru secara acak
+robfestivalactivity_message=Bisa mendapatkan 1 serpihan ungu secara acak
+
+
+
+
+
+
+

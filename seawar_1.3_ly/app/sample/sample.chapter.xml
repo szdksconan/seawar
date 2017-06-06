@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<objects>
+    <field class="foxu.sea.checkpoint.Chapter" name="factory" id="chapterFactory" />
+    <method ref="chapterFactory" name="init">
+        <ref id="context" />
+    </method>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="1" type="0">
+        <field name="addValue" declared="1">
+            <ints>15</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65201,65202,65203</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="2" type="-1">
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65204,65205,65206</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="3" type="1">
+        <field name="addValue" declared="1">
+            <ints>15</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65207,65208,65209</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="4" type="-1">
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65210,65211,65212</ints>
+        </field>
+    </sample>
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="5" type="2">
+        <field name="addValue" declared="1">
+            <ints>15</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65213,65214,65215</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="6" type="-1">
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65216,65217,65218</ints>
+        </field>
+    </sample>
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="7" type="3">
+        <field name="addValue" declared="1">
+            <ints>15</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65219,65220,65221</ints>
+        </field>
+    </sample>
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="8" type="4">
+        <field name="addValue" declared="1">
+            <ints>15</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65222,65223,65224</ints>
+        </field>
+    </sample>
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="9" type="5">
+        <field name="addValue" declared="1">
+            <ints>10</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65225,65226,65227</ints>
+        </field>
+    </sample>
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="10" type="6">
+        <field name="addValue" declared="1">
+            <ints>10</ints>
+        </field>
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65228,65229,65230</ints>
+        </field>
+    </sample>
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="11" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65231,65232,65233</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="12" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65234,65235,65236</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="13" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65237,65238,65239</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="14" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65240,65241,65242</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="15" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65243,65244,65245</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="16" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65246,65247,65248</ints>
+        </field>
+    </sample>
+
+
+
+
+    <sample class="foxu.sea.checkpoint.Chapter" sid="17" type="-1" >
+		<field name="awardsStar" declared="1">
+            <ints>16,32,48</ints>
+        </field>
+        <field name="awards" declared="1">
+            <ints>65249,65250,65251</ints>
+        </field>
+    </sample>
+
+
+
+</objects>
